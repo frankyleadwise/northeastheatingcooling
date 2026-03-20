@@ -119,6 +119,35 @@ export default function ServiceAreasPage() {
           </div>
         </section>
 
+        {/* ── Service Area Map ──────────────────────────────────────────────── */}
+        <section className="bg-white py-12 px-4">
+          <div className="max-w-5xl mx-auto">
+            <div className="text-center mb-6">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-blue-900 mb-2">
+                Our Service Area
+              </h2>
+              <p className="text-gray-600 text-sm">
+                Based in Gibsonton, FL — serving the greater Tampa Bay region
+              </p>
+            </div>
+            <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-md">
+              <iframe
+                title="North East Heating And Cooling Tampa Bay service area map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d180000!2d-82.45!3d27.87!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2003b66f381708c5%3A0xb21d6d85ffd57b3c!2sNorth%20East%20Heating%20And%20Cooling!5e0!3m2!1sen!2sus!4v1710000000000!5m2!1sen!2sus"
+                width="100%"
+                height="420"
+                style={{ border: 0, display: 'block' }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
+            </div>
+            <p className="text-center text-xs text-gray-400 mt-3">
+              Serving Tampa, St. Petersburg, Clearwater, Brandon, Riverview, Valrico, Plant City, Apollo Beach, Gibsonton, Ruskin &amp; surrounding communities.
+            </p>
+          </div>
+        </section>
+
         {/* ── City Grid ─────────────────────────────────────────────────────── */}
         <section className="bg-gray-50 py-16 px-4">
           <div className="max-w-6xl mx-auto">

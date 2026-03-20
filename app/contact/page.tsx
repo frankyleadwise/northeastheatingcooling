@@ -484,48 +484,32 @@ export default function ContactPage() {
 
             {/* Map + Service Areas */}
             <div className="flex flex-col gap-8">
-              {/* Map placeholder */}
+              {/* Google Maps embed — real business location */}
               <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm">
-                <div className="bg-blue-50 px-5 py-3 border-b border-gray-200">
-                  <p className="font-bold text-gray-800 text-sm">
-                    Serving the Tampa Bay Area, FL
-                  </p>
-                </div>
-                <div
-                  className="relative w-full bg-gradient-to-br from-blue-100 via-sky-50 to-blue-200 flex flex-col items-center justify-center gap-3 text-center px-6"
-                  style={{ minHeight: '260px' }}
-                  role="img"
-                  aria-label="Map placeholder for Tampa Bay service area"
-                >
-                  {/* Decorative grid lines */}
-                  <div
-                    className="absolute inset-0 opacity-10"
-                    style={{
-                      backgroundImage:
-                        'linear-gradient(#1d4ed8 1px, transparent 1px), linear-gradient(90deg, #1d4ed8 1px, transparent 1px)',
-                      backgroundSize: '40px 40px',
-                    }}
-                  />
-                  <div className="relative z-10 w-14 h-14 rounded-full bg-blue-600 flex items-center justify-center shadow-lg">
-                    <MapPinIcon />
-                    <span className="sr-only">Tampa Bay location pin</span>
+                <div className="bg-blue-50 px-5 py-3 border-b border-gray-200 flex items-center justify-between">
+                  <div>
+                    <p className="font-bold text-gray-800 text-sm">North East Heating And Cooling</p>
+                    <p className="text-gray-500 text-xs">12831 Buffalo Run Dr, Gibsonton, FL 33534</p>
                   </div>
-                  <p className="relative z-10 font-extrabold text-blue-800 text-lg">
-                    Tampa Bay, FL
-                  </p>
-                  <p className="relative z-10 text-blue-600 text-sm max-w-xs">
-                    Serving 20+ communities across Hillsborough, Pinellas, and
-                    Pasco counties.
-                  </p>
                   <a
-                    href="https://maps.google.com/?q=Tampa+Bay,+FL"
+                    href="https://www.google.com/maps/place/North+East+Heating+And+Cooling/@27.8027777,-82.3512035,17z/data=!4m6!3m5!1s0x2003b66f381708c5:0xb21d6d85ffd57b3c!8m2!3d27.8027777!4d-82.3512035!16s%2Fg%2F11ldsk9rrj"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="relative z-10 mt-1 inline-block text-xs font-semibold text-blue-700 underline hover:text-blue-900"
+                    className="text-xs font-semibold text-blue-700 hover:text-blue-900 underline whitespace-nowrap"
                   >
-                    Open in Google Maps
+                    Open in Maps ↗
                   </a>
                 </div>
+                <iframe
+                  title="North East Heating And Cooling location map"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3529.12!2d-82.3512035!3d27.8027777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2003b66f381708c5%3A0xb21d6d85ffd57b3c!2sNorth%20East%20Heating%20And%20Cooling!5e0!3m2!1sen!2sus!4v1710000000000!5m2!1sen!2sus"
+                  width="100%"
+                  height="280"
+                  style={{ border: 0, display: 'block' }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                />
               </div>
 
               {/* Service Areas */}

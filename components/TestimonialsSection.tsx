@@ -2,26 +2,26 @@ const testimonials = [
   {
     stars: 5,
     quote:
-      "Our AC went out on the hottest day of the summer and North East Heating & Cooling had a tech at our door within two hours. He diagnosed the issue fast, had the part on the truck, and had us cool again before dinner. Absolutely outstanding service — these guys are the real deal.",
-    name: "Marcus T.",
-    location: "Tampa, FL",
+      "Called them for an emergency and their technician Christian showed up fast — his response time was incredibly fast. He came fully prepared to assess and resolve the problem right away, discovered the issue and checked the whole system to make sure there wasn't a secondary problem. Thorough, skilled, and truly professional.",
+    name: "Google Reviewer",
+    location: "Tampa Bay, FL",
     service: "Emergency AC Repair",
   },
   {
     stars: 5,
     quote:
-      "I called several HVAC companies for quotes on a new system and North East came in fair, explained everything clearly, and never tried to upsell me on things I didn't need. The installation crew was professional, clean, and done ahead of schedule. I've already referred three neighbors.",
-    name: "Sandra R.",
-    location: "Brandon, FL",
-    service: "AC System Installation",
+      "Had them out for an AC tune-up and some vent work. From start to finish, their work was outstanding — polished and professional in every way. They took the time to explain what they were doing and left everything cleaner than they found it. Highly recommend.",
+    name: "Google Reviewer",
+    location: "Gibsonton, FL",
+    service: "AC Tune-Up & Vent Work",
   },
   {
     stars: 5,
     quote:
-      "We've used North East Heating & Cooling for both our office and our home for the past four years. Their maintenance plans are worth every penny — our systems run more efficiently and we haven't had an unexpected breakdown since we signed up. Trustworthy, knowledgeable, and always on time.",
-    name: "James &amp; Linda K.",
-    location: "St. Petersburg, FL",
-    service: "HVAC Maintenance Plan",
+      "This is an amazing family company that truly cares about your home. They make sure you become a long-time client by ensuring your house is back to 100%. Honest, reliable, and genuinely invested in doing right by their customers. I won't use anyone else.",
+    name: "Google Reviewer",
+    location: "Tampa Bay, FL",
+    service: "HVAC Service",
   },
 ];
 
@@ -93,10 +93,10 @@ export default function TestimonialsSection() {
               ))}
             </div>
             <span className="text-gray-700 text-sm font-semibold">
-              4.9/5 Average Rating
+              5.0/5 Average Rating
             </span>
             <span className="text-gray-400 text-sm">·</span>
-            <span className="text-gray-500 text-sm">200+ Reviews</span>
+            <span className="text-gray-500 text-sm">30 Google Reviews</span>
             <GoogleIcon />
           </div>
         </div>
@@ -156,13 +156,13 @@ export default function TestimonialsSection() {
         {/* Google CTA */}
         <div className="text-center mt-10">
           <a
-            href="https://www.google.com/search?q=North+East+Heating+%26+Cooling+Tampa+reviews"
+            href="https://www.google.com/maps/place/North+East+Heating+And+Cooling/@27.8027777,-82.3512035,17z/data=!4m6!3m5!1s0x2003b66f381708c5:0xb21d6d85ffd57b3c!8m2!3d27.8027777!4d-82.3512035!16s%2Fg%2F11ldsk9rrj"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-blue-600 font-semibold text-sm hover:text-blue-800 transition-colors"
           >
             <GoogleIcon />
-            Read all our Google reviews
+            Read all 30 of our Google reviews
             <svg
               className="w-4 h-4"
               fill="none"
