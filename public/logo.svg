@@ -1,62 +1,76 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
-  <!-- White background -->
   <rect width="500" height="500" fill="white"/>
 
-  <!-- Outer gray arc/circle frame - top arc -->
-  <path d="M 130 200 A 140 140 0 0 1 370 200" fill="none" stroke="#aaaaaa" stroke-width="14" stroke-linecap="round"/>
-  <!-- Left bracket arm -->
-  <line x1="130" y1="200" x2="130" y2="260" stroke="#aaaaaa" stroke-width="14" stroke-linecap="round"/>
-  <!-- Right bracket arm -->
-  <line x1="370" y1="200" x2="370" y2="260" stroke="#aaaaaa" stroke-width="14" stroke-linecap="round"/>
-
-  <!-- Thermometer/HVAC tool stem - upper orange part -->
-  <rect x="236" y="105" width="28" height="120" rx="6" fill="url(#stemGradient)"/>
-
-  <!-- Circular top of tool (red/orange orb) -->
-  <circle cx="250" cy="95" r="42" fill="url(#orbGradient)"/>
-  <!-- Orb highlight -->
-  <ellipse cx="238" cy="82" rx="14" ry="10" fill="rgba(255,220,150,0.5)"/>
-
-  <!-- Stem lower blue part -->
-  <rect x="236" y="265" width="28" height="100" rx="6" fill="url(#blueStemGradient)"/>
-  <!-- Stem connector (where orange meets blue) - slight overlap handled by gradient -->
-
-  <!-- Three wavy air lines -->
-  <!-- Line 1 - blue (top) -->
-  <path d="M 115 230 Q 145 215 175 230 Q 205 245 235 230 Q 265 215 295 230 Q 325 245 355 230 Q 375 220 385 225" fill="none" stroke="#3b82f6" stroke-width="9" stroke-linecap="round"/>
-  <!-- Line 2 - red/orange (middle) -->
-  <path d="M 115 255 Q 145 240 175 255 Q 205 270 235 255 Q 265 240 295 255 Q 325 270 355 255 Q 375 245 385 250" fill="none" stroke="#ef4444" stroke-width="9" stroke-linecap="round"/>
-  <!-- Line 3 - blue/red gradient (bottom) -->
-  <path d="M 115 280 Q 145 265 175 280 Q 205 295 235 280 Q 265 265 295 280 Q 325 295 355 280 Q 375 270 385 275" fill="none" stroke="url(#line3Gradient)" stroke-width="9" stroke-linecap="round"/>
-
-  <!-- Bottom of stem rounded cap -->
-  <ellipse cx="250" cy="365" rx="14" ry="8" fill="#1d4ed8"/>
-
-  <!-- Text: NORTH EAST -->
-  <text x="250" y="415" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="52" fill="#1e3a5f" text-anchor="middle" letter-spacing="2">NORTH EAST</text>
-
-  <!-- Text: HEATING AND COOLING -->
-  <text x="250" y="455" font-family="Arial, sans-serif" font-weight="700" font-size="24" fill="#1e3a5f" text-anchor="middle" letter-spacing="3">HEATING AND COOLING</text>
-
-  <!-- Gradients -->
   <defs>
-    <radialGradient id="orbGradient" cx="45%" cy="40%" r="55%">
-      <stop offset="0%" stop-color="#ff6b00"/>
-      <stop offset="40%" stop-color="#ef4444"/>
-      <stop offset="100%" stop-color="#b91c1c"/>
+    <radialGradient id="orbGrad" cx="40%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#ff8c00"/>
+      <stop offset="40%" stop-color="#f03a17"/>
+      <stop offset="100%" stop-color="#c0200a"/>
     </radialGradient>
-    <linearGradient id="stemGradient" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="stemOrange" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#f97316"/>
-      <stop offset="100%" stop-color="#fb923c"/>
+      <stop offset="100%" stop-color="#ea8c0a"/>
     </linearGradient>
-    <linearGradient id="blueStemGradient" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="stemBlue" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#60a5fa"/>
-      <stop offset="100%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#1e40af"/>
     </linearGradient>
-    <linearGradient id="line3Gradient" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#3b82f6"/>
-      <stop offset="50%" stop-color="#8b5cf6"/>
+    <linearGradient id="wave1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="60%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#dc2626"/>
+    </linearGradient>
+    <linearGradient id="wave2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1d4ed8"/>
+      <stop offset="50%" stop-color="#7c3aed"/>
       <stop offset="100%" stop-color="#ef4444"/>
     </linearGradient>
+    <linearGradient id="wave3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="55%" stop-color="#6d28d9"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+    <linearGradient id="tubeGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#93c5fd"/>
+      <stop offset="40%" stop-color="#bfdbfe"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
   </defs>
+
+  <!-- Gray outer circle frame (partial arcs) -->
+  <!-- Top arc -->
+  <path d="M 160 190 A 120 120 0 0 1 340 190" fill="none" stroke="#b0b0b0" stroke-width="16" stroke-linecap="round"/>
+  <!-- Bottom arc -->
+  <path d="M 175 330 A 120 120 0 0 0 325 330" fill="none" stroke="#b0b0b0" stroke-width="16" stroke-linecap="round"/>
+  <!-- Left vertical bracket arm -->
+  <line x1="160" y1="190" x2="155" y2="265" stroke="#b0b0b0" stroke-width="16" stroke-linecap="round"/>
+  <!-- Right vertical bracket arm -->
+  <line x1="340" y1="190" x2="345" y2="265" stroke="#b0b0b0" stroke-width="16" stroke-linecap="round"/>
+
+  <!-- Orange stem upper -->
+  <rect x="237" y="115" width="26" height="110" rx="7" fill="url(#stemOrange)"/>
+
+  <!-- Red/orange orb -->
+  <circle cx="250" cy="100" r="46" fill="url(#orbGrad)"/>
+  <!-- Orb highlight shine -->
+  <ellipse cx="237" cy="86" rx="16" ry="11" fill="rgba(255,200,100,0.45)" transform="rotate(-15,237,86)"/>
+
+  <!-- Blue lower stem / tube -->
+  <!-- Tube body -->
+  <rect x="237" y="270" width="26" height="90" rx="13" fill="url(#tubeGrad)"/>
+  <!-- Tube rounded bottom cap -->
+  <ellipse cx="250" cy="360" rx="13" ry="13" fill="#1e40af"/>
+  <!-- Tube inner shade -->
+  <rect x="242" y="275" width="10" height="75" rx="5" fill="rgba(255,255,255,0.25)"/>
+
+  <!-- Three wavy lines (drawn over/through stem) -->
+  <!-- Wave 1 (top) -->
+  <path d="M 108 228 C 140 212, 170 244, 202 228 C 234 212, 260 212, 298 228 C 320 238, 348 244, 392 228"
+        fill="none" stroke="url(#wave1)" stroke-width="10" stroke-linecap="round"/>
+  <!-- Wave 2 (middle) -->
+  <path d="M 108 256 C 140 240, 170 272, 202 256 C 234 240, 260 240, 298 256 C 320 266, 348 272, 392 256"
+        fill="none" stroke="url(#wave2)" stroke-width="10" stroke-linecap="round"/>
+  <!-- Wave 3 (bottom) -->
+  <path d="M 108 284 C 140 268, 170 300, 202 284 C 234 268, 260 268, 298 284 C 320 294, 348 300, 392 284"
+        fill="none" stroke="url(#wave3)" stroke-width="10" stroke-linecap="round"/>
 </svg>
