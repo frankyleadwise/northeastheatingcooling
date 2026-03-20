@@ -1,7 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: 'HVAC Services in Riverview, FL | North East Heating & Cooling',
@@ -12,7 +10,6 @@ export const metadata: Metadata = {
 export default function RiverviewPage() {
   return (
     <>
-      <Header />
       <main>
         {/* Hero Banner */}
         <section className="bg-[#1e40af] text-white py-20 px-4">
@@ -342,7 +339,6 @@ export default function RiverviewPage() {
           </div>
         </section>
       </main>
-      <Footer />
     </>
   )
 }

@@ -1,7 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: 'HVAC Service Areas in Tampa Bay, FL | North East Heating & Cooling',
@@ -25,7 +23,6 @@ const cities = [
 export default function ServiceAreasPage() {
   return (
     <>
-      <Header />
       <main>
         {/* ── Hero Banner ──────────────────────────────────────────────────── */}
         <section className="bg-[#1e40af] text-white py-20 px-4">
@@ -384,7 +381,6 @@ export default function ServiceAreasPage() {
           </div>
         </section>
       </main>
-      <Footer />
     </>
   )
 }
