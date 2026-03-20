@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 // ─── SVG Icons ───────────────────────────────────────────────────────────────
 
@@ -220,17 +221,14 @@ export default function Header() {
               className="flex items-center gap-2.5 shrink-0 group"
               onClick={closeAll}
             >
-              <div className="flex items-center justify-center w-10 h-10 bg-blue-700 rounded-lg group-hover:bg-blue-800 transition-colors shadow-sm">
-                <SnowflakeIcon />
-              </div>
-              <div className="flex flex-col leading-tight">
-                <span className="font-extrabold text-blue-900 text-sm sm:text-base lg:text-[1.05rem] leading-tight tracking-tight">
-                  North East
-                </span>
-                <span className="font-bold text-blue-600 text-xs sm:text-sm leading-tight tracking-tight">
-                  Heating &amp; Cooling
-                </span>
-              </div>
+              <Image
+                src="/logo.svg"
+                alt="North East Heating and Cooling"
+                width={120}
+                height={48}
+                className="h-12 w-auto"
+                priority
+              />
             </Link>
 
             {/* Desktop nav */}

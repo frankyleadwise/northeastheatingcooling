@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <!-- White background -->
+  <rect width="500" height="500" fill="white"/>
+
+  <!-- Outer gray arc/circle frame - top arc -->
+  <path d="M 130 200 A 140 140 0 0 1 370 200" fill="none" stroke="#aaaaaa" stroke-width="14" stroke-linecap="round"/>
+  <!-- Left bracket arm -->
+  <line x1="130" y1="200" x2="130" y2="260" stroke="#aaaaaa" stroke-width="14" stroke-linecap="round"/>
+  <!-- Right bracket arm -->
+  <line x1="370" y1="200" x2="370" y2="260" stroke="#aaaaaa" stroke-width="14" stroke-linecap="round"/>
+
+  <!-- Thermometer/HVAC tool stem - upper orange part -->
+  <rect x="236" y="105" width="28" height="120" rx="6" fill="url(#stemGradient)"/>
+
+  <!-- Circular top of tool (red/orange orb) -->
+  <circle cx="250" cy="95" r="42" fill="url(#orbGradient)"/>
+  <!-- Orb highlight -->
+  <ellipse cx="238" cy="82" rx="14" ry="10" fill="rgba(255,220,150,0.5)"/>
+
+  <!-- Stem lower blue part -->
+  <rect x="236" y="265" width="28" height="100" rx="6" fill="url(#blueStemGradient)"/>
+  <!-- Stem connector (where orange meets blue) - slight overlap handled by gradient -->
+
+  <!-- Three wavy air lines -->
+  <!-- Line 1 - blue (top) -->
+  <path d="M 115 230 Q 145 215 175 230 Q 205 245 235 230 Q 265 215 295 230 Q 325 245 355 230 Q 375 220 385 225" fill="none" stroke="#3b82f6" stroke-width="9" stroke-linecap="round"/>
+  <!-- Line 2 - red/orange (middle) -->
+  <path d="M 115 255 Q 145 240 175 255 Q 205 270 235 255 Q 265 240 295 255 Q 325 270 355 255 Q 375 245 385 250" fill="none" stroke="#ef4444" stroke-width="9" stroke-linecap="round"/>
+  <!-- Line 3 - blue/red gradient (bottom) -->
+  <path d="M 115 280 Q 145 265 175 280 Q 205 295 235 280 Q 265 265 295 280 Q 325 295 355 280 Q 375 270 385 275" fill="none" stroke="url(#line3Gradient)" stroke-width="9" stroke-linecap="round"/>
+
+  <!-- Bottom of stem rounded cap -->
+  <ellipse cx="250" cy="365" rx="14" ry="8" fill="#1d4ed8"/>
+
+  <!-- Text: NORTH EAST -->
+  <text x="250" y="415" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="52" fill="#1e3a5f" text-anchor="middle" letter-spacing="2">NORTH EAST</text>
+
+  <!-- Text: HEATING AND COOLING -->
+  <text x="250" y="455" font-family="Arial, sans-serif" font-weight="700" font-size="24" fill="#1e3a5f" text-anchor="middle" letter-spacing="3">HEATING AND COOLING</text>
+
+  <!-- Gradients -->
+  <defs>
+    <radialGradient id="orbGradient" cx="45%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#ff6b00"/>
+      <stop offset="40%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#b91c1c"/>
+    </radialGradient>
+    <linearGradient id="stemGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#fb923c"/>
+    </linearGradient>
+    <linearGradient id="blueStemGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="line3Gradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+  </defs>
+</svg>
