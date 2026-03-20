@@ -224,9 +224,9 @@ export default function Header() {
               <Image
                 src="/logo.svg"
                 alt="North East Heating and Cooling"
-                width={120}
-                height={48}
-                className="h-12 w-auto"
+                width={240}
+                height={68}
+                className="h-[68px] w-auto"
                 priority
               />
             </Link>
