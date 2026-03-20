@@ -40,21 +40,21 @@ const services = [
 
 const testimonials = [
   {
-    text: "North East Heating & Cooling saved us during a brutal July heat wave. Our AC went out at 11pm and they had a technician at our door within the hour. Fixed it fast, fair price. Absolutely incredible service.",
-    name: 'Michael R.',
-    location: 'Tampa, FL',
+    text: "Called them for an emergency and their technician Christian showed up fast — his response time was incredibly fast. He came fully prepared to assess and resolve the problem right away, discovered the issue, and checked the whole system to make sure there wasn't a secondary problem. Thorough, skilled, and truly professional.",
+    name: 'Google Reviewer',
+    location: 'Tampa Bay, FL',
     rating: 5,
   },
   {
-    text: "We replaced our entire HVAC system and the team was professional from start to finish. They explained every step, cleaned up after themselves, and our energy bill dropped by $80/month. Highly recommend!",
-    name: 'Sarah & Tom K.',
-    location: 'Brandon, FL',
+    text: "Had them out for an AC tune-up and some vent work. From start to finish, their work was outstanding — polished and professional in every way. They explained what they were doing and left everything cleaner than they found it. Highly recommend.",
+    name: 'Google Reviewer',
+    location: 'Gibsonton, FL',
     rating: 5,
   },
   {
-    text: "Best HVAC company in Tampa Bay, hands down. They diagnosed an issue two other companies missed, fixed it properly, and charged a very fair price. Our go-to for all HVAC needs.",
-    name: 'Jennifer L.',
-    location: 'St. Petersburg, FL',
+    text: "This is an amazing family company that truly cares about your home. They make sure you become a long-time client by ensuring your house is back to 100%. Honest, reliable, and genuinely invested in doing right by their customers. I won't use anyone else.",
+    name: 'Google Reviewer',
+    location: 'Tampa Bay, FL',
     rating: 5,
   },
 ]
@@ -310,7 +310,7 @@ export default function HomePage() {
           <div className="text-center mb-14">
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">What Our Customers Are Saying</h2>
             <p className="text-blue-200 text-lg">
-              <span className="text-yellow-400 font-bold">★★★★★</span> 5.0 Average Rating · 200+ Google Reviews
+              <span className="text-yellow-400 font-bold">★★★★★</span> 5.0 Average Rating · 30 Google Reviews
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -369,16 +369,18 @@ export default function HomePage() {
               From Tampa to Clearwater and everywhere in between, North East Heating &amp; Cooling provides fast, reliable HVAC service across the region.
             </p>
           </div>
-          {/* Map placeholder */}
-          <div className="bg-blue-50 border-2 border-dashed border-blue-200 rounded-2xl h-64 flex items-center justify-center mb-12">
-            <div className="text-center">
-              <svg className="w-16 h-16 text-blue-300 mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
-              </svg>
-              <p className="text-blue-500 font-semibold text-lg">Tampa Bay Service Area</p>
-              <p className="text-blue-400 text-sm mt-1">Serving 20+ communities across Hillsborough, Pinellas & Pasco counties</p>
-            </div>
+          {/* Google Maps — Tampa Bay service area */}
+          <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-md mb-12">
+            <iframe
+              title="North East Heating And Cooling Tampa Bay service area"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d180000!2d-82.45!3d27.87!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2003b66f381708c5%3A0xb21d6d85ffd57b3c!2sNorth%20East%20Heating%20And%20Cooling!5e0!3m2!1sen!2sus!4v1710000000000!5m2!1sen!2sus"
+              width="100%"
+              height="400"
+              style={{ border: 0, display: 'block' }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
             {serviceAreas.map((area) => (
