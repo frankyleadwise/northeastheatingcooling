@@ -208,8 +208,8 @@ export default function Header() {
       <header
         className={`sticky top-0 z-50 w-full transition-all duration-300 ${
           scrolled
-            ? "bg-white shadow-lg"
-            : "bg-white/95 backdrop-blur-sm"
+            ? "bg-[#1a3464] shadow-lg shadow-blue-950/40"
+            : "bg-[#1a3464]/97 backdrop-blur-sm"
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -241,7 +241,7 @@ export default function Header() {
                   <div key={link.label} className="relative" ref={dropdownRef}>
                     <button
                       onClick={() => setDesktopDropOpen((v) => !v)}
-                      className="flex items-center gap-1 px-3 py-2 text-sm font-semibold text-gray-700 hover:text-blue-700 rounded-md hover:bg-blue-50 transition-colors"
+                      className="flex items-center gap-1 px-3 py-2 text-sm font-semibold text-gray-100 hover:text-white rounded-md hover:bg-white/10 transition-colors"
                       aria-expanded={desktopDropOpen}
                       aria-haspopup="true"
                     >
@@ -256,7 +256,7 @@ export default function Header() {
                             key={item.href}
                             href={item.href}
                             onClick={() => setDesktopDropOpen(false)}
-                            className="flex items-center px-4 py-2.5 text-sm font-medium text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors"
+                            className="flex items-center px-4 py-2.5 text-sm font-medium text-gray-700 hover:bg-blue-50 hover:text-blue-800 transition-colors"
                           >
                             {item.label}
                           </Link>
@@ -268,7 +268,7 @@ export default function Header() {
                   <Link
                     key={link.href}
                     href={link.href}
-                    className="px-3 py-2 text-sm font-semibold text-gray-700 hover:text-blue-700 rounded-md hover:bg-blue-50 transition-colors"
+                    className="px-3 py-2 text-sm font-semibold text-gray-100 hover:text-white rounded-md hover:bg-white/10 transition-colors"
                   >
                     {link.label}
                   </Link>
@@ -280,14 +280,14 @@ export default function Header() {
             <div className="hidden lg:flex items-center gap-3">
               <a
                 href="tel:8132916146"
-                className="flex items-center gap-1.5 text-blue-700 font-bold text-sm hover:text-blue-900 transition-colors"
+                className="flex items-center gap-1.5 text-gray-100 font-bold text-sm hover:text-white transition-colors"
               >
                 <PhoneIcon />
                 (813) 291-6146
               </a>
               <Link
                 href="/contact"
-                className="inline-flex items-center px-5 py-2.5 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white text-sm font-bold rounded-lg transition-colors shadow-sm hover:shadow-md"
+                className="inline-flex items-center px-5 py-2.5 bg-white hover:bg-blue-50 active:bg-blue-100 text-blue-800 text-sm font-bold rounded-lg transition-colors shadow-sm hover:shadow-md"
               >
                 Get Free Quote
               </Link>
@@ -319,7 +319,7 @@ export default function Header() {
         {mobileOpen && (
           <div
             id="mobile-menu"
-            className="lg:hidden bg-white border-t border-gray-100 shadow-xl"
+            className="lg:hidden bg-[#1a3464] border-t border-blue-700 shadow-xl"
           >
             {/* Contact strip */}
             <div className="bg-blue-900 px-4 py-3 flex flex-col gap-2">
@@ -346,7 +346,7 @@ export default function Header() {
                   <div key={link.label}>
                     <button
                       onClick={() => setMobileServicesOpen((v) => !v)}
-                      className="w-full flex items-center justify-between py-3.5 text-base font-semibold text-gray-800 border-b border-gray-100"
+                      className="w-full flex items-center justify-between py-3.5 text-base font-semibold text-gray-100 border-b border-blue-700"
                       aria-expanded={mobileServicesOpen}
                     >
                       {link.label}
@@ -359,7 +359,7 @@ export default function Header() {
                             key={item.href}
                             href={item.href}
                             onClick={closeAll}
-                            className="flex items-center gap-2 py-2.5 text-sm font-medium text-blue-700 hover:text-blue-900 border-b border-gray-50 last:border-0 transition-colors"
+                            className="flex items-center gap-2 py-2.5 text-sm font-medium text-blue-200 hover:text-white border-b border-blue-700/50 last:border-0 transition-colors"
                           >
                             <span className="w-1.5 h-1.5 rounded-full bg-blue-400 shrink-0" />
                             {item.label}
@@ -373,7 +373,7 @@ export default function Header() {
                     key={link.href}
                     href={link.href}
                     onClick={closeAll}
-                    className="flex items-center py-3.5 text-base font-semibold text-gray-800 hover:text-blue-700 border-b border-gray-100 last:border-0 transition-colors"
+                    className="flex items-center py-3.5 text-base font-semibold text-gray-100 hover:text-white border-b border-blue-700 last:border-0 transition-colors"
                   >
                     {link.label}
                   </Link>
@@ -385,7 +385,7 @@ export default function Header() {
                 <Link
                   href="/contact"
                   onClick={closeAll}
-                  className="flex items-center justify-center w-full py-3.5 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white font-bold rounded-xl transition-colors text-base shadow-sm"
+                  className="flex items-center justify-center w-full py-3.5 bg-white hover:bg-blue-50 active:bg-blue-100 text-blue-800 font-bold rounded-xl transition-colors text-base shadow-sm"
                 >
                   Get Free Quote
                 </Link>

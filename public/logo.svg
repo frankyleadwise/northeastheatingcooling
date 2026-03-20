@@ -1,85 +1,87 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 155">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 130">
   <defs>
-    <radialGradient id="orbGrad" cx="38%" cy="32%" r="62%">
-      <stop offset="0%" stop-color="#ffaa00"/>
-      <stop offset="35%" stop-color="#f04010"/>
-      <stop offset="100%" stop-color="#b81a08"/>
+    <radialGradient id="orbGrad" cx="38%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#ffcc44"/>
+      <stop offset="30%" stop-color="#f05010"/>
+      <stop offset="100%" stop-color="#aa1a04"/>
     </radialGradient>
-    <linearGradient id="stemOrange" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="stemOr" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#fb923c"/>
-      <stop offset="100%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#c2600a"/>
     </linearGradient>
-    <linearGradient id="tubeGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#93c5fd"/>
+    <linearGradient id="tubeG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7dd3fc"/>
       <stop offset="100%" stop-color="#1e40af"/>
     </linearGradient>
-    <linearGradient id="wave1" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#1d4ed8"/>
-      <stop offset="55%" stop-color="#5b21b6"/>
+    <!-- Wave gradients: blue-left → red-right, matching original -->
+    <linearGradient id="wA" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#1d3fbb"/>
+      <stop offset="45%"  stop-color="#6b21a8"/>
+      <stop offset="100%" stop-color="#c81414"/>
+    </linearGradient>
+    <linearGradient id="wB" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#1e4ed8"/>
+      <stop offset="50%"  stop-color="#7c3aed"/>
       <stop offset="100%" stop-color="#dc2626"/>
     </linearGradient>
-    <linearGradient id="wave2" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#2563eb"/>
-      <stop offset="50%" stop-color="#7c3aed"/>
+    <linearGradient id="wC" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#3b82f6"/>
+      <stop offset="55%"  stop-color="#9333ea"/>
       <stop offset="100%" stop-color="#ef4444"/>
-    </linearGradient>
-    <linearGradient id="wave3" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#3b82f6"/>
-      <stop offset="60%" stop-color="#6d28d9"/>
-      <stop offset="100%" stop-color="#f87171"/>
     </linearGradient>
   </defs>
 
-  <!-- ── Icon (original 500×500 space scaled 0.30 → ~150×150) ── -->
-  <g transform="scale(0.30)">
-    <!-- Partial circle frame (grey arcs + side arms) -->
-    <path d="M 160 190 A 120 120 0 0 1 340 190" fill="none" stroke="#a0a0a8" stroke-width="18" stroke-linecap="round"/>
-    <path d="M 178 332 A 120 120 0 0 0 322 332" fill="none" stroke="#a0a0a8" stroke-width="18" stroke-linecap="round"/>
-    <line x1="160" y1="190" x2="154" y2="270" stroke="#a0a0a8" stroke-width="18" stroke-linecap="round"/>
-    <line x1="340" y1="190" x2="346" y2="270" stroke="#a0a0a8" stroke-width="18" stroke-linecap="round"/>
+  <!-- Icon: original 500×500 coords scaled by 0.245, offset to centre vertically -->
+  <g transform="translate(2, 8) scale(0.245)">
+
+    <!-- Outer grey circular frame: top arc + side arms + bottom arc -->
+    <path d="M 155 195 A 125 125 0 0 1 345 195"
+          fill="none" stroke="#9ca3af" stroke-width="20" stroke-linecap="round"/>
+    <line x1="155" y1="195" x2="148" y2="280"
+          stroke="#9ca3af" stroke-width="20" stroke-linecap="round"/>
+    <line x1="345" y1="195" x2="352" y2="280"
+          stroke="#9ca3af" stroke-width="20" stroke-linecap="round"/>
+    <path d="M 178 336 A 125 125 0 0 0 322 336"
+          fill="none" stroke="#9ca3af" stroke-width="20" stroke-linecap="round"/>
 
     <!-- Orange upper stem -->
-    <rect x="236" y="118" width="28" height="108" rx="8" fill="url(#stemOrange)"/>
+    <rect x="236" y="120" width="28" height="100" rx="8" fill="url(#stemOr)"/>
 
-    <!-- Red/orange orb -->
-    <circle cx="250" cy="98" r="50" fill="url(#orbGrad)"/>
-    <!-- Orb shine -->
-    <ellipse cx="234" cy="83" rx="18" ry="12" fill="rgba(255,210,120,0.4)" transform="rotate(-18,234,83)"/>
+    <!-- Red/orange orb with gloss -->
+    <circle cx="250" cy="96" r="52" fill="url(#orbGrad)"/>
+    <ellipse cx="231" cy="78" rx="20" ry="13"
+             fill="rgba(255,220,130,0.42)" transform="rotate(-20,231,78)"/>
 
-    <!-- Three wavy lines (heat + cool) -->
-    <path d="M 105 228 C 138 210,172 246,205 228 C 235 212,262 212,300 228 C 323 240,350 246,395 228"
-          fill="none" stroke="url(#wave1)" stroke-width="11" stroke-linecap="round"/>
-    <path d="M 105 258 C 138 240,172 276,205 258 C 235 242,262 242,300 258 C 323 270,350 276,395 258"
-          fill="none" stroke="url(#wave2)" stroke-width="11" stroke-linecap="round"/>
-    <path d="M 105 288 C 138 270,172 306,205 288 C 235 272,262 272,300 288 C 323 300,350 306,395 288"
-          fill="none" stroke="url(#wave3)" stroke-width="11" stroke-linecap="round"/>
+    <!-- Three wavy lines spanning the frame -->
+    <path d="M 100 232 C 136 212, 174 252, 208 232 C 236 214, 264 214, 300 232 C 326 244, 356 252, 400 232"
+          fill="none" stroke="url(#wA)" stroke-width="13" stroke-linecap="round"/>
+    <path d="M 100 264 C 136 244, 174 284, 208 264 C 236 246, 264 246, 300 264 C 326 276, 356 284, 400 264"
+          fill="none" stroke="url(#wB)" stroke-width="13" stroke-linecap="round"/>
+    <path d="M 100 296 C 136 276, 174 316, 208 296 C 236 278, 264 278, 300 296 C 326 308, 356 316, 400 296"
+          fill="none" stroke="url(#wC)" stroke-width="13" stroke-linecap="round"/>
 
-    <!-- Blue lower tube -->
-    <rect x="236" y="272" width="28" height="88" rx="14" fill="url(#tubeGrad)"/>
+    <!-- Blue lower tube (thermometer bulb) -->
+    <rect x="236" y="276" width="28" height="84" rx="14" fill="url(#tubeG)"/>
     <ellipse cx="250" cy="360" rx="14" ry="14" fill="#1e3a8a"/>
-    <rect x="241" y="278" width="10" height="72" rx="5" fill="rgba(255,255,255,0.22)"/>
+    <rect x="242" y="282" width="10" height="68" rx="5" fill="rgba(255,255,255,0.20)"/>
   </g>
 
-  <!-- ── Company name text ── -->
-  <!-- "NORTH EAST" -->
+  <!-- Company name: white text for dark header -->
   <text
-    x="160"
-    y="76"
-    font-family="'Arial Black', 'Arial', sans-serif"
+    x="128" y="68"
+    font-family="'Arial Black', Arial, sans-serif"
     font-weight="900"
-    font-size="52"
-    letter-spacing="1.5"
-    fill="#1a3464"
+    font-size="48"
+    letter-spacing="1"
+    fill="#ffffff"
   >NORTH EAST</text>
 
-  <!-- "HEATING AND COOLING" -->
   <text
-    x="162"
-    y="112"
+    x="130" y="100"
     font-family="Arial, sans-serif"
     font-weight="400"
-    font-size="24"
-    letter-spacing="3.5"
-    fill="#4a6282"
+    font-size="20"
+    letter-spacing="4"
+    fill="#bfdbfe"
   >HEATING AND COOLING</text>
 </svg>
