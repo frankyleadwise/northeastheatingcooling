@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 // ─── SVG Icons ───────────────────────────────────────────────────────────────
 
@@ -169,18 +170,14 @@ export default function Footer() {
 
           {/* Column 1 – Logo & tagline */}
           <div className="sm:col-span-2 lg:col-span-1">
-            <Link href="/" className="inline-flex items-center gap-2.5 mb-4 group">
-              <div className="flex items-center justify-center w-10 h-10 bg-red-600 rounded-lg group-hover:bg-red-500 transition-colors shadow">
-                <SnowflakeIcon />
-              </div>
-              <div className="flex flex-col leading-tight">
-                <span className="font-extrabold text-white text-base leading-tight">
-                  North East
-                </span>
-                <span className="font-bold text-orange-400 text-sm leading-tight">
-                  Heating &amp; Cooling
-                </span>
-              </div>
+            <Link href="/" className="inline-block mb-5">
+              <Image
+                src="/logo.svg"
+                alt="North East Heating and Cooling"
+                width={200}
+                height={64}
+                className="w-auto h-14"
+              />
             </Link>
 
             <p className="text-slate-400 text-sm leading-relaxed mb-5 max-w-xs">
