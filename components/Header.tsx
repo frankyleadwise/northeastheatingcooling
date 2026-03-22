@@ -185,7 +185,7 @@ export default function Header() {
   return (
     <>
       {/* ── Top info bar (desktop only) ─────────────────────────────────── */}
-      <div className="bg-blue-900 text-white text-sm hidden md:block">
+      <div className="bg-[#0d1219] text-white text-sm hidden md:block">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 flex items-center justify-end gap-6">
           <a
             href="tel:8132916146"
@@ -208,8 +208,8 @@ export default function Header() {
       <header
         className={`sticky top-0 z-50 w-full transition-all duration-300 ${
           scrolled
-            ? "bg-[#1a3464] shadow-lg shadow-blue-950/40"
-            : "bg-[#1a3464]/97 backdrop-blur-sm"
+            ? "bg-[#0f1620] shadow-lg shadow-black/40"
+            : "bg-[#0f1620]/97 backdrop-blur-sm"
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -319,10 +319,10 @@ export default function Header() {
         {mobileOpen && (
           <div
             id="mobile-menu"
-            className="lg:hidden bg-[#1a3464] border-t border-blue-700 shadow-xl"
+            className="lg:hidden bg-[#0f1620] border-t border-white/10 shadow-xl"
           >
             {/* Contact strip */}
-            <div className="bg-blue-900 px-4 py-3 flex flex-col gap-2">
+            <div className="bg-[#0d1219] px-4 py-3 flex flex-col gap-2">
               <a
                 href="tel:8132916146"
                 className="flex items-center gap-2 text-white text-sm font-semibold"
@@ -346,7 +346,7 @@ export default function Header() {
                   <div key={link.label}>
                     <button
                       onClick={() => setMobileServicesOpen((v) => !v)}
-                      className="w-full flex items-center justify-between py-3.5 text-base font-semibold text-gray-100 border-b border-blue-700"
+                      className="w-full flex items-center justify-between py-3.5 text-base font-semibold text-gray-100 border-b border-white/10"
                       aria-expanded={mobileServicesOpen}
                     >
                       {link.label}
@@ -359,7 +359,7 @@ export default function Header() {
                             key={item.href}
                             href={item.href}
                             onClick={closeAll}
-                            className="flex items-center gap-2 py-2.5 text-sm font-medium text-blue-200 hover:text-white border-b border-blue-700/50 last:border-0 transition-colors"
+                            className="flex items-center gap-2 py-2.5 text-sm font-medium text-blue-200 hover:text-white border-b border-white/10/50 last:border-0 transition-colors"
                           >
                             <span className="w-1.5 h-1.5 rounded-full bg-blue-400 shrink-0" />
                             {item.label}
@@ -373,7 +373,7 @@ export default function Header() {
                     key={link.href}
                     href={link.href}
                     onClick={closeAll}
-                    className="flex items-center py-3.5 text-base font-semibold text-gray-100 hover:text-white border-b border-blue-700 last:border-0 transition-colors"
+                    className="flex items-center py-3.5 text-base font-semibold text-gray-100 hover:text-white border-b border-white/10 last:border-0 transition-colors"
                   >
                     {link.label}
                   </Link>

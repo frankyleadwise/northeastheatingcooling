@@ -62,7 +62,7 @@ export default function CTASection() {
     <section
       className="relative w-full py-20 px-4 sm:px-6 lg:px-8 overflow-hidden"
       style={{
-        background: "linear-gradient(135deg, #0f1b3e 0%, #1e3a8a 40%, #7c2d12 100%)",
+        background: "linear-gradient(135deg, #0f1620 0%, #1a1f35 50%, #1f1215 100%)",
       }}
     >
       {/* Background pattern */}

@@ -129,7 +129,7 @@ export default function HomePage() {
             sizes="100vw"
           />
           {/* Dark gradient overlay — deep on left for legibility, lighter on right to show image */}
-          <div className="absolute inset-0 bg-gradient-to-r from-slate-950/95 via-blue-950/80 to-slate-900/50" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0f1620]/97 via-[#0f1620]/80 to-[#0f1620]/40" />
           {/* Subtle bottom fade */}
           <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white/5 to-transparent" />
         </div>
@@ -362,7 +362,7 @@ export default function HomePage() {
       </section>
 
       {/* ── TESTIMONIALS ── */}
-      <section className="py-20 bg-blue-950" aria-label="Customer Testimonials">
+      <section className="py-20 bg-[#0f1620]" aria-label="Customer Testimonials">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">What Our Customers Are Saying</h2>

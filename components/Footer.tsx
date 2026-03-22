@@ -160,7 +160,7 @@ const socialLinks = [
 export default function Footer() {
   return (
     <footer
-      className="bg-[#1e3a8a] text-white"
+      className="bg-[#0f1620] text-white"
       aria-label="Site footer"
     >
       {/* ── Main footer grid ──────────────────────────────────────────────── */}
@@ -183,7 +183,7 @@ export default function Footer() {
               </div>
             </Link>
 
-            <p className="text-blue-200 text-sm leading-relaxed mb-5 max-w-xs">
+            <p className="text-slate-400 text-sm leading-relaxed mb-5 max-w-xs">
               Professional HVAC services for residential and commercial
               customers throughout Tampa Bay. Licensed, insured, and available
               24/7 for emergency service.
@@ -208,7 +208,7 @@ export default function Footer() {
 
           {/* Column 2 – Quick Links */}
           <div>
-            <h3 className="text-white font-bold text-base mb-4 pb-2 border-b border-blue-700">
+            <h3 className="text-white font-bold text-base mb-4 pb-2 border-b border-white/10">
               Quick Links
             </h3>
             <ul className="space-y-2.5">
@@ -216,9 +216,9 @@ export default function Footer() {
                 <li key={label}>
                   <Link
                     href={href}
-                    className="text-blue-200 hover:text-white text-sm transition-colors flex items-center gap-1.5 group"
+                    className="text-slate-400 hover:text-white text-sm transition-colors flex items-center gap-1.5 group"
                   >
-                    <span className="w-1 h-1 rounded-full bg-blue-400 group-hover:bg-white transition-colors shrink-0" />
+                    <span className="w-1 h-1 rounded-full bg-orange-500 group-hover:bg-white transition-colors shrink-0" />
                     {label}
                   </Link>
                 </li>
@@ -228,7 +228,7 @@ export default function Footer() {
 
           {/* Column 3 – Services */}
           <div>
-            <h3 className="text-white font-bold text-base mb-4 pb-2 border-b border-blue-700">
+            <h3 className="text-white font-bold text-base mb-4 pb-2 border-b border-white/10">
               Our Services
             </h3>
             <ul className="space-y-2.5">
@@ -236,9 +236,9 @@ export default function Footer() {
                 <li key={label}>
                   <Link
                     href={href}
-                    className="text-blue-200 hover:text-white text-sm transition-colors flex items-center gap-1.5 group"
+                    className="text-slate-400 hover:text-white text-sm transition-colors flex items-center gap-1.5 group"
                   >
-                    <span className="w-1 h-1 rounded-full bg-blue-400 group-hover:bg-white transition-colors shrink-0" />
+                    <span className="w-1 h-1 rounded-full bg-orange-500 group-hover:bg-white transition-colors shrink-0" />
                     {label}
                   </Link>
                 </li>
@@ -248,7 +248,7 @@ export default function Footer() {
 
           {/* Column 4 – Service Areas + Contact */}
           <div>
-            <h3 className="text-white font-bold text-base mb-4 pb-2 border-b border-blue-700">
+            <h3 className="text-white font-bold text-base mb-4 pb-2 border-b border-white/10">
               Service Areas
             </h3>
             <ul className="space-y-2.5 mb-6">
@@ -256,9 +256,9 @@ export default function Footer() {
                 <li key={label}>
                   <Link
                     href={href}
-                    className="text-blue-200 hover:text-white text-sm transition-colors flex items-center gap-1.5 group"
+                    className="text-slate-400 hover:text-white text-sm transition-colors flex items-center gap-1.5 group"
                   >
-                    <span className="w-1 h-1 rounded-full bg-blue-400 group-hover:bg-white transition-colors shrink-0" />
+                    <span className="w-1 h-1 rounded-full bg-orange-500 group-hover:bg-white transition-colors shrink-0" />
                     {label}
                   </Link>
                 </li>
@@ -274,14 +274,14 @@ export default function Footer() {
             </ul>
 
             {/* Contact info */}
-            <h3 className="text-white font-bold text-base mb-3 pb-2 border-b border-blue-700">
+            <h3 className="text-white font-bold text-base mb-3 pb-2 border-b border-white/10">
               Contact Us
             </h3>
             <ul className="space-y-2.5">
               <li>
                 <a
                   href="tel:8132916146"
-                  className="flex items-center gap-2 text-blue-200 hover:text-white text-sm transition-colors"
+                  className="flex items-center gap-2 text-slate-400 hover:text-white text-sm transition-colors"
                 >
                   <PhoneIcon />
                   (813) 291-6146
@@ -290,7 +290,7 @@ export default function Footer() {
               <li>
                 <a
                   href="mailto:office@northeastheatingcooling.com"
-                  className="flex items-start gap-2 text-blue-200 hover:text-white text-sm transition-colors break-all"
+                  className="flex items-start gap-2 text-slate-400 hover:text-white text-sm transition-colors break-all"
                 >
                   <EmailIcon />
                   office@northeastheatingcooling.com
@@ -308,8 +308,8 @@ export default function Footer() {
       </div>
 
       {/* ── Bottom bar ────────────────────────────────────────────────────── */}
-      <div className="border-t border-blue-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-blue-300">
+      <div className="border-t border-white/10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-slate-500">
           <p>
             &copy; 2024 North East Heating &amp; Cooling. All rights reserved.
           </p>
@@ -317,11 +317,11 @@ export default function Footer() {
             <Link href="/privacy-policy" className="hover:text-white transition-colors">
               Privacy Policy
             </Link>
-            <span className="text-blue-600" aria-hidden="true">|</span>
+            <span className="text-white/20" aria-hidden="true">|</span>
             <Link href="/sitemap" className="hover:text-white transition-colors">
               Sitemap
             </Link>
-            <span className="text-blue-600" aria-hidden="true">|</span>
+            <span className="text-white/20" aria-hidden="true">|</span>
             <Link href="/contact" className="hover:text-white transition-colors">
               Contact
             </Link>
