@@ -222,7 +222,7 @@ export default function Header() {
               onClick={closeAll}
             >
               <Image
-                src="/logo.svg"
+                src="/transparent white letters.png"
                 alt="North East Heating and Cooling"
                 width={240}
                 height={68}

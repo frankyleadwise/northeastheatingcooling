@@ -172,7 +172,7 @@ export default function Footer() {
           <div className="sm:col-span-2 lg:col-span-1">
             <Link href="/" className="inline-block mb-5">
               <Image
-                src="/logo.svg"
+                src="/transparent white letters.png"
                 alt="North East Heating and Cooling"
                 width={200}
                 height={64}
