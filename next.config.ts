@@ -5,6 +5,12 @@ const nextConfig: NextConfig = {
   poweredByHeader: false,
   images: {
     formats: ["image/webp", "image/avif"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+      },
+    ],
   },
 };
 
