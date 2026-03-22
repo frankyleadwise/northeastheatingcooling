@@ -20,7 +20,12 @@ body {
 }
 
 .hero-gradient {
-  background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 50%, #2563eb 100%);
+  background: linear-gradient(135deg, #0f1b3e 0%, #1e3a8a 50%, #1e40af 100%);
+}
+
+/* Logo-matched accent gradient: blue (cool) → red (heat) */
+.logo-gradient {
+  background: linear-gradient(90deg, #1e40af 0%, #7c3aed 50%, #dc2626 100%);
 }
 
 .section-padding {

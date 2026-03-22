@@ -256,7 +256,7 @@ export default function Header() {
                             key={item.href}
                             href={item.href}
                             onClick={() => setDesktopDropOpen(false)}
-                            className="flex items-center px-4 py-2.5 text-sm font-medium text-gray-700 hover:bg-blue-50 hover:text-blue-800 transition-colors"
+                            className="flex items-center px-4 py-2.5 text-sm font-medium text-gray-700 hover:bg-red-50 hover:text-red-700 transition-colors"
                           >
                             {item.label}
                           </Link>
@@ -287,7 +287,7 @@ export default function Header() {
               </a>
               <Link
                 href="/contact"
-                className="inline-flex items-center px-5 py-2.5 bg-white hover:bg-blue-50 active:bg-blue-100 text-blue-800 text-sm font-bold rounded-lg transition-colors shadow-sm hover:shadow-md"
+                className="inline-flex items-center px-5 py-2.5 bg-red-600 hover:bg-red-500 active:bg-red-700 text-white text-sm font-bold rounded-lg transition-colors shadow-sm hover:shadow-md"
               >
                 Get Free Quote
               </Link>
@@ -297,7 +297,7 @@ export default function Header() {
             <div className="flex lg:hidden items-center gap-2">
               <a
                 href="tel:8132916146"
-                className="flex items-center justify-center w-9 h-9 rounded-lg bg-blue-600 hover:bg-blue-700 text-white transition-colors"
+                className="flex items-center justify-center w-9 h-9 rounded-lg bg-red-600 hover:bg-red-500 text-white transition-colors"
                 aria-label="Call (813) 291-6146"
               >
                 <PhoneIcon />
@@ -385,7 +385,7 @@ export default function Header() {
                 <Link
                   href="/contact"
                   onClick={closeAll}
-                  className="flex items-center justify-center w-full py-3.5 bg-white hover:bg-blue-50 active:bg-blue-100 text-blue-800 font-bold rounded-xl transition-colors text-base shadow-sm"
+                  className="flex items-center justify-center w-full py-3.5 bg-red-600 hover:bg-red-500 active:bg-red-700 text-white font-bold rounded-xl transition-colors text-base shadow-sm"
                 >
                   Get Free Quote
                 </Link>

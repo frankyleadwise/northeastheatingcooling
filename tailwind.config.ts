@@ -10,7 +10,8 @@ const config: Config = {
     extend: {
       colors: {
         brand: {
-          50: "#eff6ff",
+          // Navy / cool blue — primary backgrounds
+          50:  "#eff6ff",
           100: "#dbeafe",
           200: "#bfdbfe",
           300: "#93c5fd",
@@ -20,7 +21,31 @@ const config: Config = {
           700: "#1d4ed8",
           800: "#1e40af",
           900: "#1e3a8a",
-          950: "#172554",
+          950: "#0f1b3e",
+        },
+        // Red — heating / primary CTA (logo thermometer bulb + right wave)
+        heat: {
+          50:  "#fff1f2",
+          100: "#ffe4e6",
+          300: "#fda4af",
+          400: "#fb7185",
+          500: "#f43f5e",
+          600: "#e11d48",
+          700: "#be123c",
+        },
+        // Orange — thermometer stem / warm accent
+        warm: {
+          400: "#fb923c",
+          500: "#f97316",
+          600: "#ea580c",
+          700: "#c2410c",
+        },
+        // Sky — cooling tube / cool accent (logo bottom)
+        cool: {
+          300: "#7dd3fc",
+          400: "#38bdf8",
+          500: "#0ea5e9",
+          600: "#0284c7",
         },
       },
       fontFamily: {

@@ -170,14 +170,14 @@ export default function Footer() {
           {/* Column 1 – Logo & tagline */}
           <div className="sm:col-span-2 lg:col-span-1">
             <Link href="/" className="inline-flex items-center gap-2.5 mb-4 group">
-              <div className="flex items-center justify-center w-10 h-10 bg-blue-600 rounded-lg group-hover:bg-blue-500 transition-colors shadow">
+              <div className="flex items-center justify-center w-10 h-10 bg-red-600 rounded-lg group-hover:bg-red-500 transition-colors shadow">
                 <SnowflakeIcon />
               </div>
               <div className="flex flex-col leading-tight">
                 <span className="font-extrabold text-white text-base leading-tight">
                   North East
                 </span>
-                <span className="font-bold text-blue-300 text-sm leading-tight">
+                <span className="font-bold text-orange-400 text-sm leading-tight">
                   Heating &amp; Cooling
                 </span>
               </div>
@@ -196,7 +196,7 @@ export default function Footer() {
                   key={label}
                   href={href}
                   aria-label={label}
-                  className="flex items-center justify-center w-9 h-9 rounded-full bg-blue-700 hover:bg-blue-500 transition-colors text-white"
+                  className="flex items-center justify-center w-9 h-9 rounded-full bg-blue-800 hover:bg-red-600 transition-colors text-white"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -266,7 +266,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/service-areas"
-                  className="text-blue-400 hover:text-white text-sm font-semibold transition-colors flex items-center gap-1"
+                  className="text-orange-400 hover:text-white text-sm font-semibold transition-colors flex items-center gap-1"
                 >
                   View All Areas &rarr;
                 </Link>

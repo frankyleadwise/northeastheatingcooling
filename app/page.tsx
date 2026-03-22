@@ -158,7 +158,7 @@ export default function HomePage() {
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-[1.1] mb-6 tracking-tight">
                 Expert HVAC Services<br />
                 You Can{' '}
-                <span className="bg-gradient-to-r from-sky-300 to-blue-400 bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-orange-400 to-red-500 bg-clip-text text-transparent">
                   Trust
                 </span>{' '}
                 in Tampa Bay
@@ -171,7 +171,7 @@ export default function HomePage() {
               <div className="flex flex-col sm:flex-row gap-4 mb-10">
                 <Link
                   href="/contact"
-                  className="inline-flex items-center justify-center gap-2 bg-blue-500 hover:bg-blue-400 text-white font-bold text-lg px-8 py-4 rounded-xl transition-all shadow-lg shadow-blue-500/30 hover:shadow-blue-400/40 hover:-translate-y-0.5"
+                  className="inline-flex items-center justify-center gap-2 bg-red-600 hover:bg-red-500 text-white font-bold text-lg px-8 py-4 rounded-xl transition-all shadow-lg shadow-red-600/40 hover:shadow-red-500/50 hover:-translate-y-0.5"
                 >
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
                   Get a Free Consultation
@@ -197,7 +197,7 @@ export default function HomePage() {
             <div className="hidden lg:flex justify-end">
               <div className="w-full max-w-sm bg-white/10 backdrop-blur-md rounded-2xl border border-white/20 shadow-2xl overflow-hidden">
                 {/* Card header */}
-                <div className="bg-blue-600/80 backdrop-blur-sm px-6 py-5">
+                <div className="bg-gradient-to-r from-red-700/90 to-orange-600/80 backdrop-blur-sm px-6 py-5">
                   <p className="text-white/80 text-sm font-semibold uppercase tracking-widest mb-1">Tampa Bay&apos;s Trusted Choice</p>
                   <p className="text-white text-2xl font-extrabold">North East Heating &amp; Cooling</p>
                 </div>
@@ -212,11 +212,11 @@ export default function HomePage() {
                     <p className="text-slate-300 text-sm mt-1">Star Rating<br />on Google</p>
                   </div>
                   <div className="px-6 py-5 text-center">
-                    <p className="text-4xl font-extrabold text-emerald-400">24/7</p>
+                    <p className="text-4xl font-extrabold text-sky-400">24/7</p>
                     <p className="text-slate-300 text-sm mt-1">Emergency<br />Service</p>
                   </div>
                   <div className="px-6 py-5 text-center">
-                    <p className="text-4xl font-extrabold text-sky-300">100%</p>
+                    <p className="text-4xl font-extrabold text-orange-400">100%</p>
                     <p className="text-slate-300 text-sm mt-1">Satisfaction<br />Guaranteed</p>
                   </div>
                 </div>
@@ -224,7 +224,7 @@ export default function HomePage() {
                 <div className="px-6 py-5">
                   <a
                     href="tel:8132916146"
-                    className="flex items-center justify-center gap-3 w-full bg-white text-blue-900 font-extrabold text-xl py-4 rounded-xl hover:bg-blue-50 transition-colors shadow-lg"
+                    className="flex items-center justify-center gap-3 w-full bg-red-600 hover:bg-red-500 text-white font-extrabold text-xl py-4 rounded-xl transition-colors shadow-lg shadow-red-600/30"
                   >
                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
                     (813) 291-6146

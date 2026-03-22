@@ -62,7 +62,7 @@ export default function CTASection() {
     <section
       className="relative w-full py-20 px-4 sm:px-6 lg:px-8 overflow-hidden"
       style={{
-        background: "linear-gradient(135deg, #1e3a8a 0%, #1e40af 50%, #2563eb 100%)",
+        background: "linear-gradient(135deg, #0f1b3e 0%, #1e3a8a 40%, #7c2d12 100%)",
       }}
     >
       {/* Background pattern */}
@@ -96,11 +96,11 @@ export default function CTASection() {
 
       {/* Decorative blobs */}
       <div
-        className="absolute -top-20 -right-20 w-80 h-80 rounded-full bg-blue-500 opacity-10 blur-3xl pointer-events-none"
+        className="absolute -top-20 -right-20 w-80 h-80 rounded-full bg-red-600 opacity-15 blur-3xl pointer-events-none"
         aria-hidden="true"
       />
       <div
-        className="absolute -bottom-20 -left-20 w-80 h-80 rounded-full bg-blue-300 opacity-10 blur-3xl pointer-events-none"
+        className="absolute -bottom-20 -left-20 w-80 h-80 rounded-full bg-orange-500 opacity-10 blur-3xl pointer-events-none"
         aria-hidden="true"
       />
 
@@ -249,12 +249,12 @@ export default function CTASection() {
               <button
                 type="submit"
                 disabled={loading}
-                className="w-full sm:w-auto flex items-center justify-center gap-2 bg-white hover:bg-blue-50 disabled:bg-white/70 text-blue-800 font-bold text-base px-10 py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 mx-auto"
+                className="w-full sm:w-auto flex items-center justify-center gap-2 bg-red-600 hover:bg-red-500 disabled:bg-red-600/70 text-white font-bold text-base px-10 py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 mx-auto"
               >
                 {loading ? (
                   <>
                     <svg
-                      className="w-5 h-5 animate-spin text-blue-600"
+                      className="w-5 h-5 animate-spin text-white"
                       fill="none"
                       viewBox="0 0 24 24"
                       aria-hidden="true"
@@ -330,7 +330,7 @@ export default function CTASection() {
               className="flex items-center gap-2 text-blue-100 text-xs font-medium"
             >
               <svg
-                className="w-3.5 h-3.5 text-blue-300 shrink-0"
+                className="w-3.5 h-3.5 text-orange-400 shrink-0"
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 aria-hidden="true"
