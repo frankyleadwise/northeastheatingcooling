@@ -11,7 +11,7 @@ export default function PalmHarborPage() {
     <main className="flex flex-col">
 
       {/* Hero Banner */}
-      <section className="bg-blue-900 text-white py-16 px-4">
+      <section className="bg-[#0f1620] text-white py-16 px-4">
         <div className="max-w-5xl mx-auto">
           <h1 className="text-4xl font-bold mb-4">HVAC Services in Palm Harbor, FL</h1>
           <p className="text-xl text-blue-200 mb-6">
@@ -149,7 +149,7 @@ export default function PalmHarborPage() {
       </section>
 
       {/* CTA */}
-      <section className="bg-blue-800 text-white py-14 px-4">
+      <section className="bg-[#0f1620] text-white py-14 px-4">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Request a Free HVAC Consultation in Palm Harbor</h2>
           <p className="text-blue-200 text-lg mb-8">
@@ -164,7 +164,7 @@ export default function PalmHarborPage() {
             </a>
             <a
               href="mailto:office@northeastheatingcooling.com"
-              className="border-2 border-white text-white font-bold px-8 py-3 rounded hover:bg-blue-700 transition-colors"
+              className="border-2 border-white text-white font-bold px-8 py-3 rounded hover:bg-red-700 transition-colors"
             >
               Email Us
             </a>
@@ -194,7 +194,7 @@ export default function PalmHarborPage() {
               <label className="block text-gray-700 text-sm font-medium mb-1" htmlFor="message-ph">Message</label>
               <textarea id="message-ph" rows={3} className="w-full border border-gray-300 rounded px-3 py-2 text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-600" placeholder="Describe your HVAC issue or request..." />
             </div>
-            <button type="submit" className="w-full bg-blue-800 text-white font-bold py-3 rounded hover:bg-blue-900 transition-colors">
+            <button type="submit" className="w-full bg-[#0f1620] text-white font-bold py-3 rounded hover:bg-[#0f1620] transition-colors">
               Submit Request
             </button>
           </form>

@@ -76,7 +76,7 @@ export default function CommercialPage() {
     <main className="font-sans text-gray-800">
 
       {/* Hero Section */}
-      <section className="bg-blue-900 text-white py-20 px-4">
+      <section className="bg-[#0f1620] text-white py-20 px-4">
         <div className="max-w-5xl mx-auto text-center">
           <p className="text-blue-300 text-sm font-semibold uppercase tracking-widest mb-3">
             Tampa Bay&apos;s Commercial HVAC Specialists
@@ -107,7 +107,7 @@ export default function CommercialPage() {
       </section>
 
       {/* Trust Badges */}
-      <section className="bg-blue-800 text-white py-6 px-4">
+      <section className="bg-[#0f1620] text-white py-6 px-4">
         <div className="max-w-5xl mx-auto flex flex-wrap justify-center gap-8 text-center text-sm font-medium">
           <div className="flex items-center gap-2">
             <span className="text-orange-400 text-xl">✓</span> Licensed &amp; Insured in Florida
@@ -183,7 +183,7 @@ export default function CommercialPage() {
               <Link
                 key={service.href}
                 href={service.href}
-                className="bg-white rounded-xl p-6 border border-gray-200 hover:border-blue-400 hover:shadow-md transition-all group"
+                className="bg-white rounded-xl p-6 border border-gray-200 hover:border-red-400 hover:shadow-md transition-all group"
               >
                 <div className="flex items-start gap-4">
                   <span className="text-3xl">{service.icon}</span>
@@ -230,7 +230,7 @@ export default function CommercialPage() {
       </section>
 
       {/* Why Choose Us */}
-      <section className="bg-blue-900 text-white py-16 px-4">
+      <section className="bg-[#0f1620] text-white py-16 px-4">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl font-bold mb-10 text-center">
             Why Tampa Bay Businesses Choose North East Heating &amp; Cooling

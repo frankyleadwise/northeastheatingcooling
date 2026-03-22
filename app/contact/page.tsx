@@ -233,9 +233,9 @@ export default function ContactPage() {
             {/* Phone */}
             <a
               href="tel:8132916146"
-              className="group flex flex-col items-center text-center p-8 rounded-2xl border-2 border-blue-100 bg-blue-50 hover:border-blue-500 hover:bg-blue-600 hover:text-white transition-all shadow-sm"
+              className="group flex flex-col items-center text-center p-8 rounded-2xl border-2 border-blue-100 bg-blue-50 hover:border-blue-500 hover:bg-red-600 hover:text-white transition-all shadow-sm"
             >
-              <div className="w-16 h-16 flex items-center justify-center rounded-2xl bg-blue-600 group-hover:bg-white text-white group-hover:text-blue-600 mb-4 transition-colors">
+              <div className="w-16 h-16 flex items-center justify-center rounded-2xl bg-red-600 group-hover:bg-white text-white group-hover:text-blue-600 mb-4 transition-colors">
                 <PhoneIcon />
               </div>
               <p className="text-xs font-bold uppercase tracking-widest text-blue-500 group-hover:text-blue-100 mb-1 transition-colors">
@@ -252,9 +252,9 @@ export default function ContactPage() {
             {/* Email */}
             <a
               href="mailto:office@northeastheatingcooling.com"
-              className="group flex flex-col items-center text-center p-8 rounded-2xl border-2 border-blue-100 bg-blue-50 hover:border-blue-500 hover:bg-blue-600 hover:text-white transition-all shadow-sm"
+              className="group flex flex-col items-center text-center p-8 rounded-2xl border-2 border-blue-100 bg-blue-50 hover:border-blue-500 hover:bg-red-600 hover:text-white transition-all shadow-sm"
             >
-              <div className="w-16 h-16 flex items-center justify-center rounded-2xl bg-blue-600 group-hover:bg-white text-white group-hover:text-blue-600 mb-4 transition-colors">
+              <div className="w-16 h-16 flex items-center justify-center rounded-2xl bg-red-600 group-hover:bg-white text-white group-hover:text-blue-600 mb-4 transition-colors">
                 <MailIcon />
               </div>
               <p className="text-xs font-bold uppercase tracking-widest text-blue-500 group-hover:text-blue-100 mb-1 transition-colors">
@@ -270,7 +270,7 @@ export default function ContactPage() {
 
             {/* Hours */}
             <div className="flex flex-col items-center text-center p-8 rounded-2xl border-2 border-blue-100 bg-blue-50 shadow-sm">
-              <div className="w-16 h-16 flex items-center justify-center rounded-2xl bg-blue-600 text-white mb-4">
+              <div className="w-16 h-16 flex items-center justify-center rounded-2xl bg-red-600 text-white mb-4">
                 <ClockIcon />
               </div>
               <p className="text-xs font-bold uppercase tracking-widest text-blue-500 mb-1">
@@ -469,7 +469,7 @@ export default function ContactPage() {
                   <button
                     type="submit"
                     disabled={submitting}
-                    className="w-full py-3.5 px-6 bg-blue-600 hover:bg-blue-700 disabled:bg-blue-400 text-white font-extrabold rounded-xl transition-colors shadow-sm text-base"
+                    className="w-full py-3.5 px-6 bg-red-600 hover:bg-red-700 disabled:bg-blue-400 text-white font-extrabold rounded-xl transition-colors shadow-sm text-base"
                   >
                     {submitting ? 'Sending…' : 'Send Message'}
                   </button>

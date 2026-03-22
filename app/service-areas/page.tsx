@@ -49,7 +49,7 @@ export default function ServiceAreasPage() {
               </a>
               <Link
                 href="/contact"
-                className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-500 text-white font-bold px-7 py-3.5 rounded-lg transition-colors shadow-lg text-lg border border-blue-400"
+                className="inline-flex items-center gap-2 bg-red-600 hover:bg-blue-500 text-white font-bold px-7 py-3.5 rounded-lg transition-colors shadow-lg text-lg border border-red-400"
               >
                 Request Free Estimate
               </Link>
@@ -104,7 +104,7 @@ export default function ServiceAreasPage() {
                     ))}
                   </ul>
                 </div>
-                <div className="bg-blue-900 text-white rounded-xl p-5 text-center">
+                <div className="bg-[#0f1620] text-white rounded-xl p-5 text-center">
                   <p className="text-blue-200 text-sm mb-1">Call us anytime</p>
                   <a href="tel:8132916146" className="text-2xl font-extrabold hover:text-blue-200 transition-colors">
                     (813) 291-6146
@@ -163,10 +163,10 @@ export default function ServiceAreasPage() {
                 <Link
                   key={city.slug}
                   href={`/service-areas/${city.slug}`}
-                  className="group bg-white border border-gray-200 rounded-xl p-5 hover:border-blue-400 hover:shadow-lg transition-all duration-200"
+                  className="group bg-white border border-gray-200 rounded-xl p-5 hover:border-red-400 hover:shadow-lg transition-all duration-200"
                 >
                   <div className="flex items-start gap-3">
-                    <div className="flex-shrink-0 w-10 h-10 bg-blue-100 group-hover:bg-blue-600 rounded-lg flex items-center justify-center transition-colors">
+                    <div className="flex-shrink-0 w-10 h-10 bg-blue-100 group-hover:bg-red-600 rounded-lg flex items-center justify-center transition-colors">
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5 text-blue-600 group-hover:text-white transition-colors" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" /><circle cx="12" cy="10" r="3" /></svg>
                     </div>
                     <div>
@@ -217,7 +217,7 @@ export default function ServiceAreasPage() {
               </p>
               <div className="mt-4 flex flex-wrap justify-center gap-2 px-6">
                 {['Tampa', 'St. Pete', 'Clearwater', 'Brandon', 'Riverview', 'Valrico', 'Plant City', 'Apollo Beach', 'Gibsonton', 'Ruskin'].map((city) => (
-                  <span key={city} className="bg-blue-600/60 text-white text-xs px-2.5 py-1 rounded-full border border-blue-400/40">
+                  <span key={city} className="bg-red-600/60 text-white text-xs px-2.5 py-1 rounded-full border border-red-400/40">
                     {city}
                   </span>
                 ))}
@@ -274,7 +274,7 @@ export default function ServiceAreasPage() {
                 <Link
                   key={service.title}
                   href={service.href}
-                  className="group bg-white border border-gray-200 rounded-xl p-6 hover:border-blue-400 hover:shadow-md transition-all"
+                  className="group bg-white border border-gray-200 rounded-xl p-6 hover:border-red-400 hover:shadow-md transition-all"
                 >
                   <h3 className="font-bold text-blue-900 text-lg mb-2 group-hover:text-blue-700 transition-colors">
                     {service.title}
@@ -304,7 +304,7 @@ export default function ServiceAreasPage() {
                 </p>
                 <div className="space-y-3">
                   <a href="tel:8132916146" className="flex items-center gap-3 text-white hover:text-blue-200 transition-colors">
-                    <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center shrink-0">
+                    <div className="w-10 h-10 bg-red-600 rounded-lg flex items-center justify-center shrink-0">
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.8a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" /></svg>
                     </div>
                     <div>
@@ -313,7 +313,7 @@ export default function ServiceAreasPage() {
                     </div>
                   </a>
                   <a href="mailto:office@northeastheatingcooling.com" className="flex items-center gap-3 text-white hover:text-blue-200 transition-colors">
-                    <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center shrink-0">
+                    <div className="w-10 h-10 bg-red-600 rounded-lg flex items-center justify-center shrink-0">
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2" /><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" /></svg>
                     </div>
                     <div>
@@ -368,7 +368,7 @@ export default function ServiceAreasPage() {
                   </div>
                   <button
                     type="submit"
-                    className="w-full bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white font-bold py-3 rounded-lg transition-colors text-base shadow-sm"
+                    className="w-full bg-red-600 hover:bg-red-700 active:bg-[#0f1620] text-white font-bold py-3 rounded-lg transition-colors text-base shadow-sm"
                   >
                     Send Request
                   </button>

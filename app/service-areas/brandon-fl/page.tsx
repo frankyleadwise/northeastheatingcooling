@@ -34,7 +34,7 @@ export default function BrandonPage() {
               </a>
               <Link
                 href="/contact"
-                className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-500 text-white font-bold px-7 py-3.5 rounded-lg transition-colors shadow-lg text-lg border border-blue-400"
+                className="inline-flex items-center gap-2 bg-red-600 hover:bg-blue-500 text-white font-bold px-7 py-3.5 rounded-lg transition-colors shadow-lg text-lg border border-red-400"
               >
                 Request Free Estimate
               </Link>
@@ -95,7 +95,7 @@ export default function BrandonPage() {
             </p>
             <Link
               href="/residential/hvac-service-tampa"
-              className="inline-flex items-center gap-2 bg-blue-700 hover:bg-blue-800 text-white font-bold px-6 py-3 rounded-lg transition-colors"
+              className="inline-flex items-center gap-2 bg-red-700 hover:bg-[#0f1620] text-white font-bold px-6 py-3 rounded-lg transition-colors"
             >
               View HVAC Repair Services &rarr;
             </Link>
@@ -123,7 +123,7 @@ export default function BrandonPage() {
             </p>
             <Link
               href="/residential/hvac-installation-tampa-fl"
-              className="inline-flex items-center gap-2 bg-blue-700 hover:bg-blue-800 text-white font-bold px-6 py-3 rounded-lg transition-colors"
+              className="inline-flex items-center gap-2 bg-red-700 hover:bg-[#0f1620] text-white font-bold px-6 py-3 rounded-lg transition-colors"
             >
               View AC Installation Services &rarr;
             </Link>
@@ -151,7 +151,7 @@ export default function BrandonPage() {
             </p>
             <Link
               href="/residential/hvac-service-tampa"
-              className="inline-flex items-center gap-2 bg-blue-700 hover:bg-blue-800 text-white font-bold px-6 py-3 rounded-lg transition-colors"
+              className="inline-flex items-center gap-2 bg-red-700 hover:bg-[#0f1620] text-white font-bold px-6 py-3 rounded-lg transition-colors"
             >
               View Heating Services &rarr;
             </Link>
@@ -180,7 +180,7 @@ export default function BrandonPage() {
             </p>
             <Link
               href="/residential/air-duct-repair-tampa"
-              className="inline-flex items-center gap-2 bg-blue-700 hover:bg-blue-800 text-white font-bold px-6 py-3 rounded-lg transition-colors"
+              className="inline-flex items-center gap-2 bg-red-700 hover:bg-[#0f1620] text-white font-bold px-6 py-3 rounded-lg transition-colors"
             >
               View Air Duct Repair Services &rarr;
             </Link>
@@ -208,7 +208,7 @@ export default function BrandonPage() {
             </p>
             <Link
               href="/commercial/hvac-service-tampa"
-              className="inline-flex items-center gap-2 bg-blue-700 hover:bg-blue-800 text-white font-bold px-6 py-3 rounded-lg transition-colors"
+              className="inline-flex items-center gap-2 bg-red-700 hover:bg-[#0f1620] text-white font-bold px-6 py-3 rounded-lg transition-colors"
             >
               View Commercial HVAC Services &rarr;
             </Link>
@@ -258,7 +258,7 @@ export default function BrandonPage() {
                 <Link
                   key={city.slug}
                   href={`/service-areas/${city.slug}`}
-                  className="bg-white border border-blue-200 text-blue-700 font-semibold px-4 py-2 rounded-lg hover:bg-blue-700 hover:text-white hover:border-blue-700 transition-colors text-sm"
+                  className="bg-white border border-blue-200 text-blue-700 font-semibold px-4 py-2 rounded-lg hover:bg-red-700 hover:text-white hover:border-blue-700 transition-colors text-sm"
                 >
                   {city.name}
                 </Link>
@@ -280,7 +280,7 @@ export default function BrandonPage() {
                   Brandon, FL. We&apos;re here to help with any heating or cooling need.
                 </p>
                 <a href="tel:8132916146" className="flex items-center gap-3 text-white hover:text-blue-200 transition-colors mb-3">
-                  <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center shrink-0">
+                  <div className="w-10 h-10 bg-red-600 rounded-lg flex items-center justify-center shrink-0">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.8a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" /></svg>
                   </div>
                   <div>
@@ -289,7 +289,7 @@ export default function BrandonPage() {
                   </div>
                 </a>
                 <a href="mailto:office@northeastheatingcooling.com" className="flex items-center gap-3 text-white hover:text-blue-200 transition-colors">
-                  <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center shrink-0">
+                  <div className="w-10 h-10 bg-red-600 rounded-lg flex items-center justify-center shrink-0">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2" /><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" /></svg>
                   </div>
                   <div>
@@ -331,7 +331,7 @@ export default function BrandonPage() {
                     <label htmlFor="brandon-message" className="block text-sm font-medium text-gray-700 mb-1">Message</label>
                     <textarea id="brandon-message" rows={3} placeholder="Describe your HVAC issue or project..." className="w-full border border-gray-300 rounded-lg px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none" />
                   </div>
-                  <button type="submit" className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 rounded-lg transition-colors text-base shadow-sm">
+                  <button type="submit" className="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-3 rounded-lg transition-colors text-base shadow-sm">
                     Send Request
                   </button>
                   <p className="text-gray-400 text-xs text-center">We&apos;ll respond within 1 business hour.</p>

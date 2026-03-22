@@ -142,7 +142,7 @@ export default function WaterHeaterRepairTampaPage() {
   return (
     <main className="font-sans">
       {/* Hero */}
-      <section className="bg-blue-800 text-white py-20 px-4">
+      <section className="bg-[#0f1620] text-white py-20 px-4">
         <div className="max-w-5xl mx-auto">
           <p className="text-blue-200 font-semibold text-sm uppercase tracking-widest mb-3">
             Tampa Bay, FL — Water Heater Services
@@ -164,7 +164,7 @@ export default function WaterHeaterRepairTampaPage() {
             </a>
             <a
               href="#contact-form"
-              className="inline-flex items-center justify-center px-8 py-3.5 bg-blue-600 text-white font-bold text-lg rounded-lg border-2 border-blue-400 hover:bg-blue-700 transition-colors"
+              className="inline-flex items-center justify-center px-8 py-3.5 bg-red-600 text-white font-bold text-lg rounded-lg border-2 border-red-400 hover:bg-red-700 transition-colors"
             >
               Request Service Online
             </a>
@@ -173,7 +173,7 @@ export default function WaterHeaterRepairTampaPage() {
       </section>
 
       {/* Trust bar */}
-      <section className="bg-blue-900 text-white py-4 px-4">
+      <section className="bg-[#0f1620] text-white py-4 px-4">
         <div className="max-w-5xl mx-auto flex flex-wrap justify-center md:justify-between gap-x-8 gap-y-2 text-sm font-semibold text-blue-200">
           <span>✓ Tank &amp; Tankless Specialists</span>
           <span>✓ Same-Day Service Available</span>
@@ -228,7 +228,7 @@ export default function WaterHeaterRepairTampaPage() {
                   'Inconsistent water temperature',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2.5 text-gray-700 text-sm">
-                    <span className="w-2 h-2 rounded-full bg-blue-600 shrink-0 mt-1.5" />
+                    <span className="w-2 h-2 rounded-full bg-red-600 shrink-0 mt-1.5" />
                     {item}
                   </li>
                 ))}
@@ -256,7 +256,7 @@ export default function WaterHeaterRepairTampaPage() {
                 <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                   {service.bullets.map((b) => (
                     <li key={b} className="flex items-center gap-2 text-sm text-gray-700">
-                      <span className="w-1.5 h-1.5 rounded-full bg-blue-600 shrink-0" />
+                      <span className="w-1.5 h-1.5 rounded-full bg-red-600 shrink-0" />
                       {b}
                     </li>
                   ))}
@@ -282,7 +282,7 @@ export default function WaterHeaterRepairTampaPage() {
           <div className="overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
             <table className="w-full text-sm">
               <thead>
-                <tr className="bg-blue-800 text-white">
+                <tr className="bg-[#0f1620] text-white">
                   <th className="text-left py-4 px-5 font-semibold rounded-tl-2xl">Feature</th>
                   <th className="text-left py-4 px-5 font-semibold">Tank Water Heater</th>
                   <th className="text-left py-4 px-5 font-semibold rounded-tr-2xl">Tankless Water Heater</th>
@@ -351,7 +351,7 @@ export default function WaterHeaterRepairTampaPage() {
                   label: 'Heat Pump Water Heater',
                   efficiency: 'UEF 2.0–4.0+',
                   savings: '~50–70% savings',
-                  color: 'bg-blue-800 border-blue-700 text-white',
+                  color: 'bg-[#0f1620] border-blue-700 text-white',
                 },
               ].map((item) => (
                 <div key={item.label} className={`rounded-xl p-5 border ${item.color}`}>
@@ -370,13 +370,13 @@ export default function WaterHeaterRepairTampaPage() {
         <div className="max-w-5xl mx-auto">
           <h2 className="text-xl font-bold text-gray-900 mb-5">Related Services</h2>
           <div className="flex flex-wrap gap-3">
-            <Link href="/residential/hvac-service-tampa" className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-white border border-blue-200 text-blue-700 font-semibold text-sm rounded-lg hover:bg-blue-700 hover:text-white hover:border-blue-700 transition-colors shadow-sm">
+            <Link href="/residential/hvac-service-tampa" className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-white border border-blue-200 text-blue-700 font-semibold text-sm rounded-lg hover:bg-red-700 hover:text-white hover:border-blue-700 transition-colors shadow-sm">
               HVAC Repair Services →
             </Link>
-            <Link href="/residential/hvac-installation-tampa-fl" className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-white border border-blue-200 text-blue-700 font-semibold text-sm rounded-lg hover:bg-blue-700 hover:text-white hover:border-blue-700 transition-colors shadow-sm">
+            <Link href="/residential/hvac-installation-tampa-fl" className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-white border border-blue-200 text-blue-700 font-semibold text-sm rounded-lg hover:bg-red-700 hover:text-white hover:border-blue-700 transition-colors shadow-sm">
               HVAC Installation →
             </Link>
-            <Link href="/residential" className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-white border border-blue-200 text-blue-700 font-semibold text-sm rounded-lg hover:bg-blue-700 hover:text-white hover:border-blue-700 transition-colors shadow-sm">
+            <Link href="/residential" className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-white border border-blue-200 text-blue-700 font-semibold text-sm rounded-lg hover:bg-red-700 hover:text-white hover:border-blue-700 transition-colors shadow-sm">
               All Residential Services →
             </Link>
           </div>
@@ -404,7 +404,7 @@ export default function WaterHeaterRepairTampaPage() {
       </section>
 
       {/* CTA */}
-      <section id="contact-form" className="bg-blue-800 py-16 px-4 text-white">
+      <section id="contact-form" className="bg-[#0f1620] py-16 px-4 text-white">
         <div className="max-w-5xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             <div>
@@ -416,7 +416,7 @@ export default function WaterHeaterRepairTampaPage() {
               </p>
               <div className="space-y-4">
                 <a href="tel:8132916146" className="flex items-center gap-3 text-white text-xl font-bold hover:text-blue-200 transition-colors">
-                  <span className="bg-blue-600 rounded-full w-11 h-11 flex items-center justify-center shrink-0">
+                  <span className="bg-red-600 rounded-full w-11 h-11 flex items-center justify-center shrink-0">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5" aria-hidden="true">
                       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.8a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
                     </svg>
@@ -424,7 +424,7 @@ export default function WaterHeaterRepairTampaPage() {
                   (813) 291-6146
                 </a>
                 <a href="mailto:office@northeastheatingcooling.com" className="flex items-center gap-3 text-blue-200 hover:text-white transition-colors">
-                  <span className="bg-blue-600 rounded-full w-11 h-11 flex items-center justify-center shrink-0">
+                  <span className="bg-red-600 rounded-full w-11 h-11 flex items-center justify-center shrink-0">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5" aria-hidden="true">
                       <rect x="2" y="4" width="20" height="16" rx="2" />
                       <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
@@ -459,7 +459,7 @@ export default function WaterHeaterRepairTampaPage() {
                   <label htmlFor="wh-message" className="block text-sm font-semibold text-gray-700 mb-1">Describe Your Issue</label>
                   <textarea id="wh-message" name="message" placeholder="Tank or tankless? Age of unit? What issue are you experiencing?" rows={4} className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100 resize-none" />
                 </div>
-                <button type="submit" className="w-full bg-blue-700 hover:bg-blue-800 active:bg-blue-900 text-white font-bold py-3.5 rounded-lg transition-colors text-base">
+                <button type="submit" className="w-full bg-red-700 hover:bg-[#0f1620] active:bg-[#0f1620] text-white font-bold py-3.5 rounded-lg transition-colors text-base">
                   Submit Request
                 </button>
                 <p className="text-xs text-gray-500 text-center">

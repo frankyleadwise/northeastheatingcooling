@@ -169,7 +169,7 @@ export default function HvacServiceTampaPage() {
       />
 
       {/* Hero */}
-      <section className="bg-blue-800 text-white py-20 px-4">
+      <section className="bg-[#0f1620] text-white py-20 px-4">
         <div className="max-w-5xl mx-auto">
           <p className="text-blue-200 font-semibold text-sm uppercase tracking-widest mb-3">
             Tampa Bay, FL — Residential HVAC Repair
@@ -190,7 +190,7 @@ export default function HvacServiceTampaPage() {
             </a>
             <a
               href="#contact-form"
-              className="inline-flex items-center justify-center px-8 py-3.5 bg-blue-600 text-white font-bold text-lg rounded-lg border-2 border-blue-400 hover:bg-blue-700 transition-colors"
+              className="inline-flex items-center justify-center px-8 py-3.5 bg-red-600 text-white font-bold text-lg rounded-lg border-2 border-red-400 hover:bg-red-700 transition-colors"
             >
               Request Service Online
             </a>
@@ -199,7 +199,7 @@ export default function HvacServiceTampaPage() {
       </section>
 
       {/* Trust bar */}
-      <section className="bg-blue-900 text-white py-4 px-4">
+      <section className="bg-[#0f1620] text-white py-4 px-4">
         <div className="max-w-5xl mx-auto flex flex-wrap justify-center md:justify-between gap-x-8 gap-y-2 text-sm font-semibold text-blue-200">
           <span>✓ Licensed &amp; Insured</span>
           <span>✓ Same-Day Service Available</span>
@@ -254,7 +254,7 @@ export default function HvacServiceTampaPage() {
                   'Burning smell from vents',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2.5 text-gray-700 text-sm">
-                    <span className="w-2 h-2 rounded-full bg-blue-600 shrink-0 mt-1.5" />
+                    <span className="w-2 h-2 rounded-full bg-red-600 shrink-0 mt-1.5" />
                     {item}
                   </li>
                 ))}
@@ -285,7 +285,7 @@ export default function HvacServiceTampaPage() {
                 <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                   {service.bullets.map((b) => (
                     <li key={b} className="flex items-center gap-2 text-sm text-gray-700">
-                      <span className="w-1.5 h-1.5 rounded-full bg-blue-600 shrink-0" />
+                      <span className="w-1.5 h-1.5 rounded-full bg-red-600 shrink-0" />
                       {b}
                     </li>
                   ))}
@@ -334,7 +334,7 @@ export default function HvacServiceTampaPage() {
               ].map((stat) => (
                 <div
                   key={stat.label}
-                  className="bg-blue-800 text-white rounded-xl p-5 text-center"
+                  className="bg-[#0f1620] text-white rounded-xl p-5 text-center"
                 >
                   <div className="text-3xl font-extrabold text-blue-200 mb-1">{stat.value}</div>
                   <div className="text-sm font-semibold text-white">{stat.label}</div>
@@ -385,7 +385,7 @@ export default function HvacServiceTampaPage() {
             ].map((item) => (
               <div key={item.title} className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
                 <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center mb-4">
-                  <span className="w-3 h-3 rounded-full bg-blue-700 block" />
+                  <span className="w-3 h-3 rounded-full bg-red-700 block" />
                 </div>
                 <h3 className="font-bold text-gray-900 text-lg mb-2">{item.title}</h3>
                 <p className="text-gray-600 text-sm leading-relaxed">{item.desc}</p>
@@ -402,19 +402,19 @@ export default function HvacServiceTampaPage() {
           <div className="flex flex-wrap gap-3">
             <Link
               href="/residential/hvac-installation-tampa-fl"
-              className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-white border border-blue-200 text-blue-700 font-semibold text-sm rounded-lg hover:bg-blue-700 hover:text-white hover:border-blue-700 transition-colors shadow-sm"
+              className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-white border border-blue-200 text-blue-700 font-semibold text-sm rounded-lg hover:bg-red-700 hover:text-white hover:border-blue-700 transition-colors shadow-sm"
             >
               HVAC Installation &amp; Replacement →
             </Link>
             <Link
               href="/residential/air-duct-repair-tampa"
-              className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-white border border-blue-200 text-blue-700 font-semibold text-sm rounded-lg hover:bg-blue-700 hover:text-white hover:border-blue-700 transition-colors shadow-sm"
+              className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-white border border-blue-200 text-blue-700 font-semibold text-sm rounded-lg hover:bg-red-700 hover:text-white hover:border-blue-700 transition-colors shadow-sm"
             >
               Air Duct Repair &amp; Replacement →
             </Link>
             <Link
               href="/service-areas"
-              className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-white border border-blue-200 text-blue-700 font-semibold text-sm rounded-lg hover:bg-blue-700 hover:text-white hover:border-blue-700 transition-colors shadow-sm"
+              className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-white border border-blue-200 text-blue-700 font-semibold text-sm rounded-lg hover:bg-red-700 hover:text-white hover:border-blue-700 transition-colors shadow-sm"
             >
               View All Service Areas →
             </Link>
@@ -444,7 +444,7 @@ export default function HvacServiceTampaPage() {
       </section>
 
       {/* CTA */}
-      <section id="contact-form" className="bg-blue-800 py-16 px-4 text-white">
+      <section id="contact-form" className="bg-[#0f1620] py-16 px-4 text-white">
         <div className="max-w-5xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             <div>
@@ -459,7 +459,7 @@ export default function HvacServiceTampaPage() {
                   href="tel:8132916146"
                   className="flex items-center gap-3 text-white text-xl font-bold hover:text-blue-200 transition-colors"
                 >
-                  <span className="bg-blue-600 rounded-full w-11 h-11 flex items-center justify-center shrink-0">
+                  <span className="bg-red-600 rounded-full w-11 h-11 flex items-center justify-center shrink-0">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
@@ -480,7 +480,7 @@ export default function HvacServiceTampaPage() {
                   href="mailto:office@northeastheatingcooling.com"
                   className="flex items-center gap-3 text-blue-200 hover:text-white transition-colors"
                 >
-                  <span className="bg-blue-600 rounded-full w-11 h-11 flex items-center justify-center shrink-0">
+                  <span className="bg-red-600 rounded-full w-11 h-11 flex items-center justify-center shrink-0">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
@@ -563,7 +563,7 @@ export default function HvacServiceTampaPage() {
                 </div>
                 <button
                   type="submit"
-                  className="w-full bg-blue-700 hover:bg-blue-800 active:bg-blue-900 text-white font-bold py-3.5 rounded-lg transition-colors text-base"
+                  className="w-full bg-red-700 hover:bg-[#0f1620] active:bg-[#0f1620] text-white font-bold py-3.5 rounded-lg transition-colors text-base"
                 >
                   Submit Repair Request
                 </button>

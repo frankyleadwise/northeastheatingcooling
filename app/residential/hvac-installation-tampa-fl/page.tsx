@@ -135,7 +135,7 @@ export default function HvacInstallationTampaPage() {
   return (
     <main className="font-sans">
       {/* Hero */}
-      <section className="bg-blue-800 text-white py-20 px-4">
+      <section className="bg-[#0f1620] text-white py-20 px-4">
         <div className="max-w-5xl mx-auto">
           <p className="text-blue-200 font-semibold text-sm uppercase tracking-widest mb-3">
             Tampa Bay, FL — HVAC Installation
@@ -157,7 +157,7 @@ export default function HvacInstallationTampaPage() {
             </a>
             <a
               href="#contact-form"
-              className="inline-flex items-center justify-center px-8 py-3.5 bg-blue-600 text-white font-bold text-lg rounded-lg border-2 border-blue-400 hover:bg-blue-700 transition-colors"
+              className="inline-flex items-center justify-center px-8 py-3.5 bg-red-600 text-white font-bold text-lg rounded-lg border-2 border-red-400 hover:bg-red-700 transition-colors"
             >
               Get Free Estimate
             </a>
@@ -166,7 +166,7 @@ export default function HvacInstallationTampaPage() {
       </section>
 
       {/* Trust bar */}
-      <section className="bg-blue-900 text-white py-4 px-4">
+      <section className="bg-[#0f1620] text-white py-4 px-4">
         <div className="max-w-5xl mx-auto flex flex-wrap justify-center md:justify-between gap-x-8 gap-y-2 text-sm font-semibold text-blue-200">
           <span>✓ Free In-Home Estimates</span>
           <span>✓ Manufacturer-Authorized Installer</span>
@@ -218,7 +218,7 @@ export default function HvacInstallationTampaPage() {
                   'Noisy operation that repairs haven\'t resolved',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2.5 text-gray-700 text-sm">
-                    <span className="w-2 h-2 rounded-full bg-blue-600 shrink-0 mt-1.5" />
+                    <span className="w-2 h-2 rounded-full bg-red-600 shrink-0 mt-1.5" />
                     {item}
                   </li>
                 ))}
@@ -251,7 +251,7 @@ export default function HvacInstallationTampaPage() {
                 <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                   {type.bullets.map((b) => (
                     <li key={b} className="flex items-center gap-2 text-sm text-gray-700">
-                      <span className="w-1.5 h-1.5 rounded-full bg-blue-600 shrink-0" />
+                      <span className="w-1.5 h-1.5 rounded-full bg-red-600 shrink-0" />
                       {b}
                     </li>
                   ))}
@@ -277,7 +277,7 @@ export default function HvacInstallationTampaPage() {
           <div className="space-y-4">
             {installationProcess.map((step) => (
               <div key={step.step} className="flex gap-6 items-start">
-                <div className="w-14 h-14 rounded-full bg-blue-800 text-white flex items-center justify-center font-extrabold text-lg shrink-0">
+                <div className="w-14 h-14 rounded-full bg-[#0f1620] text-white flex items-center justify-center font-extrabold text-lg shrink-0">
                   {step.step}
                 </div>
                 <div className="pt-2">
@@ -330,13 +330,13 @@ export default function HvacInstallationTampaPage() {
                     'Surge protection for lightning protection',
                   ].map((item) => (
                     <li key={item} className="flex items-start gap-2.5 text-gray-700 text-sm">
-                      <span className="w-2 h-2 rounded-full bg-blue-600 shrink-0 mt-1.5" />
+                      <span className="w-2 h-2 rounded-full bg-red-600 shrink-0 mt-1.5" />
                       {item}
                     </li>
                   ))}
                 </ul>
               </div>
-              <div className="bg-blue-800 text-white rounded-xl p-6">
+              <div className="bg-[#0f1620] text-white rounded-xl p-6">
                 <h3 className="font-bold mb-2">Energy Savings Estimate</h3>
                 <p className="text-blue-200 text-sm leading-relaxed">
                   Replacing a 10 SEER system with a new 18 SEER system in Tampa Bay can reduce your
@@ -357,19 +357,19 @@ export default function HvacInstallationTampaPage() {
           <div className="flex flex-wrap gap-3">
             <Link
               href="/residential/hvac-service-tampa"
-              className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-white border border-blue-200 text-blue-700 font-semibold text-sm rounded-lg hover:bg-blue-700 hover:text-white hover:border-blue-700 transition-colors shadow-sm"
+              className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-white border border-blue-200 text-blue-700 font-semibold text-sm rounded-lg hover:bg-red-700 hover:text-white hover:border-blue-700 transition-colors shadow-sm"
             >
               HVAC Repair Services →
             </Link>
             <Link
               href="/residential/air-duct-repair-tampa"
-              className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-white border border-blue-200 text-blue-700 font-semibold text-sm rounded-lg hover:bg-blue-700 hover:text-white hover:border-blue-700 transition-colors shadow-sm"
+              className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-white border border-blue-200 text-blue-700 font-semibold text-sm rounded-lg hover:bg-red-700 hover:text-white hover:border-blue-700 transition-colors shadow-sm"
             >
               Air Duct Repair →
             </Link>
             <Link
               href="/service-areas"
-              className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-white border border-blue-200 text-blue-700 font-semibold text-sm rounded-lg hover:bg-blue-700 hover:text-white hover:border-blue-700 transition-colors shadow-sm"
+              className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-white border border-blue-200 text-blue-700 font-semibold text-sm rounded-lg hover:bg-red-700 hover:text-white hover:border-blue-700 transition-colors shadow-sm"
             >
               View All Service Areas →
             </Link>
@@ -398,7 +398,7 @@ export default function HvacInstallationTampaPage() {
       </section>
 
       {/* CTA */}
-      <section id="contact-form" className="bg-blue-800 py-16 px-4 text-white">
+      <section id="contact-form" className="bg-[#0f1620] py-16 px-4 text-white">
         <div className="max-w-5xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             <div>
@@ -413,7 +413,7 @@ export default function HvacInstallationTampaPage() {
                   href="tel:8132916146"
                   className="flex items-center gap-3 text-white text-xl font-bold hover:text-blue-200 transition-colors"
                 >
-                  <span className="bg-blue-600 rounded-full w-11 h-11 flex items-center justify-center shrink-0">
+                  <span className="bg-red-600 rounded-full w-11 h-11 flex items-center justify-center shrink-0">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5" aria-hidden="true">
                       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.8a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
                     </svg>
@@ -421,7 +421,7 @@ export default function HvacInstallationTampaPage() {
                   (813) 291-6146
                 </a>
                 <a href="mailto:office@northeastheatingcooling.com" className="flex items-center gap-3 text-blue-200 hover:text-white transition-colors">
-                  <span className="bg-blue-600 rounded-full w-11 h-11 flex items-center justify-center shrink-0">
+                  <span className="bg-red-600 rounded-full w-11 h-11 flex items-center justify-center shrink-0">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5" aria-hidden="true">
                       <rect x="2" y="4" width="20" height="16" rx="2" />
                       <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
@@ -450,7 +450,7 @@ export default function HvacInstallationTampaPage() {
                   <label htmlFor="install-message" className="block text-sm font-semibold text-gray-700 mb-1">Tell Us About Your Project</label>
                   <textarea id="install-message" name="message" placeholder="Home size, current system age, specific concerns or goals..." rows={4} className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100 resize-none" />
                 </div>
-                <button type="submit" className="w-full bg-blue-700 hover:bg-blue-800 active:bg-blue-900 text-white font-bold py-3.5 rounded-lg transition-colors text-base">
+                <button type="submit" className="w-full bg-red-700 hover:bg-[#0f1620] active:bg-[#0f1620] text-white font-bold py-3.5 rounded-lg transition-colors text-base">
                   Request Free Estimate
                 </button>
                 <p className="text-xs text-gray-500 text-center">

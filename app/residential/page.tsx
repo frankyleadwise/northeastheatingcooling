@@ -99,7 +99,7 @@ export default function ResidentialPage() {
   return (
     <main className="font-sans">
       {/* Hero Banner */}
-      <section className="bg-blue-800 text-white py-20 px-4">
+      <section className="bg-[#0f1620] text-white py-20 px-4">
         <div className="max-w-5xl mx-auto text-center">
           <p className="text-blue-200 font-semibold text-sm uppercase tracking-widest mb-3">
             Tampa Bay, FL — Residential Services
@@ -121,7 +121,7 @@ export default function ResidentialPage() {
             </a>
             <Link
               href="/contact"
-              className="inline-flex items-center justify-center px-8 py-3.5 bg-blue-600 text-white font-bold text-lg rounded-lg border-2 border-blue-400 hover:bg-blue-700 transition-colors"
+              className="inline-flex items-center justify-center px-8 py-3.5 bg-red-600 text-white font-bold text-lg rounded-lg border-2 border-red-400 hover:bg-red-700 transition-colors"
             >
               Get a Free Estimate
             </Link>
@@ -180,7 +180,7 @@ export default function ResidentialPage() {
                 <ul className="space-y-1.5">
                   {service.highlights.map((item) => (
                     <li key={item} className="flex items-center gap-2 text-sm text-gray-700">
-                      <span className="w-1.5 h-1.5 rounded-full bg-blue-600 shrink-0" />
+                      <span className="w-1.5 h-1.5 rounded-full bg-red-600 shrink-0" />
                       {item}
                     </li>
                   ))}
@@ -210,7 +210,7 @@ export default function ResidentialPage() {
             {reasons.map((reason) => (
               <div key={reason.title} className="flex gap-4">
                 <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center shrink-0 mt-0.5">
-                  <span className="w-3 h-3 rounded-full bg-blue-600 block" />
+                  <span className="w-3 h-3 rounded-full bg-red-600 block" />
                 </div>
                 <div>
                   <h3 className="font-bold text-gray-900 mb-1">{reason.title}</h3>
@@ -237,7 +237,7 @@ export default function ResidentialPage() {
           </div>
           <a
             href="tel:8132916146"
-            className="shrink-0 inline-flex items-center justify-center px-7 py-3 bg-blue-700 text-white font-bold rounded-lg hover:bg-blue-800 transition-colors text-lg whitespace-nowrap"
+            className="shrink-0 inline-flex items-center justify-center px-7 py-3 bg-red-700 text-white font-bold rounded-lg hover:bg-[#0f1620] transition-colors text-lg whitespace-nowrap"
           >
             Call Now: (813) 291-6146
           </a>
@@ -245,7 +245,7 @@ export default function ResidentialPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-blue-800 py-16 px-4 text-white">
+      <section className="bg-[#0f1620] py-16 px-4 text-white">
         <div className="max-w-5xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             <div>
@@ -256,11 +256,11 @@ export default function ResidentialPage() {
               </p>
               <div className="space-y-3">
                 <a href="tel:8132916146" className="flex items-center gap-3 text-white text-xl font-bold hover:text-blue-200 transition-colors">
-                  <span className="bg-blue-600 rounded-full w-10 h-10 flex items-center justify-center text-sm">📞</span>
+                  <span className="bg-red-600 rounded-full w-10 h-10 flex items-center justify-center text-sm">📞</span>
                   (813) 291-6146
                 </a>
                 <a href="mailto:office@northeastheatingcooling.com" className="flex items-center gap-3 text-blue-200 hover:text-white transition-colors">
-                  <span className="bg-blue-600 rounded-full w-10 h-10 flex items-center justify-center text-sm">✉️</span>
+                  <span className="bg-red-600 rounded-full w-10 h-10 flex items-center justify-center text-sm">✉️</span>
                   office@northeastheatingcooling.com
                 </a>
               </div>
@@ -294,7 +294,7 @@ export default function ResidentialPage() {
                 />
                 <button
                   type="submit"
-                  className="w-full bg-blue-700 hover:bg-blue-800 text-white font-bold py-3 rounded-lg transition-colors text-base"
+                  className="w-full bg-red-700 hover:bg-[#0f1620] text-white font-bold py-3 rounded-lg transition-colors text-base"
                 >
                   Submit Request
                 </button>

@@ -71,7 +71,7 @@ export default function BlogPage() {
   return (
     <main className="font-sans">
       {/* Hero */}
-      <section className="bg-blue-800 text-white py-20 px-4">
+      <section className="bg-[#0f1620] text-white py-20 px-4">
         <div className="max-w-5xl mx-auto text-center">
           <p className="text-blue-200 font-semibold text-sm uppercase tracking-widest mb-3">
             North East Heating &amp; Cooling — Tampa Bay, FL
@@ -144,7 +144,7 @@ export default function BlogPage() {
       </section>
 
       {/* Bottom CTA */}
-      <section className="bg-blue-800 py-14 px-4 text-white">
+      <section className="bg-[#0f1620] py-14 px-4 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Need HVAC Help in Tampa Bay?</h2>
           <p className="text-blue-100 text-lg mb-8 max-w-2xl mx-auto">

@@ -20,7 +20,7 @@ export default function HVACMaintenanceFloridaPage() {
   return (
     <main className="font-sans bg-gray-50 min-h-screen">
       {/* Post Header */}
-      <header className="bg-blue-800 text-white py-16 px-4">
+      <header className="bg-[#0f1620] text-white py-16 px-4">
         <div className="max-w-4xl mx-auto">
           <div className="flex items-center gap-3 mb-4">
             <span className="bg-blue-500 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">
@@ -194,7 +194,7 @@ export default function HVACMaintenanceFloridaPage() {
           {/* Sidebar */}
           <aside className="lg:w-80 shrink-0 space-y-6">
             {/* CTA Card */}
-            <div className="bg-blue-800 text-white rounded-2xl p-7 shadow-lg">
+            <div className="bg-[#0f1620] text-white rounded-2xl p-7 shadow-lg">
               <h3 className="text-xl font-bold mb-3">Need HVAC Help?</h3>
               <p className="text-blue-100 text-sm leading-relaxed mb-5">
                 Ready to schedule your HVAC tune-up? Our Tampa Bay technicians are ready to keep your system
@@ -270,7 +270,7 @@ export default function HVACMaintenanceFloridaPage() {
           </div>
           <a
             href="tel:8132916146"
-            className="shrink-0 inline-flex items-center justify-center px-7 py-3 bg-blue-700 text-white font-bold rounded-lg hover:bg-blue-800 transition-colors text-lg whitespace-nowrap"
+            className="shrink-0 inline-flex items-center justify-center px-7 py-3 bg-red-700 text-white font-bold rounded-lg hover:bg-[#0f1620] transition-colors text-lg whitespace-nowrap"
           >
             Call Now: (813) 291-6146
           </a>

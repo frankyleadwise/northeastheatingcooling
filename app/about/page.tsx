@@ -418,7 +418,7 @@ export default function AboutPage() {
                 key={title}
                 className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 hover:border-blue-200 transition-colors"
               >
-                <div className="inline-flex items-center justify-center w-12 h-12 bg-blue-600 rounded-xl mb-4">
+                <div className="inline-flex items-center justify-center w-12 h-12 bg-red-600 rounded-xl mb-4">
                   <AwardIcon />
                 </div>
                 <h3 className="font-bold text-gray-900 text-base mb-2">{title}</h3>
@@ -433,7 +433,7 @@ export default function AboutPage() {
       <section className="section-padding bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="bg-blue-700 rounded-2xl p-8 text-white">
+            <div className="bg-red-700 rounded-2xl p-8 text-white">
               <h2 className="text-2xl sm:text-3xl font-extrabold mb-4 leading-tight">
                 Our Service Commitment to You
               </h2>
@@ -479,7 +479,7 @@ export default function AboutPage() {
               <div className="flex flex-col sm:flex-row gap-3">
                 <a
                   href="tel:8132916146"
-                  className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-xl transition-colors shadow-sm text-base"
+                  className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-red-600 hover:bg-red-700 text-white font-bold rounded-xl transition-colors shadow-sm text-base"
                 >
                   <PhoneIcon />
                   (813) 291-6146

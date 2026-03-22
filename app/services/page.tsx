@@ -325,7 +325,7 @@ function ServiceCard({
 }) {
   return (
     <div className="group bg-white rounded-2xl p-6 border border-gray-100 shadow-sm hover:shadow-md hover:border-blue-200 transition-all flex flex-col">
-      <div className="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-blue-50 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-colors mb-4 shrink-0">
+      <div className="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-blue-50 text-blue-600 group-hover:bg-red-600 group-hover:text-white transition-colors mb-4 shrink-0">
         <Icon />
       </div>
       <h3 className="font-extrabold text-gray-900 text-lg mb-2">{title}</h3>
@@ -402,7 +402,7 @@ export default function ServicesPage() {
           <div className="mt-10 text-center">
             <Link
               href="/residential"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-xl transition-colors text-sm"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-red-600 hover:bg-red-700 text-white font-bold rounded-xl transition-colors text-sm"
             >
               View All Residential Services <ArrowRightIcon />
             </Link>
@@ -436,7 +436,7 @@ export default function ServicesPage() {
           <div className="mt-10 text-center">
             <Link
               href="/commercial"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-xl transition-colors text-sm"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-red-600 hover:bg-red-700 text-white font-bold rounded-xl transition-colors text-sm"
             >
               View All Commercial Services <ArrowRightIcon />
             </Link>
@@ -482,7 +482,7 @@ export default function ServicesPage() {
       </section>
 
       {/* ── CTA ───────────────────────────────────────────────────────────── */}
-      <section className="section-padding bg-blue-700 text-white">
+      <section className="section-padding bg-red-700 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-extrabold mb-4 leading-tight">
             Ready to Schedule Your HVAC Service?

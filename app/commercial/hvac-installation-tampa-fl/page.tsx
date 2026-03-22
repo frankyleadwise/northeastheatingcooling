@@ -131,7 +131,7 @@ export default function CommercialHVACInstallationPage() {
     <main className="font-sans text-gray-800">
 
       {/* Hero */}
-      <section className="bg-blue-900 text-white py-20 px-4">
+      <section className="bg-[#0f1620] text-white py-20 px-4">
         <div className="max-w-5xl mx-auto">
           <p className="text-blue-300 text-sm font-semibold uppercase tracking-widest mb-3">
             Commercial HVAC — Tampa Bay, FL
@@ -162,7 +162,7 @@ export default function CommercialHVACInstallationPage() {
       </section>
 
       {/* Trust Bar */}
-      <section className="bg-blue-800 text-white py-5 px-4">
+      <section className="bg-[#0f1620] text-white py-5 px-4">
         <div className="max-w-5xl mx-auto flex flex-wrap justify-center gap-8 text-sm font-medium">
           <div className="flex items-center gap-2"><span className="text-orange-400 text-lg">✓</span> Florida Licensed &amp; Insured</div>
           <div className="flex items-center gap-2"><span className="text-orange-400 text-lg">✓</span> Free Commercial Estimates</div>
@@ -244,7 +244,7 @@ export default function CommercialHVACInstallationPage() {
           <div className="space-y-6">
             {processSteps.map((step) => (
               <div key={step.step} className="flex gap-6 items-start">
-                <div className="shrink-0 w-14 h-14 bg-blue-900 rounded-xl flex items-center justify-center">
+                <div className="shrink-0 w-14 h-14 bg-[#0f1620] rounded-xl flex items-center justify-center">
                   <span className="text-white font-black text-lg">{step.step}</span>
                 </div>
                 <div className="pt-1">
@@ -258,7 +258,7 @@ export default function CommercialHVACInstallationPage() {
       </section>
 
       {/* Industries Served */}
-      <section className="bg-blue-900 text-white py-16 px-4">
+      <section className="bg-[#0f1620] text-white py-16 px-4">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold mb-3">Industries We Serve in Tampa Bay</h2>
@@ -269,7 +269,7 @@ export default function CommercialHVACInstallationPage() {
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {industries.map((industry) => (
-              <div key={industry} className="bg-blue-800 rounded-lg px-5 py-4 flex items-center gap-3">
+              <div key={industry} className="bg-[#0f1620] rounded-lg px-5 py-4 flex items-center gap-3">
                 <span className="text-orange-400 font-bold shrink-0">✓</span>
                 <span className="text-sm font-medium">{industry}</span>
               </div>
@@ -360,7 +360,7 @@ export default function CommercialHVACInstallationPage() {
           </div>
           <a
             href="tel:8132916146"
-            className="shrink-0 bg-blue-800 hover:bg-blue-900 text-white font-bold py-3 px-7 rounded-lg text-lg transition-colors whitespace-nowrap"
+            className="shrink-0 bg-[#0f1620] hover:bg-[#0f1620] text-white font-bold py-3 px-7 rounded-lg text-lg transition-colors whitespace-nowrap"
           >
             Call (813) 291-6146
           </a>
@@ -368,7 +368,7 @@ export default function CommercialHVACInstallationPage() {
       </section>
 
       {/* CTA / Contact */}
-      <section id="contact" className="bg-blue-900 text-white py-16 px-4">
+      <section id="contact" className="bg-[#0f1620] text-white py-16 px-4">
         <div className="max-w-5xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-start">
             <div>
@@ -391,7 +391,7 @@ export default function CommercialHVACInstallationPage() {
                   href="mailto:office@northeastheatingcooling.com"
                   className="flex items-center gap-3 text-blue-200 hover:text-white transition-colors"
                 >
-                  <span className="bg-blue-700 rounded-full w-11 h-11 flex items-center justify-center text-base shrink-0">✉️</span>
+                  <span className="bg-red-700 rounded-full w-11 h-11 flex items-center justify-center text-base shrink-0">✉️</span>
                   office@northeastheatingcooling.com
                 </a>
               </div>
