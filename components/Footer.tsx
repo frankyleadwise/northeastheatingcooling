@@ -143,11 +143,11 @@ const serviceLinks = [
 ];
 
 const serviceAreas = [
-  { label: "Tampa",         href: "/service-areas/tampa"         },
-  { label: "St. Petersburg",href: "/service-areas/st-petersburg" },
-  { label: "Clearwater",    href: "/service-areas/clearwater"    },
-  { label: "Brandon",       href: "/service-areas/brandon"       },
-  { label: "Riverview",     href: "/service-areas/riverview"     },
+  { label: "Tampa",         href: "/service-areas/tampa-fl"         },
+  { label: "St. Petersburg",href: "/service-areas/st-petersburg-fl" },
+  { label: "Clearwater",    href: "/service-areas/clearwater-fl"    },
+  { label: "Brandon",       href: "/service-areas/brandon-fl"       },
+  { label: "Riverview",     href: "/service-areas/riverview-fl"     },
 ];
 
 const socialLinks = [
