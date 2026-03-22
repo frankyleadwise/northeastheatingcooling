@@ -121,8 +121,8 @@ export default function HomePage() {
         {/* Background photo */}
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920&q=85"
-            alt="Modern Tampa Bay home"
+            src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=1920&q=85"
+            alt="HVAC technician servicing air conditioning unit"
             fill
             className="object-cover object-center"
             priority
