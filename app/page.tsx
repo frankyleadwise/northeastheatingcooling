@@ -392,6 +392,31 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ── OWNER QUOTE ── */}
+      <section className="py-16 bg-white" aria-label="A message from our owner">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col sm:flex-row items-center gap-8 bg-blue-50 rounded-2xl p-8 border border-blue-100">
+            <div className="relative w-28 h-28 shrink-0 rounded-full overflow-hidden shadow-lg border-4 border-white">
+              <Image
+                src="/unnamed.jpg"
+                alt="Chris Grullon, Owner of North East Heating & Cooling"
+                fill
+                className="object-cover object-top"
+                sizes="112px"
+              />
+            </div>
+            <div>
+              <p className="text-blue-600 font-semibold text-xs uppercase tracking-widest mb-1">From Our Owner</p>
+              <blockquote className="text-gray-800 text-lg font-medium leading-relaxed mb-3 italic">
+                &ldquo;When you call North East Heating &amp; Cooling, you&apos;re calling a team that truly cares about your home and your comfort. We show up on time, tell you the truth about your system, and fix it right the first time — every time.&rdquo;
+              </blockquote>
+              <p className="text-gray-700 font-bold">Chris Grullon</p>
+              <p className="text-gray-500 text-sm">Owner &amp; Founder, North East Heating &amp; Cooling</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ── FAQ ── */}
       <section className="py-20 bg-gray-50" aria-label="FAQ">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

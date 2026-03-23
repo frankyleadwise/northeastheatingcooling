@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
@@ -285,30 +286,24 @@ export default function AboutPage() {
               </div>
             </div>
 
-            {/* Visual accent panel */}
-            <div className="bg-blue-50 rounded-2xl p-8 border border-blue-100">
-              <h3 className="text-xl font-bold text-gray-900 mb-6">
-                Our Mission
-              </h3>
-              <p className="text-gray-600 leading-relaxed mb-6">
-                To deliver reliable, honest, and affordable HVAC service to every
-                home and business in Tampa Bay — treating every customer with the
-                respect and transparency they deserve.
-              </p>
-              <ul className="space-y-3">
-                {[
-                  'Honest diagnoses, honest prices',
-                  'Fast response times — same day available',
-                  'Durable repairs that last',
-                  'Clear communication throughout the job',
-                  'Respectful, professional technicians',
-                ].map((item) => (
-                  <li key={item} className="flex items-start gap-3">
-                    <CheckIcon />
-                    <span className="text-gray-700 text-sm">{item}</span>
-                  </li>
-                ))}
-              </ul>
+            {/* Owner photo */}
+            <div className="flex flex-col gap-5">
+              <div className="relative rounded-2xl overflow-hidden shadow-xl aspect-[4/3]">
+                <Image
+                  src="/unnamed.jpg"
+                  alt="Chris Grullon, Owner & Founder of North East Heating & Cooling"
+                  fill
+                  className="object-cover object-center"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                />
+              </div>
+              <div className="bg-blue-50 rounded-2xl p-6 border border-blue-100">
+                <p className="text-blue-600 font-semibold text-xs uppercase tracking-widest mb-1">Owner &amp; Founder</p>
+                <p className="text-gray-900 font-bold text-lg mb-3">Chris Grullon</p>
+                <p className="text-gray-600 text-sm leading-relaxed italic">
+                  &ldquo;I started this company to give Tampa Bay homeowners the kind of honest, dependable HVAC service I&apos;d want for my own family. That hasn&apos;t changed since day one — and it never will.&rdquo;
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -366,6 +361,26 @@ export default function AboutPage() {
             <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 leading-tight">
               Meet Our Team
             </h2>
+          </div>
+
+          {/* Owner spotlight */}
+          <div className="flex flex-col sm:flex-row gap-7 items-center bg-[#0f1620] rounded-2xl p-8 mb-10 shadow-lg">
+            <div className="relative w-32 h-32 shrink-0 rounded-full overflow-hidden border-4 border-white/20 shadow-xl">
+              <Image
+                src="/unnamed.jpg"
+                alt="Chris Grullon, Owner of North East Heating & Cooling"
+                fill
+                className="object-cover object-top"
+                sizes="128px"
+              />
+            </div>
+            <div>
+              <p className="text-blue-300 font-semibold text-xs uppercase tracking-widest mb-1">Owner &amp; Founder</p>
+              <h3 className="text-white text-2xl font-extrabold mb-2">Chris Grullon</h3>
+              <p className="text-blue-100 text-sm leading-relaxed max-w-xl">
+                With over 10 years in the HVAC industry, Chris built North East Heating &amp; Cooling from the ground up on a simple principle — treat every customer like a neighbor. NATE-Certified and EPA 608 licensed, he leads a team that brings the same dedication to every job across the Tampa Bay area.
+              </p>
+            </div>
           </div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
