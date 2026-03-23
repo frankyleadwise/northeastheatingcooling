@@ -121,17 +121,17 @@ export default function HomePage() {
         {/* Background photo */}
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=1920&q=85"
-            alt="HVAC technician servicing air conditioning unit"
+            src="/image.png"
+            alt="North East Heating & Cooling technician beside service van in Tampa Bay"
             fill
-            className="object-cover object-center"
+            className="object-cover object-right"
             priority
             sizes="100vw"
           />
-          {/* Dark gradient overlay — deep on left for legibility, lighter on right to show image */}
-          <div className="absolute inset-0 bg-gradient-to-r from-[#0f1620]/97 via-[#0f1620]/80 to-[#0f1620]/40" />
-          {/* Subtle bottom fade */}
-          <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white/5 to-transparent" />
+          {/* Dark gradient overlay — heavy on left for text legibility, fades right to reveal technician/van */}
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0f1620]/95 via-[#0f1620]/75 to-[#0f1620]/30" />
+          {/* Bottom fade */}
+          <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-[#0f1620]/20 to-transparent" />
         </div>
 
         <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-20">
