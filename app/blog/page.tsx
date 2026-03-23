@@ -57,6 +57,14 @@ const posts = [
     date: 'February 20, 2025',
     category: 'Energy Efficiency',
   },
+  {
+    slug: 'new-refrigerants-r454b-r32-efficiency-safety',
+    title: 'R454B and R32: What Tampa Bay Homeowners Need to Know About the New Refrigerants',
+    excerpt:
+      'R-410A is being phased out. The new R454B and R32 refrigerants offer better efficiency and a lower environmental footprint — but come with new leak safety considerations every homeowner should understand.',
+    date: 'March 23, 2026',
+    category: 'Refrigerants',
+  },
 ]
 
 const categoryColors: Record<string, string> = {
@@ -65,6 +73,7 @@ const categoryColors: Record<string, string> = {
   'Indoor Air Quality': 'bg-green-100 text-green-700',
   'Maintenance': 'bg-blue-100 text-blue-700',
   'Energy Efficiency': 'bg-purple-100 text-purple-700',
+  'Refrigerants': 'bg-teal-100 text-teal-700',
 }
 
 export default function BlogPage() {
