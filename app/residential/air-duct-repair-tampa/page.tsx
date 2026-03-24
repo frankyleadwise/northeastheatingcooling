@@ -399,6 +399,43 @@ export default function AirDuctRepairTampaPage() {
           </div>
         </div>
       </section>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: [
+              {
+                '@type': 'Question',
+                name: 'How do I know if my air ducts are leaking?',
+                acceptedAnswer: { '@type': 'Answer', text: 'Common signs of leaky ductwork include rooms that never reach the thermostat temperature, higher-than-expected energy bills, dusty supply registers, unusual stuffiness in certain rooms, and an HVAC system that runs constantly without adequately cooling your home. You may also notice a musty smell if ducts are pulling unconditioned attic air into your living spaces.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'How much can duct sealing save on my energy bill in Tampa?',
+                acceptedAnswer: { '@type': 'Answer', text: 'Homeowners with typical 20–30% duct leakage often see 15–25% reductions in cooling and heating costs after professional duct sealing. In Tampa Bay where AC accounts for 50–60% of most home energy bills, that can translate to $300–$600 or more in annual savings.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'How does duct condition affect indoor air quality?',
+                acceptedAnswer: { '@type': 'Answer', text: 'Leaky ducts in a Tampa Bay home often pull air from the attic or crawlspace — spaces that may contain insulation fibers, mold spores, dust mite allergens, or construction chemicals — and distribute it throughout your living areas. Sealed, clean ductwork ensures only filtered, conditioned air is delivered to your living spaces.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'How long does duct repair or replacement take?',
+                acceptedAnswer: { '@type': 'Answer', text: 'Simple duct sealing of accessible joints typically takes 3–5 hours for an average-sized home. Full Aeroseal treatment takes 4–6 hours including setup, treatment, and testing. A full duct system replacement for a larger home could span 1–2 days.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'Do I need to leave my home during duct repair or sealing?',
+                acceptedAnswer: { '@type': 'Answer', text: 'For standard mastic sealing and duct repairs, you can typically remain home during the work. For Aeroseal duct sealing, occupants need to leave for approximately 4 hours while the sealant aerosol is injected and cures. All Aeroseal products are UL-listed and safe for residential use once cured.' },
+              },
+            ],
+          }),
+        }}
+      />
     </main>
   )
 }

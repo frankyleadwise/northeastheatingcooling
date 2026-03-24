@@ -32,7 +32,7 @@ export default function WhenToReplaceACPage() {
             How to Know When to Replace Your AC Unit in Florida
           </h1>
           <p className="text-blue-200 text-sm">
-            By <span className="font-semibold text-white">North East H&amp;C Team</span> &mdash; North East Heating &amp; Cooling, Tampa Bay, FL
+            By <span className="font-semibold text-white">Chris Grullon</span>, <span className="text-blue-200">Owner &amp; EPA 608 Certified HVAC Technician</span> &mdash; North East Heating &amp; Cooling, Tampa Bay, FL
           </p>
         </div>
       </header>

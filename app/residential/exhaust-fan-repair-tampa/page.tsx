@@ -400,6 +400,43 @@ export default function ExhaustFanRepairTampaPage() {
           </div>
         </div>
       </section>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: [
+              {
+                '@type': 'Question',
+                name: 'How do I know if my bathroom exhaust fan is working properly?',
+                acceptedAnswer: { '@type': 'Answer', text: 'Hold a piece of tissue paper near the exhaust fan grille while it runs. It should be drawn toward and held against the grille by suction. If the tissue falls or barely moves, your fan has inadequate airflow — possibly due to a failing motor, clogged blades, disconnected ductwork, or a blocked exterior vent cap.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'Why is my bathroom exhaust fan so loud?',
+                acceptedAnswer: { '@type': 'Answer', text: 'Loud bathroom fans are usually caused by worn motor bearings, a loose or unbalanced fan blade, vibration from loose mounting, or debris caught in the fan housing. Older fans were commonly rated at 3–4 sones, while modern fans operate at 0.3–1.0 sones. We can diagnose whether the noise is a fixable mechanical issue or whether a modern quiet fan upgrade is the better solution.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'Can I leave my bathroom exhaust fan running all the time?',
+                acceptedAnswer: { '@type': 'Answer', text: 'Continuous operation is safe but usually unnecessary. The general recommendation is to run your bathroom fan during shower use and for 20–30 minutes afterward. Humidity-sensing fans are an excellent solution for Tampa Bay homes — they automatically activate when humidity rises and shut off once it returns to normal.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'Is my kitchen exhaust fan actually vented outside?',
+                acceptedAnswer: { '@type': 'Answer', text: 'Not necessarily. Many kitchen fans in apartments, condos, and older homes are recirculating units that filter air through charcoal filters and return it to the kitchen rather than exhausting it outside. Recirculating fans are less effective than ducted fans for removing heat and moisture. We can evaluate whether adding ductwork is feasible for your home.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'How much does exhaust fan repair cost in Tampa?',
+                acceptedAnswer: { '@type': 'Answer', text: 'Simple exhaust fan repairs like cleaning or blade replacement typically run $75–$150. Motor replacement generally costs $100–$200 including parts and labor. New basic exhaust fan installation (supply and install) typically ranges from $150–$350 depending on the fan type and existing ductwork access.' },
+              },
+            ],
+          }),
+        }}
+      />
     </main>
   )
 }

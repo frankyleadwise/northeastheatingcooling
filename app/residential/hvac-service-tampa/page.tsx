@@ -580,6 +580,43 @@ export default function HvacServiceTampaPage() {
           </div>
         </div>
       </section>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: [
+              {
+                '@type': 'Question',
+                name: 'How quickly can you respond to an AC repair call in Tampa?',
+                acceptedAnswer: { '@type': 'Answer', text: 'For standard service calls, we typically offer same-day or next-day appointments for Tampa and the surrounding Tampa Bay area. For emergency breakdowns, we dispatch a technician as quickly as possible — often within 1–2 hours depending on your location and current service volume. We keep our vans stocked with common repair parts to resolve most issues on the first visit.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'How much does HVAC repair in Tampa typically cost?',
+                acceptedAnswer: { '@type': 'Answer', text: 'HVAC repair costs vary widely depending on the issue. Minor repairs like capacitor replacements may run $150–$300, while larger repairs such as compressor replacement can cost $800–$1,500 or more. We always provide a written, upfront estimate before beginning any repair work, so there are never surprise charges.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'My AC is blowing warm air — what could be wrong?',
+                acceptedAnswer: { '@type': 'Answer', text: 'Several issues can cause an AC to blow warm air: low refrigerant (often from a leak), a dirty air filter restricting airflow, a failing compressor, a frozen evaporator coil, or a thermostat set incorrectly. While some issues — like replacing a filter — are DIY-friendly, refrigerant work requires a licensed technician.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'Should I repair or replace my aging HVAC system?',
+                acceptedAnswer: { '@type': 'Answer', text: 'A good rule of thumb is the 5,000 rule: multiply the repair cost by the system\'s age. If the result exceeds $5,000, replacement is usually more cost-effective. Systems over 10–12 years old with recurring problems often make more financial sense to replace with a high-efficiency unit.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'What HVAC brands do you service in Tampa?',
+                acceptedAnswer: { '@type': 'Answer', text: 'Our technicians are trained to service and repair all major HVAC brands including Carrier, Trane, Lennox, Rheem, Goodman, York, American Standard, Bryant, Daikin, and Mitsubishi.' },
+              },
+            ],
+          }),
+        }}
+      />
     </main>
   )
 }

@@ -471,6 +471,43 @@ export default function WaterHeaterRepairTampaPage() {
           </div>
         </div>
       </section>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: [
+              {
+                '@type': 'Question',
+                name: 'How long does a water heater last in Tampa, FL?',
+                acceptedAnswer: { '@type': 'Answer', text: 'Tank water heaters in Tampa Bay typically last 8–12 years, slightly shorter than national averages due to hard water mineral deposits that accelerate sediment buildup. Annual flushing and anode rod replacement every 3–5 years can extend tank life significantly. Tankless water heaters generally last 15–20 years with proper annual descaling service.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'Why is my water heater taking so long to produce hot water?',
+                acceptedAnswer: { '@type': 'Answer', text: 'Slow hot water delivery can have several causes: distance between the water heater and the fixture, sediment buildup reducing heating efficiency, a failing heating element, or a thermostat set too low. A hot water recirculation pump can dramatically reduce wait times in larger Tampa Bay homes while saving water.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'Should I get a tankless water heater in Tampa, FL?',
+                acceptedAnswer: { '@type': 'Answer', text: 'Tankless water heaters offer energy savings from eliminating standby heat loss and supply unlimited hot water. However, they require annual descaling due to Tampa Bay\'s hard water, and the higher upfront cost means the payback period is typically 5–8 years depending on your household\'s hot water usage.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'What temperature should my water heater be set to?',
+                acceptedAnswer: { '@type': 'Answer', text: 'The CDC recommends setting your water heater to 120°F — hot enough to inhibit Legionella bacteria growth while reducing scalding risk and lowering energy consumption. Settings above 120°F increase scalding risk and waste energy.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'Is water heater repair or replacement more cost-effective?',
+                acceptedAnswer: { '@type': 'Answer', text: 'If the repair cost exceeds 50% of the replacement cost and your unit is more than 7 years old, replacement is often the better investment. New units come with warranties (typically 6–12 years), improved energy efficiency, and full reliability. If your unit is less than 7 years old and the repair cost is modest (under $300), repair is usually the right call.' },
+              },
+            ],
+          }),
+        }}
+      />
     </main>
   )
 }

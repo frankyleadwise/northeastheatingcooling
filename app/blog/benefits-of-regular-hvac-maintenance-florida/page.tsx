@@ -32,7 +32,7 @@ export default function HVACMaintenanceFloridaPage() {
             Benefits of Regular HVAC Maintenance in Florida&apos;s Climate
           </h1>
           <p className="text-blue-200 text-sm">
-            By <span className="font-semibold text-white">North East H&amp;C Team</span> &mdash; North East Heating &amp; Cooling, Tampa Bay, FL
+            By <span className="font-semibold text-white">Chris Grullon</span>, <span className="text-blue-200">Owner &amp; EPA 608 Certified HVAC Technician</span> &mdash; North East Heating &amp; Cooling, Tampa Bay, FL
           </p>
         </div>
       </header>

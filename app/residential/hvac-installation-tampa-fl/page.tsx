@@ -463,6 +463,43 @@ export default function HvacInstallationTampaPage() {
           </div>
         </div>
       </section>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: [
+              {
+                '@type': 'Question',
+                name: 'How do I know what size AC system my Tampa home needs?',
+                acceptedAnswer: { '@type': 'Answer', text: 'System sizing requires a Manual J load calculation that accounts for square footage, ceiling height, insulation, window count, local climate data, and number of occupants. An oversized system will short-cycle, leaving humidity high and wasting energy. An undersized system runs constantly and still can\'t keep up on hot days. We always calculate your home\'s exact load before recommending equipment.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'How long does a new AC installation take?',
+                acceptedAnswer: { '@type': 'Answer', text: 'A standard like-for-like replacement in an average-sized Tampa home (1,500–2,500 sq ft) typically takes 4–8 hours in a single day. More complex installations involving ductwork modifications, electrical panel upgrades, or multi-zone systems may require 1–2 days.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'What SEER rating should I choose for a Tampa, FL home?',
+                acceptedAnswer: { '@type': 'Answer', text: 'In Florida\'s hot and humid climate, we typically recommend systems with a minimum SEER2 rating of 15–16, and often 18–20+ for homeowners who want to maximize energy savings. In Tampa Bay, where your AC runs 10 months a year, the payback period on a higher-efficiency system is considerably shorter than in cooler climates.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'Are there any rebates available for a new AC system in Tampa?',
+                acceptedAnswer: { '@type': 'Answer', text: 'Yes — TECO (Tampa Electric) and Duke Energy Florida both offer rebates for qualifying high-efficiency HVAC systems. There may also be federal tax credits available under the Inflation Reduction Act for systems meeting certain efficiency thresholds. Our team will identify all applicable rebates at the time of your estimate.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'What brands of HVAC systems do you install?',
+                acceptedAnswer: { '@type': 'Answer', text: 'We are authorized dealers for several top-tier HVAC brands including Carrier, Trane, Lennox, Daikin, Mitsubishi, Rheem, and Goodman. All systems we install are rated for Florida\'s climate conditions and backed by manufacturer warranties.' },
+              },
+            ],
+          }),
+        }}
+      />
     </main>
   )
 }
