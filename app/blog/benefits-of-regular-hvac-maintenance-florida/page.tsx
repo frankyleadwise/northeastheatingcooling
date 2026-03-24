@@ -276,6 +276,42 @@ export default function HVACMaintenanceFloridaPage() {
           </a>
         </div>
       </section>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BlogPosting',
+            headline: "Benefits of Regular HVAC Maintenance in Florida's Climate",
+            description: "Discover how regular HVAC maintenance in Florida saves money, extends system life, and prevents summer breakdowns. Expert advice from North East Heating & Cooling.",
+            datePublished: '2025-02-05',
+            dateModified: '2025-02-05',
+            url: 'https://northeastheatingcooling.com/blog/benefits-of-regular-hvac-maintenance-florida',
+            mainEntityOfPage: 'https://northeastheatingcooling.com/blog/benefits-of-regular-hvac-maintenance-florida',
+            author: {
+              '@type': 'Person',
+              name: 'Chris Grullon',
+              jobTitle: 'Owner & EPA 608 Certified HVAC Technician',
+              worksFor: { '@type': 'Organization', name: 'North East Heating & Cooling' },
+            },
+            publisher: { '@type': 'Organization', name: 'North East Heating & Cooling', url: 'https://northeastheatingcooling.com' },
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://northeastheatingcooling.com' },
+              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://northeastheatingcooling.com/blog' },
+              { '@type': 'ListItem', position: 3, name: "Benefits of Regular HVAC Maintenance in Florida's Climate" },
+            ],
+          }),
+        }}
+      />
     </main>
   )
 }

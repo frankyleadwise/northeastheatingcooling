@@ -269,6 +269,42 @@ export default function TopSignsHVACRepairPage() {
           </a>
         </div>
       </section>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BlogPosting',
+            headline: 'Top Signs Your HVAC System Needs Repair',
+            description: 'Strange noises, warm air, high energy bills — learn the top signs your HVAC system needs repair. Expert advice from North East Heating & Cooling in Tampa Bay.',
+            datePublished: '2025-01-08',
+            dateModified: '2025-01-08',
+            url: 'https://northeastheatingcooling.com/blog/top-signs-hvac-system-needs-repair',
+            mainEntityOfPage: 'https://northeastheatingcooling.com/blog/top-signs-hvac-system-needs-repair',
+            author: {
+              '@type': 'Person',
+              name: 'Chris Grullon',
+              jobTitle: 'Owner & EPA 608 Certified HVAC Technician',
+              worksFor: { '@type': 'Organization', name: 'North East Heating & Cooling' },
+            },
+            publisher: { '@type': 'Organization', name: 'North East Heating & Cooling', url: 'https://northeastheatingcooling.com' },
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://northeastheatingcooling.com' },
+              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://northeastheatingcooling.com/blog' },
+              { '@type': 'ListItem', position: 3, name: 'Top Signs Your HVAC System Needs Repair' },
+            ],
+          }),
+        }}
+      />
     </main>
   )
 }

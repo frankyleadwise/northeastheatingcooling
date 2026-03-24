@@ -311,6 +311,42 @@ export default function EnergyEfficientACFloridaPage() {
           </a>
         </div>
       </section>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BlogPosting',
+            headline: 'Best Energy-Efficient AC Systems for Florida Homeowners',
+            description: 'Compare the best energy-efficient AC systems for Florida homes. SEER2 ratings, top brands, and rebate information from North East Heating & Cooling in Tampa Bay.',
+            datePublished: '2025-02-20',
+            dateModified: '2025-02-20',
+            url: 'https://northeastheatingcooling.com/blog/best-energy-efficient-ac-systems-florida',
+            mainEntityOfPage: 'https://northeastheatingcooling.com/blog/best-energy-efficient-ac-systems-florida',
+            author: {
+              '@type': 'Person',
+              name: 'Chris Grullon',
+              jobTitle: 'Owner & EPA 608 Certified HVAC Technician',
+              worksFor: { '@type': 'Organization', name: 'North East Heating & Cooling' },
+            },
+            publisher: { '@type': 'Organization', name: 'North East Heating & Cooling', url: 'https://northeastheatingcooling.com' },
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://northeastheatingcooling.com' },
+              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://northeastheatingcooling.com/blog' },
+              { '@type': 'ListItem', position: 3, name: 'Best Energy-Efficient AC Systems for Florida Homeowners' },
+            ],
+          }),
+        }}
+      />
     </main>
   )
 }

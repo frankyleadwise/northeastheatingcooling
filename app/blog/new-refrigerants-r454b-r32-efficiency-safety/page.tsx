@@ -374,6 +374,42 @@ export default function NewRefrigerantsR454BR32Page() {
           </a>
         </div>
       </section>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BlogPosting',
+            headline: 'R454B and R32 Refrigerants: Efficiency & Leak Safety Guide',
+            description: 'Everything Tampa Bay homeowners need to know about R454B and R32 refrigerants replacing R-410A — efficiency, safety, and what to expect from your next HVAC system.',
+            datePublished: '2026-03-23',
+            dateModified: '2026-03-23',
+            url: 'https://northeastheatingcooling.com/blog/new-refrigerants-r454b-r32-efficiency-safety',
+            mainEntityOfPage: 'https://northeastheatingcooling.com/blog/new-refrigerants-r454b-r32-efficiency-safety',
+            author: {
+              '@type': 'Person',
+              name: 'Chris Grullon',
+              jobTitle: 'Owner & EPA 608 Certified HVAC Technician',
+              worksFor: { '@type': 'Organization', name: 'North East Heating & Cooling' },
+            },
+            publisher: { '@type': 'Organization', name: 'North East Heating & Cooling', url: 'https://northeastheatingcooling.com' },
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://northeastheatingcooling.com' },
+              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://northeastheatingcooling.com/blog' },
+              { '@type': 'ListItem', position: 3, name: 'R454B and R32 Refrigerants: Efficiency & Leak Safety Guide' },
+            ],
+          }),
+        }}
+      />
     </main>
   )
 }

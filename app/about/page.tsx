@@ -513,6 +513,44 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'Person',
+            name: 'Chris Grullon',
+            jobTitle: 'Owner & EPA 608 Certified HVAC Technician',
+            description: 'Founder of North East Heating & Cooling with over 10 years in the HVAC industry. NATE-Certified, EPA 608 licensed, and Florida-licensed HVAC contractor serving Tampa Bay.',
+            worksFor: {
+              '@type': 'LocalBusiness',
+              name: 'North East Heating & Cooling',
+              url: 'https://northeastheatingcooling.com',
+              telephone: '+18132916146',
+              address: { '@type': 'PostalAddress', addressLocality: 'Tampa', addressRegion: 'FL', addressCountry: 'US' },
+            },
+            hasCredential: [
+              { '@type': 'EducationalOccupationalCredential', name: 'NATE Certification', credentialCategory: 'Professional Certification' },
+              { '@type': 'EducationalOccupationalCredential', name: 'EPA Section 608 Certification', credentialCategory: 'Professional Certification' },
+              { '@type': 'EducationalOccupationalCredential', name: 'Florida HVAC Contractor License', credentialCategory: 'License' },
+            ],
+            url: 'https://northeastheatingcooling.com/about',
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://northeastheatingcooling.com' },
+              { '@type': 'ListItem', position: 2, name: 'About Us' },
+            ],
+          }),
+        }}
+      />
     </>
   )
 }
