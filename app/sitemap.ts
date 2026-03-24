@@ -1,6 +1,6 @@
 import type { MetadataRoute } from 'next'
 
-const BASE_URL = 'https://www.northeastheatingcooling.com'
+const BASE_URL = 'https://northeastheatingcooling.com'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date()
@@ -127,6 +127,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'how-to-improve-indoor-air-quality-tampa',
     'top-signs-hvac-system-needs-repair',
     'when-to-replace-your-ac-unit-florida',
+    'new-refrigerants-r454b-r32-efficiency-safety',
   ]
 
   const blogPages: MetadataRoute.Sitemap = [

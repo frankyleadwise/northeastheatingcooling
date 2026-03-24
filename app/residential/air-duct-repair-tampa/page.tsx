@@ -14,11 +14,12 @@ export const metadata: Metadata = {
     'improve airflow Tampa home',
     'indoor air quality Tampa FL',
   ],
+  alternates: { canonical: '/residential/air-duct-repair-tampa' },
   openGraph: {
     title: 'Air Duct Repair Tampa, FL | Duct Sealing & Replacement | North East H&C',
     description:
       'Professional air duct repair, sealing, and replacement in Tampa, FL. Fix leaky ducts to improve airflow, indoor air quality, and energy efficiency. Call (813) 291-6146.',
-    url: 'https://northeastheatingcooling.com/residential/air-duct-repair-tampa',
+    url: '/residential/air-duct-repair-tampa',
     siteName: 'North East Heating & Cooling',
     locale: 'en_US',
     type: 'website',

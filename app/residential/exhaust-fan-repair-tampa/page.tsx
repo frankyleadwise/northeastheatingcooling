@@ -14,11 +14,12 @@ export const metadata: Metadata = {
     'exhaust fan motor repair Tampa',
     'bathroom ventilation Tampa FL',
   ],
+  alternates: { canonical: '/residential/exhaust-fan-repair-tampa' },
   openGraph: {
     title: 'Exhaust Fan Repair Tampa, FL | Kitchen & Bathroom Fans | North East H&C',
     description:
       'Expert exhaust fan repair in Tampa, FL. Kitchen range hoods, bathroom exhaust fans, motor replacement & new fan installation. Call (813) 291-6146 for fast service.',
-    url: 'https://northeastheatingcooling.com/residential/exhaust-fan-repair-tampa',
+    url: '/residential/exhaust-fan-repair-tampa',
     siteName: 'North East Heating & Cooling',
     locale: 'en_US',
     type: 'website',

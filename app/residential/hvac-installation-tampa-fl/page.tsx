@@ -14,11 +14,12 @@ export const metadata: Metadata = {
     'central air installation Tampa',
     'heat pump installation Tampa FL',
   ],
+  alternates: { canonical: '/residential/hvac-installation-tampa-fl' },
   openGraph: {
     title: 'AC Installation & HVAC Installation Tampa, FL | North East Heating & Cooling',
     description:
       'Professional AC installation and HVAC system replacement in Tampa, FL. Energy-efficient systems, quality installation. Free estimates. Call (813) 291-6146.',
-    url: 'https://northeastheatingcooling.com/residential/hvac-installation-tampa-fl',
+    url: '/residential/hvac-installation-tampa-fl',
     siteName: 'North East Heating & Cooling',
     locale: 'en_US',
     type: 'website',

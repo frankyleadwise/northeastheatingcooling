@@ -14,11 +14,12 @@ export const metadata: Metadata = {
     'same-day AC repair Tampa Bay',
     'North East Heating Cooling Tampa',
   ],
+  alternates: { canonical: '/residential/hvac-service-tampa' },
   openGraph: {
     title: 'Residential HVAC Repair Services in Tampa, FL | North East Heating & Cooling',
     description:
       'Expert residential HVAC repair in Tampa, FL. Fast AC repair, heating repair & emergency HVAC service. Call (813) 291-6146 for same-day service.',
-    url: 'https://northeastheatingcooling.com/residential/hvac-service-tampa',
+    url: '/residential/hvac-service-tampa',
     siteName: 'North East Heating & Cooling',
     locale: 'en_US',
     type: 'website',

@@ -6,9 +6,13 @@ export const metadata: Metadata = {
   title: 'North East Heating & Cooling | HVAC Services Tampa Bay, FL',
   description: 'Expert HVAC repair, AC installation & maintenance in Tampa Bay, FL. Licensed, NATE-certified & insured technicians. 24/7 emergency service. Call (813) 291-6146 for a free consultation.',
   keywords: ['hvac tampa', 'ac repair tampa', 'hvac installation tampa', 'air duct repair tampa', 'heating and cooling tampa', 'hvac service tampa fl'],
+  alternates: {
+    canonical: '/',
+  },
   openGraph: {
     title: 'North East Heating & Cooling | Tampa Bay HVAC Experts',
     description: 'Expert HVAC repair, AC installation & maintenance in Tampa Bay, FL. 24/7 emergency service. Call (813) 291-6146.',
+    url: '/',
     type: 'website',
   },
 }
@@ -559,6 +563,24 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: faqs.map((faq) => ({
+              '@type': 'Question',
+              name: faq.q,
+              acceptedAnswer: {
+                '@type': 'Answer',
+                text: faq.a,
+              },
+            })),
+          }),
+        }}
+      />
     </main>
   )
 }

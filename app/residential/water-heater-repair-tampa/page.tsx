@@ -14,11 +14,12 @@ export const metadata: Metadata = {
     'electric water heater repair Tampa',
     'gas water heater repair Tampa FL',
   ],
+  alternates: { canonical: '/residential/water-heater-repair-tampa' },
   openGraph: {
     title: 'Water Heater Repair Tampa, FL | Tank & Tankless Systems | North East H&C',
     description:
       'Professional water heater repair and replacement in Tampa, FL. Tank and tankless water heaters, fast diagnostics, energy-efficient systems. Call (813) 291-6146.',
-    url: 'https://northeastheatingcooling.com/residential/water-heater-repair-tampa',
+    url: '/residential/water-heater-repair-tampa',
     siteName: 'North East Heating & Cooling',
     locale: 'en_US',
     type: 'website',
