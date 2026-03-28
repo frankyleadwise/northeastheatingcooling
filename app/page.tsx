@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
+import QuoteForm from '@/app/components/QuoteForm'
 
 export const metadata: Metadata = {
   title: 'North East Heating & Cooling | HVAC Services Tampa Bay, FL',
@@ -75,7 +76,7 @@ const testimonials = [
     rating: 5,
   },
   {
-    text: "We are so happy that Christian was highly recommended to us. Our upstairs unit shut down. One well-known company charged us $300 to research the problem and was to return to complete the job. Christian found a dead lizard had burned out wires that only needed replacement. He replaced the wiring. A new $7,000 unit was not required. His integrity, honesty, professionalism, and patience amazed us. We called a well known Plumber to fix an outdoor faucet that had rusted out, a highly rated company gave us a $600.00 estimate — Christian offered to come by at no charge to inspect it and fixed the problem at 1/3 the cost. Seniors risk being ripped off by these companies. This one is the ABSOLUTE VERY BEST! We bought a yearly HVAC package to have a thorough check up completed as our home was built in 2005. 5 stars, not enough for the service and satisfaction we received.",
+    text: "We are so happy that Christian was highly recommended to us. Our upstairs unit shut down. One well-known company charged us $300 to research the problem and was to return to complete the job. Christian found a dead lizard had burned out wires that only needed replacement. He replaced the wiring. A new $7,000 unit was not required. His integrity, honesty, professionalism, and patience amazed us. We called a well known Plumber to fix an outdoor faucet that had rusted out, a highly rated company gave us a $600.00 estimate â Christian offered to come by at no charge to inspect it and fixed the problem at 1/3 the cost. Seniors risk being ripped off by these companies. This one is the ABSOLUTE VERY BEST! We bought a yearly HVAC package to have a thorough check up completed as our home was built in 2005. 5 stars, not enough for the service and satisfaction we received.",
     name: 'Rose Jackson',
     location: 'Tampa Bay, FL',
     rating: 5,
@@ -85,7 +86,7 @@ const testimonials = [
 const faqs = [
   {
     q: 'How often should I service my HVAC system in Florida?',
-    a: 'In Florida\'s climate, we recommend twice-yearly maintenance — once before summer (April/May) and once before winter (October/November). The heat and humidity put extra strain on your system.',
+    a: 'In Florida\'s climate, we recommend twice-yearly maintenance â once before summer (April/May) and once before winter (October/November). The heat and humidity put extra strain on your system.',
   },
   {
     q: 'Do you offer 24/7 emergency HVAC service?',
@@ -97,7 +98,7 @@ const faqs = [
   },
   {
     q: 'How long does AC installation take?',
-    a: 'Most residential AC installations are completed in one day (4–8 hours). Commercial installations may take 2–3 days depending on the system size and complexity.',
+    a: 'Most residential AC installations are completed in one day (4â8 hours). Commercial installations may take 2â3 days depending on the system size and complexity.',
   },
   {
     q: 'Are your technicians licensed and insured?',
@@ -138,7 +139,7 @@ const areaLinks: Record<string, string> = {
 export default function HomePage() {
   return (
     <main>
-      {/* ── HERO ── */}
+      {/* ââ HERO ââ */}
       <section className="relative min-h-screen flex items-center overflow-hidden" aria-label="Hero">
         {/* Background photo */}
         <div className="absolute inset-0">
@@ -150,7 +151,7 @@ export default function HomePage() {
             priority
             sizes="100vw"
           />
-          {/* Dark gradient overlay — heavy on left for text legibility, fades right to reveal technician/van */}
+          {/* Dark gradient overlay â heavy on left for text legibility, fades right to reveal technician/van */}
           <div className="absolute inset-0 bg-gradient-to-r from-[#0f1620]/95 via-[#0f1620]/75 to-[#0f1620]/30" />
           {/* Bottom fade */}
           <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-[#0f1620]/20 to-transparent" />
@@ -159,7 +160,7 @@ export default function HomePage() {
         <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-20">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
-            {/* ── Left column: copy ── */}
+            {/* ââ Left column: copy ââ */}
             <div>
               {/* Trust badges */}
               <div className="flex flex-wrap gap-2.5 mb-7">
@@ -187,7 +188,7 @@ export default function HomePage() {
               </h1>
 
               <p className="text-lg sm:text-xl text-slate-300 leading-relaxed mb-9 max-w-xl">
-                Dependable heating, cooling, and indoor air quality solutions for Florida homes and businesses — fast repairs, quality installations, and routine maintenance.
+                Dependable heating, cooling, and indoor air quality solutions for Florida homes and businesses â fast repairs, quality installations, and routine maintenance.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 mb-10">
@@ -208,14 +209,14 @@ export default function HomePage() {
               </div>
 
               <div className="flex flex-wrap gap-x-6 gap-y-2 text-slate-300 text-sm font-medium">
-                <span className="flex items-center gap-1.5"><span className="text-emerald-400 font-bold">✓</span> NATE-Certified Technicians</span>
-                <span className="flex items-center gap-1.5"><span className="text-emerald-400 font-bold">✓</span> 10+ Years Experience</span>
-                <span className="flex items-center gap-1.5"><span className="text-emerald-400 font-bold">✓</span> Lifetime Workmanship Warranty</span>
-                <span className="flex items-center gap-1.5"><span className="text-emerald-400 font-bold">✓</span> Locally Owned &amp; Operated</span>
+                <span className="flex items-center gap-1.5"><span className="text-emerald-400 font-bold">â</span> NATE-Certified Technicians</span>
+                <span className="flex items-center gap-1.5"><span className="text-emerald-400 font-bold">â</span> 10+ Years Experience</span>
+                <span className="flex items-center gap-1.5"><span className="text-emerald-400 font-bold">â</span> Lifetime Workmanship Warranty</span>
+                <span className="flex items-center gap-1.5"><span className="text-emerald-400 font-bold">â</span> Locally Owned &amp; Operated</span>
               </div>
             </div>
 
-            {/* ── Right column: stats card ── */}
+            {/* ââ Right column: stats card ââ */}
             <div className="hidden lg:flex justify-end">
               <div className="w-full max-w-sm bg-white/10 backdrop-blur-md rounded-2xl border border-white/20 shadow-2xl overflow-hidden">
                 {/* Card header */}
@@ -251,7 +252,7 @@ export default function HomePage() {
                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
                     (813) 291-6146
                   </a>
-                  <p className="text-center text-slate-400 text-xs mt-3">Free estimates · No hidden fees</p>
+                  <p className="text-center text-slate-400 text-xs mt-3">Free estimates Â· No hidden fees</p>
                 </div>
               </div>
             </div>
@@ -260,7 +261,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── WHY CHOOSE US ── */}
+      {/* ââ WHY CHOOSE US ââ */}
       <section className="py-24" style={{ background: 'var(--surface)' }} aria-label="Why Choose Us">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
@@ -273,7 +274,7 @@ export default function HomePage() {
               Tampa Bay&apos;s Most Trusted HVAC Team
             </h2>
             <p className="text-lg max-w-2xl mx-auto" style={{ color: 'var(--muted)' }}>
-              From quick repairs to full system replacements — 5-star service, every time.
+              From quick repairs to full system replacements â 5-star service, every time.
             </p>
           </div>
 
@@ -327,7 +328,7 @@ export default function HomePage() {
                     </svg>
                   ),
                   title: 'Licensed & Insured',
-                  desc: 'Fully licensed, NATE-certified, and insured in Florida — your home is protected.',
+                  desc: 'Fully licensed, NATE-certified, and insured in Florida â your home is protected.',
                 },
                 {
                   icon: (
@@ -336,7 +337,7 @@ export default function HomePage() {
                     </svg>
                   ),
                   title: '5.0 Stars on Google',
-                  desc: '35 five-star reviews from real Tampa Bay customers — every single one.',
+                  desc: '35 five-star reviews from real Tampa Bay customers â every single one.',
                 },
                 {
                   icon: (
@@ -345,7 +346,7 @@ export default function HomePage() {
                     </svg>
                   ),
                   title: '24/7 Emergency Service',
-                  desc: 'AC failures don\'t wait for business hours. Neither do we — call anytime.',
+                  desc: 'AC failures don\'t wait for business hours. Neither do we â call anytime.',
                 },
                 {
                   icon: (
@@ -354,7 +355,7 @@ export default function HomePage() {
                     </svg>
                   ),
                   title: 'NATE-Certified Technicians',
-                  desc: 'Our techs hold the HVAC industry\'s highest certification — not just a license.',
+                  desc: 'Our techs hold the HVAC industry\'s highest certification â not just a license.',
                 },
                 {
                   icon: (
@@ -363,7 +364,7 @@ export default function HomePage() {
                     </svg>
                   ),
                   title: 'Lifetime Workmanship Warranty',
-                  desc: 'We stand behind every repair and install — if it fails due to our work, we fix it.',
+                  desc: 'We stand behind every repair and install â if it fails due to our work, we fix it.',
                 },
                 {
                   icon: (
@@ -383,7 +384,7 @@ export default function HomePage() {
                     </svg>
                   ),
                   title: 'Locally Owned & Operated',
-                  desc: 'Born and raised in Tampa Bay — we\'re your neighbors, not a national chain.',
+                  desc: 'Born and raised in Tampa Bay â we\'re your neighbors, not a national chain.',
                 },
               ].map((item, i) => (
                 <div
@@ -409,7 +410,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── SERVICES OVERVIEW ── */}
+      {/* ââ SERVICES OVERVIEW ââ */}
       <section className="py-24" style={{ background: 'var(--bg)' }} aria-label="Our Services">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
@@ -504,7 +505,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── PROCESS ── */}
+      {/* ââ PROCESS ââ */}
       <section className="py-20 bg-white" aria-label="Our Process">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
@@ -543,13 +544,13 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── TESTIMONIALS ── */}
+      {/* ââ TESTIMONIALS ââ */}
       <section className="py-20 bg-[#0f1620]" aria-label="Customer Testimonials">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">What Our Customers Are Saying</h2>
             <p className="text-blue-200 text-lg">
-              <span className="text-yellow-400 font-bold">★★★★★</span> 5.0 Average Rating · 35 Google Reviews
+              <span className="text-yellow-400 font-bold">âââââ</span> 5.0 Average Rating Â· 35 Google Reviews
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -594,7 +595,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── OWNER QUOTE ── */}
+      {/* ââ OWNER QUOTE ââ */}
       <section className="py-16 bg-white" aria-label="A message from our owner">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col sm:flex-row items-center gap-8 bg-blue-50 rounded-2xl p-8 border border-blue-100">
@@ -610,7 +611,7 @@ export default function HomePage() {
             <div>
               <p className="text-blue-600 font-semibold text-xs uppercase tracking-widest mb-1">From Our Owner</p>
               <blockquote className="text-gray-800 text-lg font-medium leading-relaxed mb-3 italic">
-                &ldquo;When you call North East Heating &amp; Cooling, you&apos;re calling a team that truly cares about your home and your comfort. We show up on time, tell you the truth about your system, and fix it right the first time — every time.&rdquo;
+                &ldquo;When you call North East Heating &amp; Cooling, you&apos;re calling a team that truly cares about your home and your comfort. We show up on time, tell you the truth about your system, and fix it right the first time â every time.&rdquo;
               </blockquote>
               <p className="text-gray-700 font-bold">Chris Grullon</p>
               <p className="text-gray-500 text-sm">Owner &amp; Founder, North East Heating &amp; Cooling</p>
@@ -619,7 +620,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── FAQ ── */}
+      {/* ââ FAQ ââ */}
       <section className="py-20 bg-gray-50" aria-label="FAQ">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
@@ -642,7 +643,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── SERVICE AREAS ── */}
+      {/* ââ SERVICE AREAS ââ */}
       <section className="py-20 bg-white" aria-label="Service Areas">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
@@ -653,7 +654,7 @@ export default function HomePage() {
               From Tampa to Clearwater and everywhere in between, North East Heating &amp; Cooling provides fast, reliable HVAC service across the region.
             </p>
           </div>
-          {/* Google Maps — Tampa Bay service area */}
+          {/* Google Maps â Tampa Bay service area */}
           <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-md mb-12">
             <iframe
               title="North East Heating And Cooling Tampa Bay service area"
@@ -689,7 +690,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── CTA SECTION ── */}
+      {/* ââ CTA SECTION ââ */}
       <section className="py-20 bg-gradient-to-r from-blue-900 to-blue-700" aria-label="Call to Action">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -698,7 +699,7 @@ export default function HomePage() {
                 HVAC Acting Up? Get Your Free Consultation Today
               </h2>
               <p className="text-blue-100 text-lg mb-8">
-                Don&apos;t suffer in the Florida heat. Our expert technicians are ready to diagnose, repair, or replace your HVAC system — fast.
+                Don&apos;t suffer in the Florida heat. Our expert technicians are ready to diagnose, repair, or replace your HVAC system â fast.
               </p>
               <a
                 href="tel:8132916146"
@@ -709,54 +710,11 @@ export default function HomePage() {
                 </svg>
                 (813) 291-6146
               </a>
-              <p className="text-blue-200 text-sm mt-4">Available 24/7 for emergencies · Free estimates on new systems</p>
+              <p className="text-blue-200 text-sm mt-4">Available 24/7 for emergencies Â· Free estimates on new systems</p>
             </div>
             <div className="bg-white/10 backdrop-blur border border-white/20 rounded-2xl p-8">
               <h3 className="text-xl font-bold text-white mb-6">Request a Free Quote</h3>
-              <form className="space-y-4" action="/contact" method="get">
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  <input
-                    type="text"
-                    name="name"
-                    placeholder="Your Name"
-                    required
-                    className="w-full bg-white/20 border border-white/30 text-white placeholder-blue-200 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-white/50"
-                  />
-                  <input
-                    type="tel"
-                    name="phone"
-                    placeholder="Phone Number"
-                    required
-                    className="w-full bg-white/20 border border-white/30 text-white placeholder-blue-200 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-white/50"
-                  />
-                </div>
-                <input
-                  type="email"
-                  name="email"
-                  placeholder="Email Address"
-                  className="w-full bg-white/20 border border-white/30 text-white placeholder-blue-200 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-white/50"
-                />
-                <select
-                  name="service"
-                  className="w-full bg-white/20 border border-white/30 text-white rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-white/50"
-                >
-                  <option value="" className="text-gray-900">Select Service</option>
-                  <option value="ac-repair" className="text-gray-900">AC Repair</option>
-                  <option value="ac-installation" className="text-gray-900">AC Installation</option>
-                  <option value="heating-repair" className="text-gray-900">Heating Repair</option>
-                  <option value="air-duct-repair" className="text-gray-900">Air Duct Repair</option>
-                  <option value="exhaust-fan" className="text-gray-900">Exhaust Fan Repair</option>
-                  <option value="water-heater" className="text-gray-900">Water Heater</option>
-                  <option value="commercial" className="text-gray-900">Commercial HVAC</option>
-                  <option value="other" className="text-gray-900">Other</option>
-                </select>
-                <button
-                  type="submit"
-                  className="w-full bg-white text-blue-900 font-bold text-lg py-4 rounded-lg hover:bg-blue-50 transition-colors shadow-lg"
-                >
-                  Get My Free Quote →
-                </button>
-              </form>
+              <QuoteForm />
             </div>
           </div>
         </div>
