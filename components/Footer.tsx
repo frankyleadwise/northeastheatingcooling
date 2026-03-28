@@ -130,6 +130,7 @@ const quickLinks = [
   { label: "Services",      href: "/residential"  },
   { label: "Service Areas", href: "/service-areas" },
   { label: "Blog",          href: "/blog"         },
+  { label: "Reviews",       href: "/reviews"      },
   { label: "Contact Us",    href: "/contact"      },
   { label: "Get Free Quote",href: "/contact"      },
 ];

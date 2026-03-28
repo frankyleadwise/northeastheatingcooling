@@ -13,6 +13,7 @@ const sections = [
       { label: 'Home', href: '/' },
       { label: 'About Us', href: '/about' },
       { label: 'Services Overview', href: '/services' },
+      { label: 'Customer Reviews', href: '/reviews' },
       { label: 'Contact', href: '/contact' },
     ],
   },

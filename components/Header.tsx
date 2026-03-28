@@ -90,6 +90,7 @@ const navLinks: NavLink[] = [
   { label: "Services",      href: "#", dropdown: serviceDropdown },
   { label: "Service Areas", href: "/service-areas" },
   { label: "Blog",          href: "/blog"          },
+  { label: "Reviews",       href: "/reviews"       },
   { label: "Contact",       href: "/contact"       },
 ];
 
