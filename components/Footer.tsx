@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
 
@@ -161,7 +163,8 @@ const socialLinks = [
 export default function Footer() {
   return (
     <footer
-      className="bg-[#0f1620] text-white"
+      className="text-white"
+      style={{ background: 'var(--surface)', borderTop: '1px solid var(--border)' }}
       aria-label="Site footer"
     >
       {/* ── Main footer grid ──────────────────────────────────────────────── */}
@@ -180,7 +183,7 @@ export default function Footer() {
               />
             </Link>
 
-            <p className="text-slate-400 text-sm leading-relaxed mb-5 max-w-xs">
+            <p className="text-sm leading-relaxed mb-5 max-w-xs" style={{ color: 'var(--muted)' }}>
               Professional HVAC services for residential and commercial
               customers throughout Tampa Bay. Licensed, insured, and available
               24/7 for emergency service.
@@ -193,7 +196,10 @@ export default function Footer() {
                   key={label}
                   href={href}
                   aria-label={label}
-                  className="flex items-center justify-center w-9 h-9 rounded-full bg-blue-800 hover:bg-red-600 transition-colors text-white"
+                  className="flex items-center justify-center w-9 h-9 rounded-full transition-colors text-white"
+                  style={{ background: 'var(--surface-2)', border: '1px solid var(--border)' }}
+                  onMouseEnter={e => (e.currentTarget.style.background = 'var(--accent)')}
+                  onMouseLeave={e => (e.currentTarget.style.background = 'var(--surface-2)')}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -205,7 +211,7 @@ export default function Footer() {
 
           {/* Column 2 – Quick Links */}
           <div>
-            <h3 className="text-white font-bold text-base mb-4 pb-2 border-b border-white/10">
+            <h3 className="text-white font-bold text-base mb-4 pb-2" style={{ borderBottom: '1px solid var(--border)' }}>
               Quick Links
             </h3>
             <ul className="space-y-2.5">
@@ -213,9 +219,10 @@ export default function Footer() {
                 <li key={label}>
                   <Link
                     href={href}
-                    className="text-slate-400 hover:text-white text-sm transition-colors flex items-center gap-1.5 group"
+                    className="text-sm transition-colors flex items-center gap-1.5 group hover:text-white"
+                    style={{ color: 'var(--muted)' }}
                   >
-                    <span className="w-1 h-1 rounded-full bg-orange-500 group-hover:bg-white transition-colors shrink-0" />
+                    <span className="w-1 h-1 rounded-full shrink-0 transition-colors" style={{ background: 'var(--accent)' }} />
                     {label}
                   </Link>
                 </li>
@@ -225,7 +232,7 @@ export default function Footer() {
 
           {/* Column 3 – Services */}
           <div>
-            <h3 className="text-white font-bold text-base mb-4 pb-2 border-b border-white/10">
+            <h3 className="text-white font-bold text-base mb-4 pb-2" style={{ borderBottom: '1px solid var(--border)' }}>
               Our Services
             </h3>
             <ul className="space-y-2.5">
@@ -233,9 +240,10 @@ export default function Footer() {
                 <li key={label}>
                   <Link
                     href={href}
-                    className="text-slate-400 hover:text-white text-sm transition-colors flex items-center gap-1.5 group"
+                    className="text-sm transition-colors flex items-center gap-1.5 group hover:text-white"
+                    style={{ color: 'var(--muted)' }}
                   >
-                    <span className="w-1 h-1 rounded-full bg-orange-500 group-hover:bg-white transition-colors shrink-0" />
+                    <span className="w-1 h-1 rounded-full shrink-0 transition-colors" style={{ background: 'var(--accent)' }} />
                     {label}
                   </Link>
                 </li>
@@ -245,7 +253,7 @@ export default function Footer() {
 
           {/* Column 4 – Service Areas + Contact */}
           <div>
-            <h3 className="text-white font-bold text-base mb-4 pb-2 border-b border-white/10">
+            <h3 className="text-white font-bold text-base mb-4 pb-2" style={{ borderBottom: '1px solid var(--border)' }}>
               Service Areas
             </h3>
             <ul className="space-y-2.5 mb-6">
@@ -253,9 +261,10 @@ export default function Footer() {
                 <li key={label}>
                   <Link
                     href={href}
-                    className="text-slate-400 hover:text-white text-sm transition-colors flex items-center gap-1.5 group"
+                    className="text-sm transition-colors flex items-center gap-1.5 group hover:text-white"
+                    style={{ color: 'var(--muted)' }}
                   >
-                    <span className="w-1 h-1 rounded-full bg-orange-500 group-hover:bg-white transition-colors shrink-0" />
+                    <span className="w-1 h-1 rounded-full shrink-0" style={{ background: 'var(--accent)' }} />
                     {label}
                   </Link>
                 </li>
@@ -263,7 +272,8 @@ export default function Footer() {
               <li>
                 <Link
                   href="/service-areas"
-                  className="text-orange-400 hover:text-white text-sm font-semibold transition-colors flex items-center gap-1"
+                  className="text-sm font-semibold transition-colors flex items-center gap-1 hover:text-white"
+                  style={{ color: 'var(--accent-light)' }}
                 >
                   View All Areas &rarr;
                 </Link>
@@ -271,14 +281,15 @@ export default function Footer() {
             </ul>
 
             {/* Contact info */}
-            <h3 className="text-white font-bold text-base mb-3 pb-2 border-b border-white/10">
+            <h3 className="text-white font-bold text-base mb-3 pb-2" style={{ borderBottom: '1px solid var(--border)' }}>
               Contact Us
             </h3>
             <ul className="space-y-2.5">
               <li>
                 <a
                   href="tel:8132916146"
-                  className="flex items-center gap-2 text-slate-400 hover:text-white text-sm transition-colors"
+                  className="flex items-center gap-2 text-sm transition-colors hover:text-white"
+                  style={{ color: 'var(--muted)' }}
                 >
                   <PhoneIcon />
                   (813) 291-6146
@@ -287,14 +298,15 @@ export default function Footer() {
               <li>
                 <a
                   href="mailto:office@northeastheatingcooling.com"
-                  className="flex items-start gap-2 text-slate-400 hover:text-white text-sm transition-colors break-all"
+                  className="flex items-start gap-2 text-sm transition-colors break-all hover:text-white"
+                  style={{ color: 'var(--muted)' }}
                 >
                   <EmailIcon />
                   office@northeastheatingcooling.com
                 </a>
               </li>
               <li>
-                <span className="flex items-start gap-2 text-blue-200 text-sm">
+                <span className="flex items-start gap-2 text-sm" style={{ color: 'var(--muted)' }}>
                   <MapPinIcon />
                   Tampa, FL
                 </span>
@@ -305,8 +317,8 @@ export default function Footer() {
       </div>
 
       {/* ── Bottom bar ────────────────────────────────────────────────────── */}
-      <div className="border-t border-white/10">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-slate-500">
+      <div style={{ borderTop: '1px solid var(--border)' }}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs" style={{ color: 'var(--muted)' }}>
           <p>
             &copy; 2024 North East Heating &amp; Cooling. All rights reserved.
           </p>

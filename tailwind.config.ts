@@ -47,9 +47,22 @@ const config: Config = {
           500: "#0ea5e9",
           600: "#0284c7",
         },
+        // Design system tokens from HTML reference
+        accent: {
+          DEFAULT: "#C8330A",
+          hover:   "#b02c08",
+          light:   "#E85A2A",
+        },
+        surface: {
+          DEFAULT: "#151720",
+          2:       "#1c1f2e",
+        },
+        site: {
+          bg: "#0D0F18",
+        },
       },
       fontFamily: {
-        sans: ["Inter", "system-ui", "sans-serif"],
+        sans: ["Plus Jakarta Sans", "system-ui", "sans-serif"],
       },
     },
   },

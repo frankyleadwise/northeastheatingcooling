@@ -25,7 +25,8 @@ export default function MobileCallButton() {
     <div className="fixed bottom-0 left-0 right-0 z-50 md:hidden">
       <a
         href="tel:8132916146"
-        className="flex items-center justify-center gap-2.5 w-full py-4 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white font-bold text-base transition-colors shadow-[0_-4px_16px_rgba(0,0,0,0.15)]"
+        className="flex items-center justify-center gap-2.5 w-full py-4 text-white font-bold text-base transition-colors shadow-[0_-4px_16px_rgba(0,0,0,0.3)]"
+        style={{ background: 'var(--accent)' }}
         aria-label="Call North East Heating and Cooling at (813) 291-6146"
       >
         <PhoneIcon />
