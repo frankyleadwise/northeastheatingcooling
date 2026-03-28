@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import type { FormEvent } from 'react'
 
-// âââ SVG Icons ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+// ─── SVG Icons ────────────────────────────────────────────────────────────────
 
 const PhoneIcon = () => (
   <svg
@@ -106,7 +106,7 @@ const CheckIcon = () => (
   </svg>
 )
 
-// âââ Data âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+// ─── Data ─────────────────────────────────────────────────────────────────────
 
 const serviceAreas = [
   'Tampa, FL',
@@ -142,7 +142,7 @@ const serviceTypes = [
   'Other',
 ]
 
-// âââ Page âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+// ─── Page ─────────────────────────────────────────────────────────────────────
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -191,7 +191,7 @@ export default function ContactPage() {
 
   return (
     <>
-      {/* ââ Hero ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ */}
+      {/* ── Hero ──────────────────────────────────────────────────────────── */}
       <section className="hero-gradient text-white section-padding">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-blue-200 font-semibold text-sm uppercase tracking-widest mb-3">
@@ -202,12 +202,12 @@ export default function ContactPage() {
           </h1>
           <p className="text-blue-100 text-lg sm:text-xl max-w-3xl mx-auto leading-relaxed">
             Reach out for fast, friendly service. Whether it&apos;s a repair,
-            installation, or just a question â we&apos;re ready to help.
+            installation, or just a question — we&apos;re ready to help.
           </p>
         </div>
       </section>
 
-      {/* ââ Emergency Callout âââââââââââââââââââââââââââââââââââââââââââââââ */}
+      {/* ── Emergency Callout ─────────────────────────────────────────────── */}
       <section className="bg-red-600 text-white py-5 px-4">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-3 text-center sm:text-left">
@@ -217,7 +217,7 @@ export default function ContactPage() {
                 HVAC Emergency? We&apos;re Available 24/7
               </p>
               <p className="text-red-100 text-sm">
-                AC down in the Tampa heat? Don&apos;t wait â call us now for
+                AC down in the Tampa heat? Don&apos;t wait — call us now for
                 immediate response.
               </p>
             </div>
@@ -232,7 +232,7 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* ââ Contact Info Cards ââââââââââââââââââââââââââââââââââââââââââââââ */}
+      {/* ── Contact Info Cards ────────────────────────────────────────────── */}
       <section className="section-padding bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
@@ -294,10 +294,10 @@ export default function ContactPage() {
               </p>
               <div className="space-y-1 text-sm text-gray-700">
                 <p className="font-semibold text-gray-900">
-                  Mon â Fri: 7:00 AM â 7:00 PM
+                  Mon – Fri: 7:00 AM – 7:00 PM
                 </p>
                 <p className="font-semibold text-gray-900">
-                  Saturday: 8:00 AM â 5:00 PM
+                  Saturday: 8:00 AM – 5:00 PM
                 </p>
                 <p className="font-bold text-red-600">
                   Emergency: 24 / 7 Available
@@ -306,7 +306,7 @@ export default function ContactPage() {
             </div>
           </div>
 
-          {/* ââ Contact Form + Map ââââââââââââââââââââââââââââââââââââââââââ */}
+          {/* ── Contact Form + Map ────────────────────────────────────────── */}
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Form */}
             <div className="bg-gray-50 rounded-2xl p-8 border border-gray-200">
@@ -429,7 +429,7 @@ export default function ContactPage() {
                       onChange={handleChange}
                       className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-900 text-sm bg-white"
                     >
-                      <option value="">Select a serviceâ¦</option>
+                      <option value="">Select a service…</option>
                       {serviceTypes.map((s) => (
                         <option key={s} value={s}>
                           {s}
@@ -477,7 +477,7 @@ export default function ContactPage() {
                       rows={4}
                       value={formData.message}
                       onChange={handleChange}
-                      placeholder="Describe your HVAC issue or what you needâ¦"
+                      placeholder="Describe your HVAC issue or what you need…"
                       className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-900 placeholder-gray-400 text-sm bg-white resize-none"
                     />
                   </div>
@@ -487,7 +487,7 @@ export default function ContactPage() {
                     disabled={submitting}
                     className="w-full py-3.5 px-6 bg-red-600 hover:bg-red-700 disabled:bg-blue-400 text-white font-extrabold rounded-xl transition-colors shadow-sm text-base"
                   >
-                    {submitting ? 'Sendingâ¦' : 'Send Message'}
+                    {submitting ? 'Sending…' : 'Send Message'}
                   </button>
 
                   <p className="text-xs text-gray-400 text-center">
@@ -500,7 +500,7 @@ export default function ContactPage() {
 
             {/* Map + Service Areas */}
             <div className="flex flex-col gap-8">
-              {/* Google Maps embed â real business location */}
+              {/* Google Maps embed — real business location */}
               <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm">
                 <div className="bg-blue-50 px-5 py-3 border-b border-gray-200 flex items-center justify-between">
                   <div>
@@ -513,7 +513,7 @@ export default function ContactPage() {
                     rel="noopener noreferrer"
                     className="text-xs font-semibold text-blue-700 hover:text-blue-900 underline whitespace-nowrap"
                   >
-                    Open in Maps â
+                    Open in Maps ↗
                   </a>
                 </div>
                 <iframe
@@ -549,7 +549,7 @@ export default function ContactPage() {
                   >
                     Call us
                   </a>{' '}
-                  â we may still be able to help.
+                  — we may still be able to help.
                 </p>
               </div>
             </div>
