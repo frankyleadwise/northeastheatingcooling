@@ -53,16 +53,16 @@ export default function QuoteForm() {
                         <div className="w-16 h-16 rounded-full bg-green-500/20 flex items-center justify-center">
                                   <svg className="w-8 h-8 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
-                                  </svg>svg>
-                        </div>div>
-                        <h3 className="text-xl font-extrabold text-white">We Got Your Request!</h3>h3>
+                                  </svg>
+                        </div>
+                        <h3 className="text-xl font-extrabold text-white">We Got Your Request!</h3>
                         <p className="text-blue-200 max-w-xs text-sm">
                                   A member of our team will reach out shortly. For immediate help, call{' '}
                                   <a href="tel:8132916146" className="text-white font-bold underline">
                                               (813) 291-6146
-                                  </a>a>
-                        </p>p>
-                </div>div>
+                                  </a>
+                        </p>
+                </div>
               )
   }
   
@@ -84,7 +84,7 @@ export default function QuoteForm() {
                                     required
                                     className="w-full bg-white/20 border border-white/30 text-white placeholder-blue-200 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-white/50"
                                   />
-                </div>div>
+                </div>
             {/* Phone + Email row */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                         <input
@@ -100,23 +100,23 @@ export default function QuoteForm() {
                                     placeholder="Email Address"
                                     className="w-full bg-white/20 border border-white/30 text-white placeholder-blue-200 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-white/50"
                                   />
-                </div>div>
+                </div>
                 <select
                           name="service"
                           className="w-full bg-white/20 border border-white/30 text-white rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-white/50"
                         >
-                        <option value="" className="text-gray-900">Select Service</option>option>
+                        <option value="" className="text-gray-900">Select Service</option>
                   {serviceTypes.map((s) => (
                                     <option key={s.value} value={s.label} className="text-gray-900">
                                       {s.label}
-                                    </option>option>
+                                    </option>
                                   ))}
-                </select>select>
+                </select>
             {error && (
                     <p className="text-red-300 text-sm text-center">
                               Something went wrong. Please try again or{' '}
-                              <a href="tel:8132916146" className="underline">call us directly</a>a>.
-                    </p>p>
+                              <a href="tel:8132916146" className="underline">call us directly</a>.
+                    </p>
                 )}
                 <button
                           type="submit"
@@ -124,7 +124,7 @@ export default function QuoteForm() {
                           className="w-full bg-white text-blue-900 font-bold text-lg py-4 rounded-lg hover:bg-blue-50 transition-colors shadow-lg disabled:opacity-60"
                         >
                   {submitting ? 'Sending…' : 'Get My Free Quote →'}
-                </button>button>
-          </form>form>
+                </button>
+          </form>
         )
 }</div>
