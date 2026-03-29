@@ -44,14 +44,14 @@ const CheckCircleIcon = () => (
         >
         <circle cx="12" cy="12" r="10" />
         <path d="m9 12 2 2 4-4" />
-    </svg>svg>
+    </svg>
   );
 
 function Label({ htmlFor, children }: { htmlFor: string; children: React.ReactNode }) {
     return (
           <label htmlFor={htmlFor} className="block text-sm font-semibold text-gray-700 mb-1.5">
             {children}
-          </label>label>
+          </label>
         );
 }
 
@@ -60,7 +60,7 @@ function FieldError({ message }: { message?: string }) {
     return (
           <p role="alert" className="mt-1 text-xs text-red-600 font-medium">
             {message}
-          </p>p>
+          </p>
         );
 }
 
@@ -111,24 +111,24 @@ export default function QuoteForm() {
           return (
                   <div className="flex flex-col items-center justify-center text-center py-12 px-6 gap-4">
                           <CheckCircleIcon />
-                          <h3 className="text-2xl font-bold text-gray-900">Thank You!</h3>h3>
+                          <h3 className="text-2xl font-bold text-gray-900">Thank You!</h3>
                           <p className="text-gray-600 max-w-sm leading-relaxed">
                                     We&apos;ve received your request and will contact you within{" "}
-                                    <strong className="text-blue-700">1 business hour</strong>strong> to schedule your free quote.
-                          </p>p>
+                                    <strong className="text-blue-700">1 business hour</strong> to schedule your free quote.
+                          </p>
                           <p className="text-sm text-gray-500">
                                     Need immediate help?{" "}
                                     <a href="tel:8132916146" className="text-blue-600 font-semibold hover:underline">
                                                 Call (813) 291-6146
-                                    </a>a>
-                          </p>p>
+                                    </a>
+                          </p>
                           <button
                                       onClick={() => setSubmitted(false)}
                                       className="mt-2 text-sm text-blue-600 hover:text-blue-800 underline transition-colors"
                                     >
                                     Submit another request
-                          </button>button>
-                  </div>div>
+                          </button>
+                  </div>
                 );
     }
   
@@ -143,8 +143,8 @@ export default function QuoteForm() {
                 <div className="grid grid-cols-2 gap-4">
                         <div>
                                   <Label htmlFor="quote-firstName">
-                                              First Name <span className="text-red-500">*</span>span>
-                                  </Label>Label>
+                                              First Name <span className="text-red-500">*</span>
+                                  </Label>
                                   <input
                                                 id="quote-firstName"
                                                 type="text"
@@ -157,11 +157,11 @@ export default function QuoteForm() {
                                     })}
                                               />
                                   <FieldError message={errors.firstName?.message} />
-                        </div>div>
+                        </div>
                         <div>
                                   <Label htmlFor="quote-lastName">
-                                              Last Name <span className="text-red-500">*</span>span>
-                                  </Label>Label>
+                                              Last Name <span className="text-red-500">*</span>
+                                  </Label>
                                   <input
                                                 id="quote-lastName"
                                                 type="text"
@@ -174,15 +174,15 @@ export default function QuoteForm() {
                                     })}
                                               />
                                   <FieldError message={errors.lastName?.message} />
-                        </div>div>
-                </div>div>
+                        </div>
+                </div>
           
             {/* Phone + Email */}
                 <div className="grid grid-cols-2 gap-4">
                         <div>
                                   <Label htmlFor="quote-phone">
-                                              Phone Number <span className="text-red-500">*</span>span>
-                                  </Label>Label>
+                                              Phone Number <span className="text-red-500">*</span>
+                                  </Label>
                                   <input
                                                 id="quote-phone"
                                                 type="tel"
@@ -198,11 +198,11 @@ export default function QuoteForm() {
                                     })}
                                               />
                                   <FieldError message={errors.phone?.message} />
-                        </div>div>
+                        </div>
                         <div>
                                   <Label htmlFor="quote-email">
-                                              Email Address <span className="text-red-500">*</span>span>
-                                  </Label>Label>
+                                              Email Address <span className="text-red-500">*</span>
+                                  </Label>
                                   <input
                                                 id="quote-email"
                                                 type="email"
@@ -218,14 +218,14 @@ export default function QuoteForm() {
                                     })}
                                               />
                                   <FieldError message={errors.email?.message} />
-                        </div>div>
-                </div>div>
+                        </div>
+                </div>
           
             {/* Service */}
                 <div>
                         <Label htmlFor="quote-service">
-                                  Service Needed <span className="text-red-500">*</span>span>
-                        </Label>Label>
+                                  Service Needed <span className="text-red-500">*</span>
+                        </Label>
                         <select
                                     id="quote-service"
                                     className={`${inputBase} ${errors.service ? inputError : ""} cursor-pointer`}
@@ -237,18 +237,18 @@ export default function QuoteForm() {
                           {serviceOptions.map(({ value, label }) => (
                                                 <option key={value} value={value} disabled={value === ""}>
                                                   {label}
-                                                </option>option>
+                                                </option>
                                               ))}
-                        </select>select>
+                        </select>
                         <FieldError message={errors.service?.message} />
-                </div>div>
+                </div>
           
             {/* Message */}
                 <div>
                         <Label htmlFor="quote-message">
                                   Message / Details{" "}
-                                  <span className="text-gray-400 font-normal text-xs">(optional)</span>span>
-                        </Label>Label>
+                                  <span className="text-gray-400 font-normal text-xs">(optional)</span>
+                        </Label>
                         <textarea
                                     id="quote-message"
                                     rows={4}
@@ -259,13 +259,13 @@ export default function QuoteForm() {
                           })}
                                   />
                         <FieldError message={errors.message?.message} />
-                </div>div>
+                </div>
           
             {/* Server-side error */}
             {submitError && (
                           <p role="alert" className="text-sm text-red-600 font-medium text-center">
                             {submitError}
-                          </p>p>
+                          </p>
                 )}
           
             {/* Submit */}
@@ -289,13 +289,13 @@ export default function QuoteForm() {
                                                                                 fill="currentColor"
                                                                                 d="M4 12a8 8 0 0 1 8-8V0C5.373 0 0 5.373 0 12h4z"
                                                                               />
-                                                </svg>svg>
+                                                </svg>
                                                 Submitting...
                                     </>>
                                   ) : (
                                     "Get My Free Quote"
                                   )}
-                </button>button>
+                </button>
           
                 <p className="text-center text-xs text-gray-400 leading-relaxed">
                         We respect your privacy and will never share your information.
@@ -303,8 +303,8 @@ export default function QuoteForm() {
                         Or call us directly:{" "}
                         <a href="tel:8132916146" className="text-blue-600 font-semibold hover:underline">
                                   (813) 291-6146
-                        </a>a>
-                </p>p>
-          </form>form>
+                        </a>
+                </p>
+          </form>
         );
 }</></svg>
