@@ -307,4 +307,4 @@ export default function QuoteForm() {
                 </p>
           </form>
         );
-}</></svg>
+}
