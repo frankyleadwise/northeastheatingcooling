@@ -123,8 +123,8 @@ export default function QuoteForm() {
                           disabled={submitting}
                           className="w-full bg-white text-blue-900 font-bold text-lg py-4 rounded-lg hover:bg-blue-50 transition-colors shadow-lg disabled:opacity-60"
                         >
-                  {submitting ? 'Sending…' : 'Get My Free Quote →'}
+                  {submitting ? 'Sending...' : 'Get My Free Quote →'}
                 </button>
           </form>
         )
-}</div>
+}
