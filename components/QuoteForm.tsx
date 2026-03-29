@@ -291,7 +291,7 @@ export default function QuoteForm() {
                                                                               />
                                                 </svg>
                                                 Submitting...
-                                    </>>
+                                    </>
                                   ) : (
                                     "Get My Free Quote"
                                   )}
