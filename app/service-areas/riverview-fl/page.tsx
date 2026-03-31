@@ -12,8 +12,17 @@ export default function RiverviewPage() {
     <>
       <main>
         {/* Hero Banner */}
-        <section className="bg-[#1e40af] text-white py-20 px-4">
-          <div className="max-w-5xl mx-auto text-center">
+        <section className="bg-[#1e40af] text-white py-20 px-4 relative overflow-hidden">
+        <div className="absolute inset-0">
+          <img
+            src="https://images.pexels.com/photos/7577378/pexels-photo-7577378.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            alt="Happy family outside their home in Tampa Bay Florida"
+            className="w-full h-full object-cover object-center opacity-40"
+            loading="lazy"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0f1620]/80 via-[#0f1620]/60 to-[#0f1620]/40" />
+        </div>
+          <div className="relative z-10 max-w-5xl mx-auto text-center">
             <p className="text-blue-200 text-sm font-semibold uppercase tracking-widest mb-3">
               Tampa Bay's Trusted HVAC Company
             </p>

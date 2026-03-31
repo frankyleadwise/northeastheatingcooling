@@ -150,7 +150,7 @@ export default function LandOLakesPage() {
 
       {/* CTA */}
       <section className="bg-[#0f1620] text-white py-14 px-4">
-        <div className="max-w-5xl mx-auto text-center">
+        <div className="relative z-10 max-w-5xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Request a Free HVAC Consultation in Land O Lakes</h2>
           <p className="text-blue-200 text-lg mb-8">
             Ready to schedule service or get a free estimate? Call us or send a message and a member of our team will be in touch shortly.
