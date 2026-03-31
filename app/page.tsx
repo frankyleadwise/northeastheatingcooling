@@ -88,10 +88,6 @@ const testimonials = [
     ago: '6 months ago',
   },
 ]
-    location: 'Tampa Bay, FL',
-    rating: 5,
-  },
-]
 
 const faqs = [
   {

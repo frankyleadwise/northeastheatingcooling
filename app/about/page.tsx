@@ -161,7 +161,7 @@ const credentials = [
   {
     title: 'EPA 608 Certified',
     description:
-      'Our technicians hold EPA 608 certification and Florida HVAC licensing — meeting the state's highest industry standards.',
+      "Our technicians hold EPA 608 certification and Florida HVAC licensing — meeting the state's highest industry standards.",
   },
   {
     title: 'EPA 608 Certified',
