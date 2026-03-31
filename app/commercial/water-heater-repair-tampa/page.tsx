@@ -162,7 +162,7 @@ export default function CommercialWaterHeaterRepairPage() {
         {/* Background photo */}
         <div className="absolute inset-0">
           <img
-            src="https://images.pexels.com/photos/20046692/pexels-photo-20046692.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            src="https://images.pexels.com/photos/7556587/pexels-photo-7556587.jpeg?auto=compress&cs=tinysrgb&w=1600"
             alt="Water heater repair and installation service"
             className="w-full h-full object-cover object-center opacity-40"
           />

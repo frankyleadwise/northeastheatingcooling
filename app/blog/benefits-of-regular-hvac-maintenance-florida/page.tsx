@@ -24,7 +24,7 @@ export default function HVACMaintenanceFloridaPage() {
         {/* Background photo */}
         <div className="absolute inset-0">
           <img
-            src="https://images.pexels.com/photos/5463575/pexels-photo-5463575.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            src="https://images.pexels.com/photos/7983215/pexels-photo-7983215.jpeg?auto=compress&cs=tinysrgb&w=1600"
             alt="HVAC technician performing regular maintenance on AC system in Florida"
             className="w-full h-full object-cover object-center opacity-40"
           />

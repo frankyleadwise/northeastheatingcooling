@@ -174,7 +174,7 @@ export default function HvacServiceTampaPage() {
         {/* Background photo */}
         <div className="absolute inset-0">
           <img
-            src="https://images.pexels.com/photos/5463575/pexels-photo-5463575.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            src="https://images.pexels.com/photos/3875141/pexels-photo-3875141.jpeg?auto=compress&cs=tinysrgb&w=1600"
             alt="HVAC technician performing AC repair in Tampa Bay FL"
             className="w-full h-full object-cover object-center opacity-40"
           />
