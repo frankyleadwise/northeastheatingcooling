@@ -99,8 +99,16 @@ export default function ResidentialPage() {
   return (
     <main className="font-sans">
       {/* Hero Banner */}
-      <section className="bg-[#0f1620] text-white py-20 px-4">
-        <div className="max-w-5xl mx-auto text-center">
+      <section className="relative bg-[#0f1620] text-white py-20 px-4 overflow-hidden">
+        <div className="absolute inset-0">
+          <img
+            src="https://images.pexels.com/photos/5463575/pexels-photo-5463575.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            alt="HVAC technician servicing residential air conditioning system in Tampa Bay FL"
+            className="w-full h-full object-cover object-center opacity-40"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0f1620]/80 via-[#0f1620]/60 to-[#0f1620]/40" />
+        </div>
+        <div className="relative z-10 max-w-5xl mx-auto text-center">
           <p className="text-blue-200 font-semibold text-sm uppercase tracking-widest mb-3">
             Tampa Bay, FL — Residential Services
           </p>
