@@ -24,6 +24,8 @@ const posts = [
       "Florida's brutal heat means your AC works harder than almost anywhere else. Learn the key warning signs that it's time to replace your system before you're left sweating.",
     date: 'December 15, 2024',
     category: 'AC Replacement',
+    photo: '5813746',
+    photoAlt: 'Family relaxing comfortably at home on sofa',
   },
   {
     slug: 'top-signs-hvac-system-needs-repair',
@@ -32,6 +34,8 @@ const posts = [
       "Strange noises, warm air, high energy bills — your HVAC system sends signals when something is wrong. Here's what Tampa Bay homeowners should watch for.",
     date: 'January 8, 2025',
     category: 'HVAC Repair',
+    photo: '3875141',
+    photoAlt: 'Happy family enjoying comfortable home',
   },
   {
     slug: 'how-to-improve-indoor-air-quality-tampa',
@@ -40,6 +44,8 @@ const posts = [
       "Tampa's high humidity creates unique indoor air quality challenges. Discover practical steps to reduce allergens, mold risk, and pollutants inside your home.",
     date: 'January 22, 2025',
     category: 'Indoor Air Quality',
+    photo: '7534294',
+    photoAlt: 'Spacious bright clean living room with fresh air',
   },
   {
     slug: 'benefits-of-regular-hvac-maintenance-florida',
@@ -48,6 +54,8 @@ const posts = [
       "In Florida, skipping HVAC maintenance isn't just inconvenient — it's costly. Find out how regular tune-ups save money, extend system life, and prevent summer breakdowns.",
     date: 'February 5, 2025',
     category: 'Maintenance',
+    photo: '7983215',
+    photoAlt: 'Joyful family relaxing together at home',
   },
   {
     slug: 'best-energy-efficient-ac-systems-florida',
@@ -56,6 +64,8 @@ const posts = [
       'Florida homeowners run their AC year-round, making energy efficiency critical. Explore the top systems, SEER ratings, and incentives that can slash your utility bills.',
     date: 'February 20, 2025',
     category: 'Energy Efficiency',
+    photo: '5825527',
+    photoAlt: 'Cozy comfortable living room in energy efficient home',
   },
   {
     slug: 'new-refrigerants-r454b-r32-efficiency-safety',
@@ -64,6 +74,8 @@ const posts = [
       'R-410A is being phased out. The new R454B and R32 refrigerants offer better efficiency and a lower environmental footprint — but come with new leak safety considerations every homeowner should understand.',
     date: 'March 23, 2026',
     category: 'Refrigerants',
+    photo: '7556587',
+    photoAlt: 'Person sleeping comfortably in cool bedroom',
   },
 ]
 
@@ -104,16 +116,15 @@ export default function BlogPage() {
                 key={post.slug}
                 className="bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-lg hover:border-blue-200 transition-all duration-200 flex flex-col overflow-hidden"
               >
-                {/* Image Placeholder */}
-                <div className="w-full h-48 bg-gradient-to-br from-blue-700 to-blue-500 flex items-center justify-center">
-                  <div className="text-center px-6">
-                    <div className="w-12 h-12 rounded-full bg-white/20 flex items-center justify-center mx-auto mb-2">
-                      <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
-                      </svg>
-                    </div>
-                    <span className="text-white/80 text-xs font-medium uppercase tracking-wide">North East H&amp;C</span>
-                  </div>
+                {/* Post Image */}
+                <div className="w-full h-48 overflow-hidden relative">
+                  <img
+                    src={`https://images.pexels.com/photos/${post.photo}/pexels-photo-${post.photo}.jpeg?auto=compress&cs=tinysrgb&w=600`}
+                    alt={post.photoAlt}
+                    className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-500"
+                    loading="lazy"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
                 </div>
 
                 <div className="p-6 flex flex-col flex-1">
