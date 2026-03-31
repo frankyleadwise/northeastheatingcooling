@@ -261,30 +261,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── PHOTO STRIP ── */}
-      <section className="py-12" style={{ background: 'var(--bg)' }} aria-hidden="true">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-            {[
-              { id: '5463575', alt: 'HVAC technician repairing AC unit in Tampa Bay home' },
-              { id: '32497161', alt: 'HVAC technician inspecting outdoor air conditioning unit' },
-              { id: '5539540', alt: 'Commercial air conditioning units and ventilation systems' },
-              { id: '20046692', alt: 'Residential air conditioning unit installation Tampa Bay' },
-            ].map((photo, i) => (
-              <div key={i} className="relative rounded-xl overflow-hidden aspect-[4/3]">
-                <img
-                  src={`https://images.pexels.com/photos/${photo.id}/pexels-photo-${photo.id}.jpeg?auto=compress&cs=tinysrgb&w=600`}
-                  alt={photo.alt}
-                  className="w-full h-full object-cover"
-                  loading="lazy"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* ── WHY CHOOSE US ── */}
       <section className="py-24" style={{ background: 'var(--surface)' }} aria-label="Why Choose Us">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
