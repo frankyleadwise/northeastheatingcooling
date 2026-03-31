@@ -101,6 +101,18 @@ const GoogleLogo = () => (
   </svg>
 )
 
+// ── Avatar color — deterministic per name, matches Google's palette ───────────
+const AVATAR_COLORS = [
+  '#F44336', '#E91E63', '#9C27B0', '#673AB7',
+  '#3F51B5', '#2196F3', '#009688', '#4CAF50',
+  '#FF5722', '#795548', '#607D8B', '#E67E22',
+]
+function avatarColor(name: string) {
+  let hash = 0
+  for (let i = 0; i < name.length; i++) hash = name.charCodeAt(i) + ((hash << 5) - hash)
+  return AVATAR_COLORS[Math.abs(hash) % AVATAR_COLORS.length]
+}
+
 // ── Page ──────────────────────────────────────────────────────────────────────
 
 export default function ReviewsPage() {
@@ -176,28 +188,30 @@ export default function ReviewsPage() {
               {reviews.map((r, i) => (
                 <article
                   key={i}
-                  className="flex flex-col rounded-2xl p-7"
+                  className="flex flex-col rounded-2xl p-6"
                   style={{ background: 'var(--surface)', border: '1px solid var(--border)' }}
                 >
-                  {/* Header */}
-                  <div className="flex items-start justify-between gap-3 mb-4">
+                  {/* Header row — avatar, name/badge, Google logo */}
+                  <div className="flex items-start justify-between gap-3 mb-3">
                     <div className="flex items-center gap-3">
+                      {/* Colored avatar circle exactly like Google */}
                       <div
-                        className="w-11 h-11 rounded-full flex items-center justify-center text-white font-bold text-base shrink-0"
-                        style={{ background: 'var(--accent)' }}
+                        className="w-10 h-10 rounded-full flex items-center justify-center text-white font-bold text-base shrink-0 select-none"
+                        style={{ background: avatarColor(r.name) }}
                         aria-hidden="true"
                       >
-                        {r.name.charAt(0)}
+                        {r.name.charAt(0).toUpperCase()}
                       </div>
                       <div>
-                        <p className="font-bold text-sm" style={{ color: 'var(--text)' }}>{r.name}</p>
-                        <p className="text-xs leading-snug" style={{ color: 'var(--muted)' }}>{r.badge}</p>
+                        <p className="font-bold text-sm leading-tight" style={{ color: 'var(--text)' }}>{r.name}</p>
+                        <p className="text-xs leading-snug mt-0.5" style={{ color: 'var(--muted)' }}>{r.badge}</p>
                       </div>
                     </div>
+                    {/* Google G logo top right exactly like Google UI */}
                     <GoogleLogo />
                   </div>
 
-                  {/* Stars + date */}
+                  {/* Stars + timestamp on same line, exactly like Google */}
                   <div className="flex items-center gap-2 mb-3">
                     <div className="flex items-center gap-0.5">
                       {Array.from({ length: r.rating }).map((_, s) => <Star key={s} />)}
@@ -205,10 +219,10 @@ export default function ReviewsPage() {
                     <span className="text-xs" style={{ color: 'var(--muted)' }}>{r.ago}</span>
                   </div>
 
-                  {/* Review text */}
-                  <blockquote className="text-sm leading-relaxed flex-1" style={{ color: 'var(--muted)' }}>
-                    &ldquo;{r.text}&rdquo;
-                  </blockquote>
+                  {/* Review text — no quotes, plain like Google */}
+                  <p className="text-sm leading-relaxed flex-1" style={{ color: 'var(--text)', opacity: 0.85 }}>
+                    {r.text}
+                  </p>
                 </article>
               ))}
             </div>
