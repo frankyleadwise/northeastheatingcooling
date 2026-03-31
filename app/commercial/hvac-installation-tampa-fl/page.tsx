@@ -135,7 +135,7 @@ export default function CommercialHVACInstallationPage() {
         {/* Background photo */}
         <div className="absolute inset-0">
           <img
-            src="https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            src="https://images.pexels.com/photos/32497161/pexels-photo-32497161.jpeg?auto=compress&cs=tinysrgb&w=1600"
             alt="HVAC technician installing new air conditioning system"
             className="w-full h-full object-cover object-center opacity-20"
           />

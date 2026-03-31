@@ -24,7 +24,7 @@ export default function EnergyEfficientACFloridaPage() {
         {/* Background photo */}
         <div className="absolute inset-0">
           <img
-            src="https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            src="https://images.pexels.com/photos/5463575/pexels-photo-5463575.jpeg?auto=compress&cs=tinysrgb&w=1600"
             alt="Energy efficient air conditioning system installation in Florida home"
             className="w-full h-full object-cover object-center opacity-15"
           />

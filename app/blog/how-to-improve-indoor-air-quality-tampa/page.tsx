@@ -24,7 +24,7 @@ export default function IndoorAirQualityTampaPage() {
         {/* Background photo */}
         <div className="absolute inset-0">
           <img
-            src="https://images.pexels.com/photos/8486944/pexels-photo-8486944.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            src="https://images.pexels.com/photos/5463575/pexels-photo-5463575.jpeg?auto=compress&cs=tinysrgb&w=1600"
             alt="Indoor air quality improvement through HVAC duct cleaning in Tampa"
             className="w-full h-full object-cover object-center opacity-15"
           />

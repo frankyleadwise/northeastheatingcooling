@@ -266,10 +266,10 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             {[
-              { id: '4489794', alt: 'HVAC technician servicing AC unit in Tampa Bay home' },
-              { id: '3807517', alt: 'New air conditioning system installation in Florida' },
-              { id: '8486944', alt: 'Air duct repair and cleaning service Tampa Bay' },
-              { id: '3807719', alt: 'Water heater repair service by North East Heating and Cooling' },
+              { id: '5463575', alt: 'HVAC technician repairing AC unit in Tampa Bay home' },
+              { id: '32497161', alt: 'HVAC technician inspecting outdoor air conditioning unit' },
+              { id: '5539540', alt: 'Commercial air conditioning units and ventilation systems' },
+              { id: '20046692', alt: 'Residential air conditioning unit installation Tampa Bay' },
             ].map((photo, i) => (
               <div key={i} className="relative rounded-xl overflow-hidden aspect-[4/3]">
                 <img
