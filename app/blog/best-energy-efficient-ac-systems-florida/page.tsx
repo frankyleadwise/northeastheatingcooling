@@ -20,8 +20,17 @@ export default function EnergyEfficientACFloridaPage() {
   return (
     <main className="font-sans bg-gray-50 min-h-screen">
       {/* Post Header */}
-      <header className="bg-[#0f1620] text-white py-16 px-4">
-        <div className="max-w-4xl mx-auto">
+      <header className="relative bg-[#0f1620] text-white py-16 px-4 overflow-hidden">
+        {/* Background photo */}
+        <div className="absolute inset-0">
+          <img
+            src="https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            alt="Energy efficient air conditioning system installation in Florida home"
+            className="w-full h-full object-cover object-center opacity-15"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0f1620]/95 via-[#0f1620]/85 to-[#0f1620]/70" />
+        </div>
+        <div className="relative z-10 max-w-4xl mx-auto">
           <div className="flex items-center gap-3 mb-4">
             <span className="bg-purple-500 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">
               Energy Efficiency

@@ -170,8 +170,17 @@ export default function HvacServiceTampaPage() {
       />
 
       {/* Hero */}
-      <section className="bg-[#0f1620] text-white py-20 px-4">
-        <div className="max-w-5xl mx-auto">
+      <section className="relative bg-[#0f1620] text-white py-20 px-4 overflow-hidden">
+        {/* Background photo */}
+        <div className="absolute inset-0">
+          <img
+            src="https://images.pexels.com/photos/4489794/pexels-photo-4489794.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            alt="HVAC technician performing AC repair in Tampa Bay FL"
+            className="w-full h-full object-cover object-center opacity-20"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0f1620]/95 via-[#0f1620]/80 to-[#0f1620]/60" />
+        </div>
+        <div className="relative z-10 max-w-5xl mx-auto">
           <p className="text-blue-200 font-semibold text-sm uppercase tracking-widest mb-3">
             Tampa Bay, FL — Residential HVAC Repair
           </p>

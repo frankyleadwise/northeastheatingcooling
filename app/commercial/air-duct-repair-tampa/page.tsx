@@ -117,8 +117,17 @@ export default function CommercialAirDuctRepairPage() {
     <main className="font-sans text-gray-800">
 
       {/* Hero */}
-      <section className="bg-[#0f1620] text-white py-20 px-4">
-        <div className="max-w-5xl mx-auto">
+      <section className="relative bg-[#0f1620] text-white py-20 px-4 overflow-hidden">
+        {/* Background photo */}
+        <div className="absolute inset-0">
+          <img
+            src="https://images.pexels.com/photos/8486944/pexels-photo-8486944.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            alt="Air duct repair and replacement service"
+            className="w-full h-full object-cover object-center opacity-20"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0f1620]/95 via-[#0f1620]/80 to-[#0f1620]/60" />
+        </div>
+        <div className="relative z-10 max-w-5xl mx-auto">
           <p className="text-blue-300 text-sm font-semibold uppercase tracking-widest mb-3">
             Commercial Ductwork — Tampa Bay, FL
           </p>
