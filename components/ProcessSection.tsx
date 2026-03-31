@@ -25,7 +25,7 @@ const steps = [
     number: 2,
     title: "Receive a Diagnosis",
     description:
-      "A NATE-certified technician will inspect your system thoroughly, identify the root cause of any issues, and provide a clear upfront quote. We explain everything in plain language — no surprises, no hidden fees.",
+      "A certified techniciannician will inspect your system thoroughly, identify the root cause of any issues, and provide a clear upfront quote. We explain everything in plain language — no surprises, no hidden fees.",
     icon: (
       <svg
         className="w-7 h-7"

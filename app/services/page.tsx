@@ -207,7 +207,7 @@ const residentialServices = [
     title: 'AC Repair',
     slug: '/residential/hvac-service-tampa',
     description:
-      'Fast, accurate air conditioning repairs for Tampa Bay homes. Our NATE-certified techs diagnose and fix any AC brand or model — same day available.',
+      'Fast, accurate air conditioning repairs for Tampa Bay homes. Our certified technicians diagnose and fix any AC brand or model — same day available.',
   },
   {
     Icon: AcIcon,
@@ -279,9 +279,9 @@ const commercialServices = [
 
 const benefits = [
   {
-    title: 'NATE-Certified Technicians',
+    title: 'Certified & Licensed Technicians',
     description:
-      'Every technician holds NATE certification — the gold standard in HVAC expertise.',
+      'Every technician carries EPA 608 certification and Florida HVAC licensing.',
   },
   {
     title: 'Upfront, Flat-Rate Pricing',

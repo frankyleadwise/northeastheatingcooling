@@ -5,7 +5,7 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'About North East Heating & Cooling | Tampa Bay HVAC Company',
   description:
-    'Learn about North East Heating & Cooling — a locally owned Tampa Bay HVAC company with 10+ years of experience, NATE-certified technicians, and a commitment to honest, affordable service.',
+    'Learn about North East Heating & Cooling — a locally owned Tampa Bay HVAC company with 10+ years of experience, licensed & certified technicians, and a commitment to honest, affordable service.',
 }
 
 // ─── SVG Icons ────────────────────────────────────────────────────────────────
@@ -147,7 +147,7 @@ const stats = [
 ]
 
 const differentiators = [
-  'NATE-Certified technicians on every job',
+  'licensed & certified technicians on every job',
   'Licensed & fully insured in Florida',
   'Transparent, upfront pricing — no hidden fees',
   '5-star rated on Google by Tampa Bay homeowners',
@@ -159,9 +159,9 @@ const differentiators = [
 
 const credentials = [
   {
-    title: 'NATE Certified',
+    title: 'EPA 608 Certified',
     description:
-      'Our technicians hold NATE (North American Technician Excellence) certification — the highest industry standard for HVAC professionals.',
+      'Our technicians hold EPA 608 certification and Florida HVAC licensing — meeting the state's highest industry standards.',
   },
   {
     title: 'EPA 608 Certified',
@@ -387,7 +387,7 @@ export default function AboutPage() {
               <p className="text-blue-300 font-semibold text-xs uppercase tracking-widest mb-1">Owner &amp; Founder</p>
               <h3 className="text-white text-2xl font-extrabold mb-2">Chris Grullon</h3>
               <p className="text-blue-100 text-sm leading-relaxed max-w-xl">
-                With over 10 years in the HVAC industry, Chris built North East Heating &amp; Cooling from the ground up on a simple principle — treat every customer like a neighbor. NATE-Certified and EPA 608 licensed, he leads a team that brings the same dedication to every job across the Tampa Bay area.
+                With over 10 years in the HVAC industry, Chris built North East Heating &amp; Cooling from the ground up on a simple principle — treat every customer like a neighbor. EPA 608 licensed and Florida-licensed, he leads a team that brings the same dedication to every job across the Tampa Bay area.
               </p>
             </div>
           </div>
@@ -530,7 +530,7 @@ export default function AboutPage() {
             '@type': 'Person',
             name: 'Chris Grullon',
             jobTitle: 'Owner & EPA 608 Certified HVAC Technician',
-            description: 'Founder of North East Heating & Cooling with over 10 years in the HVAC industry. NATE-Certified, EPA 608 licensed, and Florida-licensed HVAC contractor serving Tampa Bay.',
+            description: 'Founder of North East Heating & Cooling with over 10 years in the HVAC industry. EPA 608 licensed and Florida-licensed, and Florida-licensed HVAC contractor serving Tampa Bay.',
             worksFor: {
               '@type': 'LocalBusiness',
               name: 'North East Heating & Cooling',
@@ -539,7 +539,7 @@ export default function AboutPage() {
               address: { '@type': 'PostalAddress', addressLocality: 'Tampa', addressRegion: 'FL', addressCountry: 'US' },
             },
             hasCredential: [
-              { '@type': 'EducationalOccupationalCredential', name: 'NATE Certification', credentialCategory: 'Professional Certification' },
+              { '@type': 'EducationalOccupationalCredential', name: 'EPA 608 Certification', credentialCategory: 'Professional Certification' },
               { '@type': 'EducationalOccupationalCredential', name: 'EPA Section 608 Certification', credentialCategory: 'Professional Certification' },
               { '@type': 'EducationalOccupationalCredential', name: 'Florida HVAC Contractor License', credentialCategory: 'License' },
             ],

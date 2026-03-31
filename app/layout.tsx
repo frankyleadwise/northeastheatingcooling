@@ -35,7 +35,7 @@ const jsonLd = {
   '@type': 'HVACBusiness',
   name: 'North East Heating & Cooling',
   description:
-    'Expert HVAC repair, AC installation & maintenance in Tampa Bay, FL. Licensed, NATE-certified & insured. 24/7 emergency service.',
+    'Expert HVAC repair, AC installation & maintenance in Tampa Bay, FL. Licensed, licensed & insured. 24/7 emergency service.',
   telephone: '(813) 291-6146',
   email: 'office@northeastheatingcooling.com',
   url: 'https://northeastheatingcooling.com',

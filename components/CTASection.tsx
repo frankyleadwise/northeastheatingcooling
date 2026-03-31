@@ -321,7 +321,7 @@ export default function CTASection() {
         <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3 mt-10 pt-8 border-t border-white/15">
           {[
             "Licensed & Insured",
-            "NATE-Certified Technicians",
+            "Certified & Licensed Technicians",
             "Lifetime Workmanship Warranty",
             "5.0 Stars on Google",
           ].map((badge) => (

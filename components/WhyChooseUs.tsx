@@ -40,7 +40,7 @@ const features = [
     ),
   },
   {
-    title: "NATE-Certified Technicians",
+    title: "Certified & Licensed Technicians",
     description:
       "Our technicians hold North American Technician Excellence certification — the gold standard in HVAC.",
     icon: (

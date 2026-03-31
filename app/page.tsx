@@ -5,7 +5,7 @@ import QuoteForm from '@/app/components/QuoteForm'
 
 export const metadata: Metadata = {
   title: 'North East Heating & Cooling | HVAC Services Tampa Bay, FL',
-  description: 'Expert HVAC repair, AC installation & maintenance in Tampa Bay, FL. Licensed, NATE-certified & insured technicians. 24/7 emergency service. Call (813) 291-6146 for a free consultation.',
+  description: 'Expert HVAC repair, AC installation & maintenance in Tampa Bay, FL. Licensed, licensed & insured technicians. 24/7 emergency service. Call (813) 291-6146 for a free consultation.',
   keywords: ['hvac tampa', 'ac repair tampa', 'hvac installation tampa', 'air duct repair tampa', 'heating and cooling tampa', 'hvac service tampa fl'],
   alternates: {
     canonical: '/',
@@ -102,7 +102,7 @@ const faqs = [
   },
   {
     q: 'Are your technicians licensed and insured?',
-    a: 'Yes. North East Heating & Cooling is fully licensed, certified, and insured in the state of Florida. Our technicians are NATE-certified and EPA 608 certified.',
+    a: 'Yes. North East Heating & Cooling is fully licensed, certified, and insured in the state of Florida. Our technicians are EPA 608 certified and Florida-licensed.',
   },
 ]
 
@@ -174,7 +174,7 @@ export default function HomePage() {
                 </span>
                 <span className="inline-flex items-center gap-1.5 bg-white/10 backdrop-blur-sm border border-white/20 text-white text-sm font-semibold px-3.5 py-1.5 rounded-full">
                   <svg className="w-4 h-4 text-sky-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-                  24/7 Emergency Service
+                  24/7 Emergency Service — HVAC emergencies don&apos;t wait for business hours, neither do we
                 </span>
               </div>
 
@@ -209,7 +209,7 @@ export default function HomePage() {
               </div>
 
               <div className="flex flex-wrap gap-x-6 gap-y-2 text-slate-300 text-sm font-medium">
-                <span className="flex items-center gap-1.5"><span className="text-emerald-400 font-bold">✓</span> NATE-Certified Technicians</span>
+                <span className="flex items-center gap-1.5"><span className="text-emerald-400 font-bold">✓</span> Certified & Licensed Technicians</span>
                 <span className="flex items-center gap-1.5"><span className="text-emerald-400 font-bold">✓</span> 10+ Years Experience</span>
                 <span className="flex items-center gap-1.5"><span className="text-emerald-400 font-bold">✓</span> Lifetime Workmanship Warranty</span>
                 <span className="flex items-center gap-1.5"><span className="text-emerald-400 font-bold">✓</span> Locally Owned &amp; Operated</span>
@@ -328,7 +328,7 @@ export default function HomePage() {
                     </svg>
                   ),
                   title: 'Licensed & Insured',
-                  desc: 'Fully licensed, NATE-certified, and insured in Florida — your home is protected.',
+                  desc: 'Fully licensed, certified, and insured in Florida — your home is protected.',
                 },
                 {
                   icon: (
@@ -354,7 +354,7 @@ export default function HomePage() {
                       <path strokeLinecap="round" strokeLinejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 3.741-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5"/>
                     </svg>
                   ),
-                  title: 'NATE-Certified Technicians',
+                  title: 'Certified & Licensed Technicians',
                   desc: 'Our techs hold the HVAC industry\'s highest certification — not just a license.',
                 },
                 {
@@ -524,7 +524,7 @@ export default function HomePage() {
               {
                 step: '2',
                 title: 'Receive a Diagnosis',
-                desc: 'Our NATE-certified technician arrives on time, thoroughly inspects your system, and provides a clear, upfront quote before any work begins.',
+                desc: 'Our certified techniciannician arrives on time, thoroughly inspects your system, and provides a clear, upfront quote before any work begins.',
               },
               {
                 step: '3',

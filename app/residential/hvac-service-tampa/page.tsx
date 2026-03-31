@@ -370,7 +370,7 @@ export default function HvacServiceTampaPage() {
             {[
               {
                 title: 'Certified Technicians',
-                desc: 'Our HVAC technicians are EPA-certified, NATE-certified, and continuously trained on the latest equipment and repair techniques.',
+                desc: 'Our HVAC technicians are EPA 608 certified, Florida-licensed, and continuously trained on the latest equipment and repair techniques.',
               },
               {
                 title: 'Same-Day Service',
