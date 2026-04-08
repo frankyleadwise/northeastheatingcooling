@@ -174,7 +174,7 @@ export default function HomePage() {
         {/* Background photo */}
         <div className="absolute inset-0">
           <Image
-            src="https://images.pexels.com/photos/3875141/pexels-photo-3875141.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            src="https://images.pexels.com/photos/4473775/pexels-photo-4473775.jpeg?auto=compress&cs=tinysrgb&w=1920"
             alt="Happy family relaxing comfortably at home after North East Heating & Cooling service in Tampa Bay"
             fill
             className="object-cover object-center"
