@@ -239,10 +239,10 @@ export default function HomePage() {
               </div>
 
               <div className="flex flex-wrap gap-x-6 gap-y-2 text-slate-300 text-sm font-medium">
-                <span className="flex items-center gap-1.5"><span className="text-emerald-400 font-bold">✓</span> Certified & Licensed Technicians</span>
-                <span className="flex items-center gap-1.5"><span className="text-emerald-400 font-bold">✓</span> 10+ Years Experience</span>
-                <span className="flex items-center gap-1.5"><span className="text-emerald-400 font-bold">✓</span> Lifetime Workmanship Warranty</span>
-                <span className="flex items-center gap-1.5"><span className="text-emerald-400 font-bold">✓</span> Locally Owned &amp; Operated</span>
+                <span className="flex items-center gap-1.5"><span className="text-emerald-400 font-bold">✓</span> Cool home, fast — same-day service</span>
+                <span className="flex items-center gap-1.5"><span className="text-emerald-400 font-bold">✓</span> No surprise bills — upfront pricing always</span>
+                <span className="flex items-center gap-1.5"><span className="text-emerald-400 font-bold">✓</span> Fixed right the first time — lifetime warranty</span>
+                <span className="flex items-center gap-1.5"><span className="text-emerald-400 font-bold">✓</span> Your neighbor, not a national chain</span>
               </div>
             </div>
 
@@ -287,6 +287,65 @@ export default function HomePage() {
               </div>
             </div>
 
+          </div>
+        </div>
+      </section>
+
+      {/* ── PROBLEM AGITATION ── */}
+      <section className="py-20 bg-white" aria-label="The problem we solve">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <p className="text-sm font-bold uppercase tracking-widest mb-3 text-red-600">Sound familiar?</p>
+              <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-6 leading-tight">
+                Most Tampa homeowners have been burned by their HVAC company
+              </h2>
+              <p className="text-gray-600 text-lg leading-relaxed">
+                You call, you wait three days, a stranger shows up, quotes you $4,000, and disappears. Meanwhile it&apos;s 94° in your living room and your family is miserable. That&apos;s not how it should work — and it&apos;s not how we work.
+              </p>
+            </div>
+            <div className="space-y-3">
+              {[
+                { icon: '🌡️', text: 'Waiting days for a tech while your home turns into a sauna' },
+                { icon: '💸', text: 'Getting hit with a $300 diagnostic fee before a single bolt is turned' },
+                { icon: '📋', text: 'Quoted $7,000 for a new unit — when a $200 repair was all it needed' },
+                { icon: '📞', text: 'Calling a "24/7" line and waiting until Monday anyway' },
+                { icon: '🔧', text: 'A different technician every visit who doesn\'t know your system' },
+              ].map((item, i) => (
+                <div key={i} className="flex items-start gap-4 p-4 rounded-xl bg-red-50 border border-red-100">
+                  <span className="text-xl shrink-0 leading-none mt-0.5">{item.icon}</span>
+                  <p className="text-gray-700 font-medium text-sm leading-relaxed">{item.text}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div className="mt-10 text-center">
+            <p className="text-gray-500 text-base italic">We&apos;ve heard these stories from hundreds of Tampa Bay families. It&apos;s why Chris started North East Heating &amp; Cooling.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* ── OWNER / MENTOR ── */}
+      <section className="py-16 bg-slate-50" aria-label="Meet Chris">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col sm:flex-row items-center gap-8 bg-white rounded-2xl p-8 border border-gray-100 shadow-sm">
+            <div className="relative w-32 h-32 shrink-0 rounded-full overflow-hidden shadow-lg border-4 border-white ring-2 ring-red-100">
+              <Image
+                src="/unnamed.jpg"
+                alt="Chris Grullon, Owner of North East Heating & Cooling"
+                fill
+                className="object-cover object-top"
+                sizes="128px"
+              />
+            </div>
+            <div>
+              <p className="text-red-600 font-semibold text-xs uppercase tracking-widest mb-2">Your HVAC expert &amp; neighbor</p>
+              <blockquote className="text-gray-800 text-lg font-medium leading-relaxed mb-4">
+                &ldquo;I started this company because I was tired of seeing Tampa homeowners get overcharged and under-served by big HVAC companies. When you call me, I&apos;m the one who shows up, does the work, and stands behind it — personally. No dispatch centers, no rotating crews. Just honest service from someone who actually cares.&rdquo;
+              </blockquote>
+              <p className="text-gray-900 font-bold">Chris Grullon</p>
+              <p className="text-gray-500 text-sm">Owner &amp; Founder · 16 years HVAC experience · Tampa Bay native</p>
+            </div>
           </div>
         </div>
       </section>
@@ -554,7 +613,7 @@ export default function HomePage() {
               {
                 step: '2',
                 title: 'Receive a Diagnosis',
-                desc: 'Our certified techniciannician arrives on time, thoroughly inspects your system, and provides a clear, upfront quote before any work begins.',
+                desc: 'Our certified technician arrives on time, thoroughly inspects your system, and provides a clear, upfront quote before any work begins.',
               },
               {
                 step: '3',
@@ -635,27 +694,91 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── OWNER QUOTE ── */}
-      <section className="py-16 bg-white" aria-label="A message from our owner">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col sm:flex-row items-center gap-8 bg-blue-50 rounded-2xl p-8 border border-blue-100">
-            <div className="relative w-28 h-28 shrink-0 rounded-full overflow-hidden shadow-lg border-4 border-white">
-              <Image
-                src="/unnamed.jpg"
-                alt="Chris Grullon, Owner of North East Heating & Cooling"
-                fill
-                className="object-cover object-top"
-                sizes="112px"
-              />
-            </div>
-            <div>
-              <p className="text-blue-600 font-semibold text-xs uppercase tracking-widest mb-1">From Our Owner</p>
-              <blockquote className="text-gray-800 text-lg font-medium leading-relaxed mb-3 italic">
-                &ldquo;When you call North East Heating &amp; Cooling, you&apos;re calling a team that truly cares about your home and your comfort. We show up on time, tell you the truth about your system, and fix it right the first time — every time.&rdquo;
-              </blockquote>
-              <p className="text-gray-700 font-bold">Chris Grullon</p>
-              <p className="text-gray-500 text-sm">Owner &amp; Founder, North East Heating &amp; Cooling</p>
-            </div>
+
+      {/* ── FLEX: WHY US VS THE BIG GUYS ── */}
+      <section className="py-20 bg-white" aria-label="Why North East vs big HVAC companies">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <p className="text-sm font-bold uppercase tracking-widest mb-3 text-red-600">The honest difference</p>
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4">
+              Why Tampa families choose us over the big names
+            </h2>
+            <p className="text-gray-500 text-lg max-w-2xl mx-auto">
+              The big companies have the billboards. We have the 5-star reviews.
+            </p>
+          </div>
+          <div className="grid sm:grid-cols-2 gap-4">
+            {[
+              { check: true,  text: 'You get the owner — Chris shows up personally, every time' },
+              { check: true,  text: 'Upfront pricing before any work begins — zero surprise charges' },
+              { check: true,  text: 'Same-day and true 24/7 emergency service — not "call Monday"' },
+              { check: true,  text: 'Lifetime workmanship warranty on every repair and install' },
+              { check: true,  text: 'We tell you the truth — even if it means a cheaper fix for you' },
+              { check: true,  text: 'No commission-hungry sales reps — just honest recommendations' },
+              { check: true,  text: 'EPA 608 certified, fully licensed and insured in Florida' },
+              { check: true,  text: 'Serving Tampa Bay for 10+ years — we\'re not going anywhere' },
+            ].map((item, i) => (
+              <div key={i} className="flex items-start gap-3 p-4 rounded-xl border border-gray-100 bg-gray-50">
+                <div className="w-6 h-6 rounded-full bg-emerald-100 flex items-center justify-center shrink-0 mt-0.5">
+                  <svg className="w-3.5 h-3.5 text-emerald-600" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5"/>
+                  </svg>
+                </div>
+                <p className="text-gray-700 text-sm font-medium leading-relaxed">{item.text}</p>
+              </div>
+            ))}
+          </div>
+          <div className="mt-10 text-center">
+            <Link
+              href="/contact"
+              className="inline-flex items-center justify-center gap-2 bg-red-600 hover:bg-red-500 text-white font-bold px-8 py-4 rounded-xl transition-all shadow-lg shadow-red-600/30 hover:-translate-y-0.5 text-base"
+            >
+              Get Your Free Consultation
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* ── FEATURES / SPECS ── */}
+      <section className="py-20 bg-slate-50" aria-label="What's included">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <p className="text-sm font-bold uppercase tracking-widest mb-3 text-red-600">Everything included</p>
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4">
+              What you get with every North East service call
+            </h2>
+            <p className="text-gray-500 text-lg max-w-2xl mx-auto">
+              No add-ons, no upsells, no fine print. Here&apos;s exactly what&apos;s standard.
+            </p>
+          </div>
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+            {[
+              'Free diagnostic estimate',
+              'Upfront written quote',
+              'Same-day service available',
+              'True 24/7 emergency response',
+              'All major brands serviced',
+              'EPA 608 certified technician',
+              'Florida state licensed',
+              'Fully insured — your home protected',
+              'Lifetime workmanship warranty',
+              'No hidden fees or dispatch charges',
+              'Honest repair vs replace advice',
+              'Clean jobsite — we respect your home',
+              'Annual maintenance plans available',
+              'Residential &amp; commercial HVAC',
+              'AC repair, install &amp; maintenance',
+              'Heating &amp; heat pump service',
+              'Air duct repair &amp; sealing',
+              'Water heater service',
+            ].map((feat, i) => (
+              <div key={i} className="flex items-center gap-2.5 py-2.5 px-3 rounded-lg bg-white border border-gray-100">
+                <svg className="w-4 h-4 text-emerald-500 shrink-0" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5"/>
+                </svg>
+                <span className="text-gray-700 text-sm font-medium" dangerouslySetInnerHTML={{ __html: feat }} />
+              </div>
+            ))}
           </div>
         </div>
       </section>
