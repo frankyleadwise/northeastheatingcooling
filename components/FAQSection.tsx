@@ -38,6 +38,36 @@ const faqs: FAQItem[] = [
     answer:
       "North East Heating & Cooling proudly serves the entire Tampa Bay region including Tampa, Brandon, Riverview, Valrico, Plant City, Seffner, Mango, Temple Terrace, New Tampa, Lutz, Land O' Lakes, Westchase, Carrollwood, and surrounding communities. If you're not sure whether we cover your location, just give us a call — we're happy to let you know.",
   },
+  {
+    question: "What is the $5,000 rule for HVAC?",
+    answer:
+      "The $5,000 rule is a simple way to decide whether to repair or replace your system. Multiply your unit's age by the estimated repair cost — if the number exceeds $5,000, replacement is usually the smarter investment. For example, a 10-year-old unit needing a $600 repair equals $6,000, which signals it's time to replace. In Florida's climate, where systems run nearly year-round, wear accumulates faster than in northern states, so this rule is especially useful for Tampa Bay homeowners.",
+  },
+  {
+    question: "Which AC brand lasts the longest?",
+    answer:
+      "Trane, Carrier, and Lennox consistently rank as the longest-lasting AC brands, with well-maintained units often reaching 15–20 years. That said, brand matters less than installation quality and regular maintenance. A premium unit installed poorly or neglected will fail faster than a mid-range unit that's properly cared for. At North East Heating & Cooling, we service all major brands and will always give you an honest assessment of whether a repair or replacement makes more sense for your specific system.",
+  },
+  {
+    question: "How much should an HVAC service call cost?",
+    answer:
+      "In the Tampa Bay area, a standard HVAC service call typically runs between $75 and $150, which usually covers the diagnostic visit. Repair costs are separate and depend on what's found. Be cautious of companies offering extremely low service call fees — they often make it up with inflated parts and labor. At North East Heating & Cooling, we charge straightforward, upfront pricing with no surprises. Call us at (813) 291-6146 to get a clear estimate before any work begins.",
+  },
+  {
+    question: "What is the most common HVAC problem?",
+    answer:
+      "The most common HVAC issue in Florida is a dirty or clogged air filter, which restricts airflow and causes the system to work harder — leading to frozen coils, poor cooling, and higher energy bills. Beyond that, refrigerant leaks, capacitor failures, and clogged condensate drain lines are extremely common in our humid Tampa Bay climate. Most of these issues are preventable with twice-yearly maintenance, something we strongly recommend for every home in the region.",
+  },
+  {
+    question: "What is the average life expectancy of an HVAC system?",
+    answer:
+      "Most HVAC systems last 15 to 20 years under normal conditions, but in Florida that number is often closer to 12 to 15 years. The combination of heat, humidity, and near-constant use puts significantly more wear on equipment here than in cooler climates. Regular maintenance — including annual tune-ups, filter changes, and coil cleanings — is the single best way to maximize your system's lifespan and avoid premature replacement.",
+  },
+  {
+    question: "What is the most expensive part of an HVAC system?",
+    answer:
+      "The compressor is the most expensive component — it's essentially the heart of your AC system, and replacement can run $1,500 to $2,500 or more depending on the unit. If your compressor fails and your system is more than 10 years old, replacement of the full unit is often more cost-effective than the repair alone. We'll always walk you through both options honestly so you can make the best decision for your budget and your home.",
+  },
 ];
 
 const ChevronDownIcon = () => (

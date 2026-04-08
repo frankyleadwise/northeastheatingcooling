@@ -110,6 +110,30 @@ const faqs = [
     q: 'Are your technicians licensed and insured?',
     a: 'Yes. North East Heating & Cooling is fully licensed, certified, and insured in the state of Florida. Our technicians are EPA 608 certified and Florida-licensed.',
   },
+  {
+    q: 'What is the $5,000 rule for HVAC?',
+    a: 'The $5,000 rule helps you decide whether to repair or replace your system. Multiply your unit\'s age by the estimated repair cost — if the number exceeds $5,000, replacement is usually the smarter investment. In Florida\'s climate, where systems run nearly year-round, wear accumulates faster than in northern states, making this rule especially useful for Tampa Bay homeowners.',
+  },
+  {
+    q: 'Which AC brand lasts the longest?',
+    a: 'Trane, Carrier, and Lennox consistently rank as the longest-lasting AC brands, with well-maintained units often reaching 15–20 years. That said, brand matters less than installation quality and regular maintenance. At North East Heating & Cooling, we service all major brands and will always give you an honest assessment of whether repair or replacement makes more sense.',
+  },
+  {
+    q: 'How much should an HVAC service call cost?',
+    a: 'In the Tampa Bay area, a standard HVAC service call typically runs between $75 and $150, covering the diagnostic visit. Repair costs are separate and depend on what\'s found. At North East Heating & Cooling, we charge straightforward, upfront pricing with no surprises. Call us at (813) 291-6146 to get a clear estimate before any work begins.',
+  },
+  {
+    q: 'What is the most common HVAC problem?',
+    a: 'The most common HVAC issue in Florida is a dirty or clogged air filter, which restricts airflow and causes the system to work harder — leading to frozen coils, poor cooling, and higher energy bills. Refrigerant leaks, capacitor failures, and clogged condensate drain lines are also extremely common in Tampa Bay\'s humid climate. Most of these issues are preventable with twice-yearly maintenance.',
+  },
+  {
+    q: 'What is the average life expectancy of an HVAC system?',
+    a: 'Most HVAC systems last 15 to 20 years under normal conditions, but in Florida that number is often closer to 12 to 15 years. The combination of heat, humidity, and near-constant use puts significantly more wear on equipment here than in cooler climates. Regular maintenance is the single best way to maximize your system\'s lifespan.',
+  },
+  {
+    q: 'What is the most expensive part of an HVAC system?',
+    a: 'The compressor is the most expensive component — essentially the heart of your AC system — and replacement can run $1,500 to $2,500 or more. If your compressor fails and your system is more than 10 years old, replacing the full unit is often more cost-effective. We\'ll always walk you through both options honestly so you can make the best decision for your budget.',
+  },
 ]
 
 const serviceAreas = [
