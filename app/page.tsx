@@ -177,12 +177,13 @@ export default function HomePage() {
             src="https://images.pexels.com/photos/4473775/pexels-photo-4473775.jpeg?auto=compress&cs=tinysrgb&w=1920"
             alt="Happy family relaxing comfortably at home after North East Heating & Cooling service in Tampa Bay"
             fill
-            className="object-cover object-right"
+            className="object-cover"
+            style={{ objectPosition: '55% center' }}
             priority
             sizes="100vw"
           />
-          {/* Dark gradient overlay */}
-          <div className="absolute inset-0 bg-gradient-to-r from-[#0f1620]/95 via-[#0f1620]/75 to-[#0f1620]/30" />
+          {/* Dark gradient overlay — lighter to show image more */}
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0f1620]/85 via-[#0f1620]/50 to-[#0f1620]/10" />
           {/* Bottom fade into outcomes bar */}
           <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#0f1620] to-transparent" />
         </div>
@@ -244,7 +245,7 @@ export default function HomePage() {
         {/* ── DREAM OUTCOMES — pinned to bottom of hero, always visible ── */}
         <div className="relative z-10 border-t border-white/10 bg-[#0f1620]/80 backdrop-blur-sm">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-28">
+            <div className="flex flex-col sm:flex-row items-center justify-between gap-6 w-full">
               {[
                 'Cool, comfortable home — fast',
                 'No surprise bills, ever',
