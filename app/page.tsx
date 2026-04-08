@@ -170,7 +170,7 @@ export default function HomePage() {
   return (
     <main>
       {/* ── HERO ── */}
-      <section className="relative min-h-screen flex items-center overflow-hidden" aria-label="Hero">
+      <section className="relative min-h-screen flex flex-col overflow-hidden" aria-label="Hero">
         {/* Background photo */}
         <div className="absolute inset-0">
           <Image
@@ -181,13 +181,14 @@ export default function HomePage() {
             priority
             sizes="100vw"
           />
-          {/* Dark gradient overlay — heavy on left for text legibility */}
+          {/* Dark gradient overlay */}
           <div className="absolute inset-0 bg-gradient-to-r from-[#0f1620]/95 via-[#0f1620]/75 to-[#0f1620]/30" />
-          {/* Bottom fade */}
-          <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-[#0f1620]/20 to-transparent" />
+          {/* Bottom fade into outcomes bar */}
+          <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#0f1620] to-transparent" />
         </div>
 
-        <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-20">
+        {/* Hero copy — grows to fill space */}
+        <div className="relative z-10 flex-1 flex items-center w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-20">
           <div className="max-w-2xl">
 
             {/* Eyebrow — calls out ideal client */}
@@ -223,7 +224,7 @@ export default function HomePage() {
               </a>
             </div>
 
-            {/* Social proof — star rating below CTA */}
+            {/* Social proof */}
             <div className="flex items-center gap-3">
               <div className="flex items-center gap-0.5">
                 {Array.from({ length: 5 }).map((_, i) => (
@@ -239,29 +240,30 @@ export default function HomePage() {
 
           </div>
         </div>
-      </section>
 
-      {/* ── DREAM OUTCOMES BAR ── */}
-      <div className="bg-[#0f1620] border-t border-white/10" aria-label="Key outcomes">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-12">
-            {[
-              'Cool, comfortable home — fast',
-              'No surprise bills, ever',
-              'Fixed right the first time',
-            ].map((outcome, i) => (
-              <span key={i} className="flex items-center gap-2.5 text-white font-semibold text-sm">
-                <span className="flex items-center justify-center w-5 h-5 rounded-full bg-emerald-500 shrink-0">
-                  <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5"/>
-                  </svg>
+        {/* ── DREAM OUTCOMES — pinned to bottom of hero, always visible ── */}
+        <div className="relative z-10 border-t border-white/10 bg-[#0f1620]/80 backdrop-blur-sm">
+          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-20">
+              {[
+                'Cool, comfortable home — fast',
+                'No surprise bills, ever',
+                'Fixed right the first time',
+              ].map((outcome, i) => (
+                <span key={i} className="flex items-center gap-3 text-white font-semibold text-sm">
+                  <span className="flex items-center justify-center w-5 h-5 rounded-full bg-emerald-500 shrink-0">
+                    <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5"/>
+                    </svg>
+                  </span>
+                  {outcome}
                 </span>
-                {outcome}
-              </span>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
-      </div>
+
+      </section>
 
       {/* ── PROBLEM AGITATION ── */}
       <section className="py-20 bg-white" aria-label="The problem we solve">
