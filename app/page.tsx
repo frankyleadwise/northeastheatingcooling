@@ -177,7 +177,7 @@ export default function HomePage() {
             src="https://images.pexels.com/photos/4473775/pexels-photo-4473775.jpeg?auto=compress&cs=tinysrgb&w=1920"
             alt="Happy family relaxing comfortably at home after North East Heating & Cooling service in Tampa Bay"
             fill
-            className="object-cover object-center"
+            className="object-cover object-right"
             priority
             sizes="100vw"
           />
@@ -244,7 +244,7 @@ export default function HomePage() {
         {/* ── DREAM OUTCOMES — pinned to bottom of hero, always visible ── */}
         <div className="relative z-10 border-t border-white/10 bg-[#0f1620]/80 backdrop-blur-sm">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-20">
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-28">
               {[
                 'Cool, comfortable home — fast',
                 'No surprise bills, ever',
