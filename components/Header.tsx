@@ -351,8 +351,6 @@ export default function Header() {
 
       {/* Spacer to push content below the fixed mobile header */}
       <div className="h-16 lg:hidden" aria-hidden="true" />
-      {/* Spacer for desktop floating nav */}
-      <div className="hidden lg:block h-20" aria-hidden="true" />
     </>
   );
 }
