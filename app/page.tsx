@@ -198,7 +198,7 @@ export default function HomePage() {
             </p>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-[1.1] mb-6 tracking-tight">
-              Stay Cool All Summer —{' '}
+              Stay Cool All Summer{' '}
               <span className="bg-gradient-to-r from-orange-400 to-red-500 bg-clip-text text-transparent">
                 Without the Stress
               </span>
@@ -294,13 +294,13 @@ export default function HomePage() {
               </div>
               <p className="text-gray-400 text-sm italic mt-6">We&apos;ve heard these stories from hundreds of Tampa Bay families. It&apos;s why Chris started North East Heating &amp; Cooling.</p>
             </div>
-            {/* Technician/van photo — "this is who we actually send" */}
+            {/* Chris headshot */}
             <div className="relative rounded-2xl overflow-hidden shadow-xl" style={{ aspectRatio: '4/5' }}>
               <Image
-                src="/image.png"
-                alt="Chris Grullon, North East Heating & Cooling owner and technician, Tampa Bay FL"
+                src="/unnamed.jpg"
+                alt="Chris Grullon, Owner of North East Heating & Cooling, Tampa Bay FL"
                 fill
-                className="object-cover object-right"
+                className="object-cover object-top"
                 sizes="(max-width: 1024px) 100vw, 50vw"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
@@ -313,8 +313,8 @@ export default function HomePage() {
                   ))}
                   <span className="text-white text-sm font-semibold ml-2">5.0 · 35 Google Reviews</span>
                 </div>
-                <p className="text-white font-bold text-lg">This is who shows up.</p>
-                <p className="text-white/75 text-sm">Chris — owner, technician, and your neighbor.</p>
+                <p className="text-white font-bold text-lg">Chris Grullon</p>
+                <p className="text-white/75 text-sm">Owner, technician &amp; your neighbor</p>
               </div>
             </div>
           </div>
@@ -347,55 +347,36 @@ export default function HomePage() {
       </section>
 
       {/* ── WHY CHOOSE US ── */}
-      <section className="py-24" style={{ background: 'var(--surface)' }} aria-label="Why Choose Us">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative py-24 overflow-hidden" aria-label="Why Choose Us">
+        {/* Van/truck photo as full background */}
+        <div className="absolute inset-0">
+          <Image
+            src="/image.png"
+            alt="North East Heating & Cooling service van in Tampa Bay"
+            fill
+            className="object-cover object-center"
+            sizes="100vw"
+          />
+          <div className="absolute inset-0 bg-[#0f1620]/80" />
+        </div>
+
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
           {/* Section label + heading */}
           <div className="text-center mb-16">
-            <p className="text-sm font-bold uppercase tracking-widest mb-3" style={{ color: 'var(--accent-light)' }}>
+            <p className="text-sm font-bold uppercase tracking-widest mb-3 text-orange-400">
               Why Choose Us
             </p>
-            <h2 className="text-3xl sm:text-4xl font-extrabold mb-4" style={{ color: 'var(--text)' }}>
+            <h2 className="text-3xl sm:text-4xl font-extrabold mb-4 text-white">
               Tampa Bay&apos;s Most Trusted HVAC Team
             </h2>
-            <p className="text-lg max-w-2xl mx-auto" style={{ color: 'var(--muted)' }}>
+            <p className="text-lg max-w-2xl mx-auto text-slate-300">
               From quick repairs to full system replacements — 5-star service, every time.
             </p>
           </div>
 
-          {/* Photo + features split */}
-          <div className="grid lg:grid-cols-5 gap-8 items-start">
-
-            {/* Owner photo column */}
-            <div className="lg:col-span-2">
-              <div className="relative rounded-2xl overflow-hidden" style={{ aspectRatio: '4/5' }}>
-                <Image
-                  src="/unnamed.jpg"
-                  alt="Chris Grullon, Owner of North East Heating & Cooling, Tampa Bay FL"
-                  fill
-                  className="object-cover object-top"
-                  sizes="(max-width: 1024px) 100vw, 40vw"
-                />
-                {/* Gradient overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
-                {/* Caption */}
-                <div className="absolute bottom-0 left-0 right-0 p-6">
-                  <div className="flex items-center gap-0.5 mb-2">
-                    {Array.from({ length: 5 }).map((_, i) => (
-                      <svg key={i} className="w-4 h-4 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
-                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-                      </svg>
-                    ))}
-                    <span className="text-white text-sm font-semibold ml-1.5">35 Google Reviews</span>
-                  </div>
-                  <p className="text-white font-bold text-lg leading-tight">Chris Grullon</p>
-                  <p className="text-white/70 text-sm">Owner &amp; Founder</p>
-                </div>
-              </div>
-            </div>
-
-            {/* Features grid */}
-            <div className="lg:col-span-3 grid sm:grid-cols-2 gap-4">
+          {/* Features grid — full width now */}
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
               {[
                 {
                   icon: (
@@ -474,24 +455,19 @@ export default function HomePage() {
               ].map((item, i) => (
                 <div
                   key={i}
-                  className="flex gap-4 p-5 rounded-xl"
-                  style={{ background: 'var(--surface-2)', border: '1px solid var(--border)' }}
+                  className="flex gap-4 p-5 rounded-xl bg-white/10 backdrop-blur-sm border border-white/15"
                 >
-                  <div
-                    className="w-12 h-12 rounded-xl flex items-center justify-center shrink-0"
-                    style={{ background: 'rgba(200,51,10,0.15)', color: 'var(--accent-light)' }}
-                  >
+                  <div className="w-12 h-12 rounded-xl flex items-center justify-center shrink-0 bg-orange-500/20 text-orange-400">
                     {item.icon}
                   </div>
                   <div>
-                    <h3 className="font-bold text-sm mb-1" style={{ color: 'var(--text)' }}>{item.title}</h3>
-                    <p className="text-sm leading-relaxed" style={{ color: 'var(--muted)' }}>{item.desc}</p>
+                    <h3 className="font-bold text-sm mb-1 text-white">{item.title}</h3>
+                    <p className="text-sm leading-relaxed text-slate-300">{item.desc}</p>
                   </div>
                 </div>
               ))}
             </div>
 
-          </div>
         </div>
       </section>
 
