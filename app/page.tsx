@@ -181,75 +181,87 @@ export default function HomePage() {
             priority
             sizes="100vw"
           />
-          {/* Dark gradient overlay — heavy on left for text legibility, fades right to reveal technician/van */}
+          {/* Dark gradient overlay — heavy on left for text legibility */}
           <div className="absolute inset-0 bg-gradient-to-r from-[#0f1620]/95 via-[#0f1620]/75 to-[#0f1620]/30" />
           {/* Bottom fade */}
           <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-[#0f1620]/20 to-transparent" />
         </div>
 
         <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-20">
-          <div className="max-w-3xl">
+          <div className="max-w-2xl">
 
-            {/* ── Hero copy ── */}
-            <div>
-              {/* Trust badges */}
-              <div className="flex flex-wrap gap-2.5 mb-7">
-                <span className="inline-flex items-center gap-1.5 bg-white/10 backdrop-blur-sm border border-white/20 text-white text-sm font-semibold px-3.5 py-1.5 rounded-full">
-                  <svg className="w-4 h-4 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                  5.0 Stars on Google
-                </span>
-                <span className="inline-flex items-center gap-1.5 bg-white/10 backdrop-blur-sm border border-white/20 text-white text-sm font-semibold px-3.5 py-1.5 rounded-full">
-                  <svg className="w-4 h-4 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
-                  Licensed &amp; Insured
-                </span>
-                <span className="inline-flex items-center gap-1.5 bg-white/10 backdrop-blur-sm border border-white/20 text-white text-sm font-semibold px-3.5 py-1.5 rounded-full">
-                  <svg className="w-4 h-4 text-sky-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-                  24/7 Emergency Service — HVAC emergencies don&apos;t wait for business hours, neither do we
-                </span>
-              </div>
+            {/* Eyebrow — calls out ideal client */}
+            <p className="text-sm font-bold uppercase tracking-widest text-orange-400 mb-4">
+              Tampa Bay Homeowners &amp; Businesses
+            </p>
 
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-[1.1] mb-6 tracking-tight">
-                Expert HVAC Services<br />
-                You Can{' '}
-                <span className="bg-gradient-to-r from-orange-400 to-red-500 bg-clip-text text-transparent">
-                  Trust
-                </span>{' '}
-                in Tampa Bay
-              </h1>
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-[1.1] mb-6 tracking-tight">
+              Stay Cool All Summer —{' '}
+              <span className="bg-gradient-to-r from-orange-400 to-red-500 bg-clip-text text-transparent">
+                Without the Stress
+              </span>
+            </h1>
 
-              <p className="text-lg sm:text-xl text-slate-300 leading-relaxed mb-9 max-w-xl">
-                Dependable heating, cooling, and indoor air quality solutions for Florida homes and businesses — fast repairs, quality installations, and routine maintenance.
-              </p>
+            <p className="text-lg sm:text-xl text-slate-300 leading-relaxed mb-8 max-w-xl">
+              North East Heating &amp; Cooling delivers same-day HVAC repair, honest pricing, and a lifetime warranty — backed by 35 five-star reviews across Tampa Bay.
+            </p>
 
-              <div className="flex flex-col sm:flex-row gap-4 mb-10">
-                <Link
-                  href="/contact"
-                  className="inline-flex items-center justify-center gap-2 bg-red-600 hover:bg-red-500 text-white font-bold text-lg px-8 py-4 rounded-xl transition-all shadow-lg shadow-red-600/40 hover:shadow-red-500/50 hover:-translate-y-0.5"
-                >
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
-                  Get a Free Consultation
-                </Link>
-                <a
-                  href="tel:8132916146"
-                  className="inline-flex items-center justify-center gap-2 bg-white/10 backdrop-blur-sm border border-white/30 text-white font-bold text-lg px-8 py-4 rounded-xl hover:bg-white/20 transition-all"
-                >
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
-                  Call (813) 291-6146
-                </a>
-              </div>
-
-              <div className="flex flex-wrap gap-x-6 gap-y-2 text-slate-300 text-sm font-medium">
-                <span className="flex items-center gap-1.5"><span className="text-emerald-400 font-bold">✓</span> Cool home, fast — same-day service</span>
-                <span className="flex items-center gap-1.5"><span className="text-emerald-400 font-bold">✓</span> No surprise bills — upfront pricing always</span>
-                <span className="flex items-center gap-1.5"><span className="text-emerald-400 font-bold">✓</span> Fixed right the first time — lifetime warranty</span>
-                <span className="flex items-center gap-1.5"><span className="text-emerald-400 font-bold">✓</span> Your neighbor, not a national chain</span>
-              </div>
+            <div className="flex flex-col sm:flex-row gap-4 mb-6">
+              <Link
+                href="/contact"
+                className="inline-flex items-center justify-center gap-2 bg-red-600 hover:bg-red-500 text-white font-bold text-lg px-8 py-4 rounded-xl transition-all shadow-lg shadow-red-600/40 hover:shadow-red-500/50 hover:-translate-y-0.5"
+              >
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
+                Book Your Free Consultation
+              </Link>
+              <a
+                href="tel:8132916146"
+                className="inline-flex items-center justify-center gap-2 bg-white/10 backdrop-blur-sm border border-white/30 text-white font-bold text-lg px-8 py-4 rounded-xl hover:bg-white/20 transition-all"
+              >
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+                Call (813) 291-6146
+              </a>
             </div>
 
+            {/* Social proof — star rating below CTA */}
+            <div className="flex items-center gap-3">
+              <div className="flex items-center gap-0.5">
+                {Array.from({ length: 5 }).map((_, i) => (
+                  <svg key={i} className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                  </svg>
+                ))}
+              </div>
+              <span className="text-white font-semibold text-sm">5.0</span>
+              <span className="text-slate-400 text-sm">·</span>
+              <span className="text-slate-300 text-sm">35 five-star Google reviews</span>
+            </div>
 
           </div>
         </div>
       </section>
+
+      {/* ── DREAM OUTCOMES BAR ── */}
+      <div className="bg-[#0f1620] border-t border-white/10" aria-label="Key outcomes">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-12">
+            {[
+              'Cool, comfortable home — fast',
+              'No surprise bills, ever',
+              'Fixed right the first time',
+            ].map((outcome, i) => (
+              <span key={i} className="flex items-center gap-2.5 text-white font-semibold text-sm">
+                <span className="flex items-center justify-center w-5 h-5 rounded-full bg-emerald-500 shrink-0">
+                  <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5"/>
+                  </svg>
+                </span>
+                {outcome}
+              </span>
+            ))}
+          </div>
+        </div>
+      </div>
 
       {/* ── PROBLEM AGITATION ── */}
       <section className="py-20 bg-white" aria-label="The problem we solve">
