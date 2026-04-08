@@ -188,9 +188,9 @@ export default function HomePage() {
         </div>
 
         <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-20">
-          <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+          <div className="max-w-3xl">
 
-            {/* ── Left column: copy ── */}
+            {/* ── Hero copy ── */}
             <div>
               {/* Trust badges */}
               <div className="flex flex-wrap gap-2.5 mb-7">
@@ -246,46 +246,6 @@ export default function HomePage() {
               </div>
             </div>
 
-            {/* ── Right column: stats card ── */}
-            <div className="hidden lg:flex justify-end">
-              <div className="w-full max-w-sm bg-white/10 backdrop-blur-md rounded-2xl border border-white/20 shadow-2xl overflow-hidden">
-                {/* Card header */}
-                <div className="bg-gradient-to-r from-red-700/90 to-orange-600/80 backdrop-blur-sm px-6 py-5">
-                  <p className="text-white/80 text-sm font-semibold uppercase tracking-widest mb-1">Tampa Bay&apos;s Trusted Choice</p>
-                  <p className="text-white text-2xl font-extrabold">North East Heating &amp; Cooling</p>
-                </div>
-                {/* Stats grid */}
-                <div className="grid grid-cols-2 divide-x divide-y divide-white/15">
-                  <div className="px-6 py-5 text-center">
-                    <p className="text-4xl font-extrabold text-white">10+</p>
-                    <p className="text-slate-300 text-sm mt-1">Years Serving<br />Tampa Bay</p>
-                  </div>
-                  <div className="px-6 py-5 text-center">
-                    <p className="text-4xl font-extrabold text-yellow-400">5.0</p>
-                    <p className="text-slate-300 text-sm mt-1">Star Rating<br />on Google</p>
-                  </div>
-                  <div className="px-6 py-5 text-center">
-                    <p className="text-4xl font-extrabold text-sky-400">24/7</p>
-                    <p className="text-slate-300 text-sm mt-1">Emergency<br />Service</p>
-                  </div>
-                  <div className="px-6 py-5 text-center">
-                    <p className="text-4xl font-extrabold text-orange-400">100%</p>
-                    <p className="text-slate-300 text-sm mt-1">Satisfaction<br />Guaranteed</p>
-                  </div>
-                </div>
-                {/* CTA */}
-                <div className="px-6 py-5">
-                  <a
-                    href="tel:8132916146"
-                    className="flex items-center justify-center gap-3 w-full bg-red-600 hover:bg-red-500 text-white font-extrabold text-xl py-4 rounded-xl transition-colors shadow-lg shadow-red-600/30"
-                  >
-                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
-                    (813) 291-6146
-                  </a>
-                  <p className="text-center text-slate-400 text-xs mt-3">Free estimates · No hidden fees</p>
-                </div>
-              </div>
-            </div>
 
           </div>
         </div>
