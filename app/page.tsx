@@ -174,10 +174,10 @@ export default function HomePage() {
         {/* Background photo */}
         <div className="absolute inset-0">
           <Image
-            src="/image.png"
-            alt="North East Heating & Cooling technician beside service van in Tampa Bay"
+            src="https://images.pexels.com/photos/3875141/pexels-photo-3875141.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            alt="Happy family relaxing comfortably at home after North East Heating & Cooling service in Tampa Bay"
             fill
-            className="object-cover object-right"
+            className="object-cover object-center"
             priority
             sizes="100vw"
           />
@@ -300,27 +300,48 @@ export default function HomePage() {
               <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-6 leading-tight">
                 Most Tampa homeowners have been burned by their HVAC company
               </h2>
-              <p className="text-gray-600 text-lg leading-relaxed">
+              <p className="text-gray-600 text-lg leading-relaxed mb-8">
                 You call, you wait three days, a stranger shows up, quotes you $4,000, and disappears. Meanwhile it&apos;s 94° in your living room and your family is miserable. That&apos;s not how it should work — and it&apos;s not how we work.
               </p>
+              <div className="space-y-3">
+                {[
+                  { icon: '🌡️', text: 'Waiting days for a tech while your home turns into a sauna' },
+                  { icon: '💸', text: 'Getting hit with a $300 diagnostic fee before a single bolt is turned' },
+                  { icon: '📋', text: 'Quoted $7,000 for a new unit — when a $200 repair was all it needed' },
+                  { icon: '📞', text: 'Calling a "24/7" line and waiting until Monday anyway' },
+                  { icon: '🔧', text: 'A different technician every visit who doesn\'t know your system' },
+                ].map((item, i) => (
+                  <div key={i} className="flex items-start gap-4 p-4 rounded-xl bg-red-50 border border-red-100">
+                    <span className="text-xl shrink-0 leading-none mt-0.5">{item.icon}</span>
+                    <p className="text-gray-700 font-medium text-sm leading-relaxed">{item.text}</p>
+                  </div>
+                ))}
+              </div>
+              <p className="text-gray-400 text-sm italic mt-6">We&apos;ve heard these stories from hundreds of Tampa Bay families. It&apos;s why Chris started North East Heating &amp; Cooling.</p>
             </div>
-            <div className="space-y-3">
-              {[
-                { icon: '🌡️', text: 'Waiting days for a tech while your home turns into a sauna' },
-                { icon: '💸', text: 'Getting hit with a $300 diagnostic fee before a single bolt is turned' },
-                { icon: '📋', text: 'Quoted $7,000 for a new unit — when a $200 repair was all it needed' },
-                { icon: '📞', text: 'Calling a "24/7" line and waiting until Monday anyway' },
-                { icon: '🔧', text: 'A different technician every visit who doesn\'t know your system' },
-              ].map((item, i) => (
-                <div key={i} className="flex items-start gap-4 p-4 rounded-xl bg-red-50 border border-red-100">
-                  <span className="text-xl shrink-0 leading-none mt-0.5">{item.icon}</span>
-                  <p className="text-gray-700 font-medium text-sm leading-relaxed">{item.text}</p>
+            {/* Technician/van photo — "this is who we actually send" */}
+            <div className="relative rounded-2xl overflow-hidden shadow-xl" style={{ aspectRatio: '4/5' }}>
+              <Image
+                src="/image.png"
+                alt="Chris Grullon, North East Heating & Cooling owner and technician, Tampa Bay FL"
+                fill
+                className="object-cover object-right"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
+              <div className="absolute bottom-0 left-0 right-0 p-6">
+                <div className="flex items-center gap-0.5 mb-2">
+                  {Array.from({ length: 5 }).map((_, i) => (
+                    <svg key={i} className="w-4 h-4 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                    </svg>
+                  ))}
+                  <span className="text-white text-sm font-semibold ml-2">5.0 · 35 Google Reviews</span>
                 </div>
-              ))}
+                <p className="text-white font-bold text-lg">This is who shows up.</p>
+                <p className="text-white/75 text-sm">Chris — owner, technician, and your neighbor.</p>
+              </div>
             </div>
-          </div>
-          <div className="mt-10 text-center">
-            <p className="text-gray-500 text-base italic">We&apos;ve heard these stories from hundreds of Tampa Bay families. It&apos;s why Chris started North East Heating &amp; Cooling.</p>
           </div>
         </div>
       </section>
