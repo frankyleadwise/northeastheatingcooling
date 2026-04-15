@@ -7,6 +7,11 @@ export async function POST(request: Request) {
       try {
               const body = await request.json()
 
+        // Honeypot check — if this field has a value, it's a bot
+        if (body.company_url) {
+              return NextResponse.json({ success: true })
+        }
+
         const first_name = (body.first_name || '').trim()
               const last_name = (body.last_name || '').trim()
 

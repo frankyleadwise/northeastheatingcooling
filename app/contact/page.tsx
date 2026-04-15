@@ -90,6 +90,7 @@ export default function ContactPage() {
     serviceType: '',
     contactMethod: 'Phone',
     message: '',
+    company_url: '',
   })
   const [submitted, setSubmitted] = useState(false)
   const [submitting, setSubmitting] = useState(false)
@@ -103,6 +104,14 @@ export default function ContactPage() {
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     setSubmitting(true)
+
+    // Honeypot — bots fill this hidden field, real users don't
+    if (formData.company_url) {
+      setSubmitted(true)
+      setSubmitting(false)
+      return
+    }
+
     try {
       const res = await fetch('/api/contact', {
         method: 'POST',
@@ -301,11 +310,12 @@ export default function ContactPage() {
                   {/* Service Type */}
                   <div>
                     <label htmlFor="serviceType" className="block text-sm font-semibold text-gray-700 mb-1.5">
-                      Service Type
+                      Service Type <span className="text-red-500">*</span>
                     </label>
                     <select
                       id="serviceType"
                       name="serviceType"
+                      required
                       value={formData.serviceType}
                       onChange={handleChange}
                       className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-900 text-sm bg-white"
@@ -350,6 +360,20 @@ export default function ContactPage() {
                       onChange={handleChange}
                       placeholder="Describe your HVAC issue or what you need…"
                       className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-900 placeholder-gray-400 text-sm bg-white resize-none"
+                    />
+                  </div>
+
+                  {/* Honeypot — hidden from real users, bots auto-fill it */}
+                  <div style={{ position: 'absolute', left: '-9999px', opacity: 0, height: 0, overflow: 'hidden' }} aria-hidden="true" tabIndex={-1}>
+                    <label htmlFor="company_url">Company URL</label>
+                    <input
+                      id="company_url"
+                      name="company_url"
+                      type="text"
+                      value={formData.company_url}
+                      onChange={handleChange}
+                      autoComplete="off"
+                      tabIndex={-1}
                     />
                   </div>
 
