@@ -62,17 +62,17 @@ const jsonLd = {
   priceRange: '$$',
   currenciesAccepted: 'USD',
   paymentAccepted: 'Cash, Credit Card, Check, Financing',
-  address: {
-    '@type': 'PostalAddress',
-    addressLocality: 'Tampa',
-    addressRegion: 'FL',
-    postalCode: '33601',
-    addressCountry: 'US',
-  },
-  geo: {
-    '@type': 'GeoCoordinates',
-    latitude: 27.9506,
-    longitude: -82.4572,
+  // Service-area business: technicians travel to customers, no public storefront.
+  // Per schema.org guidance, areaServed + serviceArea express coverage without
+  // requiring a publishable street address.
+  serviceArea: {
+    '@type': 'GeoCircle',
+    geoMidpoint: {
+      '@type': 'GeoCoordinates',
+      latitude: 27.9506,
+      longitude: -82.4572,
+    },
+    geoRadius: '40000', // ~25 miles, covers the full Tampa Bay service footprint
   },
   serviceType: [
     'AC Repair',
