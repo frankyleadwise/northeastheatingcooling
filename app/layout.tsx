@@ -178,6 +178,23 @@ const jsonLd = {
     reviewCount: '35',
     bestRating: '5',
   },
+  contactPoint: [
+    {
+      '@type': 'ContactPoint',
+      telephone: '+1-813-291-6146',
+      contactType: 'customer service',
+      areaServed: 'US',
+      availableLanguage: ['English', 'Spanish'],
+      contactOption: 'TollFree',
+    },
+    {
+      '@type': 'ContactPoint',
+      telephone: '+1-813-291-6146',
+      contactType: 'emergency',
+      areaServed: 'US',
+      availableLanguage: 'English',
+    },
+  ],
   sameAs: [
     'https://www.facebook.com/northeastheatingcooling',
     'https://www.google.com/maps/place/North+East+Heating+%26+Cooling',
