@@ -43,6 +43,30 @@ const services = [
     highlights: ['New AC system installation', 'Full system replacement', 'Energy-efficient upgrades', 'Free installation estimates'],
   },
   {
+    title: 'AC Maintenance & Tune-Ups',
+    href: '/residential/ac-maintenance-tampa',
+    icon: '🛠️',
+    description:
+      'Twice-yearly maintenance plans and 20-point tune-ups that extend your system\'s life, lower energy bills, and prevent costly summer breakdowns. Plans start at $19/mo.',
+    highlights: ['20-point inspection', 'Coil cleaning included', 'Priority scheduling', 'Plans from $19/mo'],
+  },
+  {
+    title: 'Heat Pump Installation & Repair',
+    href: '/residential/heat-pump-tampa',
+    icon: '🔥',
+    description:
+      'Variable-speed heat pumps designed for Florida\'s climate. One system handles cooling and heating year-round. Federal tax credits up to $2,000 on qualifying installs.',
+    highlights: ['Variable-speed inverter systems', 'Federal tax credit eligible', 'Manual J load calculation', 'Lifetime workmanship warranty'],
+  },
+  {
+    title: 'Ductless Mini-Split Installation',
+    href: '/residential/ductless-mini-split-tampa',
+    icon: '❄️',
+    description:
+      'Ductless mini-splits for additions, garages, sunrooms, or whole-home zoning without ductwork. Premium brands like Mitsubishi, Daikin, and LG.',
+    highlights: ['Single-zone or multi-zone', 'No ductwork required', 'Up to 28 SEER2 efficiency', 'Quiet operation'],
+  },
+  {
     title: 'Air Duct Repair & Replacement',
     href: '/residential/air-duct-repair-tampa',
     icon: '💨',

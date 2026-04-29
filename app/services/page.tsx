@@ -217,11 +217,25 @@ const residentialServices = [
       'Energy-efficient AC system installations sized perfectly for your home. We work with all major brands and handle everything from removal to startup.',
   },
   {
-    Icon: FlameIcon,
-    title: 'Heating Repair',
-    slug: '/residential/hvac-service-tampa',
+    Icon: ShieldIcon,
+    title: 'AC Maintenance & Tune-Ups',
+    slug: '/residential/ac-maintenance-tampa',
     description:
-      'Furnace and heat pump repair to keep your home comfortable during Tampa Bay\'s cooler months. Honest diagnostics, reliable fixes.',
+      'Twice-yearly maintenance plans and 20-point tune-ups that extend system life, lower energy bills, and prevent costly breakdowns. Plans start at $19/mo.',
+  },
+  {
+    Icon: FlameIcon,
+    title: 'Heat Pump Installation & Repair',
+    slug: '/residential/heat-pump-tampa',
+    description:
+      'Variable-speed heat pumps built for Florida\'s climate. Federal tax credits up to $2,000 on qualifying systems. Cooling and heating from one unit.',
+  },
+  {
+    Icon: WindIcon,
+    title: 'Ductless Mini-Split',
+    slug: '/residential/ductless-mini-split-tampa',
+    description:
+      'Single-zone or multi-zone ductless systems for additions, garages, sunrooms, or whole-home use without ductwork. Mitsubishi, Daikin, LG.',
   },
   {
     Icon: WindIcon,

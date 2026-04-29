@@ -37,6 +37,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const residentialSlugs = [
     'hvac-service-tampa',
     'hvac-installation-tampa-fl',
+    'ac-maintenance-tampa',
+    'heat-pump-tampa',
+    'ductless-mini-split-tampa',
     'air-duct-repair-tampa',
     'exhaust-fan-repair-tampa',
     'water-heater-repair-tampa',
@@ -128,6 +131,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'top-signs-hvac-system-needs-repair',
     'when-to-replace-your-ac-unit-florida',
     'new-refrigerants-r454b-r32-efficiency-safety',
+    'heat-pump-vs-ac-florida',
+    'ductless-vs-central-ac',
+    'how-long-does-ac-last-in-florida',
   ]
 
   const blogPages: MetadataRoute.Sitemap = [

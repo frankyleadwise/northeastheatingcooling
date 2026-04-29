@@ -77,6 +77,36 @@ const posts = [
     photo: '7556587',
     photoAlt: 'Person sleeping comfortably in cool bedroom',
   },
+  {
+    slug: 'heat-pump-vs-ac-florida',
+    title: 'Heat Pump vs. AC in Florida: Which Is Better for Tampa Homes?',
+    excerpt:
+      "Florida's mild winters change the math on heating and cooling. A side-by-side comparison of heat pumps and traditional AC systems for Tampa Bay homes — including federal tax credits and real installed-cost numbers.",
+    date: 'April 29, 2026',
+    category: 'Buying Guide',
+    photo: '8961065',
+    photoAlt: 'Heat pump installed outside Tampa Bay home',
+  },
+  {
+    slug: 'ductless-vs-central-ac',
+    title: 'Ductless Mini-Split vs. Central AC: Which Is Right for Your Tampa Home?',
+    excerpt:
+      'Two completely different approaches to cooling your home. When mini-splits make more sense than central AC, when they don\'t, and the hybrid approach most Tampa homeowners overlook.',
+    date: 'April 29, 2026',
+    category: 'Buying Guide',
+    photo: '4078319',
+    photoAlt: 'Ductless mini-split unit on wall in modern Tampa home',
+  },
+  {
+    slug: 'how-long-does-ac-last-in-florida',
+    title: 'How Long Does an AC Last in Florida? A Tampa HVAC Owner Explains',
+    excerpt:
+      'The honest answer is 12–15 years, but the difference between a system that lasts 8 years and one that lasts 18 comes down to a handful of factors most homeowners control.',
+    date: 'April 29, 2026',
+    category: 'HVAC Lifespan',
+    photo: '3855962',
+    photoAlt: 'HVAC technician inspecting aging AC unit',
+  },
 ]
 
 const categoryColors: Record<string, string> = {
@@ -86,6 +116,8 @@ const categoryColors: Record<string, string> = {
   'Maintenance': 'bg-blue-100 text-blue-700',
   'Energy Efficiency': 'bg-purple-100 text-purple-700',
   'Refrigerants': 'bg-teal-100 text-teal-700',
+  'Buying Guide': 'bg-indigo-100 text-indigo-700',
+  'HVAC Lifespan': 'bg-amber-100 text-amber-700',
 }
 
 export default function BlogPage() {
