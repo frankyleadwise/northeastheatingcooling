@@ -18,6 +18,16 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: 'ac-running-but-not-cooling',
+    title: 'Why Is My AC Running But Not Cooling? 8 Causes (And What to Do)',
+    excerpt:
+      "Your AC is running but the air isn't cold — here are the 8 most common causes a Tampa HVAC technician sees, ordered from cheapest to fix to most expensive. What you can safely check yourself before calling.",
+    date: 'April 29, 2026',
+    category: 'Troubleshooting',
+    photo: '7983215',
+    photoAlt: 'HVAC technician diagnosing AC unit',
+  },
+  {
     slug: 'when-to-replace-your-ac-unit-florida',
     title: 'How to Know When to Replace Your AC Unit in Florida',
     excerpt:
@@ -118,6 +128,7 @@ const categoryColors: Record<string, string> = {
   'Refrigerants': 'bg-teal-100 text-teal-700',
   'Buying Guide': 'bg-indigo-100 text-indigo-700',
   'HVAC Lifespan': 'bg-amber-100 text-amber-700',
+  'Troubleshooting': 'bg-rose-100 text-rose-700',
 }
 
 export default function BlogPage() {

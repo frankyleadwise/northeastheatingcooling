@@ -134,6 +134,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'heat-pump-vs-ac-florida',
     'ductless-vs-central-ac',
     'how-long-does-ac-last-in-florida',
+    'ac-running-but-not-cooling',
   ]
 
   const blogPages: MetadataRoute.Sitemap = [
