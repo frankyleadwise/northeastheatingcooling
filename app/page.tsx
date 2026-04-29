@@ -4,15 +4,28 @@ import Image from 'next/image'
 import QuoteForm from '@/app/components/QuoteForm'
 
 export const metadata: Metadata = {
-  title: 'North East Heating & Cooling | HVAC Services Tampa Bay, FL',
-  description: 'Expert HVAC repair, AC installation & maintenance in Tampa Bay, FL. Licensed, licensed & insured technicians. 24/7 emergency service. Call (813) 291-6146 for a free consultation.',
-  keywords: ['hvac tampa', 'ac repair tampa', 'hvac installation tampa', 'air duct repair tampa', 'heating and cooling tampa', 'hvac service tampa fl'],
+  title: 'AC Repair Near Me Tampa | North East Heating & Cooling',
+  description: 'Looking for AC repair near me in Tampa? North East Heating & Cooling delivers same-day air conditioner repair, AC installation & HVAC maintenance across Tampa Bay. Licensed, insured, 5.0★ rated. Call (813) 291-6146.',
+  keywords: [
+    'ac repair near me',
+    'air conditioner repair near me',
+    'ac repair tampa',
+    'hvac near me',
+    'hvac repair tampa',
+    'ac installation tampa',
+    'ac replacement tampa',
+    'ac maintenance tampa',
+    'air conditioning service tampa',
+    'hvac contractor tampa',
+    'emergency ac repair tampa',
+    'hvac company tampa',
+  ],
   alternates: {
     canonical: '/',
   },
   openGraph: {
-    title: 'North East Heating & Cooling | Tampa Bay HVAC Experts',
-    description: 'Expert HVAC repair, AC installation & maintenance in Tampa Bay, FL. 24/7 emergency service. Call (813) 291-6146.',
+    title: 'AC Repair Near Me — Tampa Bay HVAC Experts | North East Heating & Cooling',
+    description: 'Same-day AC repair across Tampa Bay. Licensed, insured, 5.0★ on Google. Call (813) 291-6146 for a free consultation.',
     url: '/',
     type: 'website',
   },
@@ -91,6 +104,18 @@ const testimonials = [
 
 const faqs = [
   {
+    q: 'Where can I find AC repair near me in Tampa Bay?',
+    a: 'North East Heating & Cooling is a locally owned, Tampa-based HVAC company serving the entire Tampa Bay area — including Tampa, St. Petersburg, Clearwater, Brandon, Riverview, Valrico, Plant City, Carrollwood, Lutz, Wesley Chapel, and surrounding communities. We offer same-day AC repair across our service area. Call (813) 291-6146 or request a free consultation online and we\'ll dispatch a technician — usually the same day.',
+  },
+  {
+    q: 'How much does AC repair cost in Tampa?',
+    a: 'Most AC repairs in the Tampa Bay area fall between $150 and $650, with capacitor and contactor replacements on the lower end and refrigerant leaks, blower motors, or compressor work on the higher end. A standard diagnostic service call runs $75–$150, which we apply toward the repair if you proceed. We give you a flat, written quote before any work begins — no surprise charges, ever. Call (813) 291-6146 for a free estimate.',
+  },
+  {
+    q: 'How fast can you get to me for emergency AC repair?',
+    a: 'For emergency calls in our core Tampa service area (Tampa, St. Pete, Clearwater, Brandon, Riverview, Valrico), we can usually be at your home within 2–4 hours during business hours and same-day overnight for true emergencies. Our owner Chris answers emergency calls personally — you talk to a technician, not a dispatch queue. Call (813) 291-6146 anytime.',
+  },
+  {
     q: 'How often should I service my HVAC system in Florida?',
     a: 'In Florida\'s climate, we recommend twice-yearly maintenance — once before summer (April/May) and once before winter (October/November). The heat and humidity put extra strain on your system.',
   },
@@ -133,6 +158,26 @@ const faqs = [
   {
     q: 'What is the most expensive part of an HVAC system?',
     a: 'The compressor is the most expensive component — essentially the heart of your AC system — and replacement can run $1,500 to $2,500 or more. If your compressor fails and your system is more than 10 years old, replacing the full unit is often more cost-effective. We\'ll always walk you through both options honestly so you can make the best decision for your budget.',
+  },
+  {
+    q: 'Heat pump vs. AC in Florida — which is better?',
+    a: 'For most of Tampa Bay, a heat pump is the smarter choice. Florida\'s mild winters make heat pumps highly efficient year-round, since they handle both cooling in summer and heating in winter from one system — no separate furnace needed. Traditional split AC systems still make sense in homes with existing gas furnaces, but for new installs or full system replacements, a modern variable-speed heat pump usually wins on energy bills, comfort, and equipment life. We\'ll size and quote both options so you can compare honestly.',
+  },
+  {
+    q: 'Ductless mini-split vs. central AC — which should I choose?',
+    a: 'Central AC is the right call when your home already has good ductwork — it cools the whole house evenly with one system. Ductless mini-splits shine in additions, garages, sunrooms, older Florida homes without ducts, or anywhere you want zone control (cooling only the rooms you\'re using). Mini-splits also tend to be more energy-efficient per zone since you\'re not pushing cold air through leaky ducts in the attic. We install both. Call us and we\'ll walk through which makes sense for your specific home.',
+  },
+  {
+    q: 'When should I replace my AC unit instead of repairing it?',
+    a: 'Three signals tell us it\'s time to replace rather than repair: (1) the system is over 10–12 years old and starting to need recurring repairs, (2) the repair cost multiplied by the unit\'s age exceeds $5,000 (the $5,000 rule), or (3) your energy bills have been climbing year-over-year despite no change in usage. In Florida\'s climate, systems work harder than the national average, so the 12–15 year mark is often the right window. We\'ll always give you both options — repair cost vs. replacement quote — so you can decide with full information.',
+  },
+  {
+    q: 'Why is my AC running but not cooling?',
+    a: 'The most common causes in Tampa Bay homes are: a frozen evaporator coil (usually from a dirty filter or low refrigerant), a tripped or failing capacitor, a clogged condensate drain line shutting the system off, low refrigerant from a slow leak, or a failing compressor. Some of these you can troubleshoot yourself (replace the filter, check the breaker, look for ice on the lines). For the rest, give us a call — most of these are quick same-day fixes.',
+  },
+  {
+    q: 'How long does an AC last in Florida?',
+    a: 'In Florida\'s climate, expect a typical AC system to last 12–15 years rather than the national average of 15–20. The combination of year-round use, salt air near the coast, humidity, and heat all accelerate wear on coils, compressors, and electrical components. Routine maintenance — twice-yearly tune-ups, regular filter changes, keeping the outdoor unit clear — can push your system to the upper end of that range. Skip maintenance and you\'re often looking at 8–10 years.',
   },
 ]
 
@@ -194,18 +239,21 @@ export default function HomePage() {
 
             {/* Eyebrow — calls out ideal client */}
             <p className="text-sm font-bold uppercase tracking-widest text-orange-400 mb-4">
-              Tampa Bay Homeowners &amp; Businesses
+              Tampa Bay&apos;s 5★ HVAC Company
             </p>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-[1.1] mb-6 tracking-tight">
-              Stay Cool All Summer{' '}
+              AC Repair Near You in{' '}
               <span className="bg-gradient-to-r from-orange-400 to-red-500 bg-clip-text text-transparent">
-                Without the Stress
+                Tampa Bay
+              </span>
+              <span className="block text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-200 mt-3">
+                Same-day service. Honest pricing. Done right the first time.
               </span>
             </h1>
 
             <p className="text-lg sm:text-xl text-slate-300 leading-relaxed mb-8 max-w-xl">
-              North East Heating &amp; Cooling delivers same-day HVAC repair, honest pricing, and a lifetime warranty — backed by 35 five-star reviews across Tampa Bay.
+              When your AC quits in Florida heat, you don&apos;t need a stranger and a $7,000 estimate. North East Heating &amp; Cooling delivers same-day AC repair, installation, and maintenance across Tampa Bay — backed by a lifetime workmanship warranty and 35 five-star Google reviews.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-6">
@@ -214,7 +262,7 @@ export default function HomePage() {
                 className="inline-flex items-center justify-center gap-2 bg-red-600 hover:bg-red-500 text-white font-bold text-lg px-8 py-4 rounded-xl transition-all shadow-lg shadow-red-600/40 hover:shadow-red-500/50 hover:-translate-y-0.5"
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
-                Book Your Free Consultation
+                Book Same-Day AC Repair
               </Link>
               <a
                 href="tel:8132916146"

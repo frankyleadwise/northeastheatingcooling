@@ -7,18 +7,24 @@ import MobileCallButton from '@/components/MobileCallButton'
 export const metadata: Metadata = {
   metadataBase: new URL('https://northeastheatingcooling.com'),
   title: {
-    default: 'North East Heating & Cooling | HVAC Services Tampa Bay, FL',
+    default: 'AC Repair Near Me Tampa | North East Heating & Cooling',
     template: '%s | North East Heating & Cooling',
   },
   description:
-    'Expert HVAC repair, AC installation & maintenance in Tampa Bay, FL. Licensed, certified & insured. 24/7 emergency service. Call (813) 291-6146.',
+    'Same-day AC repair, HVAC installation & maintenance across Tampa Bay, FL. Licensed, certified & insured. 5.0★ on Google with 35 reviews. Call (813) 291-6146.',
   keywords: [
-    'hvac tampa',
+    'ac repair near me',
+    'air conditioner repair near me',
+    'hvac near me',
     'ac repair tampa',
-    'hvac installation tampa',
-    'air duct repair tampa',
-    'heating and cooling tampa',
-    'hvac service tampa fl',
+    'hvac repair tampa',
+    'ac installation tampa',
+    'ac replacement tampa',
+    'ac maintenance tampa',
+    'hvac contractor tampa',
+    'hvac company tampa',
+    'air conditioning service tampa',
+    'emergency ac repair tampa',
   ],
   openGraph: {
     siteName: 'North East Heating & Cooling',
@@ -43,15 +49,19 @@ export const metadata: Metadata = {
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'HVACBusiness',
+  '@id': 'https://northeastheatingcooling.com/#business',
   name: 'North East Heating & Cooling',
+  alternateName: ['Northeast Heating and Cooling', 'Northeast HVAC Tampa', 'NE Heating & Cooling'],
   description:
-    'Expert HVAC repair, AC installation & maintenance in Tampa Bay, FL. Licensed, licensed & insured. 24/7 emergency service.',
-  telephone: '(813) 291-6146',
+    'Same-day AC repair, HVAC installation & maintenance across Tampa Bay, FL. Licensed, certified, and insured. 24/7 emergency service.',
+  telephone: '+1-813-291-6146',
   email: 'office@northeastheatingcooling.com',
   url: 'https://northeastheatingcooling.com',
   logo: 'https://northeastheatingcooling.com/logo.svg',
   image: 'https://northeastheatingcooling.com/image.png',
   priceRange: '$$',
+  currenciesAccepted: 'USD',
+  paymentAccepted: 'Cash, Credit Card, Check, Financing',
   address: {
     '@type': 'PostalAddress',
     addressLocality: 'Tampa',
@@ -63,6 +73,68 @@ const jsonLd = {
     '@type': 'GeoCoordinates',
     latitude: 27.9506,
     longitude: -82.4572,
+  },
+  serviceType: [
+    'AC Repair',
+    'AC Installation',
+    'AC Replacement',
+    'HVAC Repair',
+    'HVAC Installation',
+    'HVAC Maintenance',
+    'Heating Repair',
+    'Heat Pump Installation',
+    'Heat Pump Repair',
+    'Furnace Repair',
+    'Air Duct Repair',
+    'Ductless Mini-Split Installation',
+    'Emergency AC Repair',
+    'Commercial HVAC Service',
+  ],
+  hasOfferCatalog: {
+    '@type': 'OfferCatalog',
+    name: 'HVAC Services',
+    itemListElement: [
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'AC Repair',
+          description: 'Same-day air conditioner diagnostic and repair across Tampa Bay.',
+        },
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'AC Installation',
+          description: 'New AC and full system installation with lifetime workmanship warranty.',
+        },
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'HVAC Maintenance',
+          description: 'Twice-yearly preventive HVAC tune-ups and maintenance plans.',
+        },
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'Heat Pump Installation',
+          description: 'Variable-speed heat pump installation optimized for Florida climate.',
+        },
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'Emergency AC Repair',
+          description: '24/7 emergency air conditioner repair service across Tampa Bay.',
+        },
+      },
+    ],
   },
   areaServed: [
     { '@type': 'City', name: 'Tampa' },
