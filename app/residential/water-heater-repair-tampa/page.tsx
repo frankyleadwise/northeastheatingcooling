@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 
+import ServicePageQuoteForm from '@/app/components/ServicePageQuoteForm'
 export const metadata: Metadata = {
   title: 'Water Heater Repair Tampa, FL | Tank & Tankless Systems | North East H&C',
   description:
@@ -450,33 +451,11 @@ export default function WaterHeaterRepairTampaPage() {
                 </div>
               </div>
             </div>
-            <form className="bg-white rounded-2xl p-7 text-gray-900 shadow-xl" action="/api/contact" method="POST">
-              <h3 className="text-xl font-bold text-gray-800 mb-5">Request Water Heater Service</h3>
-              <div className="space-y-4">
-                <div>
-                  <label htmlFor="wh-name" className="block text-sm font-semibold text-gray-700 mb-1">Your Name</label>
-                  <input id="wh-name" type="text" name="name" placeholder="John Smith" className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100" />
-                </div>
-                <div>
-                  <label htmlFor="wh-phone" className="block text-sm font-semibold text-gray-700 mb-1">Phone Number</label>
-                  <input id="wh-phone" type="tel" name="phone" placeholder="(813) 555-1234" className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100" />
-                </div>
-                <div>
-                  <label htmlFor="wh-email" className="block text-sm font-semibold text-gray-700 mb-1">Email Address</label>
-                  <input id="wh-email" type="email" name="email" placeholder="john@example.com" className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100" />
-                </div>
-                <div>
-                  <label htmlFor="wh-message" className="block text-sm font-semibold text-gray-700 mb-1">Describe Your Issue</label>
-                  <textarea id="wh-message" name="message" placeholder="Tank or tankless? Age of unit? What issue are you experiencing?" rows={4} className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100 resize-none" />
-                </div>
-                <button type="submit" className="w-full bg-red-700 hover:bg-[#0f1620] active:bg-[#0f1620] text-white font-bold py-3.5 rounded-lg transition-colors text-base">
-                  Submit Request
-                </button>
-                <p className="text-xs text-gray-500 text-center">
-                  For urgent situations, call <a href="tel:8132916146" className="text-blue-600 font-semibold">(813) 291-6146</a> directly for fastest response.
-                </p>
-              </div>
-            </form>
+            <ServicePageQuoteForm
+              heading="Request Water Heater Service"
+              defaultService="Water Heater Repair"
+              messagePlaceholder="Tank or tankless? Age of unit? What issue are you experiencing?"
+            />
           </div>
         </div>
       </section>

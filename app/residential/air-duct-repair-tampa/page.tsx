@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 
+import ServicePageQuoteForm from '@/app/components/ServicePageQuoteForm'
 export const metadata: Metadata = {
   title: 'Air Duct Repair Tampa, FL | Duct Sealing & Replacement | North East H&C',
   description:
@@ -378,33 +379,11 @@ export default function AirDuctRepairTampaPage() {
                 </a>
               </div>
             </div>
-            <form className="bg-white rounded-2xl p-7 text-gray-900 shadow-xl" action="/api/contact" method="POST">
-              <h3 className="text-xl font-bold text-gray-800 mb-5">Request Duct Inspection</h3>
-              <div className="space-y-4">
-                <div>
-                  <label htmlFor="duct-name" className="block text-sm font-semibold text-gray-700 mb-1">Your Name</label>
-                  <input id="duct-name" type="text" name="name" placeholder="John Smith" className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100" />
-                </div>
-                <div>
-                  <label htmlFor="duct-phone" className="block text-sm font-semibold text-gray-700 mb-1">Phone Number</label>
-                  <input id="duct-phone" type="tel" name="phone" placeholder="(813) 555-1234" className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100" />
-                </div>
-                <div>
-                  <label htmlFor="duct-email" className="block text-sm font-semibold text-gray-700 mb-1">Email Address</label>
-                  <input id="duct-email" type="email" name="email" placeholder="john@example.com" className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100" />
-                </div>
-                <div>
-                  <label htmlFor="duct-message" className="block text-sm font-semibold text-gray-700 mb-1">Describe Your Concerns</label>
-                  <textarea id="duct-message" name="message" placeholder="Hot rooms, high bills, dusty vents, musty smell, uneven temperatures..." rows={4} className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100 resize-none" />
-                </div>
-                <button type="submit" className="w-full bg-red-700 hover:bg-[#0f1620] active:bg-[#0f1620] text-white font-bold py-3.5 rounded-lg transition-colors text-base">
-                  Submit Request
-                </button>
-                <p className="text-xs text-gray-500 text-center">
-                  Questions? Call <a href="tel:8132916146" className="text-blue-600 font-semibold">(813) 291-6146</a> — we&apos;re here to help.
-                </p>
-              </div>
-            </form>
+            <ServicePageQuoteForm
+              heading="Request Duct Inspection"
+              defaultService="Air Duct Repair"
+              messagePlaceholder="Hot rooms, high bills, dusty vents, musty smell, uneven temperatures..."
+            />
           </div>
         </div>
       </section>
