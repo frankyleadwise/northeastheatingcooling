@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 
+import ServicePageQuoteForm from '@/app/components/ServicePageQuoteForm'
 export const metadata: Metadata = {
   title: 'Exhaust Fan Repair Tampa, FL | Kitchen & Bathroom Fans | North East H&C',
   description:
@@ -379,33 +380,11 @@ export default function ExhaustFanRepairTampaPage() {
                 </a>
               </div>
             </div>
-            <form className="bg-white rounded-2xl p-7 text-gray-900 shadow-xl" action="/api/contact" method="POST">
-              <h3 className="text-xl font-bold text-gray-800 mb-5">Request Fan Repair Service</h3>
-              <div className="space-y-4">
-                <div>
-                  <label htmlFor="fan-name" className="block text-sm font-semibold text-gray-700 mb-1">Your Name</label>
-                  <input id="fan-name" type="text" name="name" placeholder="John Smith" className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100" />
-                </div>
-                <div>
-                  <label htmlFor="fan-phone" className="block text-sm font-semibold text-gray-700 mb-1">Phone Number</label>
-                  <input id="fan-phone" type="tel" name="phone" placeholder="(813) 555-1234" className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100" />
-                </div>
-                <div>
-                  <label htmlFor="fan-email" className="block text-sm font-semibold text-gray-700 mb-1">Email Address</label>
-                  <input id="fan-email" type="email" name="email" placeholder="john@example.com" className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100" />
-                </div>
-                <div>
-                  <label htmlFor="fan-message" className="block text-sm font-semibold text-gray-700 mb-1">Describe the Problem</label>
-                  <textarea id="fan-message" name="message" placeholder="Kitchen or bathroom fan? What is it doing (or not doing)? Any noises?" rows={4} className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100 resize-none" />
-                </div>
-                <button type="submit" className="w-full bg-red-700 hover:bg-[#0f1620] active:bg-[#0f1620] text-white font-bold py-3.5 rounded-lg transition-colors text-base">
-                  Submit Request
-                </button>
-                <p className="text-xs text-gray-500 text-center">
-                  Call <a href="tel:8132916146" className="text-blue-600 font-semibold">(813) 291-6146</a> for same-day service availability.
-                </p>
-              </div>
-            </form>
+            <ServicePageQuoteForm
+              heading="Request Fan Repair Service"
+              defaultService="Exhaust Fan Repair"
+              messagePlaceholder="Kitchen or bathroom fan? What is it doing (or not doing)? Any noises?"
+            />
           </div>
         </div>
       </section>

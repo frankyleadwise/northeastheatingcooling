@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import type { FormEvent } from 'react'
 
 // ─── SVG Icons ───────────────────────────────────────────────────────────────
@@ -95,6 +95,13 @@ export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false)
   const [submitting, setSubmitting] = useState(false)
 
+  // Timing token: stamps when the form first renders. Server rejects
+  // submissions that come back in <3s (bot) or >2h (stale).
+  const formStartedAtRef = useRef<number>(Date.now())
+  useEffect(() => {
+    formStartedAtRef.current = Date.now()
+  }, [])
+
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>
   ) => {
@@ -105,7 +112,8 @@ export default function ContactPage() {
     e.preventDefault()
     setSubmitting(true)
 
-    // Honeypot — bots fill this hidden field, real users don't
+    // Honeypot — bots fill this hidden field, real users don't.
+    // We still pass it to the server so server-side enforcement is canonical.
     if (formData.company_url) {
       setSubmitted(true)
       setSubmitting(false)
@@ -124,6 +132,8 @@ export default function ContactPage() {
           service_type: formData.serviceType,
           contact_method: formData.contactMethod,
           message: formData.message,
+          company_url: formData.company_url,
+          form_started_at: formStartedAtRef.current,
         }),
       })
       if (!res.ok) throw new Error('Failed')

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 
+import ServicePageQuoteForm from '@/app/components/ServicePageQuoteForm'
 export const metadata: Metadata = {
   title: 'Residential HVAC Repair Services in Tampa, FL | North East Heating & Cooling',
   description:
@@ -516,76 +517,11 @@ export default function HvacServiceTampaPage() {
                 </div>
               </div>
             </div>
-            <form
-              className="bg-white rounded-2xl p-7 text-gray-900 shadow-xl"
-              action="/api/contact"
-              method="POST"
-            >
-              <h3 className="text-xl font-bold text-gray-800 mb-5">Request HVAC Repair Service</h3>
-              <div className="space-y-4">
-                <div>
-                  <label htmlFor="repair-name" className="block text-sm font-semibold text-gray-700 mb-1">
-                    Your Name
-                  </label>
-                  <input
-                    id="repair-name"
-                    type="text"
-                    name="name"
-                    placeholder="John Smith"
-                    className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="repair-phone" className="block text-sm font-semibold text-gray-700 mb-1">
-                    Phone Number
-                  </label>
-                  <input
-                    id="repair-phone"
-                    type="tel"
-                    name="phone"
-                    placeholder="(813) 555-1234"
-                    className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="repair-email" className="block text-sm font-semibold text-gray-700 mb-1">
-                    Email Address
-                  </label>
-                  <input
-                    id="repair-email"
-                    type="email"
-                    name="email"
-                    placeholder="john@example.com"
-                    className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="repair-message" className="block text-sm font-semibold text-gray-700 mb-1">
-                    Describe Your Issue
-                  </label>
-                  <textarea
-                    id="repair-message"
-                    name="message"
-                    placeholder="Describe your HVAC problem — when it started, what you&apos;ve noticed, system age, etc."
-                    rows={4}
-                    className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100 resize-none"
-                  />
-                </div>
-                <button
-                  type="submit"
-                  className="w-full bg-red-700 hover:bg-[#0f1620] active:bg-[#0f1620] text-white font-bold py-3.5 rounded-lg transition-colors text-base"
-                >
-                  Submit Repair Request
-                </button>
-                <p className="text-xs text-gray-500 text-center">
-                  We respond within 1 hour during business hours. For emergencies, call{' '}
-                  <a href="tel:8132916146" className="text-blue-600 font-semibold">
-                    (813) 291-6146
-                  </a>{' '}
-                  directly.
-                </p>
-              </div>
-            </form>
+            <ServicePageQuoteForm
+              heading="Request HVAC Repair Service"
+              defaultService="HVAC Repair"
+              messagePlaceholder="Describe your HVAC problem — when it started, what you've noticed, system age, etc."
+            />
           </div>
         </div>
       </section>
