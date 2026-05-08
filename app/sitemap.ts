@@ -37,11 +37,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const residentialSlugs = [
     'hvac-service-tampa',
     'hvac-installation-tampa-fl',
+    'ac-replacement-tampa',
     'ac-maintenance-tampa',
+    'emergency-ac-repair-tampa',
     'heat-pump-tampa',
     'ductless-mini-split-tampa',
+    'indoor-air-quality-tampa',
+    'smart-thermostat-installation-tampa',
     'air-duct-repair-tampa',
     'exhaust-fan-repair-tampa',
+    'dryer-vent-cleaning-tampa',
     'water-heater-repair-tampa',
   ]
 
@@ -64,6 +69,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const commercialSlugs = [
     'hvac-service-tampa',
     'hvac-installation-tampa-fl',
+    'ac-replacement-tampa',
+    'emergency-hvac-tampa',
     'air-duct-repair-tampa',
     'exhaust-fan-repair-tampa',
     'water-heater-repair-tampa',

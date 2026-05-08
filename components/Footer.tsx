@@ -136,13 +136,17 @@ const quickLinks = [
 ];
 
 const serviceLinks = [
-  { label: "Residential HVAC Repair", href: "/residential"   },
-  { label: "AC Installation",         href: "/residential"   },
-  { label: "Heating Repair",          href: "/residential"   },
-  { label: "Air Duct Repair",         href: "/residential"   },
-  { label: "Exhaust Fan Repair",      href: "/residential"   },
-  { label: "Water Heater Repair",     href: "/residential"   },
-  { label: "Commercial HVAC",         href: "/commercial"    },
+  { label: "AC Repair",                href: "/residential/hvac-service-tampa"                  },
+  { label: "Emergency AC Repair",      href: "/residential/emergency-ac-repair-tampa"           },
+  { label: "AC Installation",          href: "/residential/hvac-installation-tampa-fl"          },
+  { label: "AC Replacement",           href: "/residential/ac-replacement-tampa"                },
+  { label: "AC Maintenance",           href: "/residential/ac-maintenance-tampa"                },
+  { label: "Heat Pump Service",        href: "/residential/heat-pump-tampa"                     },
+  { label: "Mini-Split Installation",  href: "/residential/ductless-mini-split-tampa"           },
+  { label: "Indoor Air Quality",       href: "/residential/indoor-air-quality-tampa"            },
+  { label: "Smart Thermostats",        href: "/residential/smart-thermostat-installation-tampa" },
+  { label: "Dryer Vent Cleaning",      href: "/residential/dryer-vent-cleaning-tampa"           },
+  { label: "Commercial HVAC",          href: "/commercial"                                      },
 ];
 
 const serviceAreas = [

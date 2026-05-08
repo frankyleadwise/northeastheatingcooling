@@ -53,20 +53,44 @@ const residentialServices = [
     href: "/residential/hvac-service-tampa",
   },
   {
-    label: "Residential AC Installation",
+    label: "24/7 Emergency AC Repair",
+    href: "/residential/emergency-ac-repair-tampa",
+  },
+  {
+    label: "AC Installation",
     href: "/residential/hvac-installation-tampa-fl",
   },
   {
-    label: "Residential Heating Repair",
-    href: "/residential/hvac-service-tampa",
+    label: "AC Replacement",
+    href: "/residential/ac-replacement-tampa",
+  },
+  {
+    label: "AC Maintenance & Tune-Ups",
+    href: "/residential/ac-maintenance-tampa",
+  },
+  {
+    label: "Heat Pump Service",
+    href: "/residential/heat-pump-tampa",
+  },
+  {
+    label: "Ductless Mini-Split",
+    href: "/residential/ductless-mini-split-tampa",
+  },
+  {
+    label: "Indoor Air Quality",
+    href: "/residential/indoor-air-quality-tampa",
+  },
+  {
+    label: "Smart Thermostat Installation",
+    href: "/residential/smart-thermostat-installation-tampa",
+  },
+  {
+    label: "Dryer Vent Cleaning",
+    href: "/residential/dryer-vent-cleaning-tampa",
   },
   {
     label: "Air Duct Repair",
     href: "/residential/air-duct-repair-tampa",
-  },
-  {
-    label: "Exhaust Fan Repair",
-    href: "/residential/exhaust-fan-repair-tampa",
   },
   {
     label: "Water Heater Repair",
@@ -76,12 +100,20 @@ const residentialServices = [
 
 const commercialServices = [
   {
+    label: "Commercial HVAC Service",
+    href: "/commercial/hvac-service-tampa",
+  },
+  {
+    label: "24/7 Emergency Commercial HVAC",
+    href: "/commercial/emergency-hvac-tampa",
+  },
+  {
     label: "Commercial HVAC Installation",
     href: "/commercial/hvac-installation-tampa-fl",
   },
   {
-    label: "Commercial HVAC Service",
-    href: "/commercial/hvac-service-tampa",
+    label: "Commercial AC Replacement",
+    href: "/commercial/ac-replacement-tampa",
   },
   {
     label: "Commercial Air Duct Repair",

@@ -31,11 +31,25 @@ const services = [
     icon: '🏗️',
   },
   {
+    href: '/commercial/ac-replacement-tampa',
+    title: 'Commercial AC Replacement',
+    description:
+      'Replace aging rooftop units, split systems, or chillers with high-efficiency commercial equipment. After-hours and weekend installs available to avoid disrupting your business.',
+    icon: '♻️',
+  },
+  {
     href: '/commercial/hvac-service-tampa',
     title: 'Commercial HVAC Service & Repair',
     description:
       'Preventive maintenance plans and emergency repair services that keep your commercial HVAC system running at peak efficiency year-round in Florida\'s demanding climate.',
     icon: '🔧',
+  },
+  {
+    href: '/commercial/emergency-hvac-tampa',
+    title: '24/7 Emergency Commercial HVAC',
+    description:
+      'When your business HVAC goes down, every hour costs money. 24/7 emergency dispatch for restaurants, retail, offices, and industrial facilities across Tampa Bay.',
+    icon: '🚨',
   },
   {
     href: '/commercial/air-duct-repair-tampa',

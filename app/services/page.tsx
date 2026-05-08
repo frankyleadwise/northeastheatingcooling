@@ -210,11 +210,25 @@ const residentialServices = [
       'Fast, accurate air conditioning repairs for Tampa Bay homes. Our certified technicians diagnose and fix any AC brand or model — same day available.',
   },
   {
+    Icon: FlameIcon,
+    title: '24/7 Emergency AC Repair',
+    slug: '/residential/emergency-ac-repair-tampa',
+    description:
+      'AC out at midnight in August? We answer 24/7 and dispatch within 60-90 minutes. No premium fees for after-hours, weekends, or holidays.',
+  },
+  {
     Icon: AcIcon,
     title: 'AC Installation',
     slug: '/residential/hvac-installation-tampa-fl',
     description:
       'Energy-efficient AC system installations sized perfectly for your home. We work with all major brands and handle everything from removal to startup.',
+  },
+  {
+    Icon: AcIcon,
+    title: 'AC Replacement',
+    slug: '/residential/ac-replacement-tampa',
+    description:
+      'When repair stops making sense, replacement should make money sense. Honest pricing, free in-home estimates, written quotes with line-item pricing. We size right and install right.',
   },
   {
     Icon: ShieldIcon,
@@ -258,6 +272,27 @@ const residentialServices = [
     description:
       'From traditional tank water heaters to tankless systems, we repair and replace units to restore your hot water fast. All brands serviced.',
   },
+  {
+    Icon: WindIcon,
+    title: 'Indoor Air Quality',
+    slug: '/residential/indoor-air-quality-tampa',
+    description:
+      'Whole-home air purification, UV lights, HEPA filtration, and dehumidifiers tailored to Tampa Bay\'s humidity and allergen challenges.',
+  },
+  {
+    Icon: ShieldIcon,
+    title: 'Smart Thermostat Installation',
+    slug: '/residential/smart-thermostat-installation-tampa',
+    description:
+      'Cut cooling bills 10-15% with Nest, Ecobee, or Honeywell smart thermostats. Professional installation and smart-home setup included.',
+  },
+  {
+    Icon: FanIcon,
+    title: 'Dryer Vent Cleaning',
+    slug: '/residential/dryer-vent-cleaning-tampa',
+    description:
+      'Clogged dryer vents are the #1 cause of home dryer fires. Annual cleaning protects your home and cuts dry times in half.',
+  },
 ]
 
 const commercialServices = [
@@ -269,11 +304,25 @@ const commercialServices = [
       'Rooftop units, split systems, and commercial air handlers serviced and repaired to minimize downtime for your Tampa Bay business.',
   },
   {
+    Icon: FlameIcon,
+    title: '24/7 Emergency Commercial HVAC',
+    slug: '/commercial/emergency-hvac-tampa',
+    description:
+      'When your business HVAC goes down, every hour costs money. 24/7 emergency dispatch for restaurants, retail, offices, and industrial facilities across Tampa Bay.',
+  },
+  {
     Icon: AcIcon,
     title: 'Commercial AC Installation',
     slug: '/commercial/hvac-installation-tampa-fl',
     description:
       'Full commercial HVAC system design, supply, and installation. We work with offices, retail, restaurants, warehouses, and more.',
+  },
+  {
+    Icon: AcIcon,
+    title: 'Commercial AC Replacement',
+    slug: '/commercial/ac-replacement-tampa',
+    description:
+      'Replace aging rooftop units, split systems, or chillers with high-efficiency commercial equipment. After-hours and weekend installs available.',
   },
   {
     Icon: WindIcon,

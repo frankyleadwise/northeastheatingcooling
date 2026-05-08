@@ -357,6 +357,86 @@ export default function HvacServiceTampaPage() {
         </div>
       </section>
 
+      {/* Common AC Repairs (anchored sections for SEO) */}
+      <section className="bg-white py-16 px-4 border-t border-gray-100">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-3xl font-bold text-gray-900 mb-3 text-center">Common AC Repairs We Handle</h2>
+          <p className="text-gray-600 text-center text-lg max-w-3xl mx-auto mb-12">
+            Florida heat takes a toll on AC systems. These are the repairs we make most often in Tampa Bay homes.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div id="ac-compressor-repair" className="bg-gray-50 rounded-2xl p-7 border border-gray-100">
+              <h3 className="text-xl font-bold text-gray-900 mb-3">AC Compressor Repair &amp; Replacement</h3>
+              <p className="text-gray-600 leading-relaxed text-sm">
+                Compressors are the heart of your AC and the most expensive component to fix. We diagnose
+                failed start capacitors, hard-start kit issues, electrical shorts, and full compressor
+                burnouts. For aging systems, we&apos;ll honestly tell you whether replacement makes more
+                financial sense than compressor repair.
+              </p>
+            </div>
+            <div id="refrigerant-leak-repair" className="bg-gray-50 rounded-2xl p-7 border border-gray-100">
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Refrigerant Leak Detection &amp; Repair</h3>
+              <p className="text-gray-600 leading-relaxed text-sm">
+                Low refrigerant means there&apos;s a leak — adding more without fixing the leak is a
+                temporary patch. We use electronic leak detectors to find the leak source, repair it, and
+                recharge with R-410A, R-454B, or R-22 as your system requires. EPA 608 certified handling.
+              </p>
+            </div>
+            <div id="evaporator-coil-cleaning" className="bg-gray-50 rounded-2xl p-7 border border-gray-100">
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Evaporator &amp; Condenser Coil Cleaning</h3>
+              <p className="text-gray-600 leading-relaxed text-sm">
+                Tampa Bay&apos;s humidity makes coil mold and biofilm a chronic issue. Dirty coils cut
+                efficiency dramatically and cause frozen coils, weak airflow, and musty odors. We deep
+                clean both indoor evaporator coils and outdoor condenser coils with EPA-registered cleaners.
+              </p>
+            </div>
+            <div id="condensate-drain-line" className="bg-gray-50 rounded-2xl p-7 border border-gray-100">
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Condensate Drain Line Cleaning</h3>
+              <p className="text-gray-600 leading-relaxed text-sm">
+                Tampa Bay AC systems pull massive volumes of water out of the air, and clogged drain lines
+                are one of the most common service calls we get. Symptoms: AC shut off, water around the air
+                handler, ceiling stains. We clear lines with vacuum, flush with algaecide, and treat to
+                prevent recurrence.
+              </p>
+            </div>
+            <div id="capacitor-contactor-replacement" className="bg-gray-50 rounded-2xl p-7 border border-gray-100">
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Capacitor &amp; Contactor Replacement</h3>
+              <p className="text-gray-600 leading-relaxed text-sm">
+                Capacitor failure is the #1 reason an AC won&apos;t start in Tampa Bay — heat shortens
+                capacitor life faster than dry climates. Symptoms: AC humming but not running, fan running
+                but no cooling, intermittent failures. Most capacitor and contactor replacements are completed
+                in under 30 minutes.
+              </p>
+            </div>
+            <div id="blower-motor-air-handler-repair" className="bg-gray-50 rounded-2xl p-7 border border-gray-100">
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Blower Motor &amp; Air Handler Repair</h3>
+              <p className="text-gray-600 leading-relaxed text-sm">
+                Failing blower motors cause weak airflow, uneven cooling, and complete system shutdowns. We
+                replace ECM and PSC blower motors, blower wheels, and air handler control boards. Florida
+                attic-installed air handlers see harder use than basement units — failure rates are higher.
+              </p>
+            </div>
+            <div id="thermostat-calibration" className="bg-gray-50 rounded-2xl p-7 border border-gray-100">
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Thermostat Calibration &amp; Replacement</h3>
+              <p className="text-gray-600 leading-relaxed text-sm">
+                A bad thermostat can mimic many other AC problems. We test thermostat function, recalibrate
+                where possible, and replace failed units with standard programmable or smart thermostats
+                (Nest, Ecobee, Honeywell). C-wire installation included if your wiring requires it.
+              </p>
+            </div>
+            <div id="freon-recharge" className="bg-gray-50 rounded-2xl p-7 border border-gray-100">
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Freon Recharge (R-22, R-410A, R-454B)</h3>
+              <p className="text-gray-600 leading-relaxed text-sm">
+                We handle refrigerant recharge for systems using R-410A (current standard), R-454B (newest
+                refrigerant), and R-22 (Freon — phased out but still serviced where systems require it). For
+                R-22 systems with leaks, we provide honest cost comparisons between continued service and
+                replacement.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Why Choose Us */}
       <section className="bg-gray-50 py-16 px-4">
         <div className="max-w-5xl mx-auto">
@@ -412,22 +492,40 @@ export default function HvacServiceTampaPage() {
           <h2 className="text-xl font-bold text-gray-900 mb-5">Related Services</h2>
           <div className="flex flex-wrap gap-3">
             <Link
+              href="/residential/emergency-ac-repair-tampa"
+              className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-white border border-blue-200 text-blue-700 font-semibold text-sm rounded-lg hover:bg-red-700 hover:text-white hover:border-blue-700 transition-colors shadow-sm"
+            >
+              24/7 Emergency AC Repair →
+            </Link>
+            <Link
+              href="/residential/ac-replacement-tampa"
+              className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-white border border-blue-200 text-blue-700 font-semibold text-sm rounded-lg hover:bg-red-700 hover:text-white hover:border-blue-700 transition-colors shadow-sm"
+            >
+              AC Replacement →
+            </Link>
+            <Link
               href="/residential/hvac-installation-tampa-fl"
               className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-white border border-blue-200 text-blue-700 font-semibold text-sm rounded-lg hover:bg-red-700 hover:text-white hover:border-blue-700 transition-colors shadow-sm"
             >
-              HVAC Installation &amp; Replacement →
+              HVAC Installation →
+            </Link>
+            <Link
+              href="/residential/ac-maintenance-tampa"
+              className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-white border border-blue-200 text-blue-700 font-semibold text-sm rounded-lg hover:bg-red-700 hover:text-white hover:border-blue-700 transition-colors shadow-sm"
+            >
+              AC Maintenance Plans →
             </Link>
             <Link
               href="/residential/air-duct-repair-tampa"
               className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-white border border-blue-200 text-blue-700 font-semibold text-sm rounded-lg hover:bg-red-700 hover:text-white hover:border-blue-700 transition-colors shadow-sm"
             >
-              Air Duct Repair &amp; Replacement →
+              Air Duct Repair →
             </Link>
             <Link
               href="/service-areas"
               className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-white border border-blue-200 text-blue-700 font-semibold text-sm rounded-lg hover:bg-red-700 hover:text-white hover:border-blue-700 transition-colors shadow-sm"
             >
-              View All Service Areas →
+              View Service Areas →
             </Link>
           </div>
         </div>

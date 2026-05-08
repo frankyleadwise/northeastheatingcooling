@@ -65,6 +65,8 @@ const schemaData = {
       { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Multi-Zone Mini-Split Installation' } },
       { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Mini-Split Repair' } },
       { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Mini-Split Maintenance' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Mini-Split Deep Cleaning' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Mini-Split Replacement' } },
     ],
   },
 }
@@ -163,6 +165,32 @@ const services = [
       'Outdoor coil cleaning',
       'Filter cleaning or replacement',
       'Maintenance plan members get priority service',
+    ],
+  },
+  {
+    title: 'Mini-Split Deep Cleaning (Bib & Pump-Out)',
+    description:
+      "When a mini-split has been running for years without service in Tampa Bay's humidity, the indoor head accumulates a thick layer of biofilm, mold, and dust on the blower wheel and evaporator coil — sometimes severe enough that filter cleaning alone can't recover performance. Deep cleaning uses a containment bib around the indoor head, applies coil cleaner under pressure, and pumps the contaminated water out through the drain. Restores efficiency, kills the musty smell, and extends equipment life. Recommended every 2-3 years for mini-splits in regular use.",
+    bullets: [
+      'Containment bib protects walls and floors',
+      'Pressurized coil and blower wheel cleaning',
+      'Mold and biofilm removal',
+      'Drain line treatment and flush',
+      'Restores cooling performance and airflow',
+      'Eliminates musty smell at startup',
+    ],
+  },
+  {
+    title: 'Mini-Split Replacement',
+    description:
+      "When a mini-split reaches end of life — typically 12-18 years for quality brands installed in Tampa Bay — replacement is usually more cost-effective than major repairs. We replace failing single-zone and multi-zone mini-splits with new equipment, often reusing the existing line set if it's compatible and in good condition. Common triggers: compressor failure on aging equipment, R-410A systems being replaced with newer R-454B/R-32 systems, capacity changes after additions or remodels.",
+    bullets: [
+      'Single-zone and multi-zone replacement',
+      'Line set reuse when compatible (saves cost)',
+      'Refrigerant transition (R-410A to R-454B/R-32)',
+      'Same-day install for most single-zone replacements',
+      'Old equipment removal and disposal included',
+      'Lifetime workmanship warranty',
     ],
   },
 ]

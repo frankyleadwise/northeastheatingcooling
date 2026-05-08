@@ -4,20 +4,24 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Residential HVAC Services in Tampa Bay, FL | North East Heating & Cooling',
   description:
-    'Complete residential HVAC services in Tampa Bay, FL. AC repair, HVAC installation, air duct repair, exhaust fan repair & water heater services. Call (813) 291-6146.',
+    'Complete residential HVAC in Tampa Bay, FL. AC repair, replacement, installation, 24/7 emergency service, indoor air quality, smart thermostats, and dryer vent cleaning. Call (813) 291-6146.',
   keywords: [
     'residential HVAC Tampa Bay',
     'home AC repair Tampa',
+    'AC replacement Tampa',
+    'emergency AC repair Tampa',
     'HVAC installation Tampa FL',
+    'indoor air quality Tampa',
+    'smart thermostat Tampa',
+    'dryer vent cleaning Tampa',
     'air duct repair Tampa',
     'water heater repair Tampa',
-    'exhaust fan repair Tampa',
     'North East Heating Cooling',
   ],
   openGraph: {
     title: 'Residential HVAC Services in Tampa Bay, FL | North East Heating & Cooling',
     description:
-      'Complete residential HVAC services in Tampa Bay, FL. AC repair, HVAC installation, air duct repair, exhaust fan repair & water heater services.',
+      'Complete residential HVAC in Tampa Bay, FL. AC repair, replacement, installation, 24/7 emergency service, indoor air quality, smart thermostats, and dryer vent cleaning.',
     url: 'https://northeastheatingcooling.com/residential',
     siteName: 'North East Heating & Cooling',
     locale: 'en_US',
@@ -31,16 +35,32 @@ const services = [
     href: '/residential/hvac-service-tampa',
     icon: '🔧',
     description:
-      'Fast, reliable AC and heating repair for Tampa Bay homeowners. Our certified technicians diagnose and fix all HVAC brands. Emergency 24/7 service available.',
-    highlights: ['AC repair & diagnostics', 'Heating system repair', '24/7 emergency service', 'System tune-ups'],
+      'Fast, reliable AC and heating repair for Tampa Bay homeowners. Our certified technicians diagnose and fix all HVAC brands.',
+    highlights: ['AC repair & diagnostics', 'Heating system repair', 'All major brands', 'System tune-ups'],
   },
   {
-    title: 'HVAC Installation & Replacement',
+    title: '24/7 Emergency AC Repair',
+    href: '/residential/emergency-ac-repair-tampa',
+    icon: '🚨',
+    description:
+      'AC out at midnight in August? We answer 24/7 and dispatch within 60-90 minutes. No premium fees for after-hours, weekends, or holidays.',
+    highlights: ['24/7 live-answered calls', '60-90 min dispatch', 'No after-hours fees', 'Same-day repair'],
+  },
+  {
+    title: 'AC Installation',
     href: '/residential/hvac-installation-tampa-fl',
     icon: '🏠',
     description:
-      'New AC installation and complete HVAC system replacement. We help you select the right energy-efficient system for your Tampa Bay home and budget.',
-    highlights: ['New AC system installation', 'Full system replacement', 'Energy-efficient upgrades', 'Free installation estimates'],
+      'New AC installation for new homes, additions, or first-time central AC. We help you select the right energy-efficient system for your Tampa Bay home.',
+    highlights: ['New AC system installation', 'Manual J load calculation', 'Energy-efficient options', 'Free installation estimates'],
+  },
+  {
+    title: 'AC Replacement',
+    href: '/residential/ac-replacement-tampa',
+    icon: '♻️',
+    description:
+      'When repair stops making sense, replacement should make money sense. Honest pricing, free in-home estimates, written quotes with line-item pricing. We size right and install right.',
+    highlights: ['10-year parts warranty', 'Lifetime workmanship', 'Same-day install', '2-3 equipment options'],
   },
   {
     title: 'AC Maintenance & Tune-Ups',
@@ -89,6 +109,30 @@ const services = [
     description:
       'Tank and tankless water heater repair, maintenance, and replacement. Keep hot water flowing efficiently in your Tampa Bay home year-round.',
     highlights: ['Water heater diagnostics', 'Tank & tankless repair', 'System replacement', 'Energy-efficient upgrades'],
+  },
+  {
+    title: 'Indoor Air Quality Services',
+    href: '/residential/indoor-air-quality-tampa',
+    icon: '🌬️',
+    description:
+      'Florida humidity and allergens make indoor air quality a serious health issue. Air purification, UV lights, HEPA filtration, and whole-home dehumidifiers tailored to Tampa Bay homes.',
+    highlights: ['Whole-home air purification', 'UV light installation', 'HEPA filtration systems', 'Whole-home dehumidifiers'],
+  },
+  {
+    title: 'Smart Thermostat Installation',
+    href: '/residential/smart-thermostat-installation-tampa',
+    icon: '🌡️',
+    description:
+      'Cut cooling bills 10-15% with a Nest, Ecobee, or Honeywell smart thermostat. Professional installation, system compatibility check, and smart-home setup included.',
+    highlights: ['Nest, Ecobee, Honeywell', 'Compatibility verified', 'Smart-home integration', 'Lower cooling bills'],
+  },
+  {
+    title: 'Dryer Vent Cleaning',
+    href: '/residential/dryer-vent-cleaning-tampa',
+    icon: '🧺',
+    description:
+      'Clogged dryer vents are the #1 cause of home dryer fires. Annual cleaning protects your home and cuts dry times in half. Quick, professional, fire-safe service.',
+    highlights: ['Fire prevention', 'Faster dry times', 'Lower energy bills', 'Annual recommended'],
   },
 ]
 
