@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Commercial HVAC Service & Repair Tampa, FL | North East Heating & Cooling',
+  title: 'Commercial HVAC Service & Repair Tampa, FL | North East Heating And Cooling',
   description:
     'Preventive maintenance plans, emergency repair, and full-service commercial HVAC service in Tampa Bay, FL. Keep your system running efficiently. Call (813) 291-6146.',
   keywords: [
@@ -16,11 +16,11 @@ export const metadata: Metadata = {
     'HVAC maintenance plan Tampa Bay',
   ],
   openGraph: {
-    title: 'Commercial HVAC Service & Repair Tampa, FL | North East Heating & Cooling',
+    title: 'Commercial HVAC Service & Repair Tampa, FL | North East Heating And Cooling',
     description:
       'Preventive maintenance plans and emergency commercial HVAC repair throughout Tampa Bay. Licensed technicians. Call (813) 291-6146.',
     url: 'https://northeastheatingcooling.com/commercial/hvac-service-tampa',
-    siteName: 'North East Heating & Cooling',
+    siteName: 'North East Heating And Cooling',
     locale: 'en_US',
     type: 'website',
   },
@@ -247,7 +247,7 @@ export default function CommercialHVACServicePage() {
               revenue, damaged inventory, uncomfortable employees, and unhappy customers.
             </p>
             <p className="text-gray-600 text-lg leading-relaxed">
-              North East Heating &amp; Cooling offers structured commercial preventive maintenance agreements
+              North East Heating And Cooling offers structured commercial preventive maintenance agreements
               designed to maximize equipment life, maintain energy efficiency, and give Tampa Bay business
               owners the confidence that their HVAC systems will perform when they need them most.
             </p>

@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description:
       'Expert commercial duct repair, sealing, and replacement throughout Tampa Bay. Improve air quality and cut energy waste. Call (813) 291-6146.',
     url: 'https://northeastheatingcooling.com/commercial/air-duct-repair-tampa',
-    siteName: 'North East Heating & Cooling',
+    siteName: 'North East Heating And Cooling',
     locale: 'en_US',
     type: 'website',
   },
@@ -136,7 +136,7 @@ export default function CommercialAirDuctRepairPage() {
           </h1>
           <p className="text-blue-100 text-lg md:text-xl max-w-3xl mb-8 leading-relaxed">
             Leaking, damaged, or aging commercial ductwork wastes energy, undermines indoor air quality,
-            and prevents your HVAC system from doing its job. North East Heating &amp; Cooling provides
+            and prevents your HVAC system from doing its job. North East Heating And Cooling provides
             expert duct leak detection, sealing, and full replacement throughout Tampa Bay.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
@@ -189,7 +189,7 @@ export default function CommercialAirDuctRepairPage() {
               degrading indoor air quality for employees and customers alike.
             </p>
             <p className="text-gray-600 text-lg leading-relaxed">
-              North East Heating &amp; Cooling provides comprehensive commercial duct leak detection, sealing,
+              North East Heating And Cooling provides comprehensive commercial duct leak detection, sealing,
               and replacement services throughout Tampa Bay. Our approach starts with diagnostic testing to
               accurately quantify the problem, then provides you with a cost-benefit analysis of repair
               options so you can make an informed investment decision.
@@ -273,7 +273,7 @@ export default function CommercialAirDuctRepairPage() {
                 values, and construction standards verified by third-party testing.
               </p>
               <p className="text-gray-600 leading-relaxed mb-4">
-                North East Heating &amp; Cooling is fully versed in Florida Building Code commercial mechanical
+                North East Heating And Cooling is fully versed in Florida Building Code commercial mechanical
                 requirements. We design and install duct systems that pass duct blaster testing at first
                 inspection, provide all required documentation for permit closeout, and help property owners
                 demonstrate compliance for insurance, LEED certification, and tenant requirements.

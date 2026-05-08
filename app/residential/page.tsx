@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Residential HVAC Services in Tampa Bay, FL | North East Heating & Cooling',
+  title: 'Residential HVAC Services in Tampa Bay, FL | North East Heating And Cooling',
   description:
     'Complete residential HVAC in Tampa Bay, FL. AC repair, replacement, installation, 24/7 emergency service, indoor air quality, smart thermostats, and dryer vent cleaning. Call (813) 291-6146.',
   keywords: [
@@ -19,11 +19,11 @@ export const metadata: Metadata = {
     'North East Heating Cooling',
   ],
   openGraph: {
-    title: 'Residential HVAC Services in Tampa Bay, FL | North East Heating & Cooling',
+    title: 'Residential HVAC Services in Tampa Bay, FL | North East Heating And Cooling',
     description:
       'Complete residential HVAC in Tampa Bay, FL. AC repair, replacement, installation, 24/7 emergency service, indoor air quality, smart thermostats, and dryer vent cleaning.',
     url: 'https://northeastheatingcooling.com/residential',
-    siteName: 'North East Heating & Cooling',
+    siteName: 'North East Heating And Cooling',
     locale: 'en_US',
     type: 'website',
   },
@@ -184,7 +184,7 @@ export default function ResidentialPage() {
             Residential HVAC Services in Tampa Bay, FL
           </h1>
           <p className="text-blue-100 text-lg md:text-xl max-w-3xl mx-auto mb-8">
-            North East Heating &amp; Cooling delivers expert residential HVAC solutions across Tampa Bay. From emergency
+            North East Heating And Cooling delivers expert residential HVAC solutions across Tampa Bay. From emergency
             AC repair to complete system installations, our certified technicians keep your home comfortable 365 days a
             year — even during Florida&#39;s most brutal summers.
           </p>
@@ -218,7 +218,7 @@ export default function ResidentialPage() {
               nearly 10 months of the year, a properly functioning HVAC system isn&#39;t a luxury — it&#39;s a necessity.
             </p>
             <p className="text-gray-600 text-lg leading-relaxed mb-4">
-              North East Heating &amp; Cooling specializes in residential HVAC services tailored specifically to Tampa
+              North East Heating And Cooling specializes in residential HVAC services tailored specifically to Tampa
               Bay&#39;s climate. We understand how the subtropical heat, coastal humidity, and occasional cold snaps affect
               your home&#39;s comfort systems, and we have the expertise to keep everything running at peak performance.
             </p>
@@ -275,7 +275,7 @@ export default function ResidentialPage() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-3">
-              Why Tampa Bay Homeowners Choose North East Heating &amp; Cooling
+              Why Tampa Bay Homeowners Choose North East Heating And Cooling
             </h2>
             <p className="text-gray-600 text-lg max-w-2xl mx-auto">
               We&#39;ve built our reputation on honest, reliable service and technical expertise that handles Florida&#39;s unique

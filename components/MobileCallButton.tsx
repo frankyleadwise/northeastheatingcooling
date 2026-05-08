@@ -27,7 +27,7 @@ export default function MobileCallButton() {
         href="tel:8132916146"
         className="flex items-center justify-center gap-2.5 w-full py-4 text-white font-bold text-base transition-colors shadow-[0_-4px_16px_rgba(0,0,0,0.3)]"
         style={{ background: 'var(--accent)' }}
-        aria-label="Call North East Heating and Cooling at (813) 291-6146"
+        aria-label="Call North East Heating And Cooling at (813) 291-6146"
       >
         <PhoneIcon />
         <span>Call (813) 291-6146</span>

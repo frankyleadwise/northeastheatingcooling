@@ -2,15 +2,15 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'How to Improve Indoor Air Quality in Tampa Homes | North East Heating & Cooling',
+  title: 'How to Improve Indoor Air Quality in Tampa Homes | North East Heating And Cooling',
   description:
     'Discover practical steps to improve indoor air quality in your Tampa home. From MERV filters and UV purifiers to humidity control and duct cleaning. Call (813) 291-6146.',
   openGraph: {
     title: 'How to Improve Indoor Air Quality in Tampa Homes',
     description:
-      'Practical steps to improve indoor air quality in Tampa Bay homes. Expert advice from North East Heating & Cooling.',
+      'Practical steps to improve indoor air quality in Tampa Bay homes. Expert advice from North East Heating And Cooling.',
     url: 'https://northeastheatingcooling.com/blog/how-to-improve-indoor-air-quality-tampa',
-    siteName: 'North East Heating & Cooling',
+    siteName: 'North East Heating And Cooling',
     locale: 'en_US',
     type: 'article',
   },
@@ -41,7 +41,7 @@ export default function IndoorAirQualityTampaPage() {
             How to Improve Indoor Air Quality in Tampa Homes
           </h1>
           <p className="text-blue-200 text-sm">
-            By <span className="font-semibold text-white">Chris Grullon</span>, <span className="text-blue-200">Owner &amp; EPA 608 Certified HVAC Technician</span> &mdash; North East Heating &amp; Cooling, Tampa Bay, FL
+            By <span className="font-semibold text-white">Chris Grullon</span>, <span className="text-blue-200">Owner &amp; EPA 608 Certified HVAC Technician</span> &mdash; North East Heating And Cooling, Tampa Bay, FL
           </p>
         </div>
       </header>
@@ -175,7 +175,7 @@ export default function IndoorAirQualityTampaPage() {
                 investments that will make the greatest difference for your family.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
-                At North East Heating &amp; Cooling, we help Tampa Bay homeowners improve their indoor air quality through
+                At North East Heating And Cooling, we help Tampa Bay homeowners improve their indoor air quality through
                 filter upgrades, UV purifier installation, humidity solutions, and comprehensive HVAC maintenance. Give us a
                 call to schedule an assessment today.
               </p>
@@ -278,7 +278,7 @@ export default function IndoorAirQualityTampaPage() {
           <div>
             <h2 className="text-2xl font-bold text-gray-900 mb-1">Concerned About Air Quality in Your Tampa Home?</h2>
             <p className="text-gray-600">
-              North East Heating &amp; Cooling offers IAQ assessments and solutions across Tampa Bay.{' '}
+              North East Heating And Cooling offers IAQ assessments and solutions across Tampa Bay.{' '}
               <Link href="/residential/hvac-service-tampa" className="text-blue-600 font-semibold hover:underline">
                 View our services →
               </Link>
@@ -299,7 +299,7 @@ export default function IndoorAirQualityTampaPage() {
             '@context': 'https://schema.org',
             '@type': 'BlogPosting',
             headline: 'How to Improve Indoor Air Quality in Tampa Homes',
-            description: 'Practical ways to improve indoor air quality in Tampa Bay homes. Expert HVAC advice from North East Heating & Cooling on filters, UV purifiers, humidity control, and duct cleaning.',
+            description: 'Practical ways to improve indoor air quality in Tampa Bay homes. Expert HVAC advice from North East Heating And Cooling on filters, UV purifiers, humidity control, and duct cleaning.',
             datePublished: '2025-01-22',
             dateModified: '2025-01-22',
             url: 'https://northeastheatingcooling.com/blog/how-to-improve-indoor-air-quality-tampa',
@@ -308,9 +308,9 @@ export default function IndoorAirQualityTampaPage() {
               '@type': 'Person',
               name: 'Chris Grullon',
               jobTitle: 'Owner & EPA 608 Certified HVAC Technician',
-              worksFor: { '@type': 'Organization', name: 'North East Heating & Cooling' },
+              worksFor: { '@type': 'Organization', name: 'North East Heating And Cooling' },
             },
-            publisher: { '@type': 'Organization', name: 'North East Heating & Cooling', url: 'https://northeastheatingcooling.com' },
+            publisher: { '@type': 'Organization', name: 'North East Heating And Cooling', url: 'https://northeastheatingcooling.com' },
           }),
         }}
       />

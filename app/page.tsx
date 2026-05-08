@@ -4,8 +4,8 @@ import Image from 'next/image'
 import QuoteForm from '@/app/components/QuoteForm'
 
 export const metadata: Metadata = {
-  title: 'AC Repair Near Me Tampa | North East Heating & Cooling',
-  description: 'Looking for AC repair near me in Tampa? North East Heating & Cooling delivers same-day air conditioner repair, AC installation & HVAC maintenance across Tampa Bay. Licensed, insured, 5.0★ rated. Call (813) 291-6146.',
+  title: 'AC Repair Near Me Tampa | North East Heating And Cooling',
+  description: 'Looking for AC repair near me in Tampa? North East Heating And Cooling delivers same-day air conditioner repair, AC installation & HVAC maintenance across Tampa Bay. Licensed, insured, 5.0★ rated. Call (813) 291-6146.',
   keywords: [
     'ac repair near me',
     'air conditioner repair near me',
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     canonical: '/',
   },
   openGraph: {
-    title: 'AC Repair Near Me — Tampa Bay HVAC Experts | North East Heating & Cooling',
+    title: 'AC Repair Near Me — Tampa Bay HVAC Experts | North East Heating And Cooling',
     description: 'Same-day AC repair across Tampa Bay. Licensed, insured, 5.0★ on Google. Call (813) 291-6146 for a free consultation.',
     url: '/',
     type: 'website',
@@ -75,7 +75,7 @@ const testimonials = [
     ago: '1 month ago',
   },
   {
-    text: "I recently hired North East Heating and Cooling for my annual AC tune-up, along with adding vents in two doorways and a return. From start to finish, their work was outstanding. They even removed all of our existing A/C vents, repainted them white, and made them look brand new. Their workmanship was timely, their pricing fair, and the quality exceptional. I'm thrilled with the results and will absolutely use them again for future needs. Thank you!",
+    text: "I recently hired North East Heating And Cooling for my annual AC tune-up, along with adding vents in two doorways and a return. From start to finish, their work was outstanding. They even removed all of our existing A/C vents, repainted them white, and made them look brand new. Their workmanship was timely, their pricing fair, and the quality exceptional. I'm thrilled with the results and will absolutely use them again for future needs. Thank you!",
     name: 'Robert Cowart',
     location: 'Local Guide · 24 reviews · 1 photo',
     rating: 5,
@@ -107,7 +107,7 @@ const testimonials = [
 const faqs = [
   {
     q: 'Where can I find AC repair near me in Tampa Bay?',
-    a: 'North East Heating & Cooling is a locally owned, Tampa-based HVAC company serving the entire Tampa Bay area — including Tampa, St. Petersburg, Clearwater, Brandon, Riverview, Valrico, Plant City, Carrollwood, Lutz, Wesley Chapel, and surrounding communities. We offer same-day AC repair across our service area. Call (813) 291-6146 or request a free consultation online and we\'ll dispatch a technician — usually the same day.',
+    a: 'North East Heating And Cooling is a locally owned, Tampa-based HVAC company serving the entire Tampa Bay area — including Tampa, St. Petersburg, Clearwater, Brandon, Riverview, Valrico, Plant City, Carrollwood, Lutz, Wesley Chapel, and surrounding communities. We offer same-day AC repair across our service area. Call (813) 291-6146 or request a free consultation online and we\'ll dispatch a technician — usually the same day.',
   },
   {
     q: 'How much does AC repair cost in Tampa?',
@@ -135,7 +135,7 @@ const faqs = [
   },
   {
     q: 'Are your technicians licensed and insured?',
-    a: 'Yes. North East Heating & Cooling is fully licensed, certified, and insured in the state of Florida. Our technicians are EPA 608 certified and Florida-licensed.',
+    a: 'Yes. North East Heating And Cooling is fully licensed, certified, and insured in the state of Florida. Our technicians are EPA 608 certified and Florida-licensed.',
   },
   {
     q: 'What is the $5,000 rule for HVAC?',
@@ -143,11 +143,11 @@ const faqs = [
   },
   {
     q: 'Which AC brand lasts the longest?',
-    a: 'Trane, Carrier, and Lennox consistently rank as the longest-lasting AC brands, with well-maintained units often reaching 15–20 years. That said, brand matters less than installation quality and regular maintenance. At North East Heating & Cooling, we service all major brands and will always give you an honest assessment of whether repair or replacement makes more sense.',
+    a: 'Trane, Carrier, and Lennox consistently rank as the longest-lasting AC brands, with well-maintained units often reaching 15–20 years. That said, brand matters less than installation quality and regular maintenance. At North East Heating And Cooling, we service all major brands and will always give you an honest assessment of whether repair or replacement makes more sense.',
   },
   {
     q: 'How much should an HVAC service call cost?',
-    a: 'In the Tampa Bay area, a standard HVAC service call typically runs between $75 and $150, covering the diagnostic visit. Repair costs are separate and depend on what\'s found. At North East Heating & Cooling, we charge straightforward, upfront pricing with no surprises. Call us at (813) 291-6146 to get a clear estimate before any work begins.',
+    a: 'In the Tampa Bay area, a standard HVAC service call typically runs between $75 and $150, covering the diagnostic visit. Repair costs are separate and depend on what\'s found. At North East Heating And Cooling, we charge straightforward, upfront pricing with no surprises. Call us at (813) 291-6146 to get a clear estimate before any work begins.',
   },
   {
     q: 'What is the most common HVAC problem?',
@@ -222,7 +222,7 @@ export default function HomePage() {
         <div className="absolute inset-0">
           <Image
             src="https://images.pexels.com/photos/4473775/pexels-photo-4473775.jpeg?auto=compress&cs=tinysrgb&w=1920"
-            alt="Happy family relaxing comfortably at home after North East Heating & Cooling service in Tampa Bay"
+            alt="Happy family relaxing comfortably at home after North East Heating And Cooling service in Tampa Bay"
             fill
             className="object-cover"
             style={{ objectPosition: '55% center' }}
@@ -255,7 +255,7 @@ export default function HomePage() {
             </h1>
 
             <p className="text-lg sm:text-xl text-slate-300 leading-relaxed mb-8 max-w-xl">
-              When your AC quits in Florida heat, you don&apos;t need a stranger and a $7,000 estimate. North East Heating &amp; Cooling delivers same-day AC repair, installation, and maintenance across Tampa Bay — backed by a lifetime workmanship warranty and 35 five-star Google reviews.
+              When your AC quits in Florida heat, you don&apos;t need a stranger and a $7,000 estimate. North East Heating And Cooling delivers same-day AC repair, installation, and maintenance across Tampa Bay — backed by a lifetime workmanship warranty and 35 five-star Google reviews.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-6">
@@ -342,13 +342,13 @@ export default function HomePage() {
                   </div>
                 ))}
               </div>
-              <p className="text-gray-400 text-sm italic mt-6">We&apos;ve heard these stories from hundreds of Tampa Bay families. It&apos;s why Chris started North East Heating &amp; Cooling.</p>
+              <p className="text-gray-400 text-sm italic mt-6">We&apos;ve heard these stories from hundreds of Tampa Bay families. It&apos;s why Chris started North East Heating And Cooling.</p>
             </div>
             {/* Chris headshot */}
             <div className="relative rounded-2xl overflow-hidden shadow-xl" style={{ aspectRatio: '4/5' }}>
               <Image
                 src="/unnamed.jpg"
-                alt="Chris Grullon, Owner of North East Heating & Cooling, Tampa Bay FL"
+                alt="Chris Grullon, Owner of North East Heating And Cooling, Tampa Bay FL"
                 fill
                 className="object-cover object-top"
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -378,7 +378,7 @@ export default function HomePage() {
             <div className="relative w-32 h-32 shrink-0 rounded-full overflow-hidden shadow-lg border-4 border-white ring-2 ring-red-100">
               <Image
                 src="/unnamed.jpg"
-                alt="Chris Grullon, Owner of North East Heating & Cooling"
+                alt="Chris Grullon, Owner of North East Heating And Cooling"
                 fill
                 className="object-cover object-top"
                 sizes="128px"
@@ -402,7 +402,7 @@ export default function HomePage() {
         <div className="absolute inset-0">
           <Image
             src="/image.png"
-            alt="North East Heating & Cooling service van in Tampa Bay"
+            alt="North East Heating And Cooling service van in Tampa Bay"
             fill
             className="object-cover object-center"
             sizes="100vw"
@@ -836,7 +836,7 @@ export default function HomePage() {
               Serving the Entire Tampa Bay Area
             </h2>
             <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-              From Tampa to Clearwater and everywhere in between, North East Heating &amp; Cooling provides fast, reliable HVAC service across the region.
+              From Tampa to Clearwater and everywhere in between, North East Heating And Cooling provides fast, reliable HVAC service across the region.
             </p>
           </div>
           {/* Google Maps — Tampa Bay service area */}

@@ -2,15 +2,15 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Best Energy-Efficient AC Systems for Florida Homeowners | North East Heating & Cooling',
+  title: 'Best Energy-Efficient AC Systems for Florida Homeowners | North East Heating And Cooling',
   description:
     'Explore the best energy-efficient AC systems for Florida homeowners. SEER ratings, variable speed systems, heat pumps, top brands, and FL rebates. Call (813) 291-6146.',
   openGraph: {
     title: 'Best Energy-Efficient AC Systems for Florida Homeowners',
     description:
-      'The best energy-efficient AC systems for Florida homeowners — SEER ratings, top brands, and available rebates explained by North East Heating & Cooling.',
+      'The best energy-efficient AC systems for Florida homeowners — SEER ratings, top brands, and available rebates explained by North East Heating And Cooling.',
     url: 'https://northeastheatingcooling.com/blog/best-energy-efficient-ac-systems-florida',
-    siteName: 'North East Heating & Cooling',
+    siteName: 'North East Heating And Cooling',
     locale: 'en_US',
     type: 'article',
   },
@@ -41,7 +41,7 @@ export default function EnergyEfficientACFloridaPage() {
             Best Energy-Efficient AC Systems for Florida Homeowners
           </h1>
           <p className="text-blue-200 text-sm">
-            By <span className="font-semibold text-white">Chris Grullon</span>, <span className="text-blue-200">Owner &amp; EPA 608 Certified HVAC Technician</span> &mdash; North East Heating &amp; Cooling, Tampa Bay, FL
+            By <span className="font-semibold text-white">Chris Grullon</span>, <span className="text-blue-200">Owner &amp; EPA 608 Certified HVAC Technician</span> &mdash; North East Heating And Cooling, Tampa Bay, FL
           </p>
         </div>
       </header>
@@ -203,7 +203,7 @@ export default function EnergyEfficientACFloridaPage() {
                 specific home.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
-                At North East Heating &amp; Cooling, we help Tampa Bay homeowners navigate all of these decisions
+                At North East Heating And Cooling, we help Tampa Bay homeowners navigate all of these decisions
                 with honest, expert guidance. We carry and install systems from the top manufacturers and can
                 help you maximize available rebates and incentives. Call us to schedule a free in-home consultation.
               </p>
@@ -306,7 +306,7 @@ export default function EnergyEfficientACFloridaPage() {
           <div>
             <h2 className="text-2xl font-bold text-gray-900 mb-1">Ready to Upgrade to a High-Efficiency System?</h2>
             <p className="text-gray-600">
-              North East Heating &amp; Cooling installs top-rated energy-efficient systems across Tampa Bay.{' '}
+              North East Heating And Cooling installs top-rated energy-efficient systems across Tampa Bay.{' '}
               <Link href="/residential/hvac-installation-tampa-fl" className="text-blue-600 font-semibold hover:underline">
                 View installation services →
               </Link>
@@ -327,7 +327,7 @@ export default function EnergyEfficientACFloridaPage() {
             '@context': 'https://schema.org',
             '@type': 'BlogPosting',
             headline: 'Best Energy-Efficient AC Systems for Florida Homeowners',
-            description: 'Compare the best energy-efficient AC systems for Florida homes. SEER2 ratings, top brands, and rebate information from North East Heating & Cooling in Tampa Bay.',
+            description: 'Compare the best energy-efficient AC systems for Florida homes. SEER2 ratings, top brands, and rebate information from North East Heating And Cooling in Tampa Bay.',
             datePublished: '2025-02-20',
             dateModified: '2025-02-20',
             url: 'https://northeastheatingcooling.com/blog/best-energy-efficient-ac-systems-florida',
@@ -336,9 +336,9 @@ export default function EnergyEfficientACFloridaPage() {
               '@type': 'Person',
               name: 'Chris Grullon',
               jobTitle: 'Owner & EPA 608 Certified HVAC Technician',
-              worksFor: { '@type': 'Organization', name: 'North East Heating & Cooling' },
+              worksFor: { '@type': 'Organization', name: 'North East Heating And Cooling' },
             },
-            publisher: { '@type': 'Organization', name: 'North East Heating & Cooling', url: 'https://northeastheatingcooling.com' },
+            publisher: { '@type': 'Organization', name: 'North East Heating And Cooling', url: 'https://northeastheatingcooling.com' },
           }),
         }}
       />

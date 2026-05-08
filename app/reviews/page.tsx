@@ -2,16 +2,16 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Customer Reviews | North East Heating & Cooling Tampa Bay',
+  title: 'Customer Reviews | North East Heating And Cooling Tampa Bay',
   description:
-    'Read real 5-star Google reviews from North East Heating & Cooling customers across Tampa Bay. See why homeowners choose Chris Grullon and his team for HVAC repair, AC installation, and more.',
+    'Read real 5-star Google reviews from North East Heating And Cooling customers across Tampa Bay. See why homeowners choose Chris Grullon and his team for HVAC repair, AC installation, and more.',
   alternates: {
     canonical: '/reviews',
   },
   openGraph: {
-    title: 'Customer Reviews | North East Heating & Cooling Tampa Bay',
+    title: 'Customer Reviews | North East Heating And Cooling Tampa Bay',
     description:
-      'Real 5-star reviews from Tampa Bay homeowners. Honest, fast, affordable HVAC service from North East Heating & Cooling.',
+      'Real 5-star reviews from Tampa Bay homeowners. Honest, fast, affordable HVAC service from North East Heating And Cooling.',
     url: '/reviews',
     type: 'website',
   },
@@ -46,7 +46,7 @@ const reviews = [
     badge: 'Local Guide · 24 reviews · 1 photo',
     ago: '3 months ago',
     rating: 5,
-    text: "Polished and professional — I recently hired North East Heating and Cooling for my annual AC tune-up, along with adding vents in two doorways and a return. From start to finish, their work was outstanding. They even removed all of our existing A/C vents, repainted them white, and made them look brand new. Their workmanship was timely, their pricing fair, and the quality exceptional. I'm thrilled with the results and will absolutely use them again for future needs. Thank you!",
+    text: "Polished and professional — I recently hired North East Heating And Cooling for my annual AC tune-up, along with adding vents in two doorways and a return. From start to finish, their work was outstanding. They even removed all of our existing A/C vents, repainted them white, and made them look brand new. Their workmanship was timely, their pricing fair, and the quality exceptional. I'm thrilled with the results and will absolutely use them again for future needs. Thank you!",
   },
   {
     name: 'Mary Hampton',
@@ -69,7 +69,7 @@ const reviews = [
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
-  name: 'North East Heating & Cooling',
+  name: 'North East Heating And Cooling',
   aggregateRating: {
     '@type': 'AggregateRating',
     ratingValue: '5.0',
@@ -234,7 +234,7 @@ export default function ReviewsPage() {
                 Ready to Experience 5-Star HVAC Service?
               </h2>
               <p className="mb-8 max-w-xl mx-auto" style={{ color: 'var(--muted)' }}>
-                Join the growing list of satisfied Tampa Bay homeowners who trust North East Heating &amp; Cooling.
+                Join the growing list of satisfied Tampa Bay homeowners who trust North East Heating And Cooling.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link

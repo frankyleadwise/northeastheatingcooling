@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 import ServicePageQuoteForm from '@/app/components/ServicePageQuoteForm'
 export const metadata: Metadata = {
-  title: 'AC Installation & HVAC Installation Tampa, FL | North East Heating & Cooling',
+  title: 'AC Installation & HVAC Installation Tampa, FL | North East Heating And Cooling',
   description:
     'Professional AC installation and HVAC system replacement in Tampa, FL. Energy-efficient systems, quality installation. Free estimates. Call (813) 291-6146.',
   keywords: [
@@ -17,11 +17,11 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: '/residential/hvac-installation-tampa-fl' },
   openGraph: {
-    title: 'AC Installation & HVAC Installation Tampa, FL | North East Heating & Cooling',
+    title: 'AC Installation & HVAC Installation Tampa, FL | North East Heating And Cooling',
     description:
       'Professional AC installation and HVAC system replacement in Tampa, FL. Energy-efficient systems, quality installation. Free estimates. Call (813) 291-6146.',
     url: '/residential/hvac-installation-tampa-fl',
-    siteName: 'North East Heating & Cooling',
+    siteName: 'North East Heating And Cooling',
     locale: 'en_US',
     type: 'website',
   },
@@ -203,7 +203,7 @@ export default function HvacInstallationTampaPage() {
                 inadequate cooling, high energy bills, and costly repairs.
               </p>
               <p>
-                North East Heating &amp; Cooling takes HVAC installation seriously. We never guess at system
+                North East Heating And Cooling takes HVAC installation seriously. We never guess at system
                 sizing, never cut corners on installation quality, and never push equipment that earns us
                 the highest margin at the expense of your comfort. Our installation process follows
                 ACCA (Air Conditioning Contractors of America) quality installation standards, and every

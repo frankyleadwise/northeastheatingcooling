@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Indoor Air Quality Services Tampa, FL | Air Purification & UV Lights | North East Heating & Cooling',
+  title: 'Indoor Air Quality Services Tampa, FL | Air Purification & UV Lights | North East Heating And Cooling',
   description:
     'Indoor air quality services in Tampa, FL. Air purification systems, UV light air sanitizers, HEPA filtration, whole-home dehumidifiers. Florida humidity solutions. Call (813) 291-6146.',
   keywords: [
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     description:
       'Indoor air quality services in Tampa, FL. Air purification systems, UV light air sanitizers, HEPA filtration, whole-home dehumidifiers.',
     url: '/residential/indoor-air-quality-tampa',
-    siteName: 'North East Heating & Cooling',
+    siteName: 'North East Heating And Cooling',
     locale: 'en_US',
     type: 'website',
   },
@@ -38,7 +38,7 @@ const schemaData = {
     'Whole-home indoor air quality services in Tampa, FL — air purification systems, UV germicidal lights, HEPA filtration, whole-home dehumidifiers, and humidity control for Florida\'s climate.',
   provider: {
     '@type': 'HVACBusiness',
-    name: 'North East Heating & Cooling',
+    name: 'North East Heating And Cooling',
     telephone: '+1-813-291-6146',
     url: 'https://northeastheatingcooling.com',
     address: {

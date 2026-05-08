@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Commercial HVAC Installation Tampa, FL | North East Heating & Cooling',
+  title: 'Commercial HVAC Installation Tampa, FL | North East Heating And Cooling',
   description:
     'Expert commercial HVAC installation in Tampa Bay. Rooftop units, split systems, VRF systems. Minimize downtime. Call (813) 291-6146 for a free estimate.',
   keywords: [
@@ -16,11 +16,11 @@ export const metadata: Metadata = {
     'North East Heating Cooling commercial',
   ],
   openGraph: {
-    title: 'Commercial HVAC Installation Tampa, FL | North East Heating & Cooling',
+    title: 'Commercial HVAC Installation Tampa, FL | North East Heating And Cooling',
     description:
       'Expert commercial HVAC installation in Tampa Bay. Rooftop units, split systems, VRF systems. Minimize downtime. Call (813) 291-6146.',
     url: 'https://northeastheatingcooling.com/commercial/hvac-installation-tampa-fl',
-    siteName: 'North East Heating & Cooling',
+    siteName: 'North East Heating And Cooling',
     locale: 'en_US',
     type: 'website',
   },
@@ -87,7 +87,7 @@ const processSteps = [
     step: '03',
     title: 'Permitting & Scheduling',
     detail:
-      'North East Heating & Cooling handles all required permits with Hillsborough County, Pinellas County, and the City of Tampa. We coordinate installation around your business hours to minimize customer and employee disruption.',
+      'North East Heating And Cooling handles all required permits with Hillsborough County, Pinellas County, and the City of Tampa. We coordinate installation around your business hours to minimize customer and employee disruption.',
   },
   {
     step: '04',
@@ -203,7 +203,7 @@ export default function CommercialHVACInstallationPage() {
               commercial HVAC system that performs reliably for 15–20 years.
             </p>
             <p className="text-gray-600 text-lg leading-relaxed">
-              North East Heating &amp; Cooling brings extensive commercial installation experience to every
+              North East Heating And Cooling brings extensive commercial installation experience to every
               Tampa Bay project. Our licensed technicians and project managers work with you from initial
               site assessment through commissioning to ensure your new system meets your comfort, efficiency,
               and operational requirements.
@@ -246,7 +246,7 @@ export default function CommercialHVACInstallationPage() {
               Our Commercial Installation Process
             </h2>
             <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-              Every commercial HVAC installation at North East Heating &amp; Cooling follows a structured
+              Every commercial HVAC installation at North East Heating And Cooling follows a structured
               process designed to protect your business investment and minimize downtime.
             </p>
           </div>

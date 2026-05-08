@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Dryer Vent Cleaning Tampa, FL | Fire Prevention & Lint Removal | North East Heating & Cooling',
+  title: 'Dryer Vent Cleaning Tampa, FL | Fire Prevention & Lint Removal | North East Heating And Cooling',
   description:
     'Professional dryer vent cleaning in Tampa, FL. Reduce fire risk, dry clothes faster, lower energy bills. Annual cleaning recommended for Florida homes. Call (813) 291-6146.',
   keywords: [
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     description:
       'Professional dryer vent cleaning in Tampa, FL. Reduce fire risk, dry clothes faster, lower energy bills. Annual cleaning recommended for Florida homes.',
     url: '/residential/dryer-vent-cleaning-tampa',
-    siteName: 'North East Heating & Cooling',
+    siteName: 'North East Heating And Cooling',
     locale: 'en_US',
     type: 'website',
   },
@@ -38,7 +38,7 @@ const schemaData = {
     'Professional dryer vent cleaning in Tampa, FL. Removes lint buildup, reduces fire risk, restores dryer efficiency, and prevents moisture damage in Florida homes.',
   provider: {
     '@type': 'HVACBusiness',
-    name: 'North East Heating & Cooling',
+    name: 'North East Heating And Cooling',
     telephone: '+1-813-291-6146',
     url: 'https://northeastheatingcooling.com',
     address: {

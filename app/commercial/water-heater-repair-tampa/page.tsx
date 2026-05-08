@@ -18,9 +18,9 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Commercial Water Heater Repair Tampa, FL | Tank & Tankless Systems',
     description:
-      'Expert commercial water heater repair and replacement throughout Tampa Bay. All system types. Call North East Heating & Cooling: (813) 291-6146.',
+      'Expert commercial water heater repair and replacement throughout Tampa Bay. All system types. Call North East Heating And Cooling: (813) 291-6146.',
     url: 'https://northeastheatingcooling.com/commercial/water-heater-repair-tampa',
-    siteName: 'North East Heating & Cooling',
+    siteName: 'North East Heating And Cooling',
     locale: 'en_US',
     type: 'website',
   },
@@ -176,7 +176,7 @@ export default function CommercialWaterHeaterRepairPage() {
             Commercial Water Heater Repair &amp; Replacement in Tampa, FL
           </h1>
           <p className="text-blue-100 text-lg md:text-xl max-w-3xl mb-8 leading-relaxed">
-            North East Heating &amp; Cooling provides expert commercial water heater repair and replacement
+            North East Heating And Cooling provides expert commercial water heater repair and replacement
             throughout Tampa Bay — from tank and tankless systems for small businesses to central
             hot water plants for hotels, restaurants, and large commercial properties.
           </p>
@@ -230,7 +230,7 @@ export default function CommercialWaterHeaterRepairPage() {
             </p>
             <p className="text-gray-600 text-lg leading-relaxed">
               Whether you need same-day emergency repair, a planned replacement, or guidance on upgrading
-              to a more energy-efficient system, North East Heating &amp; Cooling is Tampa Bay&apos;s commercial
+              to a more energy-efficient system, North East Heating And Cooling is Tampa Bay&apos;s commercial
               water heating specialist. We service all system types, all major brands, and all commercial
               property types throughout Hillsborough and Pinellas counties.
             </p>

@@ -27,12 +27,12 @@ export const CITIES: Record<string, CityData> = {
     lng: -82.4572,
     coastal: false,
     tier: 'major',
-    metaDescription: `North East Heating & Cooling provides expert HVAC repair, AC installation, heating services, and air duct repair throughout Tampa, FL. Call (813) 291-6146 for same-day service.`,
+    metaDescription: `North East Heating And Cooling provides expert HVAC repair, AC installation, heating services, and air duct repair throughout Tampa, FL. Call (813) 291-6146 for same-day service.`,
     heroSubhead: `Professional heating, air conditioning, and ventilation services for Tampa homeowners and businesses. Licensed technicians, transparent pricing, and same-day availability.`,
     heroPhotoId: '7577378',
     introParagraphs: [
       `Tampa is Florida's third-largest city and one of the fastest-growing metros in the country, home to over 400,000 residents spread across vibrant neighborhoods like South Tampa, Westchase, New Tampa, Seminole Heights, and Ybor City. With a subtropical climate that delivers sweltering summers, high humidity, and mild winters, Tampa residents depend on their HVAC systems year-round to stay comfortable and healthy. When temperatures regularly push past 90°F from June through September and heat indices climb even higher, a failing air conditioner isn't just uncomfortable — it can be dangerous.`,
-      `North East Heating &amp; Cooling has served Tampa homeowners and commercial clients for years, building a reputation on fast response times, honest diagnostics, and workmanship that stands up to Florida's demanding climate. Our licensed and insured technicians are familiar with every neighborhood in Tampa, meaning shorter drive times and faster service for you. Whether you're in a historic Seminole Heights bungalow, a newer construction home in New Tampa, or a commercial storefront downtown, we have the tools and expertise to keep your system running at peak efficiency.`,
+      `North East Heating And Cooling has served Tampa homeowners and commercial clients for years, building a reputation on fast response times, honest diagnostics, and workmanship that stands up to Florida's demanding climate. Our licensed and insured technicians are familiar with every neighborhood in Tampa, meaning shorter drive times and faster service for you. Whether you're in a historic Seminole Heights bungalow, a newer construction home in New Tampa, or a commercial storefront downtown, we have the tools and expertise to keep your system running at peak efficiency.`,
     ],
     faqs: [
       { q: `How quickly can you get to Tampa for an AC repair?`, a: `For most Tampa service calls we offer same-day or next-day appointments. For emergency breakdowns we dispatch the nearest technician — typically within 1–2 hours depending on traffic and current service volume. Our service vans are stocked with the most common repair parts so the majority of repairs are resolved on the first visit.` },
@@ -51,7 +51,7 @@ export const CITIES: Record<string, CityData> = {
     lng: -82.2859,
     coastal: false,
     tier: 'major',
-    metaDescription: `Trusted HVAC repair, AC installation, heating services, and air duct repair in Brandon, FL. North East Heating & Cooling — call (813) 291-6146 for same-day service.`,
+    metaDescription: `Trusted HVAC repair, AC installation, heating services, and air duct repair in Brandon, FL. North East Heating And Cooling — call (813) 291-6146 for same-day service.`,
     heroSubhead: `Reliable heating, air conditioning, and ventilation services for Brandon homeowners and businesses. Fast response, honest pricing, and technicians who know Hillsborough County.`,
     heroPhotoId: '8961065',
     introParagraphs: [
@@ -75,7 +75,7 @@ export const CITIES: Record<string, CityData> = {
     lng: -82.3265,
     coastal: false,
     tier: 'major',
-    metaDescription: `Expert HVAC repair, AC installation, heating services, and air duct repair in Riverview, FL. North East Heating & Cooling — call (813) 291-6146 for fast, reliable service.`,
+    metaDescription: `Expert HVAC repair, AC installation, heating services, and air duct repair in Riverview, FL. North East Heating And Cooling — call (813) 291-6146 for fast, reliable service.`,
     heroSubhead: `Professional heating, cooling, and air quality solutions for Riverview's rapidly growing residential and commercial communities. Same-day service available throughout Hillsborough County.`,
     heroPhotoId: '4078319',
     introParagraphs: [
@@ -104,7 +104,7 @@ export const CITIES: Record<string, CityData> = {
     heroPhotoId: '3855962',
     introParagraphs: [
       `Wesley Chapel has become one of the fastest-growing communities in the entire state of Florida, with thousands of new homes, master-planned communities, and commercial developments coming online each year. Located in Pasco County just north of Tampa, Wesley Chapel attracts families, young professionals, and retirees drawn to its excellent schools, modern amenities, and high quality of life. With this growth comes increased demand for professional, reliable HVAC services — because in Florida, a functioning air conditioning system is not optional.`,
-      `North East Heating &amp; Cooling is proud to serve Wesley Chapel with expert HVAC repair, installation, and maintenance services. Whether your home was just built or is a few years old, our licensed technicians provide the quality service your family deserves. We work with all major HVAC brands and stay current with the latest equipment and installation best practices to ensure your home stays comfortable year-round.`,
+      `North East Heating And Cooling is proud to serve Wesley Chapel with expert HVAC repair, installation, and maintenance services. Whether your home was just built or is a few years old, our licensed technicians provide the quality service your family deserves. We work with all major HVAC brands and stay current with the latest equipment and installation best practices to ensure your home stays comfortable year-round.`,
     ],
     faqs: [
       { q: `What HVAC brands do you service in Wesley Chapel?`, a: `We service every major HVAC brand: Carrier, Trane, Lennox, Rheem, Goodman, York, American Standard, Bryant, Daikin, Mitsubishi, and others. Our service vans carry parts for the most common brands and we can source specialty parts within 24–48 hours when needed. We work on systems from any installer, including ones we didn't install.` },
@@ -123,12 +123,12 @@ export const CITIES: Record<string, CityData> = {
     lng: -82.8001,
     coastal: true,
     tier: 'major',
-    metaDescription: `Professional HVAC repair, AC installation, heating services, and air duct repair in Clearwater, FL. North East Heating & Cooling — call (813) 291-6146 for fast, reliable service.`,
+    metaDescription: `Professional HVAC repair, AC installation, heating services, and air duct repair in Clearwater, FL. North East Heating And Cooling — call (813) 291-6146 for fast, reliable service.`,
     heroSubhead: `Expert heating, air conditioning, and ventilation services for Clearwater residents and businesses. Coastal climate specialists available for same-day and emergency service.`,
     heroPhotoId: '7983215',
     introParagraphs: [
       `Clearwater is one of the crown jewels of Florida's Gulf Coast, home to world-famous Clearwater Beach, a thriving downtown entertainment district, and residential neighborhoods that attract both year-round residents and seasonal snowbirds. With approximately 117,000 full-time residents — and tens of thousands more who visit or part-time in the area — Clearwater has a diverse housing stock ranging from mid-century beachside cottages to luxury waterfront condominiums and sprawling suburban developments east of US-19.`,
-      `Clearwater's proximity to the Gulf of Mexico creates a climate that is both beautiful and demanding on HVAC equipment. Salt-laden sea breezes accelerate corrosion on condenser coils and electrical components, while the city's subtropical heat and humidity keep air conditioners running for the better part of the year. North East Heating &amp; Cooling's technicians are well-versed in the specific challenges of servicing HVAC systems in coastal Pinellas County environments, and we can recommend corrosion-resistant components and protective coatings that significantly extend equipment life near the coast.`,
+      `Clearwater's proximity to the Gulf of Mexico creates a climate that is both beautiful and demanding on HVAC equipment. Salt-laden sea breezes accelerate corrosion on condenser coils and electrical components, while the city's subtropical heat and humidity keep air conditioners running for the better part of the year. North East Heating And Cooling's technicians are well-versed in the specific challenges of servicing HVAC systems in coastal Pinellas County environments, and we can recommend corrosion-resistant components and protective coatings that significantly extend equipment life near the coast.`,
     ],
     faqs: [
       { q: `Do you install ductless mini-splits in Clearwater?`, a: `Yes. We install single-zone and multi-zone ductless mini-splits throughout Clearwater — perfect for additions, garages, sunrooms, or older homes without ductwork. We work with premium brands including Mitsubishi, Daikin, LG, and Fujitsu, and provide free in-home assessments to determine the right system size.` },
@@ -147,12 +147,12 @@ export const CITIES: Record<string, CityData> = {
     lng: -82.6403,
     coastal: true,
     tier: 'major',
-    metaDescription: `Expert HVAC repair, AC installation, heating services, and air duct repair throughout St. Petersburg, FL. North East Heating & Cooling — call (813) 291-6146 for same-day service.`,
+    metaDescription: `Expert HVAC repair, AC installation, heating services, and air duct repair throughout St. Petersburg, FL. North East Heating And Cooling — call (813) 291-6146 for same-day service.`,
     heroSubhead: `Dependable heating, cooling, and air quality services for St. Pete homes and businesses. Fast response times, honest pricing, and licensed technicians ready to serve you today.`,
     heroPhotoId: '3875141',
     introParagraphs: [
       `St. Petersburg — affectionately known as "St. Pete" — is one of Florida's most beloved cities, boasting world-class beaches, a thriving arts scene, and a walkable downtown filled with restaurants, galleries, and boutiques. With a population approaching 260,000, St. Pete is the fourth-largest city in Florida and a community where quality of life is taken seriously. That includes staying cool and comfortable in a city that holds the Guinness World Record for consecutive days of sunshine.`,
-      `St. Petersburg's peninsular location means it is surrounded by water on three sides — Tampa Bay to the east and the Gulf of Mexico to the west. This geography moderates temperatures slightly but also contributes to extremely high humidity levels, especially during the summer months. Salt air from the coast accelerates corrosion of HVAC components, meaning systems in St. Pete often require more frequent maintenance and inspection than those in inland areas. North East Heating &amp; Cooling technicians understand these coastal HVAC challenges and can recommend corrosion-resistant equipment and coatings to extend system lifespan.`,
+      `St. Petersburg's peninsular location means it is surrounded by water on three sides — Tampa Bay to the east and the Gulf of Mexico to the west. This geography moderates temperatures slightly but also contributes to extremely high humidity levels, especially during the summer months. Salt air from the coast accelerates corrosion of HVAC components, meaning systems in St. Pete often require more frequent maintenance and inspection than those in inland areas. North East Heating And Cooling technicians understand these coastal HVAC challenges and can recommend corrosion-resistant equipment and coatings to extend system lifespan.`,
     ],
     faqs: [
       { q: `Do you offer maintenance plans in St. Petersburg?`, a: `Yes. Our maintenance plans for St. Petersburg customers include twice-yearly tune-ups, a 20-point inspection at every visit, priority scheduling during peak seasons, a 15% discount on any repairs, and no diagnostic fees. Plans start at $19/mo with no long-term contract — cancel any time.` },
@@ -176,7 +176,7 @@ export const CITIES: Record<string, CityData> = {
     heroPhotoId: '5825527',
     introParagraphs: [
       `Largo is the second largest city in Pinellas County and one of the most vibrant communities in the Tampa Bay area. With a diverse mix of residential neighborhoods, thriving businesses, and proximity to Florida's Gulf Coast, Largo offers its residents a high quality of life — and year-round warm weather that demands dependable air conditioning. Whether you live in a single-family home, a condo, or manage a commercial property, keeping your HVAC system in peak condition is essential.`,
-      `North East Heating &amp; Cooling provides full-service HVAC solutions for Largo homes and businesses. Our licensed technicians are familiar with the wide range of property types and HVAC systems found throughout the city. From prompt emergency repairs to carefully planned new installations, we deliver reliable, professional service backed by transparent pricing.`,
+      `North East Heating And Cooling provides full-service HVAC solutions for Largo homes and businesses. Our licensed technicians are familiar with the wide range of property types and HVAC systems found throughout the city. From prompt emergency repairs to carefully planned new installations, we deliver reliable, professional service backed by transparent pricing.`,
     ],
     faqs: [
       { q: `How quickly can you get to Largo for an AC repair?`, a: `For most Largo service calls we offer same-day or next-day appointments. For emergency breakdowns we dispatch the nearest technician — typically within 1–2 hours depending on traffic and current service volume. Our service vans are stocked with the most common repair parts so the majority of repairs are resolved on the first visit.` },
@@ -200,7 +200,7 @@ export const CITIES: Record<string, CityData> = {
     heroPhotoId: '7534294',
     introParagraphs: [
       `Palm Harbor is one of Pinellas County's most desirable coastal communities, attracting residents who appreciate its beautiful neighborhoods, top-rated schools, and proximity to the Gulf of Mexico. Living near the coast offers many advantages, but it also comes with a challenging climate — high humidity, salt air, and intense summer heat that puts HVAC systems under significant stress year-round. In Palm Harbor, a well-maintained, properly sized air conditioning system is essential for comfortable living.`,
-      `North East Heating &amp; Cooling provides comprehensive HVAC services throughout Palm Harbor. Our licensed technicians understand the unique demands that coastal Florida's climate places on HVAC equipment and bring the expertise needed to keep your system running efficiently through every season. From emergency repairs to complete system replacements, we're here to serve Palm Harbor homeowners and businesses.`,
+      `North East Heating And Cooling provides comprehensive HVAC services throughout Palm Harbor. Our licensed technicians understand the unique demands that coastal Florida's climate places on HVAC equipment and bring the expertise needed to keep your system running efficiently through every season. From emergency repairs to complete system replacements, we're here to serve Palm Harbor homeowners and businesses.`,
     ],
     faqs: [
       { q: `How quickly can you get to Palm Harbor for an AC repair?`, a: `For most Palm Harbor service calls we offer same-day or next-day appointments. For emergency breakdowns we dispatch the nearest technician — typically within 1–2 hours depending on traffic and current service volume. Our service vans are stocked with the most common repair parts so the majority of repairs are resolved on the first visit.` },
@@ -224,7 +224,7 @@ export const CITIES: Record<string, CityData> = {
     heroPhotoId: '7577378',
     introParagraphs: [
       `Pinellas Park is a vibrant, diverse community located in the heart of Pinellas County, surrounded by St. Petersburg, Clearwater, and Largo. With a mix of long-established neighborhoods, mobile home communities, newer subdivisions, and a strong commercial and light industrial sector, Pinellas Park represents the full breadth of Florida living. And in Florida's hot, humid climate, reliable air conditioning is a necessity for every type of property in the city.`,
-      `North East Heating &amp; Cooling serves Pinellas Park homeowners and businesses with professional HVAC repair, installation, and maintenance services. Our experienced technicians understand the variety of HVAC systems and property types found throughout the city and provide service tailored to your specific needs — all at transparent, competitive pricing.`,
+      `North East Heating And Cooling serves Pinellas Park homeowners and businesses with professional HVAC repair, installation, and maintenance services. Our experienced technicians understand the variety of HVAC systems and property types found throughout the city and provide service tailored to your specific needs — all at transparent, competitive pricing.`,
     ],
     faqs: [
       { q: `Do you service mobile homes in Pinellas Park?`, a: `Yes — we service all types of residential properties in Pinellas Park, including mobile homes, manufactured homes, and modular homes. Mobile home HVAC systems often have unique configurations (like under-floor ductwork or roof-mounted package units) that require specific expertise. Our technicians are trained on these systems.` },
@@ -248,7 +248,7 @@ export const CITIES: Record<string, CityData> = {
     heroPhotoId: '8961065',
     introParagraphs: [
       `Carrollwood is one of Tampa's most established and sought-after suburban communities, known for its mature tree-lined streets, well-kept neighborhoods, and convenient access to everything the greater Tampa area has to offer. Residents here take pride in their homes, and that includes keeping their HVAC systems running efficiently year-round. With Florida's intense summer heat and humidity, a properly functioning air conditioning system is essential to comfortable living in Carrollwood.`,
-      `North East Heating &amp; Cooling has served Carrollwood homeowners and businesses for years, delivering professional HVAC repair, installation, and maintenance services with the attention to detail that this community deserves. Whether your home was built in the 1970s or the 2000s, our licensed technicians have the expertise to service all makes and models of heating and cooling equipment.`,
+      `North East Heating And Cooling has served Carrollwood homeowners and businesses for years, delivering professional HVAC repair, installation, and maintenance services with the attention to detail that this community deserves. Whether your home was built in the 1970s or the 2000s, our licensed technicians have the expertise to service all makes and models of heating and cooling equipment.`,
     ],
     faqs: [
       { q: `What HVAC brands do you service in Carrollwood?`, a: `We service every major HVAC brand: Carrier, Trane, Lennox, Rheem, Goodman, York, American Standard, Bryant, Daikin, Mitsubishi, and others. Our service vans carry parts for the most common brands and we can source specialty parts within 24–48 hours when needed. We work on systems from any installer, including ones we didn't install.` },
@@ -272,7 +272,7 @@ export const CITIES: Record<string, CityData> = {
     heroPhotoId: '4078319',
     introParagraphs: [
       `Lutz is one of the Tampa Bay area's fastest-growing communities, attracting new residents drawn by its combination of suburban convenience, quality schools, and proximity to Tampa's employment centers. As Lutz continues to grow, so does the demand for reliable HVAC services. Florida's hot and humid climate makes air conditioning not just a comfort, but a daily necessity — and Lutz residents know that their cooling systems need to perform flawlessly through long, sweltering summers.`,
-      `North East Heating &amp; Cooling serves Lutz homeowners and businesses with comprehensive HVAC repair, installation, and maintenance services. Whether you're in an established neighborhood or a newer development, our licensed technicians bring the expertise and equipment needed to keep your home or business at the perfect temperature year-round.`,
+      `North East Heating And Cooling serves Lutz homeowners and businesses with comprehensive HVAC repair, installation, and maintenance services. Whether you're in an established neighborhood or a newer development, our licensed technicians bring the expertise and equipment needed to keep your home or business at the perfect temperature year-round.`,
     ],
     faqs: [
       { q: `Do you install ductless mini-splits in Lutz?`, a: `Yes. We install single-zone and multi-zone ductless mini-splits throughout Lutz — perfect for additions, garages, sunrooms, or older homes without ductwork. We work with premium brands including Mitsubishi, Daikin, LG, and Fujitsu, and provide free in-home assessments to determine the right system size.` },
@@ -296,7 +296,7 @@ export const CITIES: Record<string, CityData> = {
     heroPhotoId: '3855962',
     introParagraphs: [
       `Land O Lakes is a unique community in Pasco County that blends rural character with suburban convenience. Known for its natural scenery, numerous lakes, and spacious properties, Land O Lakes has grown steadily as Tampa Bay area residents seek more space while staying connected to the region's employment and amenities. Whether you live in a sprawling rural property or one of the area's newer residential developments, reliable HVAC service is essential for comfort in Florida's demanding climate.`,
-      `North East Heating &amp; Cooling serves Land O Lakes homeowners and businesses with comprehensive HVAC services. Our technicians are experienced with the full range of property types found in the area — from large homes with complex multi-zone systems to newer construction in planned developments. We deliver professional, prompt service with the honest, straightforward approach that Land O Lakes residents appreciate.`,
+      `North East Heating And Cooling serves Land O Lakes homeowners and businesses with comprehensive HVAC services. Our technicians are experienced with the full range of property types found in the area — from large homes with complex multi-zone systems to newer construction in planned developments. We deliver professional, prompt service with the honest, straightforward approach that Land O Lakes residents appreciate.`,
     ],
     faqs: [
       { q: `Do you offer maintenance plans in Land O' Lakes?`, a: `Yes. Our maintenance plans for Land O' Lakes customers include twice-yearly tune-ups, a 20-point inspection at every visit, priority scheduling during peak seasons, a 15% discount on any repairs, and no diagnostic fees. Plans start at $19/mo with no long-term contract — cancel any time.` },
@@ -320,7 +320,7 @@ export const CITIES: Record<string, CityData> = {
     heroPhotoId: '7983215',
     introParagraphs: [
       `Odessa is one of Tampa Bay's most desirable residential communities, known for its spacious homes, upscale neighborhoods, and scenic lakes. Located just west of Tampa along the Hillsborough-Pasco county border, Odessa attracts discerning homeowners who expect the best — including when it comes to HVAC service. With Florida's demanding climate, a properly sized and well-maintained cooling system is essential to protecting both your family's comfort and your home's value.`,
-      `North East Heating &amp; Cooling provides the professional, high-quality HVAC service that Odessa residents expect. Our licensed technicians are experienced in servicing larger and more complex residential HVAC systems common in upscale homes. We offer thorough assessments, premium equipment options, and meticulous installations — all backed by our commitment to customer satisfaction.`,
+      `North East Heating And Cooling provides the professional, high-quality HVAC service that Odessa residents expect. Our licensed technicians are experienced in servicing larger and more complex residential HVAC systems common in upscale homes. We offer thorough assessments, premium equipment options, and meticulous installations — all backed by our commitment to customer satisfaction.`,
     ],
     faqs: [
       { q: `How quickly can you get to Odessa for an AC repair?`, a: `For most Odessa service calls we offer same-day or next-day appointments. For emergency breakdowns we dispatch the nearest technician — typically within 1–2 hours depending on traffic and current service volume. Our service vans are stocked with the most common repair parts so the majority of repairs are resolved on the first visit.` },
@@ -344,7 +344,7 @@ export const CITIES: Record<string, CityData> = {
     heroPhotoId: '3875141',
     introParagraphs: [
       `New Port Richey is one of Pasco County's oldest and most established communities, with a rich history, a vibrant downtown district, and a mix of long-time residents and newer arrivals. Situated along the Gulf Coast just north of the Pinellas County line, New Port Richey enjoys the natural beauty of the Pithlachascotee River and easy access to coastal waterways. Its coastal location and warm, humid climate make reliable air conditioning essential for comfortable living year-round.`,
-      `North East Heating &amp; Cooling provides comprehensive HVAC services throughout New Port Richey, serving homeowners and businesses across the city's diverse neighborhoods. Our licensed technicians are experienced with the older housing stock and systems commonly found in New Port Richey, and we bring the same level of professionalism and honest service to every job regardless of the age or complexity of your property.`,
+      `North East Heating And Cooling provides comprehensive HVAC services throughout New Port Richey, serving homeowners and businesses across the city's diverse neighborhoods. Our licensed technicians are experienced with the older housing stock and systems commonly found in New Port Richey, and we bring the same level of professionalism and honest service to every job regardless of the age or complexity of your property.`,
     ],
     faqs: [
       { q: `How do you protect HVAC equipment from New Port Richey's coastal environment?`, a: `For coastal New Port Richey installations we recommend equipment with corrosion-resistant coatings on the outdoor condenser, more frequent coil cleaning to remove salt deposits, and protective covers for unused months. Ground-level installations should be elevated to protect against tropical storm surge. We help homeowners choose equipment specifically rated for coastal climates.` },
@@ -363,12 +363,12 @@ export const CITIES: Record<string, CityData> = {
     lng: -82.4023,
     coastal: true,
     tier: 'mid',
-    metaDescription: `Expert HVAC repair, AC installation, heating services, and air duct repair in Apollo Beach, FL. North East Heating & Cooling — call (813) 291-6146 for coastal HVAC specialists.`,
+    metaDescription: `Expert HVAC repair, AC installation, heating services, and air duct repair in Apollo Beach, FL. North East Heating And Cooling — call (813) 291-6146 for coastal HVAC specialists.`,
     heroSubhead: `Coastal HVAC specialists serving Apollo Beach homeowners and waterfront properties. Expert heating, cooling, and air quality service built for Tampa Bay's unique marine environment.`,
     heroPhotoId: '5825527',
     introParagraphs: [
       `Apollo Beach is one of Tampa Bay's most desirable waterfront communities, situated along the eastern shore of Tampa Bay in southern Hillsborough County. Known for its navigable canals, direct bay access, and stunning water views, Apollo Beach attracts residents who appreciate the Florida waterfront lifestyle — and who understand that coastal living comes with some unique maintenance considerations, particularly when it comes to HVAC equipment.`,
-      `Homes in Apollo Beach are exposed to the salt air carried in from Tampa Bay on the prevailing sea breeze. This salt-laden air is highly corrosive to metal HVAC components, particularly condenser coils, electrical contacts, and refrigerant line connections. Systems in Apollo Beach and other waterfront communities can show significant corrosion damage in just a few years if they are not specifically designed for coastal environments or protected with appropriate coatings and regular maintenance. North East Heating &amp; Cooling's technicians are experienced in servicing HVAC systems in Apollo Beach's marine environment and can recommend the right equipment choices and maintenance practices to protect your investment.`,
+      `Homes in Apollo Beach are exposed to the salt air carried in from Tampa Bay on the prevailing sea breeze. This salt-laden air is highly corrosive to metal HVAC components, particularly condenser coils, electrical contacts, and refrigerant line connections. Systems in Apollo Beach and other waterfront communities can show significant corrosion damage in just a few years if they are not specifically designed for coastal environments or protected with appropriate coatings and regular maintenance. North East Heating And Cooling's technicians are experienced in servicing HVAC systems in Apollo Beach's marine environment and can recommend the right equipment choices and maintenance practices to protect your investment.`,
     ],
     faqs: [
       { q: `How quickly can you get to Apollo Beach for an AC repair?`, a: `For most Apollo Beach service calls we offer same-day or next-day appointments. For emergency breakdowns we dispatch the nearest technician — typically within 1–2 hours depending on traffic and current service volume. Our service vans are stocked with the most common repair parts so the majority of repairs are resolved on the first visit.` },
@@ -391,7 +391,7 @@ export const CITIES: Record<string, CityData> = {
     heroSubhead: `Trusted heating and cooling solutions for Sun City Center's retirement communities and HOA neighborhoods.`,
     heroPhotoId: '7534294',
     introParagraphs: [
-      `Sun City Center is one of Florida's most celebrated active adult retirement communities, home to thousands of residents who depend on reliable HVAC systems year-round. With the Florida heat bearing down from spring through fall and mild but unpredictable winters, keeping your heating and cooling system in peak condition is not a luxury — it's a necessity. North East Heating &amp; Cooling provides comprehensive HVAC services tailored to the unique demands of Sun City Center's retirement community lifestyle.`,
+      `Sun City Center is one of Florida's most celebrated active adult retirement communities, home to thousands of residents who depend on reliable HVAC systems year-round. With the Florida heat bearing down from spring through fall and mild but unpredictable winters, keeping your heating and cooling system in peak condition is not a luxury — it's a necessity. North East Heating And Cooling provides comprehensive HVAC services tailored to the unique demands of Sun City Center's retirement community lifestyle.`,
       `Many homes in Sun City Center were built decades ago, and older HVAC equipment can struggle to keep up with modern efficiency standards. Whether you live in a standalone villa, a single-family home within an HOA community, or a condo, our licensed technicians understand the specific requirements of these properties. We deliver fast, respectful service with transparent pricing — because your comfort and peace of mind matter.`,
     ],
     faqs: [
@@ -411,7 +411,7 @@ export const CITIES: Record<string, CityData> = {
     lng: -82.4337,
     coastal: true,
     tier: 'mid',
-    metaDescription: `Full-service HVAC repair, AC installation, heating services, and air duct repair in Ruskin, FL. North East Heating & Cooling — call (813) 291-6146 for expert south Hillsborough HVAC.`,
+    metaDescription: `Full-service HVAC repair, AC installation, heating services, and air duct repair in Ruskin, FL. North East Heating And Cooling — call (813) 291-6146 for expert south Hillsborough HVAC.`,
     heroSubhead: `Professional heating and cooling services for Ruskin's growing residential community and local businesses. Fast response, transparent pricing, and HVAC expertise you can count on.`,
     heroPhotoId: '7577378',
     introParagraphs: [
@@ -435,7 +435,7 @@ export const CITIES: Record<string, CityData> = {
     lng: -82.3793,
     coastal: true,
     tier: 'mid',
-    metaDescription: `Affordable HVAC repair, AC installation, heating services, and air duct repair in Gibsonton, FL. North East Heating & Cooling — call (813) 291-6146 for fast, local service.`,
+    metaDescription: `Affordable HVAC repair, AC installation, heating services, and air duct repair in Gibsonton, FL. North East Heating And Cooling — call (813) 291-6146 for fast, local service.`,
     heroSubhead: `Affordable, reliable heating and cooling services for Gibsonton homes and businesses. Licensed HVAC technicians serving south Hillsborough County with same-day availability.`,
     heroPhotoId: '8961065',
     introParagraphs: [
@@ -459,7 +459,7 @@ export const CITIES: Record<string, CityData> = {
     lng: -82.2362,
     coastal: false,
     tier: 'mid',
-    metaDescription: `Reliable HVAC repair, AC installation, heating services, and air duct repair in Valrico, FL. North East Heating & Cooling — call (813) 291-6146 for expert service.`,
+    metaDescription: `Reliable HVAC repair, AC installation, heating services, and air duct repair in Valrico, FL. North East Heating And Cooling — call (813) 291-6146 for expert service.`,
     heroSubhead: `Dependable heating and cooling services for Valrico homes and businesses. Local knowledge, honest pricing, and fast response throughout eastern Hillsborough County.`,
     heroPhotoId: '4078319',
     introParagraphs: [
@@ -483,7 +483,7 @@ export const CITIES: Record<string, CityData> = {
     lng: -82.1148,
     coastal: false,
     tier: 'mid',
-    metaDescription: `Professional HVAC repair, AC installation, heating services, and air duct repair in Plant City, FL. North East Heating & Cooling — call (813) 291-6146 for fast, reliable service.`,
+    metaDescription: `Professional HVAC repair, AC installation, heating services, and air duct repair in Plant City, FL. North East Heating And Cooling — call (813) 291-6146 for fast, reliable service.`,
     heroSubhead: `Reliable heating and cooling services for Plant City homes and businesses. Local HVAC experts serving Hillsborough County's eastern communities with fast response and honest pricing.`,
     heroPhotoId: '3855962',
     introParagraphs: [

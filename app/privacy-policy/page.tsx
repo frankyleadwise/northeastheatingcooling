@@ -2,9 +2,9 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | North East Heating & Cooling',
+  title: 'Privacy Policy | North East Heating And Cooling',
   description:
-    'Privacy Policy for North East Heating & Cooling. Learn how we collect, use, and protect your personal information.',
+    'Privacy Policy for North East Heating And Cooling. Learn how we collect, use, and protect your personal information.',
   robots: { index: false, follow: true },
 }
 
@@ -25,7 +25,7 @@ export default function PrivacyPolicyPage() {
         <div className="max-w-3xl mx-auto prose prose-gray prose-headings:font-bold prose-headings:text-gray-900 prose-a:text-blue-600 prose-a:no-underline hover:prose-a:underline leading-relaxed text-gray-700">
 
           <p>
-            North East Heating &amp; Cooling (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;) operates the website{' '}
+            North East Heating And Cooling (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;) operates the website{' '}
             <a href="https://northeastheatingcooling.com">northeastheatingcooling.com</a>. This Privacy Policy
             explains what information we collect, how we use it, and your rights regarding your data.
           </p>

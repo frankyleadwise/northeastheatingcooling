@@ -3,9 +3,9 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'About North East Heating & Cooling | Tampa Bay HVAC Company',
+  title: 'About North East Heating And Cooling | Tampa Bay HVAC Company',
   description:
-    'Learn about North East Heating & Cooling — a locally owned Tampa Bay HVAC company with 10+ years of experience, licensed & certified technicians, and a commitment to honest, affordable service.',
+    'Learn about North East Heating And Cooling — a locally owned Tampa Bay HVAC company with 10+ years of experience, licensed & certified technicians, and a commitment to honest, affordable service.',
 }
 
 // ─── SVG Icons ────────────────────────────────────────────────────────────────
@@ -228,7 +228,7 @@ export default function AboutPage() {
             Tampa Bay&apos;s Trusted HVAC Experts
           </p>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight mb-5">
-            About North East Heating &amp; Cooling
+            About North East Heating And Cooling
           </h1>
           <p className="text-blue-100 text-lg sm:text-xl max-w-3xl mx-auto leading-relaxed">
             Locally owned and operated in Tampa, FL, we&apos;ve been keeping families
@@ -268,7 +268,7 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  North East Heating &amp; Cooling was founded right here in Tampa with
+                  North East Heating And Cooling was founded right here in Tampa with
                   one goal: to provide Tampa Bay residents and businesses with the
                   same honest, high-quality HVAC service that we&apos;d want for our
                   own families. What started as a small operation has grown into one
@@ -300,7 +300,7 @@ export default function AboutPage() {
               <div className="relative rounded-2xl overflow-hidden shadow-xl aspect-[4/3]">
                 <Image
                   src="/unnamed.jpg"
-                  alt="Chris Grullon, Owner & Founder of North East Heating & Cooling"
+                  alt="Chris Grullon, Owner & Founder of North East Heating And Cooling"
                   fill
                   className="object-cover object-center"
                   sizes="(max-width: 1024px) 100vw, 50vw"
@@ -377,7 +377,7 @@ export default function AboutPage() {
             <div className="relative w-32 h-32 shrink-0 rounded-full overflow-hidden border-4 border-white/20 shadow-xl">
               <Image
                 src="/unnamed.jpg"
-                alt="Chris Grullon, Owner of North East Heating & Cooling"
+                alt="Chris Grullon, Owner of North East Heating And Cooling"
                 fill
                 className="object-cover object-top"
                 sizes="128px"
@@ -387,7 +387,7 @@ export default function AboutPage() {
               <p className="text-blue-300 font-semibold text-xs uppercase tracking-widest mb-1">Owner &amp; Founder</p>
               <h3 className="text-white text-2xl font-extrabold mb-2">Chris Grullon</h3>
               <p className="text-blue-100 text-sm leading-relaxed max-w-xl">
-                With over 10 years in the HVAC industry, Chris built North East Heating &amp; Cooling from the ground up on a simple principle — treat every customer like a neighbor. EPA 608 licensed and Florida-licensed, he leads a team that brings the same dedication to every job across the Tampa Bay area.
+                With over 10 years in the HVAC industry, Chris built North East Heating And Cooling from the ground up on a simple principle — treat every customer like a neighbor. EPA 608 licensed and Florida-licensed, he leads a team that brings the same dedication to every job across the Tampa Bay area.
               </p>
             </div>
           </div>
@@ -409,7 +409,7 @@ export default function AboutPage() {
 
           <div className="mt-10 bg-blue-50 rounded-2xl p-8 border border-blue-100 max-w-3xl mx-auto text-center">
             <p className="text-gray-700 leading-relaxed">
-              Every North East Heating &amp; Cooling technician undergoes rigorous
+              Every North East Heating And Cooling technician undergoes rigorous
               background checks, drug screening, and ongoing technical training.
               We hire professionals who share our values — people who take pride in
               their craft and genuinely care about the customers they serve. When
@@ -496,7 +496,7 @@ export default function AboutPage() {
               </h2>
               <p className="text-gray-600 leading-relaxed mb-6">
                 Whether you need a quick repair, a full system replacement, or
-                routine maintenance, North East Heating &amp; Cooling is ready to
+                routine maintenance, North East Heating And Cooling is ready to
                 help. Join the thousands of satisfied customers throughout Tampa
                 Bay who trust us with their home comfort.
               </p>
@@ -530,10 +530,10 @@ export default function AboutPage() {
             '@type': 'Person',
             name: 'Chris Grullon',
             jobTitle: 'Owner & EPA 608 Certified HVAC Technician',
-            description: 'Founder of North East Heating & Cooling with over 10 years in the HVAC industry. EPA 608 licensed and Florida-licensed, and Florida-licensed HVAC contractor serving Tampa Bay.',
+            description: 'Founder of North East Heating And Cooling with over 10 years in the HVAC industry. EPA 608 licensed and Florida-licensed, and Florida-licensed HVAC contractor serving Tampa Bay.',
             worksFor: {
               '@type': 'LocalBusiness',
-              name: 'North East Heating & Cooling',
+              name: 'North East Heating And Cooling',
               url: 'https://northeastheatingcooling.com',
               telephone: '+18132916146',
               address: { '@type': 'PostalAddress', addressLocality: 'Tampa', addressRegion: 'FL', addressCountry: 'US' },

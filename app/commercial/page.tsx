@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Commercial HVAC Services Tampa Bay, FL | North East Heating & Cooling',
+  title: 'Commercial HVAC Services Tampa Bay, FL | North East Heating And Cooling',
   description:
     'Full-service commercial HVAC in Tampa Bay, FL. Installation, repair, maintenance, duct work, exhaust fans, and water heaters for offices, restaurants, retail, and more. Call (813) 291-6146.',
   keywords: [
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     'HVAC contractor Tampa Bay',
   ],
   openGraph: {
-    title: 'Commercial HVAC Services Tampa Bay, FL | North East Heating & Cooling',
+    title: 'Commercial HVAC Services Tampa Bay, FL | North East Heating And Cooling',
     description:
       'Full-service commercial HVAC in Tampa Bay, FL. Installation, repair, maintenance, duct work, exhaust fans, and water heaters. Call (813) 291-6146.',
     type: 'website',
@@ -107,7 +107,7 @@ export default function CommercialPage() {
             Commercial HVAC Services in Tampa Bay, FL
           </h1>
           <p className="text-blue-100 text-lg md:text-xl max-w-3xl mx-auto mb-8">
-            North East Heating &amp; Cooling delivers reliable, code-compliant commercial HVAC solutions for
+            North East Heating And Cooling delivers reliable, code-compliant commercial HVAC solutions for
             businesses of every size across Tampa Bay. From a single rooftop unit to a full multi-building
             mechanical system, our licensed technicians handle it all — on schedule and within budget.
           </p>
@@ -255,7 +255,7 @@ export default function CommercialPage() {
       <section className="bg-[#0f1620] text-white py-16 px-4">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl font-bold mb-10 text-center">
-            Why Tampa Bay Businesses Choose North East Heating &amp; Cooling
+            Why Tampa Bay Businesses Choose North East Heating And Cooling
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
@@ -293,7 +293,7 @@ export default function CommercialPage() {
             Serving All of Tampa Bay
           </h2>
           <p className="text-gray-600 max-w-3xl mx-auto mb-6">
-            North East Heating &amp; Cooling provides commercial HVAC services throughout the Tampa Bay
+            North East Heating And Cooling provides commercial HVAC services throughout the Tampa Bay
             region, including Tampa, St. Petersburg, Clearwater, Brandon, Riverview, Wesley Chapel,
             Lutz, Land O&apos; Lakes, Plant City, and surrounding communities in Hillsborough and
             Pinellas counties.

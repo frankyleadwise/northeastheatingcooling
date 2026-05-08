@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'R454B and R32 Refrigerants: Efficiency & Leak Safety Guide | North East Heating & Cooling',
+  title: 'R454B and R32 Refrigerants: Efficiency & Leak Safety Guide | North East Heating And Cooling',
   description:
     'Everything Tampa Bay homeowners need to know about new R454B and R32 refrigerants — energy efficiency gains, leak safety risks, and what the phase-out of R-410A means for your AC system.',
   openGraph: {
@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     description:
       'New refrigerants R454B and R32 are replacing R-410A. Learn about their efficiency advantages, leak safety considerations, and what Florida homeowners should know.',
     url: 'https://northeastheatingcooling.com/blog/new-refrigerants-r454b-r32-efficiency-safety',
-    siteName: 'North East Heating & Cooling',
+    siteName: 'North East Heating And Cooling',
     locale: 'en_US',
     type: 'article',
   },
@@ -41,7 +41,7 @@ export default function NewRefrigerantsR454BR32Page() {
             R454B and R32: What Tampa Bay Homeowners Need to Know About the New Refrigerants
           </h1>
           <p className="text-blue-200 text-sm">
-            By <span className="font-semibold text-white">Chris Grullon</span>, <span className="text-blue-200">Owner &amp; EPA 608 Certified HVAC Technician</span> &mdash; North East Heating &amp; Cooling, Tampa Bay, FL
+            By <span className="font-semibold text-white">Chris Grullon</span>, <span className="text-blue-200">Owner &amp; EPA 608 Certified HVAC Technician</span> &mdash; North East Heating And Cooling, Tampa Bay, FL
           </p>
         </div>
       </header>
@@ -243,7 +243,7 @@ export default function NewRefrigerantsR454BR32Page() {
                 and lower operating costs for the next 15–20 years.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
-                At North East Heating &amp; Cooling, we are fully trained and equipped to service both existing R-410A
+                At North East Heating And Cooling, we are fully trained and equipped to service both existing R-410A
                 systems and install new A2L systems using R454B and R32. Our technicians are up to date on the latest
                 safety codes and manufacturer requirements so your new system is installed correctly from day one.
               </p>
@@ -369,7 +369,7 @@ export default function NewRefrigerantsR454BR32Page() {
           <div>
             <h2 className="text-2xl font-bold text-gray-900 mb-1">Ready to Upgrade to a New Refrigerant System?</h2>
             <p className="text-gray-600">
-              North East Heating &amp; Cooling installs R454B and R32 systems across Tampa Bay.{' '}
+              North East Heating And Cooling installs R454B and R32 systems across Tampa Bay.{' '}
               <Link href="/residential/hvac-installation-tampa-fl" className="text-blue-600 font-semibold hover:underline">
                 View installation services →
               </Link>
@@ -399,9 +399,9 @@ export default function NewRefrigerantsR454BR32Page() {
               '@type': 'Person',
               name: 'Chris Grullon',
               jobTitle: 'Owner & EPA 608 Certified HVAC Technician',
-              worksFor: { '@type': 'Organization', name: 'North East Heating & Cooling' },
+              worksFor: { '@type': 'Organization', name: 'North East Heating And Cooling' },
             },
-            publisher: { '@type': 'Organization', name: 'North East Heating & Cooling', url: 'https://northeastheatingcooling.com' },
+            publisher: { '@type': 'Organization', name: 'North East Heating And Cooling', url: 'https://northeastheatingcooling.com' },
           }),
         }}
       />

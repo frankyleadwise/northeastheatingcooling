@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 import ServicePageQuoteForm from '@/app/components/ServicePageQuoteForm'
 export const metadata: Metadata = {
-  title: 'Residential HVAC Repair Services in Tampa, FL | North East Heating & Cooling',
+  title: 'Residential HVAC Repair Services in Tampa, FL | North East Heating And Cooling',
   description:
     'Expert residential HVAC repair in Tampa, FL. Fast AC repair, heating repair & emergency HVAC service. Call (813) 291-6146 for same-day service.',
   keywords: [
@@ -17,11 +17,11 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: '/residential/hvac-service-tampa' },
   openGraph: {
-    title: 'Residential HVAC Repair Services in Tampa, FL | North East Heating & Cooling',
+    title: 'Residential HVAC Repair Services in Tampa, FL | North East Heating And Cooling',
     description:
       'Expert residential HVAC repair in Tampa, FL. Fast AC repair, heating repair & emergency HVAC service. Call (813) 291-6146 for same-day service.',
     url: '/residential/hvac-service-tampa',
-    siteName: 'North East Heating & Cooling',
+    siteName: 'North East Heating And Cooling',
     locale: 'en_US',
     type: 'website',
   },
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
 const schemaData = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
-  name: 'North East Heating & Cooling',
+  name: 'North East Heating And Cooling',
   description:
     'Professional residential HVAC repair, AC repair, and heating repair services in Tampa, FL and the Tampa Bay area.',
   telephone: '+18132916146',
@@ -102,7 +102,7 @@ const repairServices = [
   {
     title: 'Heating System Repair',
     description:
-      "While Tampa Bay winters are mild, cold snaps do hit — and a malfunctioning heat pump or furnace makes them miserable. North East Heating & Cooling services all types of residential heating systems common in Florida, including heat pumps, electric furnaces, and gas furnaces. We'll restore your heat quickly so your family stays comfortable.",
+      "While Tampa Bay winters are mild, cold snaps do hit — and a malfunctioning heat pump or furnace makes them miserable. North East Heating And Cooling services all types of residential heating systems common in Florida, including heat pumps, electric furnaces, and gas furnaces. We'll restore your heat quickly so your family stays comfortable.",
     bullets: [
       'Heat pump repair and refrigerant service',
       'Electric and gas furnace diagnostics',
@@ -235,7 +235,7 @@ export default function HvacServiceTampaPage() {
                 dangerous — especially for elderly residents, young children, and pets.
               </p>
               <p>
-                North East Heating &amp; Cooling has built its reputation on fast response times, honest
+                North East Heating And Cooling has built its reputation on fast response times, honest
                 diagnostics, and repairs that last. Our certified technicians carry a comprehensive inventory
                 of parts on every service van, which means we can resolve the majority of AC and heating
                 repairs in a single visit — no return trips, no waiting on back-ordered parts.
@@ -441,7 +441,7 @@ export default function HvacServiceTampaPage() {
       <section className="bg-gray-50 py-16 px-4">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl font-bold text-gray-900 mb-3 text-center">
-            Why Choose North East Heating &amp; Cooling for HVAC Repair?
+            Why Choose North East Heating And Cooling for HVAC Repair?
           </h2>
           <p className="text-gray-600 text-center text-lg max-w-2xl mx-auto mb-12">
             Tampa Bay homeowners have choices when it comes to HVAC repair. Here&rsquo;s why they call us again

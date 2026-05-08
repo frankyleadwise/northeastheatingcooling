@@ -2,15 +2,15 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'How to Know When to Replace Your AC Unit in Florida | North East Heating & Cooling',
+  title: 'How to Know When to Replace Your AC Unit in Florida | North East Heating And Cooling',
   description:
-    "Learn the top signs it's time to replace your AC unit in Florida. Expert advice from North East Heating & Cooling in Tampa Bay. Call (813) 291-6146.",
+    "Learn the top signs it's time to replace your AC unit in Florida. Expert advice from North East Heating And Cooling in Tampa Bay. Call (813) 291-6146.",
   openGraph: {
     title: 'How to Know When to Replace Your AC Unit in Florida',
     description:
-      "Learn the top signs it's time to replace your AC unit in Florida. Expert advice from North East Heating & Cooling in Tampa Bay.",
+      "Learn the top signs it's time to replace your AC unit in Florida. Expert advice from North East Heating And Cooling in Tampa Bay.",
     url: 'https://northeastheatingcooling.com/blog/when-to-replace-your-ac-unit-florida',
-    siteName: 'North East Heating & Cooling',
+    siteName: 'North East Heating And Cooling',
     locale: 'en_US',
     type: 'article',
   },
@@ -41,7 +41,7 @@ export default function WhenToReplaceACPage() {
             How to Know When to Replace Your AC Unit in Florida
           </h1>
           <p className="text-blue-200 text-sm">
-            By <span className="font-semibold text-white">Chris Grullon</span>, <span className="text-blue-200">Owner &amp; EPA 608 Certified HVAC Technician</span> &mdash; North East Heating &amp; Cooling, Tampa Bay, FL
+            By <span className="font-semibold text-white">Chris Grullon</span>, <span className="text-blue-200">Owner &amp; EPA 608 Certified HVAC Technician</span> &mdash; North East Heating And Cooling, Tampa Bay, FL
           </p>
         </div>
       </header>
@@ -242,7 +242,7 @@ export default function WhenToReplaceACPage() {
           <div>
             <h2 className="text-2xl font-bold text-gray-900 mb-1">Ready to Replace Your AC?</h2>
             <p className="text-gray-600">
-              North East Heating &amp; Cooling installs energy-efficient systems across Tampa Bay.{' '}
+              North East Heating And Cooling installs energy-efficient systems across Tampa Bay.{' '}
               <Link href="/residential/hvac-installation-tampa-fl" className="text-blue-600 font-semibold hover:underline">
                 View installation services →
               </Link>
@@ -263,7 +263,7 @@ export default function WhenToReplaceACPage() {
             '@context': 'https://schema.org',
             '@type': 'BlogPosting',
             headline: 'How to Know When to Replace Your AC Unit in Florida',
-            description: "Learn the top signs it's time to replace your AC unit in Florida. Expert advice from North East Heating & Cooling in Tampa Bay.",
+            description: "Learn the top signs it's time to replace your AC unit in Florida. Expert advice from North East Heating And Cooling in Tampa Bay.",
             datePublished: '2024-12-15',
             dateModified: '2024-12-15',
             url: 'https://northeastheatingcooling.com/blog/when-to-replace-your-ac-unit-florida',
@@ -272,9 +272,9 @@ export default function WhenToReplaceACPage() {
               '@type': 'Person',
               name: 'Chris Grullon',
               jobTitle: 'Owner & EPA 608 Certified HVAC Technician',
-              worksFor: { '@type': 'Organization', name: 'North East Heating & Cooling' },
+              worksFor: { '@type': 'Organization', name: 'North East Heating And Cooling' },
             },
-            publisher: { '@type': 'Organization', name: 'North East Heating & Cooling', url: 'https://northeastheatingcooling.com' },
+            publisher: { '@type': 'Organization', name: 'North East Heating And Cooling', url: 'https://northeastheatingcooling.com' },
           }),
         }}
       />

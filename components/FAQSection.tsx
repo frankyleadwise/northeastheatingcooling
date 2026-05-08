@@ -36,7 +36,7 @@ const faqs: FAQItem[] = [
   {
     question: "What areas do you serve in Tampa Bay?",
     answer:
-      "North East Heating & Cooling proudly serves the entire Tampa Bay region including Tampa, Brandon, Riverview, Valrico, Plant City, Seffner, Mango, Temple Terrace, New Tampa, Lutz, Land O' Lakes, Westchase, Carrollwood, and surrounding communities. If you're not sure whether we cover your location, just give us a call — we're happy to let you know.",
+      "North East Heating And Cooling proudly serves the entire Tampa Bay region including Tampa, Brandon, Riverview, Valrico, Plant City, Seffner, Mango, Temple Terrace, New Tampa, Lutz, Land O' Lakes, Westchase, Carrollwood, and surrounding communities. If you're not sure whether we cover your location, just give us a call — we're happy to let you know.",
   },
   {
     question: "What is the $5,000 rule for HVAC?",
@@ -46,12 +46,12 @@ const faqs: FAQItem[] = [
   {
     question: "Which AC brand lasts the longest?",
     answer:
-      "Trane, Carrier, and Lennox consistently rank as the longest-lasting AC brands, with well-maintained units often reaching 15–20 years. That said, brand matters less than installation quality and regular maintenance. A premium unit installed poorly or neglected will fail faster than a mid-range unit that's properly cared for. At North East Heating & Cooling, we service all major brands and will always give you an honest assessment of whether a repair or replacement makes more sense for your specific system.",
+      "Trane, Carrier, and Lennox consistently rank as the longest-lasting AC brands, with well-maintained units often reaching 15–20 years. That said, brand matters less than installation quality and regular maintenance. A premium unit installed poorly or neglected will fail faster than a mid-range unit that's properly cared for. At North East Heating And Cooling, we service all major brands and will always give you an honest assessment of whether a repair or replacement makes more sense for your specific system.",
   },
   {
     question: "How much should an HVAC service call cost?",
     answer:
-      "In the Tampa Bay area, a standard HVAC service call typically runs between $75 and $150, which usually covers the diagnostic visit. Repair costs are separate and depend on what's found. Be cautious of companies offering extremely low service call fees — they often make it up with inflated parts and labor. At North East Heating & Cooling, we charge straightforward, upfront pricing with no surprises. Call us at (813) 291-6146 to get a clear estimate before any work begins.",
+      "In the Tampa Bay area, a standard HVAC service call typically runs between $75 and $150, which usually covers the diagnostic visit. Repair costs are separate and depend on what's found. Be cautious of companies offering extremely low service call fees — they often make it up with inflated parts and labor. At North East Heating And Cooling, we charge straightforward, upfront pricing with no surprises. Call us at (813) 291-6146 to get a clear estimate before any work begins.",
   },
   {
     question: "What is the most common HVAC problem?",

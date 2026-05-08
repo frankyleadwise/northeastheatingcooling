@@ -77,7 +77,7 @@ export function middleware(request: NextRequest) {
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>410 Gone — North East Heating &amp; Cooling</title>
+<title>410 Gone — North East Heating And Cooling</title>
 <meta name="robots" content="noindex">
 <style>body{font-family:system-ui,sans-serif;max-width:600px;margin:80px auto;padding:0 20px;color:#0f1620;line-height:1.6}h1{color:#c8330a}a{color:#c8330a}</style>
 </head>

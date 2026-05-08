@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     description:
       'Expert exhaust fan repair in Tampa, FL. Kitchen range hoods, bathroom exhaust fans, motor replacement & new fan installation. Call (813) 291-6146 for fast service.',
     url: '/residential/exhaust-fan-repair-tampa',
-    siteName: 'North East Heating & Cooling',
+    siteName: 'North East Heating And Cooling',
     locale: 'en_US',
     type: 'website',
   },
@@ -357,7 +357,7 @@ export default function ExhaustFanRepairTampaPage() {
               <h2 className="text-3xl font-bold mb-4">Schedule Exhaust Fan Repair</h2>
               <p className="text-blue-100 text-lg mb-6 leading-relaxed">
                 A malfunctioning exhaust fan in Tampa Bay is a mold problem waiting to happen. Call
-                North East Heating &amp; Cooling to schedule prompt exhaust fan repair or replacement —
+                North East Heating And Cooling to schedule prompt exhaust fan repair or replacement —
                 same-day service available for most Tampa Bay locations.
               </p>
               <div className="space-y-4">

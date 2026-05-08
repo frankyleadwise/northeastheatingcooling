@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Commercial AC Replacement Tampa, FL | Rooftop & Split System Replacement | North East Heating & Cooling',
+  title: 'Commercial AC Replacement Tampa, FL | Rooftop & Split System Replacement | North East Heating And Cooling',
   description:
     'Commercial AC replacement in Tampa, FL. Rooftop units, split systems, and packaged HVAC replacement for restaurants, offices, retail, and warehouses. Call (813) 291-6146.',
   keywords: [
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     description:
       'Commercial AC replacement in Tampa, FL. Rooftop units, split systems, and packaged HVAC replacement for restaurants, offices, retail, and warehouses.',
     url: '/commercial/ac-replacement-tampa',
-    siteName: 'North East Heating & Cooling',
+    siteName: 'North East Heating And Cooling',
     locale: 'en_US',
     type: 'website',
   },
@@ -38,7 +38,7 @@ const schemaData = {
     'Professional commercial AC replacement in Tampa, FL. Rooftop units, split systems, and packaged HVAC equipment replacement for commercial properties throughout Tampa Bay.',
   provider: {
     '@type': 'HVACBusiness',
-    name: 'North East Heating & Cooling',
+    name: 'North East Heating And Cooling',
     telephone: '+1-813-291-6146',
     url: 'https://northeastheatingcooling.com',
     address: {

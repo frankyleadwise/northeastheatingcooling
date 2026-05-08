@@ -181,7 +181,7 @@ export default function Footer() {
             <Link href="/" className="inline-block mb-5">
               <Image
                 src="/transparent white letters.png"
-                alt="North East Heating and Cooling"
+                alt="North East Heating And Cooling"
                 width={200}
                 height={64}
                 className="w-auto h-14"
@@ -325,7 +325,7 @@ export default function Footer() {
       <div style={{ borderTop: '1px solid var(--border)' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs" style={{ color: 'var(--muted)' }}>
           <p>
-            &copy; 2024 North East Heating &amp; Cooling. All rights reserved.
+            &copy; 2024 North East Heating And Cooling. All rights reserved.
           </p>
           <nav aria-label="Legal navigation" className="flex items-center gap-4">
             <Link href="/privacy-policy" className="hover:text-white transition-colors">

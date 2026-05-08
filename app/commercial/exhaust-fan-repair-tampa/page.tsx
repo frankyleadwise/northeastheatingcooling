@@ -4,7 +4,7 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Commercial Exhaust Fan Repair Tampa, FL | Restaurant & Industrial Ventilation',
   description:
-    'Commercial exhaust fan repair and replacement in Tampa Bay, FL. Kitchen exhaust systems, industrial ventilation, code compliance. Call North East Heating & Cooling: (813) 291-6146.',
+    'Commercial exhaust fan repair and replacement in Tampa Bay, FL. Kitchen exhaust systems, industrial ventilation, code compliance. Call North East Heating And Cooling: (813) 291-6146.',
   keywords: [
     'commercial exhaust fan repair Tampa',
     'restaurant exhaust fan repair Tampa FL',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description:
       'Expert commercial exhaust fan repair, motor replacement, and ventilation service throughout Tampa Bay. Call (813) 291-6146.',
     url: 'https://northeastheatingcooling.com/commercial/exhaust-fan-repair-tampa',
-    siteName: 'North East Heating & Cooling',
+    siteName: 'North East Heating And Cooling',
     locale: 'en_US',
     type: 'website',
   },
@@ -139,7 +139,7 @@ export default function CommercialExhaustFanRepairPage() {
           </h1>
           <p className="text-blue-100 text-lg md:text-xl max-w-3xl mb-8 leading-relaxed">
             From restaurant kitchen exhaust systems and industrial ventilation to rooftop power
-            exhaust fans, North East Heating &amp; Cooling provides expert commercial exhaust fan
+            exhaust fans, North East Heating And Cooling provides expert commercial exhaust fan
             repair, motor replacement, and ventilation system service throughout Tampa Bay.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
@@ -192,7 +192,7 @@ export default function CommercialExhaustFanRepairPage() {
               Prompt, expert repair by technicians who understand commercial exhaust systems is essential.
             </p>
             <p className="text-gray-600 text-lg leading-relaxed">
-              North East Heating &amp; Cooling has the experience, parts inventory, and technical knowledge
+              North East Heating And Cooling has the experience, parts inventory, and technical knowledge
               to diagnose and repair commercial exhaust fans quickly — often on the same day — throughout
               Tampa Bay.
             </p>

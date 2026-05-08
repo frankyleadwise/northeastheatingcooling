@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Heat Pump vs. AC in Florida: Which Is Better for Tampa Homes? | North East Heating & Cooling',
+  title: 'Heat Pump vs. AC in Florida: Which Is Better for Tampa Homes? | North East Heating And Cooling',
   description:
     "Comparing heat pump vs. AC for Tampa Bay homes. Florida's mild winters change the math — here's what actually saves you money long-term, from a Tampa HVAC owner.",
   openGraph: {
@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     description:
       "Comparing heat pump vs. AC for Tampa Bay homes. Florida's mild winters change the math — here's what actually saves you money long-term.",
     url: 'https://northeastheatingcooling.com/blog/heat-pump-vs-ac-florida',
-    siteName: 'North East Heating & Cooling',
+    siteName: 'North East Heating And Cooling',
     locale: 'en_US',
     type: 'article',
   },
@@ -40,7 +40,7 @@ export default function HeatPumpVsAcFloridaPage() {
             Heat Pump vs. AC in Florida: Which Is Better for Tampa Homes?
           </h1>
           <p className="text-blue-200 text-sm">
-            By <span className="font-semibold text-white">Chris Grullon</span>, <span className="text-blue-200">Owner &amp; EPA 608 Certified HVAC Technician</span> &mdash; North East Heating &amp; Cooling, Tampa Bay, FL
+            By <span className="font-semibold text-white">Chris Grullon</span>, <span className="text-blue-200">Owner &amp; EPA 608 Certified HVAC Technician</span> &mdash; North East Heating And Cooling, Tampa Bay, FL
           </p>
         </div>
       </header>
@@ -347,9 +347,9 @@ export default function HeatPumpVsAcFloridaPage() {
               '@type': 'Person',
               name: 'Chris Grullon',
               jobTitle: 'Owner & EPA 608 Certified HVAC Technician',
-              worksFor: { '@type': 'Organization', name: 'North East Heating & Cooling' },
+              worksFor: { '@type': 'Organization', name: 'North East Heating And Cooling' },
             },
-            publisher: { '@type': 'Organization', name: 'North East Heating & Cooling', url: 'https://northeastheatingcooling.com' },
+            publisher: { '@type': 'Organization', name: 'North East Heating And Cooling', url: 'https://northeastheatingcooling.com' },
           }),
         }}
       />

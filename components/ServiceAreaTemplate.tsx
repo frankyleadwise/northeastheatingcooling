@@ -19,7 +19,7 @@ export default function ServiceAreaTemplate({ city }: { city: CityData }) {
     '@context': 'https://schema.org',
     '@type': 'HVACBusiness',
     '@id': url,
-    name: 'North East Heating & Cooling',
+    name: 'North East Heating And Cooling',
     description: `Professional HVAC repair, AC installation, and maintenance services in ${city.display}, FL`,
     telephone: '+1-813-291-6146',
     url,
@@ -77,7 +77,7 @@ export default function ServiceAreaTemplate({ city }: { city: CityData }) {
         <div className="absolute inset-0">
           <img
             src={`https://images.pexels.com/photos/${city.heroPhotoId}/pexels-photo-${city.heroPhotoId}.jpeg?auto=compress&cs=tinysrgb&w=1600`}
-            alt={`HVAC service in ${city.display} Florida — North East Heating & Cooling`}
+            alt={`HVAC service in ${city.display} Florida — North East Heating And Cooling`}
             className="w-full h-full object-cover object-center opacity-40"
             loading="eager"
           />
@@ -162,7 +162,7 @@ export default function ServiceAreaTemplate({ city }: { city: CityData }) {
       <section className="bg-white py-16 px-4">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl font-extrabold text-gray-900 mb-8 text-center">
-            Why {city.display} Chooses North East Heating &amp; Cooling
+            Why {city.display} Chooses North East Heating And Cooling
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-gray-50 rounded-2xl p-6 border border-gray-100">

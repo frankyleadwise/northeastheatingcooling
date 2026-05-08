@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'HVAC Services Tampa Bay, FL | North East Heating & Cooling',
+  title: 'HVAC Services Tampa Bay, FL | North East Heating And Cooling',
   description:
     'Complete HVAC services for Tampa Bay homes and businesses. AC repair, installation, heating, air ducts, water heaters & commercial HVAC. Licensed & certified. Call (813) 291-6146.',
 }
@@ -428,7 +428,7 @@ export default function ServicesPage() {
           </h1>
           <p className="text-blue-100 text-lg sm:text-xl max-w-3xl mx-auto leading-relaxed mb-8">
             From emergency AC repairs to full system replacements — residential
-            and commercial — North East Heating &amp; Cooling handles it all.
+            and commercial — North East Heating And Cooling handles it all.
             Licensed, certified, and trusted by 5,000+ Tampa Bay customers.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
@@ -524,7 +524,7 @@ export default function ServicesPage() {
               The North East Advantage
             </p>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 leading-tight">
-              Why Choose North East Heating &amp; Cooling?
+              Why Choose North East Heating And Cooling?
             </h2>
             <p className="text-gray-500 mt-3 max-w-2xl mx-auto">
               Tampa Bay has plenty of HVAC companies. Here&apos;s why over 5,000

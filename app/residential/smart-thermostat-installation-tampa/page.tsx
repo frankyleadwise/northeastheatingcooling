@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Smart Thermostat Installation Tampa, FL | Nest, Ecobee & Honeywell | North East Heating & Cooling',
+  title: 'Smart Thermostat Installation Tampa, FL | Nest, Ecobee & Honeywell | North East Heating And Cooling',
   description:
     'Smart thermostat installation in Tampa, FL. Nest, Ecobee, Honeywell, and standard thermostats professionally installed. Save 10-15% on cooling bills. Call (813) 291-6146.',
   keywords: [
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     description:
       'Smart thermostat installation in Tampa, FL. Nest, Ecobee, Honeywell, and standard thermostats professionally installed. Save 10-15% on cooling bills.',
     url: '/residential/smart-thermostat-installation-tampa',
-    siteName: 'North East Heating & Cooling',
+    siteName: 'North East Heating And Cooling',
     locale: 'en_US',
     type: 'website',
   },
@@ -38,7 +38,7 @@ const schemaData = {
     'Professional smart thermostat installation in Tampa, FL. Nest, Ecobee, Honeywell, and standard programmable thermostats. Includes wiring, calibration, and Wi-Fi setup.',
   provider: {
     '@type': 'HVACBusiness',
-    name: 'North East Heating & Cooling',
+    name: 'North East Heating And Cooling',
     telephone: '+1-813-291-6146',
     url: 'https://northeastheatingcooling.com',
     address: {

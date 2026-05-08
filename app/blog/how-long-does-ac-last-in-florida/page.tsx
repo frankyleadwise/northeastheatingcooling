@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'How Long Does an AC Last in Florida? A Tampa HVAC Owner Explains | North East Heating & Cooling',
+  title: 'How Long Does an AC Last in Florida? A Tampa HVAC Owner Explains | North East Heating And Cooling',
   description:
     "How long do AC units last in Florida? An honest answer from a Tampa HVAC owner — the average is 12–15 years, but it depends on these factors. Tips to extend your system's life.",
   openGraph: {
@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     description:
       "How long do AC units last in Florida? An honest answer from a Tampa HVAC owner — the average is 12–15 years, but here's what makes the difference.",
     url: 'https://northeastheatingcooling.com/blog/how-long-does-ac-last-in-florida',
-    siteName: 'North East Heating & Cooling',
+    siteName: 'North East Heating And Cooling',
     locale: 'en_US',
     type: 'article',
   },
@@ -39,7 +39,7 @@ export default function HowLongDoesAcLastInFloridaPage() {
             How Long Does an AC Last in Florida? A Tampa HVAC Owner Explains
           </h1>
           <p className="text-blue-200 text-sm">
-            By <span className="font-semibold text-white">Chris Grullon</span>, <span className="text-blue-200">Owner &amp; EPA 608 Certified HVAC Technician</span> &mdash; North East Heating &amp; Cooling, Tampa Bay, FL
+            By <span className="font-semibold text-white">Chris Grullon</span>, <span className="text-blue-200">Owner &amp; EPA 608 Certified HVAC Technician</span> &mdash; North East Heating And Cooling, Tampa Bay, FL
           </p>
         </div>
       </header>
@@ -316,9 +316,9 @@ export default function HowLongDoesAcLastInFloridaPage() {
               '@type': 'Person',
               name: 'Chris Grullon',
               jobTitle: 'Owner & EPA 608 Certified HVAC Technician',
-              worksFor: { '@type': 'Organization', name: 'North East Heating & Cooling' },
+              worksFor: { '@type': 'Organization', name: 'North East Heating And Cooling' },
             },
-            publisher: { '@type': 'Organization', name: 'North East Heating & Cooling', url: 'https://northeastheatingcooling.com' },
+            publisher: { '@type': 'Organization', name: 'North East Heating And Cooling', url: 'https://northeastheatingcooling.com' },
           }),
         }}
       />

@@ -156,7 +156,7 @@ export default function WhyChooseUs() {
             Why Us
           </span>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4">
-            Why Choose North East Heating &amp; Cooling?
+            Why Choose North East Heating And Cooling?
           </h2>
           <p className="text-gray-500 text-lg max-w-2xl mx-auto">
             Tampa Bay homeowners and businesses rely on us because we deliver quality work,

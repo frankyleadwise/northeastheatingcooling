@@ -2,9 +2,9 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'HVAC Service Areas in Tampa Bay, FL | North East Heating & Cooling',
+  title: 'HVAC Service Areas in Tampa Bay, FL | North East Heating And Cooling',
   description:
-    'North East Heating & Cooling proudly serves Tampa Bay and surrounding communities. View all HVAC service areas including Tampa, St. Petersburg, Clearwater, Brandon, Riverview, and more.',
+    'North East Heating And Cooling proudly serves Tampa Bay and surrounding communities. View all HVAC service areas including Tampa, St. Petersburg, Clearwater, Brandon, Riverview, and more.',
 }
 
 const cities = [
@@ -43,7 +43,7 @@ export default function ServiceAreasPage() {
               HVAC Service Areas in Tampa Bay, FL
             </h1>
             <p className="text-blue-100 text-lg sm:text-xl max-w-3xl mx-auto leading-relaxed mb-8">
-              North East Heating &amp; Cooling provides professional heating, air conditioning, and ventilation
+              North East Heating And Cooling provides professional heating, air conditioning, and ventilation
               services throughout the greater Tampa Bay region. Whether you need emergency AC repair on a sweltering
               summer afternoon or a brand-new system installation, our licensed technicians are ready to help
               homeowners and businesses across Hillsborough and Pinellas counties.
@@ -77,7 +77,7 @@ export default function ServiceAreasPage() {
                 <p className="text-gray-700 leading-relaxed mb-4">
                   Florida's subtropical climate puts extraordinary demands on HVAC systems. With summer temperatures
                   regularly exceeding 90°F and humidity levels that make it feel even hotter, a malfunctioning air
-                  conditioner is more than an inconvenience — it can be a health hazard. North East Heating &amp; Cooling
+                  conditioner is more than an inconvenience — it can be a health hazard. North East Heating And Cooling
                   has built its reputation on fast response times, honest pricing, and technicians who treat every
                   customer's home or business with respect.
                 </p>
@@ -95,7 +95,7 @@ export default function ServiceAreasPage() {
               </div>
               <div className="space-y-4">
                 <div className="bg-blue-50 border border-blue-100 rounded-xl p-6">
-                  <h3 className="font-bold text-blue-900 mb-3 text-lg">Why Choose North East Heating &amp; Cooling?</h3>
+                  <h3 className="font-bold text-blue-900 mb-3 text-lg">Why Choose North East Heating And Cooling?</h3>
                   <ul className="space-y-2.5">
                     {[
                       'Licensed & insured HVAC technicians',
@@ -308,7 +308,7 @@ export default function ServiceAreasPage() {
                   Ready to Schedule Service?
                 </h2>
                 <p className="text-blue-100 leading-relaxed mb-6">
-                  Contact North East Heating &amp; Cooling today for a free estimate. Our team is standing by to
+                  Contact North East Heating And Cooling today for a free estimate. Our team is standing by to
                   answer your questions and get a technician out to your home or business as quickly as possible.
                 </p>
                 <div className="space-y-3">

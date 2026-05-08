@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     description:
       'Professional water heater repair and replacement in Tampa, FL. Tank and tankless water heaters, fast diagnostics, energy-efficient systems. Call (813) 291-6146.',
     url: '/residential/water-heater-repair-tampa',
-    siteName: 'North East Heating & Cooling',
+    siteName: 'North East Heating And Cooling',
     locale: 'en_US',
     type: 'website',
   },
@@ -205,7 +205,7 @@ export default function WaterHeaterRepairTampaPage() {
               <p>
                 A failed water heater can disrupt daily life quickly — cold showers, inability to run
                 the dishwasher effectively, and the stress of not knowing whether you need a simple
-                repair or a full replacement. North East Heating &amp; Cooling provides fast, honest
+                repair or a full replacement. North East Heating And Cooling provides fast, honest
                 water heater service for Tampa Bay homeowners, handling everything from emergency
                 same-day repairs to planned system replacements.
               </p>
@@ -421,7 +421,7 @@ export default function WaterHeaterRepairTampaPage() {
             <div>
               <h2 className="text-3xl font-bold mb-4">Schedule Water Heater Service Today</h2>
               <p className="text-blue-100 text-lg mb-6 leading-relaxed">
-                Don&rsquo;t go without hot water. North East Heating &amp; Cooling offers same-day water heater
+                Don&rsquo;t go without hot water. North East Heating And Cooling offers same-day water heater
                 repair for Tampa Bay homeowners and free estimates on all replacements. Call now or
                 fill out the form to schedule service.
               </p>

@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     description:
       'Professional air duct repair, sealing, and replacement in Tampa, FL. Fix leaky ducts to improve airflow, indoor air quality, and energy efficiency. Call (813) 291-6146.',
     url: '/residential/air-duct-repair-tampa',
-    siteName: 'North East Heating & Cooling',
+    siteName: 'North East Heating And Cooling',
     locale: 'en_US',
     type: 'website',
   },
@@ -183,7 +183,7 @@ export default function AirDuctRepairTampaPage() {
                 insulated, well-sealed ductwork is not optional in this environment — it&rsquo;s essential.
               </p>
               <p>
-                North East Heating &amp; Cooling offers comprehensive duct services — from diagnostic
+                North East Heating And Cooling offers comprehensive duct services — from diagnostic
                 testing to sealing, repair, and complete replacement. We use measurement-based
                 approaches, providing you with documented evidence of the problem and documented
                 proof of improvement after our work is complete.
@@ -355,7 +355,7 @@ export default function AirDuctRepairTampaPage() {
             <div>
               <h2 className="text-3xl font-bold mb-4">Schedule a Duct Inspection Today</h2>
               <p className="text-blue-100 text-lg mb-6 leading-relaxed">
-                Stop paying to cool your attic. Call North East Heating &amp; Cooling to schedule a
+                Stop paying to cool your attic. Call North East Heating And Cooling to schedule a
                 professional duct inspection and leakage test for your Tampa Bay home. We&rsquo;ll identify
                 exactly what&rsquo;s happening and give you a clear plan to fix it.
               </p>

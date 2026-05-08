@@ -126,7 +126,7 @@ export default function CTASection() {
           <a
             href="tel:+18132916146"
             className="inline-flex items-center gap-3 bg-white/10 hover:bg-white/20 border border-white/30 hover:border-white/50 text-white font-extrabold text-2xl sm:text-3xl px-6 py-4 rounded-2xl transition-all duration-200 tracking-wide"
-            aria-label="Call North East Heating and Cooling"
+            aria-label="Call North East Heating And Cooling"
           >
             <PhoneIcon />
             (813) 291-6146

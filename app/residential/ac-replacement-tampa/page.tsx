@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'AC Replacement Tampa, FL | Replace Your AC Unit | North East Heating & Cooling',
+  title: 'AC Replacement Tampa, FL | Replace Your AC Unit | North East Heating And Cooling',
   description:
     'AC replacement in Tampa, FL. Replace your old AC unit with an energy-efficient system designed for Florida\'s climate. Free quotes, written estimates. Call (813) 291-6146.',
   keywords: [
@@ -19,11 +19,11 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: '/residential/ac-replacement-tampa' },
   openGraph: {
-    title: 'AC Replacement Tampa, FL | Replace Your AC Unit | North East Heating & Cooling',
+    title: 'AC Replacement Tampa, FL | Replace Your AC Unit | North East Heating And Cooling',
     description:
       'AC replacement in Tampa, FL. Replace your old AC unit with an energy-efficient system designed for Florida\'s climate. Free quotes, written estimates.',
     url: '/residential/ac-replacement-tampa',
-    siteName: 'North East Heating & Cooling',
+    siteName: 'North East Heating And Cooling',
     locale: 'en_US',
     type: 'website',
   },
@@ -38,7 +38,7 @@ const schemaData = {
     'Professional AC replacement in Tampa, FL. Full system replacement of failing or inefficient air conditioners with new energy-efficient equipment sized for Florida\'s climate.',
   provider: {
     '@type': 'HVACBusiness',
-    name: 'North East Heating & Cooling',
+    name: 'North East Heating And Cooling',
     telephone: '+1-813-291-6146',
     url: 'https://northeastheatingcooling.com',
     address: {

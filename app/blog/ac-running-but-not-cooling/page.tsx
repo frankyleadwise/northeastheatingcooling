@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: "Why Is My AC Running But Not Cooling? 8 Causes (And What to Do) | North East Heating & Cooling",
+  title: "Why Is My AC Running But Not Cooling? 8 Causes (And What to Do) | North East Heating And Cooling",
   description:
     "Your AC is running but not cooling — here are the 8 most common causes a Tampa HVAC technician sees, ordered from cheapest to fix to most expensive. What you can check yourself before calling.",
   alternates: { canonical: '/blog/ac-running-but-not-cooling' },
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     description:
       "Your AC is running but not cooling — here are the 8 most common causes a Tampa HVAC technician sees, with what to check yourself before calling for service.",
     url: 'https://northeastheatingcooling.com/blog/ac-running-but-not-cooling',
-    siteName: 'North East Heating & Cooling',
+    siteName: 'North East Heating And Cooling',
     locale: 'en_US',
     type: 'article',
   },
@@ -40,7 +40,7 @@ export default function AcRunningButNotCoolingPage() {
             Why Is My AC Running But Not Cooling? 8 Causes (And What to Do)
           </h1>
           <p className="text-blue-200 text-sm">
-            By <span className="font-semibold text-white">Chris Grullon</span>, <span className="text-blue-200">Owner &amp; EPA 608 Certified HVAC Technician</span> &mdash; North East Heating &amp; Cooling, Tampa Bay, FL
+            By <span className="font-semibold text-white">Chris Grullon</span>, <span className="text-blue-200">Owner &amp; EPA 608 Certified HVAC Technician</span> &mdash; North East Heating And Cooling, Tampa Bay, FL
           </p>
         </div>
       </header>
@@ -298,9 +298,9 @@ export default function AcRunningButNotCoolingPage() {
           '@type': 'Person',
           name: 'Chris Grullon',
           jobTitle: 'Owner & EPA 608 Certified HVAC Technician',
-          worksFor: { '@type': 'Organization', name: 'North East Heating & Cooling' },
+          worksFor: { '@type': 'Organization', name: 'North East Heating And Cooling' },
         },
-        publisher: { '@type': 'Organization', name: 'North East Heating & Cooling', url: 'https://northeastheatingcooling.com' },
+        publisher: { '@type': 'Organization', name: 'North East Heating And Cooling', url: 'https://northeastheatingcooling.com' },
       })}} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org',

@@ -2,15 +2,15 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Top Signs Your HVAC System Needs Repair | North East Heating & Cooling',
+  title: 'Top Signs Your HVAC System Needs Repair | North East Heating And Cooling',
   description:
-    'Strange noises, warm air, high energy bills — learn the top signs your HVAC system needs repair. Expert advice from North East Heating & Cooling in Tampa Bay. Call (813) 291-6146.',
+    'Strange noises, warm air, high energy bills — learn the top signs your HVAC system needs repair. Expert advice from North East Heating And Cooling in Tampa Bay. Call (813) 291-6146.',
   openGraph: {
     title: 'Top Signs Your HVAC System Needs Repair',
     description:
-      'Strange noises, warm air, high energy bills — learn the top signs your HVAC system needs repair. Expert advice from North East Heating & Cooling in Tampa Bay.',
+      'Strange noises, warm air, high energy bills — learn the top signs your HVAC system needs repair. Expert advice from North East Heating And Cooling in Tampa Bay.',
     url: 'https://northeastheatingcooling.com/blog/top-signs-hvac-system-needs-repair',
-    siteName: 'North East Heating & Cooling',
+    siteName: 'North East Heating And Cooling',
     locale: 'en_US',
     type: 'article',
   },
@@ -41,7 +41,7 @@ export default function TopSignsHVACRepairPage() {
             Top Signs Your HVAC System Needs Repair
           </h1>
           <p className="text-blue-200 text-sm">
-            By <span className="font-semibold text-white">Chris Grullon</span>, <span className="text-blue-200">Owner &amp; EPA 608 Certified HVAC Technician</span> &mdash; North East Heating &amp; Cooling, Tampa Bay, FL
+            By <span className="font-semibold text-white">Chris Grullon</span>, <span className="text-blue-200">Owner &amp; EPA 608 Certified HVAC Technician</span> &mdash; North East Heating And Cooling, Tampa Bay, FL
           </p>
         </div>
       </header>
@@ -264,7 +264,7 @@ export default function TopSignsHVACRepairPage() {
           <div>
             <h2 className="text-2xl font-bold text-gray-900 mb-1">Hearing Strange Noises or Warm Air?</h2>
             <p className="text-gray-600">
-              North East Heating &amp; Cooling provides fast, reliable HVAC repairs across Tampa Bay.{' '}
+              North East Heating And Cooling provides fast, reliable HVAC repairs across Tampa Bay.{' '}
               <Link href="/residential/hvac-service-tampa" className="text-blue-600 font-semibold hover:underline">
                 View repair services →
               </Link>
@@ -285,7 +285,7 @@ export default function TopSignsHVACRepairPage() {
             '@context': 'https://schema.org',
             '@type': 'BlogPosting',
             headline: 'Top Signs Your HVAC System Needs Repair',
-            description: 'Strange noises, warm air, high energy bills — learn the top signs your HVAC system needs repair. Expert advice from North East Heating & Cooling in Tampa Bay.',
+            description: 'Strange noises, warm air, high energy bills — learn the top signs your HVAC system needs repair. Expert advice from North East Heating And Cooling in Tampa Bay.',
             datePublished: '2025-01-08',
             dateModified: '2025-01-08',
             url: 'https://northeastheatingcooling.com/blog/top-signs-hvac-system-needs-repair',
@@ -294,9 +294,9 @@ export default function TopSignsHVACRepairPage() {
               '@type': 'Person',
               name: 'Chris Grullon',
               jobTitle: 'Owner & EPA 608 Certified HVAC Technician',
-              worksFor: { '@type': 'Organization', name: 'North East Heating & Cooling' },
+              worksFor: { '@type': 'Organization', name: 'North East Heating And Cooling' },
             },
-            publisher: { '@type': 'Organization', name: 'North East Heating & Cooling', url: 'https://northeastheatingcooling.com' },
+            publisher: { '@type': 'Organization', name: 'North East Heating And Cooling', url: 'https://northeastheatingcooling.com' },
           }),
         }}
       />

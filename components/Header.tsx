@@ -146,7 +146,7 @@ export default function Header() {
           <Link href="/" className="shrink-0 flex items-center" onClick={closeAll}>
             <Image
               src="/transparent white letters.png"
-              alt="North East Heating and Cooling"
+              alt="North East Heating And Cooling"
               width={200}
               height={56}
               className="h-[52px] w-auto"
@@ -246,7 +246,7 @@ export default function Header() {
         <Link href="/" onClick={closeAll}>
           <Image
             src="/transparent white letters.png"
-            alt="North East Heating and Cooling"
+            alt="North East Heating And Cooling"
             width={160}
             height={44}
             className="h-10 w-auto"

@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Heat Pump Installation & Repair Tampa, FL | North East Heating & Cooling',
+  title: 'Heat Pump Installation & Repair Tampa, FL | North East Heating And Cooling',
   description:
     'Heat pump installation, replacement, and repair in Tampa, FL. Variable-speed systems built for Florida humidity. Licensed, insured, lifetime workmanship warranty. Call (813) 291-6146.',
   keywords: [
@@ -19,11 +19,11 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: '/residential/heat-pump-tampa' },
   openGraph: {
-    title: 'Heat Pump Installation & Repair Tampa, FL | North East Heating & Cooling',
+    title: 'Heat Pump Installation & Repair Tampa, FL | North East Heating And Cooling',
     description:
       'Heat pump installation, replacement, and repair in Tampa, FL. Variable-speed systems built for Florida humidity.',
     url: '/residential/heat-pump-tampa',
-    siteName: 'North East Heating & Cooling',
+    siteName: 'North East Heating And Cooling',
     locale: 'en_US',
     type: 'website',
   },
@@ -38,7 +38,7 @@ const schemaData = {
     'Professional heat pump installation, replacement, and repair services in Tampa, FL and the Tampa Bay area. Variable-speed systems optimized for Florida climate.',
   provider: {
     '@type': 'HVACBusiness',
-    name: 'North East Heating & Cooling',
+    name: 'North East Heating And Cooling',
     telephone: '+1-813-291-6146',
     url: 'https://northeastheatingcooling.com',
     address: {

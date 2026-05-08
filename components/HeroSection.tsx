@@ -65,7 +65,7 @@ export default function HeroSection() {
         <p className="text-lg sm:text-xl text-blue-100 max-w-3xl mx-auto mb-10 leading-relaxed">
           Dependable heating, cooling, and indoor air quality solutions for Florida homes and
           businesses — fast repairs, quality installations, and routine maintenance from{" "}
-          <span className="font-semibold text-white">North East Heating &amp; Cooling.</span>
+          <span className="font-semibold text-white">North East Heating And Cooling.</span>
         </p>
 
         {/* CTA Buttons */}

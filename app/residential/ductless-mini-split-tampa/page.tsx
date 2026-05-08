@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Ductless Mini-Split Installation Tampa, FL | North East Heating & Cooling',
+  title: 'Ductless Mini-Split Installation Tampa, FL | North East Heating And Cooling',
   description:
     'Ductless mini-split installation, repair, and service in Tampa, FL. Perfect for additions, garages, sunrooms, or whole-home zoning. Mitsubishi, Daikin, LG. Call (813) 291-6146.',
   keywords: [
@@ -19,11 +19,11 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: '/residential/ductless-mini-split-tampa' },
   openGraph: {
-    title: 'Ductless Mini-Split Installation Tampa, FL | North East Heating & Cooling',
+    title: 'Ductless Mini-Split Installation Tampa, FL | North East Heating And Cooling',
     description:
       'Ductless mini-split installation, repair, and service in Tampa, FL. Perfect for additions, garages, sunrooms, or whole-home zoning.',
     url: '/residential/ductless-mini-split-tampa',
-    siteName: 'North East Heating & Cooling',
+    siteName: 'North East Heating And Cooling',
     locale: 'en_US',
     type: 'website',
   },
@@ -38,7 +38,7 @@ const schemaData = {
     'Professional ductless mini-split installation, repair, and service in Tampa, FL. Single-zone and multi-zone systems for additions, garages, sunrooms, and whole-home applications.',
   provider: {
     '@type': 'HVACBusiness',
-    name: 'North East Heating & Cooling',
+    name: 'North East Heating And Cooling',
     telephone: '+1-813-291-6146',
     url: 'https://northeastheatingcooling.com',
     address: {

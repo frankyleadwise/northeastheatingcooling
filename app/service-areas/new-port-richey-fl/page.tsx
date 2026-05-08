@@ -5,14 +5,14 @@ import { CITIES } from '@/lib/cityData'
 const city = CITIES['new-port-richey-fl']
 
 export const metadata: Metadata = {
-  title: `HVAC Services in ${city.display}, FL | North East Heating & Cooling`,
+  title: `HVAC Services in ${city.display}, FL | North East Heating And Cooling`,
   description: city.metaDescription,
   alternates: { canonical: `/service-areas/${city.slug}` },
   openGraph: {
-    title: `HVAC Services in ${city.display}, FL | North East Heating & Cooling`,
+    title: `HVAC Services in ${city.display}, FL | North East Heating And Cooling`,
     description: city.metaDescription,
     url: `/service-areas/${city.slug}`,
-    siteName: 'North East Heating & Cooling',
+    siteName: 'North East Heating And Cooling',
     locale: 'en_US',
     type: 'website',
   },

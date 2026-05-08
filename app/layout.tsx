@@ -7,8 +7,8 @@ import MobileCallButton from '@/components/MobileCallButton'
 export const metadata: Metadata = {
   metadataBase: new URL('https://northeastheatingcooling.com'),
   title: {
-    default: 'AC Repair Near Me Tampa | North East Heating & Cooling',
-    template: '%s | North East Heating & Cooling',
+    default: 'AC Repair Near Me Tampa | North East Heating And Cooling',
+    template: '%s | North East Heating And Cooling',
   },
   description:
     'Same-day AC repair, HVAC installation & maintenance across Tampa Bay, FL. Licensed, certified & insured. 5.0★ on Google with 35 reviews. Call (813) 291-6146.',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     'emergency ac repair tampa',
   ],
   openGraph: {
-    siteName: 'North East Heating & Cooling',
+    siteName: 'North East Heating And Cooling',
     locale: 'en_US',
     type: 'website',
   },
@@ -50,8 +50,14 @@ const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'HVACBusiness',
   '@id': 'https://northeastheatingcooling.com/#business',
-  name: 'North East Heating & Cooling',
-  alternateName: ['Northeast Heating and Cooling', 'Northeast HVAC Tampa', 'NE Heating & Cooling'],
+  name: 'North East Heating And Cooling',
+  alternateName: [
+    'North East Heating And Cooling LLC',
+    'North East Heating & Cooling',
+    'Northeast Heating and Cooling',
+    'Northeast HVAC Tampa',
+    'NE Heating & Cooling',
+  ],
   description:
     'Same-day AC repair, HVAC installation & maintenance across Tampa Bay, FL. Licensed, certified, and insured. 24/7 emergency service.',
   telephone: '+1-813-291-6146',
@@ -61,7 +67,7 @@ const jsonLd = {
   image: 'https://northeastheatingcooling.com/image.png',
   priceRange: '$$',
   currenciesAccepted: 'USD',
-  paymentAccepted: 'Cash, Credit Card, Check, Financing',
+  paymentAccepted: 'Cash, Credit Card, Check',
   // Service-area business: technicians travel to customers, no public storefront.
   // Per schema.org guidance, areaServed + serviceArea express coverage without
   // requiring a publishable street address.

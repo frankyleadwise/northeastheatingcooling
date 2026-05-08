@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Sitemap | North East Heating & Cooling',
-  description: 'Full sitemap for North East Heating & Cooling — HVAC services, service areas, and resources for Tampa Bay homeowners.',
+  title: 'Sitemap | North East Heating And Cooling',
+  description: 'Full sitemap for North East Heating And Cooling — HVAC services, service areas, and resources for Tampa Bay homeowners.',
 }
 
 const sections = [

@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'AC Maintenance & Tune-Up Tampa, FL | North East Heating & Cooling',
+  title: 'AC Maintenance & Tune-Up Tampa, FL | North East Heating And Cooling',
   description:
     'Professional AC maintenance and HVAC tune-ups in Tampa, FL. Twice-yearly service plans, 20-point inspections, and priority repair scheduling. Call (813) 291-6146.',
   keywords: [
@@ -19,11 +19,11 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: '/residential/ac-maintenance-tampa' },
   openGraph: {
-    title: 'AC Maintenance & Tune-Up Tampa, FL | North East Heating & Cooling',
+    title: 'AC Maintenance & Tune-Up Tampa, FL | North East Heating And Cooling',
     description:
       'Professional AC maintenance and HVAC tune-ups in Tampa, FL. Twice-yearly service plans and 20-point inspections.',
     url: '/residential/ac-maintenance-tampa',
-    siteName: 'North East Heating & Cooling',
+    siteName: 'North East Heating And Cooling',
     locale: 'en_US',
     type: 'website',
   },
@@ -38,7 +38,7 @@ const schemaData = {
     'Professional AC and HVAC preventive maintenance, tune-ups, and twice-yearly service plans in Tampa, FL and the Tampa Bay area.',
   provider: {
     '@type': 'HVACBusiness',
-    name: 'North East Heating & Cooling',
+    name: 'North East Heating And Cooling',
     telephone: '+1-813-291-6146',
     url: 'https://northeastheatingcooling.com',
     address: {

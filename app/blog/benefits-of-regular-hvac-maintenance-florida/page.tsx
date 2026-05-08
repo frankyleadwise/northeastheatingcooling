@@ -2,15 +2,15 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: "Benefits of Regular HVAC Maintenance in Florida's Climate | North East Heating & Cooling",
+  title: "Benefits of Regular HVAC Maintenance in Florida's Climate | North East Heating And Cooling",
   description:
-    'Discover how regular HVAC maintenance in Florida saves money, extends system life, and prevents summer breakdowns. Expert advice from North East Heating & Cooling. Call (813) 291-6146.',
+    'Discover how regular HVAC maintenance in Florida saves money, extends system life, and prevents summer breakdowns. Expert advice from North East Heating And Cooling. Call (813) 291-6146.',
   openGraph: {
     title: "Benefits of Regular HVAC Maintenance in Florida's Climate",
     description:
       "How regular HVAC maintenance in Florida saves money, extends system life, and prevents costly summer breakdowns.",
     url: 'https://northeastheatingcooling.com/blog/benefits-of-regular-hvac-maintenance-florida',
-    siteName: 'North East Heating & Cooling',
+    siteName: 'North East Heating And Cooling',
     locale: 'en_US',
     type: 'article',
   },
@@ -41,7 +41,7 @@ export default function HVACMaintenanceFloridaPage() {
             Benefits of Regular HVAC Maintenance in Florida&apos;s Climate
           </h1>
           <p className="text-blue-200 text-sm">
-            By <span className="font-semibold text-white">Chris Grullon</span>, <span className="text-blue-200">Owner &amp; EPA 608 Certified HVAC Technician</span> &mdash; North East Heating &amp; Cooling, Tampa Bay, FL
+            By <span className="font-semibold text-white">Chris Grullon</span>, <span className="text-blue-200">Owner &amp; EPA 608 Certified HVAC Technician</span> &mdash; North East Heating And Cooling, Tampa Bay, FL
           </p>
         </div>
       </header>
@@ -167,7 +167,7 @@ export default function HVACMaintenanceFloridaPage() {
                 to ensure the heating function is ready for cooler nights.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
-                Many HVAC companies, including North East Heating &amp; Cooling, offer maintenance plans that bundle
+                Many HVAC companies, including North East Heating And Cooling, offer maintenance plans that bundle
                 both visits at a discounted rate and include priority scheduling for repairs. These plans are
                 especially valuable in Tampa Bay, where demand for HVAC service peaks sharply in summer and
                 scheduling can become difficult.
@@ -271,7 +271,7 @@ export default function HVACMaintenanceFloridaPage() {
           <div>
             <h2 className="text-2xl font-bold text-gray-900 mb-1">Schedule Your HVAC Tune-Up Today</h2>
             <p className="text-gray-600">
-              North East Heating &amp; Cooling provides comprehensive HVAC maintenance across Tampa Bay.{' '}
+              North East Heating And Cooling provides comprehensive HVAC maintenance across Tampa Bay.{' '}
               <Link href="/residential/hvac-service-tampa" className="text-blue-600 font-semibold hover:underline">
                 View maintenance services →
               </Link>
@@ -292,7 +292,7 @@ export default function HVACMaintenanceFloridaPage() {
             '@context': 'https://schema.org',
             '@type': 'BlogPosting',
             headline: "Benefits of Regular HVAC Maintenance in Florida's Climate",
-            description: "Discover how regular HVAC maintenance in Florida saves money, extends system life, and prevents summer breakdowns. Expert advice from North East Heating & Cooling.",
+            description: "Discover how regular HVAC maintenance in Florida saves money, extends system life, and prevents summer breakdowns. Expert advice from North East Heating And Cooling.",
             datePublished: '2025-02-05',
             dateModified: '2025-02-05',
             url: 'https://northeastheatingcooling.com/blog/benefits-of-regular-hvac-maintenance-florida',
@@ -301,9 +301,9 @@ export default function HVACMaintenanceFloridaPage() {
               '@type': 'Person',
               name: 'Chris Grullon',
               jobTitle: 'Owner & EPA 608 Certified HVAC Technician',
-              worksFor: { '@type': 'Organization', name: 'North East Heating & Cooling' },
+              worksFor: { '@type': 'Organization', name: 'North East Heating And Cooling' },
             },
-            publisher: { '@type': 'Organization', name: 'North East Heating & Cooling', url: 'https://northeastheatingcooling.com' },
+            publisher: { '@type': 'Organization', name: 'North East Heating And Cooling', url: 'https://northeastheatingcooling.com' },
           }),
         }}
       />

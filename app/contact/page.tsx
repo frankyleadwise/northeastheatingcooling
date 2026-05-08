@@ -163,7 +163,7 @@ export default function ContactPage() {
             We&apos;re Here to Help
           </p>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight mb-5">
-            Contact North East Heating &amp; Cooling
+            Contact North East Heating And Cooling
           </h1>
           <p className="text-blue-100 text-lg sm:text-xl max-w-3xl mx-auto leading-relaxed">
             Reach out for fast, friendly service. Whether it&apos;s a repair, installation, or just a question — we&apos;re ready to help.

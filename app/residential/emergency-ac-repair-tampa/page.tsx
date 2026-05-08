@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: '24/7 Emergency AC Repair Tampa, FL | Same-Day Service | North East Heating & Cooling',
+  title: '24/7 Emergency AC Repair Tampa, FL | Same-Day Service | North East Heating And Cooling',
   description:
     'Emergency AC repair in Tampa, FL. 24-hour service, same-day repairs, no extra weekend or after-hours fees. Get your AC running tonight. Call (813) 291-6146.',
   keywords: [
@@ -19,11 +19,11 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: '/residential/emergency-ac-repair-tampa' },
   openGraph: {
-    title: '24/7 Emergency AC Repair Tampa, FL | Same-Day Service | North East Heating & Cooling',
+    title: '24/7 Emergency AC Repair Tampa, FL | Same-Day Service | North East Heating And Cooling',
     description:
       'Emergency AC repair in Tampa, FL. 24-hour service, same-day repairs, no extra weekend or after-hours fees. Get your AC running tonight.',
     url: '/residential/emergency-ac-repair-tampa',
-    siteName: 'North East Heating & Cooling',
+    siteName: 'North East Heating And Cooling',
     locale: 'en_US',
     type: 'website',
   },
@@ -38,7 +38,7 @@ const schemaData = {
     '24/7 emergency air conditioning repair in Tampa, FL. Same-day service, after-hours and weekend availability with no premium fees.',
   provider: {
     '@type': 'HVACBusiness',
-    name: 'North East Heating & Cooling',
+    name: 'North East Heating And Cooling',
     telephone: '+1-813-291-6146',
     url: 'https://northeastheatingcooling.com',
     address: {

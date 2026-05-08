@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: '24/7 Emergency Commercial HVAC Tampa, FL | Same-Day Repair | North East Heating & Cooling',
+  title: '24/7 Emergency Commercial HVAC Tampa, FL | Same-Day Repair | North East Heating And Cooling',
   description:
     '24/7 emergency commercial HVAC repair in Tampa, FL. Restaurant, retail, office, and industrial HVAC emergency service. Priority response for businesses. Call (813) 291-6146.',
   keywords: [
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     description:
       '24/7 emergency commercial HVAC repair in Tampa, FL. Restaurant, retail, office, and industrial HVAC emergency service. Priority response for businesses.',
     url: '/commercial/emergency-hvac-tampa',
-    siteName: 'North East Heating & Cooling',
+    siteName: 'North East Heating And Cooling',
     locale: 'en_US',
     type: 'website',
   },
@@ -38,7 +38,7 @@ const schemaData = {
     '24/7 emergency commercial HVAC repair in Tampa, FL. Priority response for restaurants, retail, offices, medical facilities, and industrial buildings throughout Tampa Bay.',
   provider: {
     '@type': 'HVACBusiness',
-    name: 'North East Heating & Cooling',
+    name: 'North East Heating And Cooling',
     telephone: '+1-813-291-6146',
     url: 'https://northeastheatingcooling.com',
     address: {

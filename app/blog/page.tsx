@@ -2,15 +2,15 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'HVAC Tips & Resources for Tampa Bay Homeowners | North East Heating & Cooling',
+  title: 'HVAC Tips & Resources for Tampa Bay Homeowners | North East Heating And Cooling',
   description:
-    'Expert HVAC tips, guides, and resources for Tampa Bay homeowners. Learn about AC replacement, energy efficiency, indoor air quality, and more from North East Heating & Cooling.',
+    'Expert HVAC tips, guides, and resources for Tampa Bay homeowners. Learn about AC replacement, energy efficiency, indoor air quality, and more from North East Heating And Cooling.',
   openGraph: {
-    title: 'HVAC Tips & Resources for Tampa Bay Homeowners | North East Heating & Cooling',
+    title: 'HVAC Tips & Resources for Tampa Bay Homeowners | North East Heating And Cooling',
     description:
-      'Expert HVAC tips, guides, and resources for Tampa Bay homeowners from North East Heating & Cooling.',
+      'Expert HVAC tips, guides, and resources for Tampa Bay homeowners from North East Heating And Cooling.',
     url: 'https://northeastheatingcooling.com/blog',
-    siteName: 'North East Heating & Cooling',
+    siteName: 'North East Heating And Cooling',
     locale: 'en_US',
     type: 'website',
   },
@@ -138,14 +138,14 @@ export default function BlogPage() {
       <section className="bg-[#0f1620] text-white py-20 px-4">
         <div className="max-w-5xl mx-auto text-center">
           <p className="text-blue-200 font-semibold text-sm uppercase tracking-widest mb-3">
-            North East Heating &amp; Cooling — Tampa Bay, FL
+            North East Heating And Cooling — Tampa Bay, FL
           </p>
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-5">
             HVAC Tips &amp; Resources for Tampa Bay Homeowners
           </h1>
           <p className="text-blue-100 text-lg md:text-xl max-w-3xl mx-auto">
             Expert advice on AC maintenance, energy savings, indoor air quality, and more — written specifically
-            for Florida homeowners by the team at North East Heating &amp; Cooling.
+            for Florida homeowners by the team at North East Heating And Cooling.
           </p>
         </div>
       </section>

@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Ductless Mini-Split vs. Central AC: Which Is Right for Your Tampa Home? | North East Heating & Cooling',
+  title: 'Ductless Mini-Split vs. Central AC: Which Is Right for Your Tampa Home? | North East Heating And Cooling',
   description:
     "Comparing ductless mini-splits and central AC for Tampa Bay homes. Cost, efficiency, comfort, and the situations where each one is the smarter choice.",
   openGraph: {
@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     description:
       "Comparing ductless mini-splits and central AC for Tampa Bay homes. Cost, efficiency, comfort, and the situations where each one is the smarter choice.",
     url: 'https://northeastheatingcooling.com/blog/ductless-vs-central-ac',
-    siteName: 'North East Heating & Cooling',
+    siteName: 'North East Heating And Cooling',
     locale: 'en_US',
     type: 'article',
   },
@@ -39,7 +39,7 @@ export default function DuctlessVsCentralAcPage() {
             Ductless Mini-Split vs. Central AC: Which Is Right for Your Tampa Home?
           </h1>
           <p className="text-blue-200 text-sm">
-            By <span className="font-semibold text-white">Chris Grullon</span>, <span className="text-blue-200">Owner &amp; EPA 608 Certified HVAC Technician</span> &mdash; North East Heating &amp; Cooling, Tampa Bay, FL
+            By <span className="font-semibold text-white">Chris Grullon</span>, <span className="text-blue-200">Owner &amp; EPA 608 Certified HVAC Technician</span> &mdash; North East Heating And Cooling, Tampa Bay, FL
           </p>
         </div>
       </header>
@@ -346,9 +346,9 @@ export default function DuctlessVsCentralAcPage() {
               '@type': 'Person',
               name: 'Chris Grullon',
               jobTitle: 'Owner & EPA 608 Certified HVAC Technician',
-              worksFor: { '@type': 'Organization', name: 'North East Heating & Cooling' },
+              worksFor: { '@type': 'Organization', name: 'North East Heating And Cooling' },
             },
-            publisher: { '@type': 'Organization', name: 'North East Heating & Cooling', url: 'https://northeastheatingcooling.com' },
+            publisher: { '@type': 'Organization', name: 'North East Heating And Cooling', url: 'https://northeastheatingcooling.com' },
           }),
         }}
       />
