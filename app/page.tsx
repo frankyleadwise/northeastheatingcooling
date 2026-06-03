@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import QuoteForm from '@/app/components/QuoteForm'
 import FinancingCTA from '@/components/FinancingCTA'
+import { FanGrille, LouverDivider, ThermostatChip, AirflowLines, PressureGauge } from '@/app/components/HvacMotifs'
 
 export const metadata: Metadata = {
   title: 'AC Repair Near Me Tampa | North East Heating And Cooling',
@@ -228,6 +229,9 @@ export default function HomePage() {
           style={{ background: '#C8330A', opacity: 0.07 }}
           aria-hidden="true"
         />
+        <div className="absolute -top-20 -right-12 w-[24rem] h-[24rem] pointer-events-none" aria-hidden="true">
+          <FanGrille className="w-full h-full text-[#C8330A] opacity-[0.07] hvac-spin" />
+        </div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
@@ -308,11 +312,14 @@ export default function HomePage() {
                 </span>
                 <span className="text-sm font-semibold text-slate-800">5.0 &middot; 39 Google reviews</span>
               </div>
+              <ThermostatChip />
             </div>
 
           </div>
         </div>
       </section>
+
+      <LouverDivider />
 
       {/* ── PROBLEM AGITATION ── */}
       <section className="py-20 bg-white" aria-label="The problem we solve">
@@ -505,8 +512,11 @@ export default function HomePage() {
       </section>
 
       {/* ── SERVICES OVERVIEW ── */}
-      <section className="py-24" style={{ background: 'var(--bg)' }} aria-label="Our Services">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative py-24 overflow-hidden" style={{ background: 'var(--bg)' }} aria-label="Our Services">
+        <div className="absolute -right-28 top-1/2 -translate-y-1/2 w-[34rem] h-[34rem] pointer-events-none" aria-hidden="true">
+          <FanGrille className="w-full h-full text-[#E85A2A] opacity-[0.05] hvac-spin" />
+        </div>
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
           {/* Header */}
           <div className="grid lg:grid-cols-12 gap-6 lg:gap-10 items-end mb-16">
@@ -602,8 +612,11 @@ export default function HomePage() {
       </section>
 
       {/* ── PROCESS ── */}
-      <section className="py-20 bg-white" aria-label="Our Process">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative py-20 bg-white overflow-hidden" aria-label="Our Process">
+        <div className="absolute -bottom-24 -left-20 w-80 h-80 pointer-events-none" aria-hidden="true">
+          <PressureGauge className="w-full h-full text-[#0f1620] opacity-[0.05]" />
+        </div>
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <p className="inline-flex items-center gap-2.5 text-[0.72rem] font-bold tracking-[0.18em] uppercase mb-4 text-[#C8330A]">
               <span className="w-7 h-px bg-[#C8330A]/40" aria-hidden="true" />How It Works<span className="w-7 h-px bg-[#C8330A]/40" aria-hidden="true" />
@@ -643,9 +656,14 @@ export default function HomePage() {
         </div>
       </section>
 
+      <LouverDivider />
+
       {/* ── TESTIMONIALS ── */}
-      <section className="py-20 bg-[#0f1620]" aria-label="Customer Testimonials">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative py-20 bg-[#0f1620] overflow-hidden" aria-label="Customer Testimonials">
+        <div className="absolute inset-0 pointer-events-none text-[#F0A06A] opacity-[0.08]" aria-hidden="true">
+          <AirflowLines className="w-full h-full" />
+        </div>
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <p className="inline-flex items-center gap-2.5 text-[0.72rem] font-bold tracking-[0.18em] uppercase mb-4 text-[#F0A06A]">
               <span className="w-7 h-px bg-[#F0A06A]/40" aria-hidden="true" />Real Google Reviews<span className="w-7 h-px bg-[#F0A06A]/40" aria-hidden="true" />
@@ -830,6 +848,8 @@ export default function HomePage() {
         </div>
       </section>
 
+      <LouverDivider />
+
       {/* ── SERVICE AREAS ── */}
       <section className="py-20 bg-white" aria-label="Service Areas">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -886,6 +906,9 @@ export default function HomePage() {
       {/* ── CTA SECTION ── */}
       <section className="relative py-24 overflow-hidden bg-[#0f1620]" aria-label="Call to Action">
         <div className="absolute -top-24 -right-16 w-[30rem] h-[30rem] rounded-full blur-3xl pointer-events-none" style={{ background: '#C8330A', opacity: 0.12 }} aria-hidden="true" />
+        <div className="absolute -bottom-28 -left-24 w-[26rem] h-[26rem] pointer-events-none" aria-hidden="true">
+          <FanGrille className="w-full h-full text-[#F47438] opacity-[0.06] hvac-spin" />
+        </div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>

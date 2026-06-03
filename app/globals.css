@@ -79,3 +79,23 @@ body {
     padding-bottom: 3rem;
   }
 }
+
+/* ── HVAC motif animations (GPU-safe: transform + dashoffset only) ── */
+.hvac-flow {
+  stroke-dasharray: 6 10;
+}
+@keyframes hvac-spin {
+  to { transform: rotate(360deg); }
+}
+@keyframes hvac-flow {
+  to { stroke-dashoffset: -160; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .hvac-spin {
+    animation: hvac-spin 80s linear infinite;
+    transform-origin: 50% 50%;
+  }
+  .hvac-flow {
+    animation: hvac-flow 6s linear infinite;
+  }
+}
