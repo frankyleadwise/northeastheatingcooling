@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 import ServicePageQuoteForm from '@/app/components/ServicePageQuoteForm'
+import FinancingCTA from '@/components/FinancingCTA'
 export const metadata: Metadata = {
   title: 'AC Installation & HVAC Installation Tampa, FL | North East Heating And Cooling',
   description:
@@ -501,6 +502,9 @@ export default function HvacInstallationTampaPage() {
           }),
         }}
       />
+          {/* ── FINANCING BAND ── */}
+      <FinancingCTA />
+
     </main>
   )
 }

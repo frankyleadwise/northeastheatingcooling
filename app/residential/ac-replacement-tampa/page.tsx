@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import FinancingCTA from '@/components/FinancingCTA'
 
 export const metadata: Metadata = {
   title: 'AC Replacement Tampa, FL | Replace Your AC Unit | North East Heating And Cooling',
@@ -417,6 +418,9 @@ export default function ACReplacementTampaPage() {
           }),
         }}
       />
+          {/* ── FINANCING BAND ── */}
+      <FinancingCTA />
+
     </main>
   )
 }

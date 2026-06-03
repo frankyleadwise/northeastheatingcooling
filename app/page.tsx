@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 import QuoteForm from '@/app/components/QuoteForm'
+import FinancingCTA from '@/components/FinancingCTA'
 
 export const metadata: Metadata = {
   title: 'AC Repair Near Me Tampa | North East Heating And Cooling',
@@ -874,6 +875,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* ── FINANCING BAND ── */}
+      <FinancingCTA />
 
       {/* ── CTA SECTION ── */}
       <section className="py-20 bg-gradient-to-r from-blue-900 to-blue-700" aria-label="Call to Action">

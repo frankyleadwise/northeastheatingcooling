@@ -67,7 +67,7 @@ const jsonLd = {
   image: 'https://northeastheatingcooling.com/image.png',
   priceRange: '$$',
   currenciesAccepted: 'USD',
-  paymentAccepted: 'Cash, Credit Card, Check',
+  paymentAccepted: 'Cash, Credit Card, Check, Financing',
   // Service-area business: technicians travel to customers, no public storefront.
   // Per schema.org guidance, areaServed + serviceArea express coverage without
   // requiring a publishable street address.

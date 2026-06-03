@@ -129,6 +129,7 @@ const quickLinks = [
   { label: "About Us",      href: "/about"        },
   { label: "Services",      href: "/residential"  },
   { label: "Service Areas", href: "/service-areas" },
+  { label: "Financing",     href: "/financing"    },
   { label: "Blog",          href: "/blog"         },
   { label: "Reviews",       href: "/reviews"      },
   { label: "Contact Us",    href: "/contact"      },
