@@ -169,9 +169,32 @@ export default function FinancingPage() {
               </Link>
             </div>
             <p className="text-sm mt-5" style={{ color: "var(--muted)" }}>
-              No impact to your credit to check · No obligation · Powered by Hearth
+              60-second pre-qualification · No impact to your credit score · No obligation · Powered by Hearth
             </p>
           </RevealWrapper>
+        </div>
+      </section>
+
+      {/* ── SPEC BAR (Hearth-approved highlights) ──────────────────────────── */}
+      <section className="py-12" style={{ background: "var(--surface-2)", borderTop: "1px solid var(--border)", borderBottom: "1px solid var(--border)" }} aria-label="Financing highlights">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-x-6 gap-y-5">
+            {[
+              "Loan amounts up to $250,000",
+              "Funding in as little as 1–3 days",
+              "Affordable monthly payment options",
+              "No prepayment penalties",
+              "No home equity required",
+              "60-second pre-qualification",
+            ].map((item) => (
+              <div key={item} className="flex items-start gap-2.5">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5 shrink-0 mt-0.5" style={{ color: "var(--accent-light)" }} aria-hidden="true">
+                  <path d="M20 6 9 17l-5-5" />
+                </svg>
+                <span className="text-sm font-semibold leading-snug" style={{ color: "var(--text)" }}>{item}</span>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 

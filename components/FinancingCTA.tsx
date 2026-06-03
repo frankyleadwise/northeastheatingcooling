@@ -95,8 +95,8 @@ export default function FinancingCTA() {
               </h2>
               <p className="text-base sm:text-lg leading-relaxed max-w-xl" style={{ color: "var(--muted)" }}>
                 Spread the cost of a repair or new HVAC system into manageable monthly
-                payments. Apply online in minutes and see your options — checking
-                won&apos;t affect your credit score.
+                payments. Apply online in minutes — no prepayment penalties, no home
+                equity required, and checking won&apos;t affect your credit score.
               </p>
             </div>
 
@@ -120,7 +120,7 @@ export default function FinancingCTA() {
               </Link>
               <div className="flex items-center gap-1.5 text-xs mt-1" style={{ color: "var(--muted)" }}>
                 <ShieldCheckIcon />
-                No impact to your credit to check · Powered by Hearth
+                60-second pre-qualification · No impact to your credit · Powered by Hearth
               </div>
             </div>
           </div>
