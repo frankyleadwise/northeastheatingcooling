@@ -241,15 +241,19 @@ export default function HomePage() {
                 Tampa Bay&apos;s 5-Star HVAC Company
               </p>
 
-              <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-[-0.03em] leading-[0.95] text-slate-900 mb-6">
-                Cool air,
-                <br />
-                <span className="text-[#C8330A]">done right.</span>
+              <h1 className="mb-6">
+                <span className="block font-display text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-[-0.03em] leading-[0.95] text-slate-900">
+                  Cool air,
+                  <br />
+                  <span className="text-[#C8330A]">done right.</span>
+                </span>
+                <span className="mt-5 block text-lg sm:text-xl font-bold tracking-tight text-slate-800">
+                  Same-Day AC Repair, Installation &amp; Maintenance in Tampa Bay, FL
+                </span>
               </h1>
 
               <p className="text-lg leading-relaxed max-w-xl mb-8 text-slate-600">
-                Same-day AC repair, installation, and maintenance across Tampa Bay —
-                honest flat-rate pricing, licensed and insured technicians, and 39
+                Honest flat-rate pricing, licensed and insured technicians, and 39
                 five-star Google reviews from your neighbors. When the Florida heat
                 hits, we show up and fix it right the first time.
               </p>
