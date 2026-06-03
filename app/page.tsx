@@ -347,7 +347,7 @@ export default function HomePage() {
             {/* Chris headshot */}
             <div className="relative rounded-2xl overflow-hidden shadow-xl" style={{ aspectRatio: '4/5' }}>
               <Image
-                src="/unnamed.jpg"
+                src="/chris-owner-portrait.jpg"
                 alt="Chris Grullon, Owner of North East Heating And Cooling, Tampa Bay FL"
                 fill
                 className="object-cover object-top"
@@ -377,7 +377,7 @@ export default function HomePage() {
           <div className="flex flex-col sm:flex-row items-center gap-8 bg-white rounded-2xl p-8 border border-gray-100 shadow-sm">
             <div className="relative w-32 h-32 shrink-0 rounded-full overflow-hidden shadow-lg border-4 border-white ring-2 ring-red-100">
               <Image
-                src="/unnamed.jpg"
+                src="/chris-owner-square.jpg"
                 alt="Chris Grullon, Owner of North East Heating And Cooling"
                 fill
                 className="object-cover object-top"

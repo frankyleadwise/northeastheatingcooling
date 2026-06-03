@@ -299,7 +299,7 @@ export default function AboutPage() {
             <div className="flex flex-col gap-5">
               <div className="relative rounded-2xl overflow-hidden shadow-xl aspect-[4/3]">
                 <Image
-                  src="/unnamed.jpg"
+                  src="/chris-owner-wide.jpg"
                   alt="Chris Grullon, Owner & Founder of North East Heating And Cooling"
                   fill
                   className="object-cover object-center"
@@ -376,7 +376,7 @@ export default function AboutPage() {
           <div className="flex flex-col sm:flex-row gap-7 items-center bg-[#0f1620] rounded-2xl p-8 mb-10 shadow-lg">
             <div className="relative w-32 h-32 shrink-0 rounded-full overflow-hidden border-4 border-white/20 shadow-xl">
               <Image
-                src="/unnamed.jpg"
+                src="/chris-owner-square.jpg"
                 alt="Chris Grullon, Owner of North East Heating And Cooling"
                 fill
                 className="object-cover object-top"
