@@ -316,7 +316,7 @@ export default function HomePage() {
 
       {/* ── PROBLEM AGITATION ── */}
       <section className="py-20 bg-white" aria-label="The problem we solve">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-sm font-bold uppercase tracking-widest mb-3 text-red-600">Sound familiar?</p>
@@ -328,15 +328,17 @@ export default function HomePage() {
               </p>
               <div className="space-y-3">
                 {[
-                  { icon: '🌡️', text: 'Waiting days for a tech while your home turns into a sauna' },
-                  { icon: '💸', text: 'Getting hit with a $300 diagnostic fee before a single bolt is turned' },
-                  { icon: '📋', text: 'Quoted $7,000 for a new unit — when a $200 repair was all it needed' },
-                  { icon: '📞', text: 'Calling a "24/7" line and waiting until Monday anyway' },
-                  { icon: '🔧', text: 'A different technician every visit who doesn\'t know your system' },
+                  { icon: <path strokeLinecap="round" strokeLinejoin="round" d="M12 7v5l3 2M12 21a9 9 0 100-18 9 9 0 000 18z" />, text: 'Waiting days for a tech while your home turns into a sauna' },
+                  { icon: <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v18m4-13.5c0-1.66-1.79-3-4-3s-4 1.34-4 3 1.79 3 4 3 4 1.34 4 3-1.79 3-4 3-4-1.34-4-3" />, text: 'Getting hit with a $300 diagnostic fee before a single bolt is turned' },
+                  { icon: <path strokeLinecap="round" strokeLinejoin="round" d="M9 4H7a2 2 0 00-2 2v13a2 2 0 002 2h10a2 2 0 002-2V6a2 2 0 00-2-2h-2M9 4a1 1 0 011-1h4a1 1 0 011 1v1a1 1 0 01-1 1h-4a1 1 0 01-1-1V4zM9 12h6m-6 4h4" />, text: 'Quoted $7,000 for a new unit — when a $200 repair was all it needed' },
+                  { icon: <path strokeLinecap="round" strokeLinejoin="round" d="M3 5.5C3 4.67 3.67 4 4.5 4H8l2 5-2.5 1.5a11 11 0 005 5L14 13l5 2v3.5c0 .83-.67 1.5-1.5 1.5A14.5 14.5 0 013 5.5z" />, text: 'Calling a "24/7" line and waiting until Monday anyway' },
+                  { icon: <path strokeLinecap="round" strokeLinejoin="round" d="M11.5 6.5a3.5 3.5 0 00-4.95 4.95L3 15v3h3l3.55-3.55a3.5 3.5 0 004.95-4.95l-2.12 2.12-1.83-1.83 2.12-2.12z" />, text: 'A different technician every visit who doesn\'t know your system' },
                 ].map((item, i) => (
                   <div key={i} className="flex items-start gap-4 p-4 rounded-xl bg-red-50 border border-red-100">
-                    <span className="text-xl shrink-0 leading-none mt-0.5">{item.icon}</span>
-                    <p className="text-gray-700 font-medium text-sm leading-relaxed">{item.text}</p>
+                    <span className="w-9 h-9 rounded-lg bg-red-100 flex items-center justify-center shrink-0">
+                      <svg className="w-5 h-5 text-red-600" fill="none" stroke="currentColor" strokeWidth={1.75} viewBox="0 0 24 24">{item.icon}</svg>
+                    </span>
+                    <p className="text-gray-700 font-medium text-sm leading-relaxed self-center">{item.text}</p>
                   </div>
                 ))}
               </div>
@@ -371,20 +373,20 @@ export default function HomePage() {
 
       {/* ── OWNER / MENTOR ── */}
       <section className="py-16 bg-slate-50" aria-label="Meet Chris">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col sm:flex-row items-center gap-8 bg-white rounded-2xl p-8 border border-gray-100 shadow-sm">
-            <div className="relative w-32 h-32 shrink-0 rounded-full overflow-hidden shadow-lg border-4 border-white ring-2 ring-red-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col md:flex-row items-center gap-10 md:gap-14 bg-white rounded-2xl p-8 md:p-12 border border-gray-100 shadow-sm">
+            <div className="relative w-40 h-40 md:w-48 md:h-48 shrink-0 rounded-full overflow-hidden shadow-lg border-4 border-white ring-2 ring-red-100">
               <Image
                 src="/chris-owner-square.jpg"
                 alt="Chris Grullon, Owner of North East Heating And Cooling"
                 fill
                 className="object-cover object-top"
-                sizes="128px"
+                sizes="192px"
               />
             </div>
-            <div>
+            <div className="max-w-3xl text-center md:text-left">
               <p className="text-red-600 font-semibold text-xs uppercase tracking-widest mb-2">Your HVAC expert &amp; neighbor</p>
-              <blockquote className="text-gray-800 text-lg font-medium leading-relaxed mb-4">
+              <blockquote className="text-gray-800 text-xl md:text-2xl font-medium leading-relaxed mb-4">
                 &ldquo;I started this company because I was tired of seeing Tampa homeowners get overcharged and under-served by big HVAC companies. When you call me, I&apos;m the one who shows up, does the work, and stands behind it — personally. No dispatch centers, no rotating crews. Just honest service from someone who actually cares.&rdquo;
               </blockquote>
               <p className="text-gray-900 font-bold">Chris Grullon</p>
@@ -717,7 +719,7 @@ export default function HomePage() {
 
       {/* ── FLEX: WHY US VS THE BIG GUYS ── */}
       <section className="py-20 bg-white" aria-label="Why North East vs big HVAC companies">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <p className="text-sm font-bold uppercase tracking-widest mb-3 text-red-600">The honest difference</p>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4">
@@ -727,7 +729,7 @@ export default function HomePage() {
               The big companies have the billboards. We have the 5-star reviews.
             </p>
           </div>
-          <div className="grid sm:grid-cols-2 gap-4">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
               { check: true,  text: 'You get the owner — Chris shows up personally, every time' },
               { check: true,  text: 'Upfront pricing before any work begins — zero surprise charges' },
@@ -761,7 +763,7 @@ export default function HomePage() {
 
       {/* ── FEATURES / SPECS ── */}
       <section className="py-20 bg-slate-50" aria-label="What's included">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <p className="text-sm font-bold uppercase tracking-widest mb-3 text-red-600">Everything included</p>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4">
@@ -771,7 +773,7 @@ export default function HomePage() {
               No add-ons, no upsells, no fine print. Here&apos;s exactly what&apos;s standard.
             </p>
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
             {[
               'Free diagnostic estimate',
               'Upfront written quote',
@@ -805,14 +807,14 @@ export default function HomePage() {
 
       {/* ── FAQ ── */}
       <section className="py-20 bg-gray-50" aria-label="FAQ">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
             <p className="text-gray-600 text-lg">Common questions about HVAC service in Tampa Bay, FL.</p>
           </div>
-          <div className="space-y-4">
+          <div className="columns-1 lg:columns-2 gap-4 [column-fill:_balance]">
             {faqs.map((faq, i) => (
-              <div key={i} className="bg-white rounded-xl border border-gray-200 overflow-hidden shadow-sm">
+              <div key={i} className="break-inside-avoid mb-4 bg-white rounded-xl border border-gray-200 overflow-hidden shadow-sm">
                 <div className="px-6 py-5">
                   <h3 className="font-bold text-gray-900 flex items-start gap-3">
                     <span className="text-blue-600 font-extrabold text-lg flex-shrink-0">Q.</span>
