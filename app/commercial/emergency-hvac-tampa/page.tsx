@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: '24/7 Emergency Commercial HVAC Tampa, FL | Same-Day Repair | North East Heating And Cooling',
+  title: '24/7 Emergency Commercial HVAC Tampa, FL | Same-Day Repair',
   description:
     '24/7 emergency commercial HVAC repair in Tampa, FL. Restaurant, retail, office, and industrial HVAC emergency service. Priority response for businesses. Call (813) 291-6146.',
   keywords: [
@@ -230,13 +230,13 @@ export default function CommercialEmergencyHVACPage() {
           <div className="absolute inset-0 bg-gradient-to-r from-[#0f1620]/80 via-[#0f1620]/60 to-[#0f1620]/40" />
         </div>
         <div className="relative z-10 max-w-5xl mx-auto">
-          <p className="text-blue-300 text-sm font-semibold uppercase tracking-widest mb-3">
+          <p className="text-[0.72rem] font-bold tracking-[0.18em] uppercase mb-4 text-[#F0A06A]">
             Commercial HVAC — 24/7 Emergency Service
           </p>
-          <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-5 max-w-3xl">
+          <h1 className="font-display text-4xl md:text-5xl font-extrabold leading-[1.05] mb-5 max-w-3xl tracking-[-0.03em]">
             24/7 Emergency Commercial HVAC in Tampa, FL
           </h1>
-          <p className="text-blue-100 text-lg md:text-xl max-w-3xl mb-8 leading-relaxed">
+          <p className="text-slate-300 text-lg md:text-xl max-w-3xl mb-8 leading-relaxed">
             Restaurant, retail, office, medical, and industrial commercial HVAC emergency service. Live
             calls 24/7. Priority response for maintenance plan customers. Tampa Bay&apos;s heat and humidity
             don&apos;t take a break — neither do we.
@@ -250,7 +250,7 @@ export default function CommercialEmergencyHVACPage() {
             </a>
             <Link
               href="/contact"
-              className="inline-block bg-white hover:bg-blue-50 text-blue-900 font-bold py-4 px-8 rounded-lg text-lg transition-colors"
+              className="inline-block bg-white hover:bg-[#C8330A]/5 text-[#0f1620] font-bold py-4 px-8 rounded-lg text-lg transition-colors"
             >
               Request Service
             </Link>
@@ -273,7 +273,7 @@ export default function CommercialEmergencyHVACPage() {
       <section className="bg-white py-16 px-4">
         <div className="max-w-5xl mx-auto">
           <div className="max-w-3xl">
-            <h2 className="text-3xl font-bold text-gray-900 mb-5">
+            <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-5 leading-[1.02]">
               Commercial HVAC Failure Costs More Than the Repair
             </h2>
             <p className="text-gray-600 text-lg leading-relaxed mb-4">
@@ -301,7 +301,7 @@ export default function CommercialEmergencyHVACPage() {
       {/* Business Types */}
       <section className="bg-gray-50 py-16 px-4">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 mb-3 text-center">Commercial Customers We Serve</h2>
+          <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-3 text-center leading-[1.02]">Commercial Customers We Serve</h2>
           <p className="text-gray-600 text-lg text-center max-w-3xl mx-auto mb-12">
             Every commercial sector has unique HVAC needs. Here&apos;s how we approach each.
           </p>
@@ -319,7 +319,7 @@ export default function CommercialEmergencyHVACPage() {
       {/* Services */}
       <section className="bg-white py-16 px-4">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 mb-3 text-center">Our Emergency Services</h2>
+          <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-3 text-center leading-[1.02]">Our Emergency Services</h2>
           <div className="space-y-8 mt-12">
             {services.map((service) => (
               <div
@@ -345,7 +345,7 @@ export default function CommercialEmergencyHVACPage() {
       {/* FAQs */}
       <section className="bg-gray-50 py-16 px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 mb-10 text-center">Frequently Asked Questions</h2>
+          <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-10 text-center leading-[1.02]">Frequently Asked Questions</h2>
           <div className="space-y-4">
             {faqs.map((faq) => (
               <details
@@ -366,17 +366,17 @@ export default function CommercialEmergencyHVACPage() {
       </section>
 
       {/* Big CTA */}
-      <section className="bg-red-700 text-white py-12 px-4">
+      <section className="bg-[#b02c08] text-white py-12 px-4">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
-            <h2 className="text-2xl md:text-3xl font-bold mb-1">Commercial HVAC Down Right Now? Call Us 24/7.</h2>
-            <p className="text-red-100">
+            <h2 className="font-display tracking-[-0.02em] text-2xl md:text-3xl font-extrabold mb-1">Commercial HVAC Down Right Now? Call Us 24/7.</h2>
+            <p className="text-white/80">
               Live-answered calls. Priority response for plan customers. Stocked vans for first-visit repair.
             </p>
           </div>
           <a
             href="tel:8132916146"
-            className="shrink-0 inline-flex items-center justify-center px-7 py-4 bg-white text-red-700 font-bold rounded-lg hover:bg-red-50 transition-colors text-lg whitespace-nowrap shadow-lg"
+            className="shrink-0 inline-flex items-center justify-center px-7 py-4 bg-white text-[#b02c08] font-bold rounded-lg hover:bg-red-50 transition-colors text-lg whitespace-nowrap shadow-lg"
           >
             Call (813) 291-6146
           </a>

@@ -67,7 +67,7 @@ export default function QuoteForm() {
           </svg>
         </div>
         <h3 className="text-xl font-extrabold text-white">We Got Your Request!</h3>
-        <p className="text-blue-200 max-w-xs text-sm">
+        <p className="text-slate-300 max-w-xs text-sm">
           A member of our team will reach out shortly. For immediate help, call{' '}
           <a href="tel:8132916146" className="text-white font-bold underline">
             (813) 291-6146
@@ -114,7 +114,7 @@ export default function QuoteForm() {
           placeholder="First Name"
           required
           autoComplete="given-name"
-          className="w-full bg-white/20 border border-white/30 text-white placeholder-blue-200 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-white/50"
+          className="w-full bg-white/20 border border-white/30 text-white placeholder-slate-400 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-white/50"
         />
         <input
           type="text"
@@ -122,7 +122,7 @@ export default function QuoteForm() {
           placeholder="Last Name"
           required
           autoComplete="family-name"
-          className="w-full bg-white/20 border border-white/30 text-white placeholder-blue-200 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-white/50"
+          className="w-full bg-white/20 border border-white/30 text-white placeholder-slate-400 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-white/50"
         />
       </div>
       {/* Phone + Email row */}
@@ -133,7 +133,7 @@ export default function QuoteForm() {
           placeholder="Phone Number"
           required
           autoComplete="tel"
-          className="w-full bg-white/20 border border-white/30 text-white placeholder-blue-200 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-white/50"
+          className="w-full bg-white/20 border border-white/30 text-white placeholder-slate-400 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-white/50"
         />
         <input
           type="email"
@@ -141,7 +141,7 @@ export default function QuoteForm() {
           placeholder="Email Address"
           required
           autoComplete="email"
-          className="w-full bg-white/20 border border-white/30 text-white placeholder-blue-200 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-white/50"
+          className="w-full bg-white/20 border border-white/30 text-white placeholder-slate-400 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-white/50"
         />
       </div>
       <select
@@ -165,7 +165,7 @@ export default function QuoteForm() {
       <button
         type="submit"
         disabled={submitting}
-        className="w-full bg-white text-blue-900 font-bold text-lg py-4 rounded-lg hover:bg-blue-50 transition-colors shadow-lg disabled:opacity-60"
+        className="w-full bg-white text-[#0f1620] font-bold text-lg py-4 rounded-lg hover:bg-[#C8330A]/5 transition-colors shadow-lg disabled:opacity-60"
       >
         {submitting ? 'Sending...' : 'Get My Free Quote →'}
       </button>

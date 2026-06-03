@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'How Long Does an AC Last in Florida? A Tampa HVAC Owner Explains | North East Heating And Cooling',
+  title: 'How Long Does an AC Last in Florida? A Tampa HVAC Owner Explains',
   description:
     "How long do AC units last in Florida? An honest answer from a Tampa HVAC owner — the average is 12–15 years, but it depends on these factors. Tips to extend your system's life.",
   openGraph: {
@@ -33,13 +33,13 @@ export default function HowLongDoesAcLastInFloridaPage() {
             <span className="bg-orange-500 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">
               HVAC Lifespan
             </span>
-            <time className="text-blue-200 text-sm">April 29, 2026</time>
+            <time className="text-slate-300 text-sm">April 29, 2026</time>
           </div>
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight mb-5">
+          <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-extrabold leading-[1.05] mb-5 tracking-[-0.03em]">
             How Long Does an AC Last in Florida? A Tampa HVAC Owner Explains
           </h1>
-          <p className="text-blue-200 text-sm">
-            By <span className="font-semibold text-white">Chris Grullon</span>, <span className="text-blue-200">Owner &amp; EPA 608 Certified HVAC Technician</span> &mdash; North East Heating And Cooling, Tampa Bay, FL
+          <p className="text-slate-300 text-sm">
+            By <span className="font-semibold text-white">Chris Grullon</span>, <span className="text-slate-300">Owner &amp; EPA 608 Certified HVAC Technician</span> &mdash; North East Heating And Cooling, Tampa Bay, FL
           </p>
         </div>
       </header>
@@ -57,7 +57,7 @@ export default function HowLongDoesAcLastInFloridaPage() {
                 difference.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Florida vs. National Averages</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">Florida vs. National Averages</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 The national average AC lifespan you&apos;ll see in most sources is <strong>15 to 20 years</strong>.
                 In Florida, that number drops to <strong>12 to 15 years</strong>. There&apos;s no single
@@ -70,7 +70,7 @@ export default function HowLongDoesAcLastInFloridaPage() {
                 <li><strong>Constant humidity stress.</strong> Tampa&apos;s 70&ndash;90% summer humidity means your AC is working as a dehumidifier all day, every day. Constant condensate production accelerates drain line problems, biological growth, and indirect damage from water that sits where it shouldn&apos;t.</li>
               </ul>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">What Actually Determines Lifespan</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">What Actually Determines Lifespan</h2>
 
               <h3 className="text-xl font-bold text-gray-900 mt-6 mb-3">1. Maintenance Habits (Biggest Factor)</h3>
               <p className="text-gray-700 leading-relaxed mb-4">
@@ -130,7 +130,7 @@ export default function HowLongDoesAcLastInFloridaPage() {
                 most cost-effective to repair long-term.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">How to Make Your AC Last Longer</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">How to Make Your AC Last Longer</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 The actionable list, ordered by impact:
               </p>
@@ -144,7 +144,7 @@ export default function HowLongDoesAcLastInFloridaPage() {
                 <li><strong>Improve home air sealing.</strong> A leaky home forces your AC to work harder. Sealing attic bypasses, weatherstripping doors, and insulating attic hatches reduces AC load by 10&ndash;25%.</li>
               </ol>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Signs Your AC Is Approaching End-of-Life</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">Signs Your AC Is Approaching End-of-Life</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 If your system is over 10 years old and showing any of these patterns, start budgeting for
                 replacement — even if it&apos;s still running:
@@ -160,7 +160,7 @@ export default function HowLongDoesAcLastInFloridaPage() {
                 <li>Humidity creeping up indoors (system can&apos;t dehumidify properly)</li>
               </ul>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">The $5,000 Rule</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">The $5,000 Rule</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
                 A widely-used HVAC industry rule: multiply your repair cost by your system&apos;s age. If
                 the result exceeds $5,000, replacement is usually the smarter financial move. Example:
@@ -180,7 +180,7 @@ export default function HowLongDoesAcLastInFloridaPage() {
                 </p>
               </div>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Related Reading</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">Related Reading</h2>
               <div className="space-y-3">
                 <Link
                   href="/blog/when-to-replace-your-ac-unit-florida"
@@ -218,16 +218,16 @@ export default function HowLongDoesAcLastInFloridaPage() {
           <aside className="lg:w-80 shrink-0 space-y-6">
             <div className="bg-[#0f1620] text-white rounded-2xl p-7 shadow-lg">
               <h3 className="text-xl font-bold mb-3">Aging AC?</h3>
-              <p className="text-blue-100 text-sm leading-relaxed mb-5">
+              <p className="text-slate-300 text-sm leading-relaxed mb-5">
                 Get an honest repair-or-replace assessment with both options priced out side-by-side. No pressure tactics.
               </p>
               <a
                 href="tel:8132916146"
-                className="block w-full text-center bg-white text-blue-800 font-bold py-3 rounded-lg hover:bg-blue-50 transition-colors text-lg mb-3"
+                className="block w-full text-center bg-white text-[#0f1620] font-bold py-3 rounded-lg hover:bg-[#C8330A]/5 transition-colors text-lg mb-3"
               >
                 Call (813) 291-6146
               </a>
-              <p className="text-blue-200 text-xs text-center">Free quotes &middot; Same-day appointments</p>
+              <p className="text-slate-300 text-xs text-center">Free quotes &middot; Same-day appointments</p>
             </div>
 
             <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-6">
@@ -283,7 +283,7 @@ export default function HowLongDoesAcLastInFloridaPage() {
       <section className="bg-orange-50 border-y border-orange-100 py-12 px-4">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
-            <h2 className="text-2xl font-bold text-gray-900 mb-1">Want to Extend Your AC&apos;s Life?</h2>
+            <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mb-1">Want to Extend Your AC&apos;s Life?</h2>
             <p className="text-gray-600">
               Our maintenance plans pay for themselves in saved energy and prevented breakdowns.{' '}
               <Link href="/residential/ac-maintenance-tampa" className="text-orange-700 font-semibold hover:underline">
@@ -293,7 +293,7 @@ export default function HowLongDoesAcLastInFloridaPage() {
           </div>
           <a
             href="tel:8132916146"
-            className="shrink-0 inline-flex items-center justify-center px-7 py-3 bg-red-700 text-white font-bold rounded-lg hover:bg-[#0f1620] transition-colors text-lg whitespace-nowrap"
+            className="shrink-0 inline-flex items-center justify-center px-7 py-3 bg-[#b02c08] text-white font-bold rounded-lg hover:bg-[#0f1620] transition-colors text-lg whitespace-nowrap"
           >
             Call Now: (813) 291-6146
           </a>

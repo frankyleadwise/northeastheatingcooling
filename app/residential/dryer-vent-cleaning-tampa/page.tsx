@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Dryer Vent Cleaning Tampa, FL | Fire Prevention & Lint Removal | North East Heating And Cooling',
+  title: 'Dryer Vent Cleaning Tampa, FL | Fire Prevention & Lint Removal',
   description:
     'Professional dryer vent cleaning in Tampa, FL. Reduce fire risk, dry clothes faster, lower energy bills. Annual cleaning recommended for Florida homes. Call (813) 291-6146.',
   keywords: [
@@ -221,13 +221,13 @@ export default function DryerVentCleaningTampaPage() {
           <div className="absolute inset-0 bg-gradient-to-r from-[#0f1620]/80 via-[#0f1620]/60 to-[#0f1620]/40" />
         </div>
         <div className="relative z-10 max-w-5xl mx-auto">
-          <p className="text-orange-300 font-semibold text-sm uppercase tracking-widest mb-3">
+          <p className="text-[0.72rem] font-bold tracking-[0.18em] uppercase mb-4 text-[#F0A06A]">
             Tampa Bay, FL — Dryer Vent Specialists
           </p>
-          <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-5">
+          <h1 className="font-display text-4xl md:text-5xl font-extrabold leading-[1.05] mb-5 tracking-[-0.03em]">
             Dryer Vent Cleaning in Tampa, FL
           </h1>
-          <p className="text-blue-100 text-lg md:text-xl max-w-3xl mb-8 leading-relaxed">
+          <p className="text-slate-300 text-lg md:text-xl max-w-3xl mb-8 leading-relaxed">
             Reduce fire risk, dry clothes faster, lower energy bills. Annual cleaning is the single
             most overlooked home maintenance task in Tampa Bay — and the U.S. Fire Administration
             ranks dryer vents as a leading cause of residential fires.
@@ -235,13 +235,13 @@ export default function DryerVentCleaningTampaPage() {
           <div className="flex flex-col sm:flex-row gap-4">
             <a
               href="tel:8132916146"
-              className="inline-flex items-center justify-center px-8 py-3.5 bg-white text-blue-800 font-bold text-lg rounded-lg hover:bg-blue-50 transition-colors shadow-lg"
+              className="inline-flex items-center justify-center px-8 py-3.5 bg-white text-[#0f1620] font-bold text-lg rounded-lg hover:bg-[#C8330A]/5 transition-colors shadow-lg"
             >
               Call (813) 291-6146
             </a>
             <Link
               href="/contact"
-              className="inline-flex items-center justify-center px-8 py-3.5 bg-red-600 text-white font-bold text-lg rounded-lg border-2 border-red-400 hover:bg-red-700 transition-colors"
+              className="inline-flex items-center justify-center px-8 py-3.5 bg-[#C8330A] text-white font-bold text-lg rounded-lg border-2 border-[#C8330A]/40 hover:bg-[#b02c08] transition-colors"
             >
               Schedule Service
             </Link>
@@ -251,7 +251,7 @@ export default function DryerVentCleaningTampaPage() {
 
       {/* Trust bar */}
       <section className="bg-[#0f1620] text-white py-4 px-4">
-        <div className="max-w-5xl mx-auto flex flex-wrap justify-center md:justify-between gap-x-8 gap-y-2 text-sm font-semibold text-blue-200">
+        <div className="max-w-5xl mx-auto flex flex-wrap justify-center md:justify-between gap-x-8 gap-y-2 text-sm font-semibold text-slate-300">
           <span>✓ 45-90 Minute Service</span>
           <span>✓ Rotary Brush + Vacuum System</span>
           <span>✓ Roof Vents Included</span>
@@ -263,7 +263,7 @@ export default function DryerVentCleaningTampaPage() {
       {/* Why it matters */}
       <section className="bg-white py-16 px-4">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 mb-5">
+          <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-5 leading-[1.02]">
             Why Dryer Vent Cleaning Matters in Tampa Bay
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
@@ -316,7 +316,7 @@ export default function DryerVentCleaningTampaPage() {
       <section className="bg-gray-50 py-16 px-4">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-3">Warning Signs Your Vent Needs Cleaning</h2>
+            <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-3 leading-[1.02]">Warning Signs Your Vent Needs Cleaning</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             {warningSigns.map((s) => (
@@ -334,7 +334,7 @@ export default function DryerVentCleaningTampaPage() {
       <section className="bg-white py-16 px-4">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-3">Our Dryer Vent Services</h2>
+            <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-3 leading-[1.02]">Our Dryer Vent Services</h2>
           </div>
           <div className="space-y-8">
             {services.map((service) => (
@@ -361,7 +361,7 @@ export default function DryerVentCleaningTampaPage() {
       {/* FAQs */}
       <section className="bg-gray-50 py-16 px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 mb-10 text-center">Frequently Asked Questions</h2>
+          <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-10 text-center leading-[1.02]">Frequently Asked Questions</h2>
           <div className="space-y-4">
             {faqs.map((faq) => (
               <details
@@ -385,14 +385,14 @@ export default function DryerVentCleaningTampaPage() {
       <section className="bg-orange-50 border-y border-orange-100 py-12 px-4">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
-            <h2 className="text-2xl font-bold text-gray-900 mb-1">Schedule Your Dryer Vent Cleaning</h2>
+            <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mb-1">Schedule Your Dryer Vent Cleaning</h2>
             <p className="text-gray-600">
               45-90 minutes. Done right. Most appointments available within 3-5 days.
             </p>
           </div>
           <a
             href="tel:8132916146"
-            className="shrink-0 inline-flex items-center justify-center px-7 py-3 bg-red-700 text-white font-bold rounded-lg hover:bg-[#0f1620] transition-colors text-lg whitespace-nowrap"
+            className="shrink-0 inline-flex items-center justify-center px-7 py-3 bg-[#b02c08] text-white font-bold rounded-lg hover:bg-[#0f1620] transition-colors text-lg whitespace-nowrap"
           >
             Call Now: (813) 291-6146
           </a>

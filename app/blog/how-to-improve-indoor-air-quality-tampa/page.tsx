@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'How to Improve Indoor Air Quality in Tampa Homes | North East Heating And Cooling',
+  title: 'How to Improve Indoor Air Quality in Tampa Homes',
   description:
     'Discover practical steps to improve indoor air quality in your Tampa home. From MERV filters and UV purifiers to humidity control and duct cleaning. Call (813) 291-6146.',
   openGraph: {
@@ -35,13 +35,13 @@ export default function IndoorAirQualityTampaPage() {
             <span className="bg-green-500 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">
               Indoor Air Quality
             </span>
-            <time className="text-blue-200 text-sm">January 22, 2025</time>
+            <time className="text-slate-300 text-sm">January 22, 2025</time>
           </div>
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight mb-5">
+          <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-extrabold leading-[1.05] mb-5 tracking-[-0.03em]">
             How to Improve Indoor Air Quality in Tampa Homes
           </h1>
-          <p className="text-blue-200 text-sm">
-            By <span className="font-semibold text-white">Chris Grullon</span>, <span className="text-blue-200">Owner &amp; EPA 608 Certified HVAC Technician</span> &mdash; North East Heating And Cooling, Tampa Bay, FL
+          <p className="text-slate-300 text-sm">
+            By <span className="font-semibold text-white">Chris Grullon</span>, <span className="text-slate-300">Owner &amp; EPA 608 Certified HVAC Technician</span> &mdash; North East Heating And Cooling, Tampa Bay, FL
           </p>
         </div>
       </header>
@@ -61,7 +61,7 @@ export default function IndoorAirQualityTampaPage() {
                 breathe easier.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">1. Upgrade to MERV-Rated Air Filters</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">1. Upgrade to MERV-Rated Air Filters</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Your HVAC system&apos;s air filter is the first line of defense against airborne particles. Standard
                 fiberglass filters (MERV 1–4) capture large debris but do little to stop the microscopic pollutants that
@@ -76,7 +76,7 @@ export default function IndoorAirQualityTampaPage() {
                 media.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">2. Consider a UV Air Purifier</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">2. Consider a UV Air Purifier</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 UV (ultraviolet) air purifiers are installed directly inside your HVAC system and use germicidal UV-C light
                 to neutralize biological contaminants as air passes through the unit. They are particularly effective against
@@ -90,7 +90,7 @@ export default function IndoorAirQualityTampaPage() {
                 a high-MERV filter, you get both particle capture and biological neutralization.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">3. Control Indoor Humidity</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">3. Control Indoor Humidity</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Humidity control is perhaps the single most impactful step a Tampa Bay homeowner can take for indoor air
                 quality. The EPA recommends keeping indoor relative humidity between 30–50%. Above 60%, dust mites thrive,
@@ -110,7 +110,7 @@ export default function IndoorAirQualityTampaPage() {
                 and efficient for Tampa Bay properties.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">4. Schedule Professional Duct Cleaning</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">4. Schedule Professional Duct Cleaning</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Your home&apos;s ductwork is an extensive network of passages that circulates air throughout every room.
                 Over time, ducts accumulate dust, debris, mold spores, and other contaminants — particularly in Florida,
@@ -125,7 +125,7 @@ export default function IndoorAirQualityTampaPage() {
                 in Florida homes.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">5. Improve Ventilation</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">5. Improve Ventilation</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Modern Florida homes are built tightly for energy efficiency, which is great for cooling costs but can trap
                 indoor pollutants. Without adequate fresh air exchange, cooking fumes, cleaning product vapors, off-gassing
@@ -139,7 +139,7 @@ export default function IndoorAirQualityTampaPage() {
                 air quality in a Florida home.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">6. Add Indoor Plants Strategically</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">6. Add Indoor Plants Strategically</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 While the impact of houseplants on air quality is more modest than often claimed, certain plants do absorb
                 some volatile organic compounds (VOCs) and produce oxygen. In Tampa Bay&apos;s humid environment, plants
@@ -153,7 +153,7 @@ export default function IndoorAirQualityTampaPage() {
                 ventilation and filtration.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Florida-Specific Tips for Mold Prevention</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">Florida-Specific Tips for Mold Prevention</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Mold prevention deserves special attention in Tampa Bay. Beyond humidity control, there are several
                 Florida-specific practices that make a significant difference:
@@ -167,7 +167,7 @@ export default function IndoorAirQualityTampaPage() {
                 <li>Keep furniture slightly away from exterior walls to promote air circulation and reduce condensation spots</li>
               </ul>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Start with a Professional IAQ Assessment</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">Start with a Professional IAQ Assessment</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 The best starting point for improving indoor air quality is a professional assessment from a licensed HVAC
                 technician who understands Florida&apos;s specific climate challenges. A thorough inspection of your system,
@@ -186,7 +186,7 @@ export default function IndoorAirQualityTampaPage() {
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Link
                     href="/residential/hvac-service-tampa"
-                    className="inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-800 transition-colors"
+                    className="inline-flex items-center gap-2 text-[#C8330A] font-semibold hover:text-[#b02c08] transition-colors"
                   >
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -195,7 +195,7 @@ export default function IndoorAirQualityTampaPage() {
                   </Link>
                   <Link
                     href="/residential/hvac-installation-tampa-fl"
-                    className="inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-800 transition-colors"
+                    className="inline-flex items-center gap-2 text-[#C8330A] font-semibold hover:text-[#b02c08] transition-colors"
                   >
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -212,17 +212,17 @@ export default function IndoorAirQualityTampaPage() {
             {/* CTA Card */}
             <div className="bg-[#0f1620] text-white rounded-2xl p-7 shadow-lg">
               <h3 className="text-xl font-bold mb-3">Need HVAC Help?</h3>
-              <p className="text-blue-100 text-sm leading-relaxed mb-5">
+              <p className="text-slate-300 text-sm leading-relaxed mb-5">
                 Want better air quality at home? Our Tampa Bay team can assess your system and recommend the right
                 IAQ solutions for your home.
               </p>
               <a
                 href="tel:8132916146"
-                className="block w-full text-center bg-white text-blue-800 font-bold py-3 rounded-lg hover:bg-blue-50 transition-colors text-lg mb-3"
+                className="block w-full text-center bg-white text-[#0f1620] font-bold py-3 rounded-lg hover:bg-[#C8330A]/5 transition-colors text-lg mb-3"
               >
                 Call (813) 291-6146
               </a>
-              <p className="text-blue-200 text-xs text-center">Same-day service available</p>
+              <p className="text-slate-300 text-xs text-center">Same-day service available</p>
             </div>
 
             {/* Related Posts */}
@@ -230,17 +230,17 @@ export default function IndoorAirQualityTampaPage() {
               <h3 className="text-lg font-bold text-gray-900 mb-4">More HVAC Tips</h3>
               <ul className="space-y-3">
                 <li>
-                  <Link href="/blog/top-signs-hvac-system-needs-repair" className="text-blue-600 hover:text-blue-800 text-sm font-medium leading-snug transition-colors">
+                  <Link href="/blog/top-signs-hvac-system-needs-repair" className="text-[#C8330A] hover:text-[#b02c08] text-sm font-medium leading-snug transition-colors">
                     Top Signs Your HVAC System Needs Repair
                   </Link>
                 </li>
                 <li>
-                  <Link href="/blog/benefits-of-regular-hvac-maintenance-florida" className="text-blue-600 hover:text-blue-800 text-sm font-medium leading-snug transition-colors">
+                  <Link href="/blog/benefits-of-regular-hvac-maintenance-florida" className="text-[#C8330A] hover:text-[#b02c08] text-sm font-medium leading-snug transition-colors">
                     Benefits of Regular HVAC Maintenance in Florida
                   </Link>
                 </li>
                 <li>
-                  <Link href="/blog/when-to-replace-your-ac-unit-florida" className="text-blue-600 hover:text-blue-800 text-sm font-medium leading-snug transition-colors">
+                  <Link href="/blog/when-to-replace-your-ac-unit-florida" className="text-[#C8330A] hover:text-[#b02c08] text-sm font-medium leading-snug transition-colors">
                     How to Know When to Replace Your AC Unit in Florida
                   </Link>
                 </li>
@@ -252,17 +252,17 @@ export default function IndoorAirQualityTampaPage() {
               <h3 className="text-lg font-bold text-gray-900 mb-4">Our Services</h3>
               <ul className="space-y-2">
                 <li>
-                  <Link href="/residential/hvac-service-tampa" className="text-gray-700 hover:text-blue-700 text-sm transition-colors">
+                  <Link href="/residential/hvac-service-tampa" className="text-gray-700 hover:text-[#C8330A] text-sm transition-colors">
                     → HVAC Repair &amp; Service
                   </Link>
                 </li>
                 <li>
-                  <Link href="/residential/hvac-installation-tampa-fl" className="text-gray-700 hover:text-blue-700 text-sm transition-colors">
+                  <Link href="/residential/hvac-installation-tampa-fl" className="text-gray-700 hover:text-[#C8330A] text-sm transition-colors">
                     → HVAC Installation &amp; Replacement
                   </Link>
                 </li>
                 <li>
-                  <Link href="/residential" className="text-gray-700 hover:text-blue-700 text-sm transition-colors">
+                  <Link href="/residential" className="text-gray-700 hover:text-[#C8330A] text-sm transition-colors">
                     → All Residential Services
                   </Link>
                 </li>
@@ -273,20 +273,20 @@ export default function IndoorAirQualityTampaPage() {
       </div>
 
       {/* Bottom CTA Banner */}
-      <section className="bg-blue-50 border-y border-blue-100 py-12 px-4">
+      <section className="bg-[#fff6f1] border-y border-[#C8330A]/15 py-12 px-4">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
-            <h2 className="text-2xl font-bold text-gray-900 mb-1">Concerned About Air Quality in Your Tampa Home?</h2>
+            <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mb-1">Concerned About Air Quality in Your Tampa Home?</h2>
             <p className="text-gray-600">
               North East Heating And Cooling offers IAQ assessments and solutions across Tampa Bay.{' '}
-              <Link href="/residential/hvac-service-tampa" className="text-blue-600 font-semibold hover:underline">
+              <Link href="/residential/hvac-service-tampa" className="text-[#C8330A] font-semibold hover:underline">
                 View our services →
               </Link>
             </p>
           </div>
           <a
             href="tel:8132916146"
-            className="shrink-0 inline-flex items-center justify-center px-7 py-3 bg-red-700 text-white font-bold rounded-lg hover:bg-[#0f1620] transition-colors text-lg whitespace-nowrap"
+            className="shrink-0 inline-flex items-center justify-center px-7 py-3 bg-[#b02c08] text-white font-bold rounded-lg hover:bg-[#0f1620] transition-colors text-lg whitespace-nowrap"
           >
             Call Now: (813) 291-6146
           </a>

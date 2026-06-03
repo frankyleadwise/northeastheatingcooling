@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Smart Thermostat Installation Tampa, FL | Nest, Ecobee & Honeywell | North East Heating And Cooling',
+  title: 'Smart Thermostat Installation Tampa, FL | Nest, Ecobee & Honeywell',
   description:
     'Smart thermostat installation in Tampa, FL. Nest, Ecobee, Honeywell, and standard thermostats professionally installed. Save 10-15% on cooling bills. Call (813) 291-6146.',
   keywords: [
@@ -233,26 +233,26 @@ export default function SmartThermostatInstallationTampaPage() {
           <div className="absolute inset-0 bg-gradient-to-r from-[#0f1620]/80 via-[#0f1620]/60 to-[#0f1620]/40" />
         </div>
         <div className="relative z-10 max-w-5xl mx-auto">
-          <p className="text-orange-300 font-semibold text-sm uppercase tracking-widest mb-3">
+          <p className="text-[0.72rem] font-bold tracking-[0.18em] uppercase mb-4 text-[#F0A06A]">
             Tampa Bay, FL — Smart Home HVAC Specialists
           </p>
-          <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-5">
+          <h1 className="font-display text-4xl md:text-5xl font-extrabold leading-[1.05] mb-5 tracking-[-0.03em]">
             Smart Thermostat Installation in Tampa, FL
           </h1>
-          <p className="text-blue-100 text-lg md:text-xl max-w-3xl mb-8 leading-relaxed">
+          <p className="text-slate-300 text-lg md:text-xl max-w-3xl mb-8 leading-relaxed">
             Professional installation of Nest, Ecobee, Honeywell, and standard thermostats. C-wire work
             included if needed. Properly configured for Tampa Bay&apos;s humidity-heavy cooling demands.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
               href="tel:8132916146"
-              className="inline-flex items-center justify-center px-8 py-3.5 bg-white text-blue-800 font-bold text-lg rounded-lg hover:bg-blue-50 transition-colors shadow-lg"
+              className="inline-flex items-center justify-center px-8 py-3.5 bg-white text-[#0f1620] font-bold text-lg rounded-lg hover:bg-[#C8330A]/5 transition-colors shadow-lg"
             >
               Call (813) 291-6146
             </a>
             <Link
               href="/contact"
-              className="inline-flex items-center justify-center px-8 py-3.5 bg-red-600 text-white font-bold text-lg rounded-lg border-2 border-red-400 hover:bg-red-700 transition-colors"
+              className="inline-flex items-center justify-center px-8 py-3.5 bg-[#C8330A] text-white font-bold text-lg rounded-lg border-2 border-[#C8330A]/40 hover:bg-[#b02c08] transition-colors"
             >
               Get a Free Quote
             </Link>
@@ -262,7 +262,7 @@ export default function SmartThermostatInstallationTampaPage() {
 
       {/* Trust bar */}
       <section className="bg-[#0f1620] text-white py-4 px-4">
-        <div className="max-w-5xl mx-auto flex flex-wrap justify-center md:justify-between gap-x-8 gap-y-2 text-sm font-semibold text-blue-200">
+        <div className="max-w-5xl mx-auto flex flex-wrap justify-center md:justify-between gap-x-8 gap-y-2 text-sm font-semibold text-slate-300">
           <span>✓ Nest, Ecobee, Honeywell</span>
           <span>✓ C-Wire Work Included</span>
           <span>✓ App Setup &amp; Walkthrough</span>
@@ -274,7 +274,7 @@ export default function SmartThermostatInstallationTampaPage() {
       {/* Why upgrade */}
       <section className="bg-white py-16 px-4">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 mb-5">
+          <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-5 leading-[1.02]">
             Why Tampa Bay Homeowners Upgrade Their Thermostats
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
@@ -324,7 +324,7 @@ export default function SmartThermostatInstallationTampaPage() {
       <section className="bg-gray-50 py-16 px-4">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-3">Smart Thermostat Benefits</h2>
+            <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-3 leading-[1.02]">Smart Thermostat Benefits</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             {benefits.map((b) => (
@@ -342,7 +342,7 @@ export default function SmartThermostatInstallationTampaPage() {
       <section className="bg-white py-16 px-4">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-3">Thermostats We Install</h2>
+            <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-3 leading-[1.02]">Thermostats We Install</h2>
           </div>
           <div className="space-y-8">
             {services.map((service) => (
@@ -369,7 +369,7 @@ export default function SmartThermostatInstallationTampaPage() {
       {/* FAQs */}
       <section className="bg-gray-50 py-16 px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 mb-10 text-center">Frequently Asked Questions</h2>
+          <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-10 text-center leading-[1.02]">Frequently Asked Questions</h2>
           <div className="space-y-4">
             {faqs.map((faq) => (
               <details
@@ -393,14 +393,14 @@ export default function SmartThermostatInstallationTampaPage() {
       <section className="bg-orange-50 border-y border-orange-100 py-12 px-4">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
-            <h2 className="text-2xl font-bold text-gray-900 mb-1">Ready to Upgrade Your Thermostat?</h2>
+            <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mb-1">Ready to Upgrade Your Thermostat?</h2>
             <p className="text-gray-600">
               Most installations completed in under an hour. C-wire work included if needed.
             </p>
           </div>
           <a
             href="tel:8132916146"
-            className="shrink-0 inline-flex items-center justify-center px-7 py-3 bg-red-700 text-white font-bold rounded-lg hover:bg-[#0f1620] transition-colors text-lg whitespace-nowrap"
+            className="shrink-0 inline-flex items-center justify-center px-7 py-3 bg-[#b02c08] text-white font-bold rounded-lg hover:bg-[#0f1620] transition-colors text-lg whitespace-nowrap"
           >
             Call Now: (813) 291-6146
           </a>

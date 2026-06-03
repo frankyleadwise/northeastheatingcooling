@@ -55,14 +55,14 @@ export default function HeroSection() {
         </div>
 
         {/* H1 */}
-        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight tracking-tight mb-6">
+        <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-[1.05] tracking-[-0.03em] mb-6">
           Expert HVAC Services{" "}
-          <span className="text-blue-200">You Can Trust</span>{" "}
+          <span className="text-slate-300">You Can Trust</span>{" "}
           in Tampa Bay
         </h1>
 
         {/* Subheadline */}
-        <p className="text-lg sm:text-xl text-blue-100 max-w-3xl mx-auto mb-10 leading-relaxed">
+        <p className="text-lg sm:text-xl text-slate-300 max-w-3xl mx-auto mb-10 leading-relaxed">
           Dependable heating, cooling, and indoor air quality solutions for Florida homes and
           businesses — fast repairs, quality installations, and routine maintenance from{" "}
           <span className="font-semibold text-white">North East Heating And Cooling.</span>
@@ -72,7 +72,7 @@ export default function HeroSection() {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
           <Link
             href="/contact"
-            className="inline-flex items-center justify-center gap-2 bg-white text-blue-800 font-bold text-base sm:text-lg px-8 py-4 rounded-xl shadow-xl hover:bg-blue-50 hover:shadow-2xl transition-all duration-200 w-full sm:w-auto"
+            className="inline-flex items-center justify-center gap-2 bg-white text-[#0f1620] font-bold text-base sm:text-lg px-8 py-4 rounded-xl shadow-xl hover:bg-[#C8330A]/5 hover:shadow-2xl transition-all duration-200 w-full sm:w-auto"
           >
             <svg
               className="w-5 h-5 shrink-0"
@@ -149,9 +149,9 @@ export default function HeroSection() {
           ].map((badge) => (
             <div
               key={badge.label}
-              className="flex items-center gap-2 text-blue-100 text-sm font-medium"
+              className="flex items-center gap-2 text-slate-300 text-sm font-medium"
             >
-              <span className="text-blue-300">{badge.icon}</span>
+              <span className="text-slate-400">{badge.icon}</span>
               {badge.label}
             </div>
           ))}

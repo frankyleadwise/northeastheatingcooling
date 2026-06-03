@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Top Signs Your HVAC System Needs Repair | North East Heating And Cooling',
+  title: 'Top Signs Your HVAC System Needs Repair',
   description:
     'Strange noises, warm air, high energy bills — learn the top signs your HVAC system needs repair. Expert advice from North East Heating And Cooling in Tampa Bay. Call (813) 291-6146.',
   openGraph: {
@@ -35,13 +35,13 @@ export default function TopSignsHVACRepairPage() {
             <span className="bg-orange-500 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">
               HVAC Repair
             </span>
-            <time className="text-blue-200 text-sm">January 8, 2025</time>
+            <time className="text-slate-300 text-sm">January 8, 2025</time>
           </div>
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight mb-5">
+          <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-extrabold leading-[1.05] mb-5 tracking-[-0.03em]">
             Top Signs Your HVAC System Needs Repair
           </h1>
-          <p className="text-blue-200 text-sm">
-            By <span className="font-semibold text-white">Chris Grullon</span>, <span className="text-blue-200">Owner &amp; EPA 608 Certified HVAC Technician</span> &mdash; North East Heating And Cooling, Tampa Bay, FL
+          <p className="text-slate-300 text-sm">
+            By <span className="font-semibold text-white">Chris Grullon</span>, <span className="text-slate-300">Owner &amp; EPA 608 Certified HVAC Technician</span> &mdash; North East Heating And Cooling, Tampa Bay, FL
           </p>
         </div>
       </header>
@@ -60,7 +60,7 @@ export default function TopSignsHVACRepairPage() {
                 family comfortable all year long.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">1. Strange or Unusual Noises</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">1. Strange or Unusual Noises</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 A well-maintained HVAC system operates with a consistent, relatively quiet hum. If you start hearing banging,
                 clanking, rattling, squealing, or grinding noises, those are clear distress signals. Banging or clanking often
@@ -73,7 +73,7 @@ export default function TopSignsHVACRepairPage() {
                 and prevent a minor problem from becoming a major — and much more costly — breakdown.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">2. Warm Air Blowing from Vents</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">2. Warm Air Blowing from Vents</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 If your AC is running but blowing warm or room-temperature air, something is definitely wrong. The two most
                 common culprits are a refrigerant leak and a failed compressor. Refrigerant is the substance your AC uses to
@@ -86,7 +86,7 @@ export default function TopSignsHVACRepairPage() {
                 time to call a professional. Refrigerant handling requires EPA certification, so this is not a DIY repair.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">3. Poor or Weak Airflow</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">3. Poor or Weak Airflow</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Weak airflow from your vents — even when the system is running — often points to a problem with the blower
                 motor, a clogged air filter, or blocked ductwork. In Florida's dusty and humid environment, air filters can
@@ -99,7 +99,7 @@ export default function TopSignsHVACRepairPage() {
                 wear on components.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">4. High Indoor Humidity</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">4. High Indoor Humidity</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Your air conditioning system is responsible for more than just lowering the temperature — it also removes
                 excess moisture from the air. In a state with relative humidity consistently above 70%, this dehumidification
@@ -113,7 +113,7 @@ export default function TopSignsHVACRepairPage() {
                 quality conditions.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">5. Bad or Unusual Smells</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">5. Bad or Unusual Smells</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Musty or moldy odors coming from your vents are a serious warning sign. In Tampa Bay's humid climate, condensate
                 pans and evaporator coils are prime breeding grounds for mold and mildew. Once mold establishes itself inside
@@ -128,7 +128,7 @@ export default function TopSignsHVACRepairPage() {
                 continue running a system that smells like it's burning.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">6. Thermostat Problems</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">6. Thermostat Problems</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Sometimes the issue isn't the HVAC unit itself but the thermostat controlling it. Signs of a thermostat problem
                 include the system not turning on or off when expected, rooms being significantly warmer or cooler than the set
@@ -140,7 +140,7 @@ export default function TopSignsHVACRepairPage() {
                 functional and problems persist, the underlying HVAC system may need attention.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">7. Unexplained Spikes in Energy Bills</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">7. Unexplained Spikes in Energy Bills</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 A sudden or gradual increase in your monthly electricity bill — without a change in usage habits — is a
                 reliable indicator that your HVAC system is struggling. When components wear out or lose efficiency, the system
@@ -154,7 +154,7 @@ export default function TopSignsHVACRepairPage() {
                 in Florida's demanding climate.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">What to Do When You Notice These Signs</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">What to Do When You Notice These Signs</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 The most important thing is not to ignore the warning signs. HVAC problems rarely resolve themselves, and
                 delaying repair almost always results in higher costs — either because the initial problem worsens, or because
@@ -172,7 +172,7 @@ export default function TopSignsHVACRepairPage() {
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Link
                     href="/residential/hvac-service-tampa"
-                    className="inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-800 transition-colors"
+                    className="inline-flex items-center gap-2 text-[#C8330A] font-semibold hover:text-[#b02c08] transition-colors"
                   >
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -181,7 +181,7 @@ export default function TopSignsHVACRepairPage() {
                   </Link>
                   <Link
                     href="/residential/hvac-installation-tampa-fl"
-                    className="inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-800 transition-colors"
+                    className="inline-flex items-center gap-2 text-[#C8330A] font-semibold hover:text-[#b02c08] transition-colors"
                   >
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -198,17 +198,17 @@ export default function TopSignsHVACRepairPage() {
             {/* CTA Card */}
             <div className="bg-[#0f1620] text-white rounded-2xl p-7 shadow-lg">
               <h3 className="text-xl font-bold mb-3">Need HVAC Help?</h3>
-              <p className="text-blue-100 text-sm leading-relaxed mb-5">
+              <p className="text-slate-300 text-sm leading-relaxed mb-5">
                 Noticing any of these warning signs? Don&apos;t wait — our Tampa Bay HVAC technicians are ready to
                 diagnose and repair your system fast.
               </p>
               <a
                 href="tel:8132916146"
-                className="block w-full text-center bg-white text-blue-800 font-bold py-3 rounded-lg hover:bg-blue-50 transition-colors text-lg mb-3"
+                className="block w-full text-center bg-white text-[#0f1620] font-bold py-3 rounded-lg hover:bg-[#C8330A]/5 transition-colors text-lg mb-3"
               >
                 Call (813) 291-6146
               </a>
-              <p className="text-blue-200 text-xs text-center">Same-day service available</p>
+              <p className="text-slate-300 text-xs text-center">Same-day service available</p>
             </div>
 
             {/* Related Posts */}
@@ -216,17 +216,17 @@ export default function TopSignsHVACRepairPage() {
               <h3 className="text-lg font-bold text-gray-900 mb-4">More HVAC Tips</h3>
               <ul className="space-y-3">
                 <li>
-                  <Link href="/blog/when-to-replace-your-ac-unit-florida" className="text-blue-600 hover:text-blue-800 text-sm font-medium leading-snug transition-colors">
+                  <Link href="/blog/when-to-replace-your-ac-unit-florida" className="text-[#C8330A] hover:text-[#b02c08] text-sm font-medium leading-snug transition-colors">
                     How to Know When to Replace Your AC Unit in Florida
                   </Link>
                 </li>
                 <li>
-                  <Link href="/blog/benefits-of-regular-hvac-maintenance-florida" className="text-blue-600 hover:text-blue-800 text-sm font-medium leading-snug transition-colors">
+                  <Link href="/blog/benefits-of-regular-hvac-maintenance-florida" className="text-[#C8330A] hover:text-[#b02c08] text-sm font-medium leading-snug transition-colors">
                     Benefits of Regular HVAC Maintenance in Florida
                   </Link>
                 </li>
                 <li>
-                  <Link href="/blog/how-to-improve-indoor-air-quality-tampa" className="text-blue-600 hover:text-blue-800 text-sm font-medium leading-snug transition-colors">
+                  <Link href="/blog/how-to-improve-indoor-air-quality-tampa" className="text-[#C8330A] hover:text-[#b02c08] text-sm font-medium leading-snug transition-colors">
                     How to Improve Indoor Air Quality in Tampa Homes
                   </Link>
                 </li>
@@ -238,17 +238,17 @@ export default function TopSignsHVACRepairPage() {
               <h3 className="text-lg font-bold text-gray-900 mb-4">Our Services</h3>
               <ul className="space-y-2">
                 <li>
-                  <Link href="/residential/hvac-service-tampa" className="text-gray-700 hover:text-blue-700 text-sm transition-colors">
+                  <Link href="/residential/hvac-service-tampa" className="text-gray-700 hover:text-[#C8330A] text-sm transition-colors">
                     → HVAC Repair &amp; Service
                   </Link>
                 </li>
                 <li>
-                  <Link href="/residential/hvac-installation-tampa-fl" className="text-gray-700 hover:text-blue-700 text-sm transition-colors">
+                  <Link href="/residential/hvac-installation-tampa-fl" className="text-gray-700 hover:text-[#C8330A] text-sm transition-colors">
                     → HVAC Installation &amp; Replacement
                   </Link>
                 </li>
                 <li>
-                  <Link href="/residential" className="text-gray-700 hover:text-blue-700 text-sm transition-colors">
+                  <Link href="/residential" className="text-gray-700 hover:text-[#C8330A] text-sm transition-colors">
                     → All Residential Services
                   </Link>
                 </li>
@@ -259,20 +259,20 @@ export default function TopSignsHVACRepairPage() {
       </div>
 
       {/* Bottom CTA Banner */}
-      <section className="bg-blue-50 border-y border-blue-100 py-12 px-4">
+      <section className="bg-[#fff6f1] border-y border-[#C8330A]/15 py-12 px-4">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
-            <h2 className="text-2xl font-bold text-gray-900 mb-1">Hearing Strange Noises or Warm Air?</h2>
+            <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mb-1">Hearing Strange Noises or Warm Air?</h2>
             <p className="text-gray-600">
               North East Heating And Cooling provides fast, reliable HVAC repairs across Tampa Bay.{' '}
-              <Link href="/residential/hvac-service-tampa" className="text-blue-600 font-semibold hover:underline">
+              <Link href="/residential/hvac-service-tampa" className="text-[#C8330A] font-semibold hover:underline">
                 View repair services →
               </Link>
             </p>
           </div>
           <a
             href="tel:8132916146"
-            className="shrink-0 inline-flex items-center justify-center px-7 py-3 bg-red-700 text-white font-bold rounded-lg hover:bg-[#0f1620] transition-colors text-lg whitespace-nowrap"
+            className="shrink-0 inline-flex items-center justify-center px-7 py-3 bg-[#b02c08] text-white font-bold rounded-lg hover:bg-[#0f1620] transition-colors text-lg whitespace-nowrap"
           >
             Call Now: (813) 291-6146
           </a>

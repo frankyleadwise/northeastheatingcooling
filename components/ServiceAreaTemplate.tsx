@@ -84,25 +84,25 @@ export default function ServiceAreaTemplate({ city }: { city: CityData }) {
           <div className="absolute inset-0 bg-gradient-to-r from-[#0f1620]/80 via-[#0f1620]/60 to-[#0f1620]/40" />
         </div>
         <div className="relative z-10 max-w-5xl mx-auto">
-          <p className="text-orange-300 font-semibold text-sm uppercase tracking-widest mb-3">
+          <p className="text-[0.72rem] font-bold tracking-[0.18em] uppercase mb-4 text-[#F0A06A]">
             {city.county} — Trusted HVAC Company
           </p>
-          <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-5">
+          <h1 className="font-display text-4xl md:text-5xl font-extrabold leading-[1.05] mb-5 tracking-[-0.03em]">
             HVAC Services in {city.display}, FL
           </h1>
-          <p className="text-blue-100 text-lg md:text-xl max-w-3xl mb-8 leading-relaxed">
+          <p className="text-slate-300 text-lg md:text-xl max-w-3xl mb-8 leading-relaxed">
             {city.heroSubhead}
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
               href="tel:8132916146"
-              className="inline-flex items-center justify-center px-8 py-3.5 bg-white text-blue-800 font-bold text-lg rounded-lg hover:bg-blue-50 transition-colors shadow-lg"
+              className="inline-flex items-center justify-center px-8 py-3.5 bg-white text-[#0f1620] font-bold text-lg rounded-lg hover:bg-[#C8330A]/5 transition-colors shadow-lg"
             >
               Call (813) 291-6146
             </a>
             <Link
               href="/contact"
-              className="inline-flex items-center justify-center px-8 py-3.5 bg-red-600 text-white font-bold text-lg rounded-lg border-2 border-red-400 hover:bg-red-700 transition-colors"
+              className="inline-flex items-center justify-center px-8 py-3.5 bg-[#C8330A] text-white font-bold text-lg rounded-lg border-2 border-[#C8330A]/40 hover:bg-[#b02c08] transition-colors"
             >
               Request a Free Quote
             </Link>
@@ -112,7 +112,7 @@ export default function ServiceAreaTemplate({ city }: { city: CityData }) {
 
       {/* Trust bar */}
       <section className="bg-[#0f1620] text-white py-4 px-4">
-        <div className="max-w-5xl mx-auto flex flex-wrap justify-center md:justify-between gap-x-8 gap-y-2 text-sm font-semibold text-blue-200">
+        <div className="max-w-5xl mx-auto flex flex-wrap justify-center md:justify-between gap-x-8 gap-y-2 text-sm font-semibold text-slate-300">
           <span>✓ Licensed &amp; Insured</span>
           <span>✓ Same-Day Service</span>
           <span>✓ 35+ 5★ Reviews</span>
@@ -124,7 +124,7 @@ export default function ServiceAreaTemplate({ city }: { city: CityData }) {
       {/* Intro */}
       <section className="bg-white py-16 px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-extrabold text-gray-900 mb-5">
+          <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-5 leading-[1.02]">
             HVAC Service for {city.display} Homeowners and Businesses
           </h2>
           {city.introParagraphs.map((p, i) => (
@@ -137,7 +137,7 @@ export default function ServiceAreaTemplate({ city }: { city: CityData }) {
       <section className="bg-gray-50 py-16 px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-10">
-            <h2 className="text-3xl font-extrabold text-gray-900 mb-3">Services We Offer in {city.display}</h2>
+            <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-3 leading-[1.02]">Services We Offer in {city.display}</h2>
             <p className="text-gray-600 text-lg max-w-2xl mx-auto">
               Full-service residential and commercial HVAC for {city.display} homes and businesses.
             </p>
@@ -161,7 +161,7 @@ export default function ServiceAreaTemplate({ city }: { city: CityData }) {
       {/* Why choose us */}
       <section className="bg-white py-16 px-4">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-extrabold text-gray-900 mb-8 text-center">
+          <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-8 text-center leading-[1.02]">
             Why {city.display} Chooses North East Heating And Cooling
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -193,7 +193,7 @@ export default function ServiceAreaTemplate({ city }: { city: CityData }) {
       {/* FAQs */}
       <section className="bg-gray-50 py-16 px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-extrabold text-gray-900 mb-10 text-center">
+          <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-10 text-center leading-[1.02]">
             HVAC FAQs for {city.display} Homeowners
           </h2>
           <div className="space-y-4">
@@ -214,7 +214,7 @@ export default function ServiceAreaTemplate({ city }: { city: CityData }) {
       <section className="bg-orange-50 border-y border-orange-100 py-12 px-4">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
-            <h2 className="text-2xl font-bold text-gray-900 mb-1">Need HVAC Service in {city.display}?</h2>
+            <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mb-1">Need HVAC Service in {city.display}?</h2>
             <p className="text-gray-600">
               Same-day appointments available. Free quotes on installations.{' '}
               <Link href="/contact" className="text-orange-700 font-semibold hover:underline">
@@ -224,7 +224,7 @@ export default function ServiceAreaTemplate({ city }: { city: CityData }) {
           </div>
           <a
             href="tel:8132916146"
-            className="shrink-0 inline-flex items-center justify-center px-7 py-3 bg-red-700 text-white font-bold rounded-lg hover:bg-[#0f1620] transition-colors text-lg whitespace-nowrap"
+            className="shrink-0 inline-flex items-center justify-center px-7 py-3 bg-[#b02c08] text-white font-bold rounded-lg hover:bg-[#0f1620] transition-colors text-lg whitespace-nowrap"
           >
             Call Now: (813) 291-6146
           </a>

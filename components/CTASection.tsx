@@ -96,7 +96,7 @@ export default function CTASection() {
 
       {/* Decorative blobs */}
       <div
-        className="absolute -top-20 -right-20 w-80 h-80 rounded-full bg-red-600 opacity-15 blur-3xl pointer-events-none"
+        className="absolute -top-20 -right-20 w-80 h-80 rounded-full bg-[#C8330A] opacity-15 blur-3xl pointer-events-none"
         aria-hidden="true"
       />
       <div
@@ -107,15 +107,15 @@ export default function CTASection() {
       <div className="relative z-10 max-w-4xl mx-auto">
         {/* Heading */}
         <div className="text-center mb-10">
-          <span className="inline-block bg-white/10 border border-white/20 text-blue-100 text-xs font-semibold uppercase tracking-widest px-4 py-1.5 rounded-full mb-5">
+          <span className="inline-block bg-white/10 border border-white/20 text-slate-300 text-xs font-semibold uppercase tracking-widest px-4 py-1.5 rounded-full mb-5">
             Free Consultation
           </span>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white leading-tight mb-4">
+          <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl lg:text-5xl font-extrabold text-white leading-[1.02] mb-4">
             HVAC Acting Up?{" "}
-            <span className="text-blue-200">Get Your Free</span>{" "}
+            <span className="text-slate-300">Get Your Free</span>{" "}
             Consultation Today
           </h2>
-          <p className="text-blue-100 text-lg max-w-2xl mx-auto leading-relaxed">
+          <p className="text-slate-300 text-lg max-w-2xl mx-auto leading-relaxed">
             Don&apos;t suffer in the Florida heat. Our expert technicians are ready
             to help — fast response times, honest pricing, and guaranteed results.
           </p>
@@ -136,7 +136,7 @@ export default function CTASection() {
         {/* Divider */}
         <div className="flex items-center gap-4 mb-8 max-w-md mx-auto">
           <div className="flex-1 h-px bg-white/20" />
-          <span className="text-blue-200 text-sm font-medium whitespace-nowrap">
+          <span className="text-slate-300 text-sm font-medium whitespace-nowrap">
             or fill out the form below
           </span>
           <div className="flex-1 h-px bg-white/20" />
@@ -151,7 +151,7 @@ export default function CTASection() {
             <h3 className="text-white font-bold text-xl mb-2">
               We&apos;ve Got Your Request!
             </h3>
-            <p className="text-blue-100 text-sm leading-relaxed mb-6">
+            <p className="text-slate-300 text-sm leading-relaxed mb-6">
               Thank you, {formData.name || "there"}! One of our technicians will
               be in touch shortly. For immediate assistance, call us directly at{" "}
               <a
@@ -167,7 +167,7 @@ export default function CTASection() {
                 setSubmitted(false);
                 setFormData({ name: "", phone: "", email: "" });
               }}
-              className="text-blue-200 text-sm hover:text-white transition-colors underline underline-offset-2"
+              className="text-slate-300 text-sm hover:text-white transition-colors underline underline-offset-2"
             >
               Submit another request
             </button>
@@ -184,7 +184,7 @@ export default function CTASection() {
               <div className="flex flex-col gap-1.5">
                 <label
                   htmlFor="cta-name"
-                  className="text-blue-100 text-xs font-medium sr-only"
+                  className="text-slate-300 text-xs font-medium sr-only"
                 >
                   Your Name
                 </label>
@@ -197,7 +197,7 @@ export default function CTASection() {
                   required
                   placeholder="Your Name"
                   autoComplete="name"
-                  className="w-full bg-white/10 border border-white/25 hover:border-white/40 focus:border-white/60 focus:bg-white/15 text-white placeholder-blue-200 rounded-xl px-4 py-3.5 text-sm outline-none transition-all duration-150"
+                  className="w-full bg-white/10 border border-white/25 hover:border-white/40 focus:border-white/60 focus:bg-white/15 text-white placeholder-slate-400 rounded-xl px-4 py-3.5 text-sm outline-none transition-all duration-150"
                 />
               </div>
 
@@ -205,7 +205,7 @@ export default function CTASection() {
               <div className="flex flex-col gap-1.5">
                 <label
                   htmlFor="cta-phone"
-                  className="text-blue-100 text-xs font-medium sr-only"
+                  className="text-slate-300 text-xs font-medium sr-only"
                 >
                   Phone Number
                 </label>
@@ -218,7 +218,7 @@ export default function CTASection() {
                   required
                   placeholder="Phone Number"
                   autoComplete="tel"
-                  className="w-full bg-white/10 border border-white/25 hover:border-white/40 focus:border-white/60 focus:bg-white/15 text-white placeholder-blue-200 rounded-xl px-4 py-3.5 text-sm outline-none transition-all duration-150"
+                  className="w-full bg-white/10 border border-white/25 hover:border-white/40 focus:border-white/60 focus:bg-white/15 text-white placeholder-slate-400 rounded-xl px-4 py-3.5 text-sm outline-none transition-all duration-150"
                 />
               </div>
 
@@ -226,7 +226,7 @@ export default function CTASection() {
               <div className="flex flex-col gap-1.5">
                 <label
                   htmlFor="cta-email"
-                  className="text-blue-100 text-xs font-medium sr-only"
+                  className="text-slate-300 text-xs font-medium sr-only"
                 >
                   Email Address
                 </label>
@@ -239,7 +239,7 @@ export default function CTASection() {
                   required
                   placeholder="Email Address"
                   autoComplete="email"
-                  className="w-full bg-white/10 border border-white/25 hover:border-white/40 focus:border-white/60 focus:bg-white/15 text-white placeholder-blue-200 rounded-xl px-4 py-3.5 text-sm outline-none transition-all duration-150"
+                  className="w-full bg-white/10 border border-white/25 hover:border-white/40 focus:border-white/60 focus:bg-white/15 text-white placeholder-slate-400 rounded-xl px-4 py-3.5 text-sm outline-none transition-all duration-150"
                 />
               </div>
             </div>
@@ -249,7 +249,7 @@ export default function CTASection() {
               <button
                 type="submit"
                 disabled={loading}
-                className="w-full sm:w-auto flex items-center justify-center gap-2 bg-red-600 hover:bg-red-500 disabled:bg-red-600/70 text-white font-bold text-base px-10 py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 mx-auto"
+                className="w-full sm:w-auto flex items-center justify-center gap-2 bg-[#C8330A] hover:bg-[#b02c08] disabled:bg-[#C8330A]/70 text-white font-bold text-base px-10 py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 mx-auto"
               >
                 {loading ? (
                   <>
@@ -297,7 +297,7 @@ export default function CTASection() {
               </button>
             </div>
 
-            <p className="text-blue-200 text-xs text-center mt-4 opacity-80">
+            <p className="text-slate-300 text-xs text-center mt-4 opacity-80">
               No spam. We&apos;ll only contact you about your HVAC request.
             </p>
           </form>
@@ -305,12 +305,12 @@ export default function CTASection() {
 
         {/* or call us directly */}
         <div className="mt-8 text-center">
-          <p className="text-blue-200 text-sm">
+          <p className="text-slate-300 text-sm">
             — or call us directly —
           </p>
           <a
             href="tel:+18132916146"
-            className="inline-flex items-center gap-2 text-white font-bold text-xl mt-2 hover:text-blue-200 transition-colors"
+            className="inline-flex items-center gap-2 text-white font-bold text-xl mt-2 hover:text-[#F0A06A] transition-colors"
           >
             <PhoneIcon />
             (813) 291-6146
@@ -327,7 +327,7 @@ export default function CTASection() {
           ].map((badge) => (
             <div
               key={badge}
-              className="flex items-center gap-2 text-blue-100 text-xs font-medium"
+              className="flex items-center gap-2 text-slate-300 text-xs font-medium"
             >
               <svg
                 className="w-3.5 h-3.5 text-orange-400 shrink-0"

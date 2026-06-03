@@ -19,7 +19,7 @@ const CheckIcon = () => (
     strokeWidth="2.5"
     strokeLinecap="round"
     strokeLinejoin="round"
-    className="w-5 h-5 text-blue-600 shrink-0"
+    className="w-5 h-5 text-[#C8330A] shrink-0"
     aria-hidden="true"
   >
     <path d="M20 6 9 17l-5-5" />
@@ -63,7 +63,7 @@ const ShieldIcon = () => (
     strokeWidth="2"
     strokeLinecap="round"
     strokeLinejoin="round"
-    className="w-8 h-8 text-blue-600"
+    className="w-8 h-8 text-[#C8330A]"
     aria-hidden="true"
   >
     <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
@@ -79,7 +79,7 @@ const HeartIcon = () => (
     strokeWidth="2"
     strokeLinecap="round"
     strokeLinejoin="round"
-    className="w-8 h-8 text-blue-600"
+    className="w-8 h-8 text-[#C8330A]"
     aria-hidden="true"
   >
     <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
@@ -95,7 +95,7 @@ const ThumbsUpIcon = () => (
     strokeWidth="2"
     strokeLinecap="round"
     strokeLinejoin="round"
-    className="w-8 h-8 text-blue-600"
+    className="w-8 h-8 text-[#C8330A]"
     aria-hidden="true"
   >
     <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3H14z" />
@@ -112,7 +112,7 @@ const ClockIcon = () => (
     strokeWidth="2"
     strokeLinecap="round"
     strokeLinejoin="round"
-    className="w-8 h-8 text-blue-600"
+    className="w-8 h-8 text-[#C8330A]"
     aria-hidden="true"
   >
     <circle cx="12" cy="12" r="10" />
@@ -129,7 +129,7 @@ const AwardIcon = () => (
     strokeWidth="2"
     strokeLinecap="round"
     strokeLinejoin="round"
-    className="w-8 h-8 text-blue-600"
+    className="w-8 h-8 text-[#C8330A]"
     aria-hidden="true"
   >
     <circle cx="12" cy="8" r="6" />
@@ -224,13 +224,13 @@ export default function AboutPage() {
           <div className="absolute inset-0 bg-gradient-to-r from-[#0f1620]/80 via-[#0f1620]/60 to-[#0f1620]/40" />
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-blue-200 font-semibold text-sm uppercase tracking-widest mb-3">
+          <p className="text-[0.72rem] font-bold tracking-[0.18em] uppercase mb-4 text-[#F0A06A]">
             Tampa Bay&apos;s Trusted HVAC Experts
           </p>
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight mb-5">
+          <h1 className="font-display text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-[1.05] mb-5 tracking-[-0.03em]">
             About North East Heating And Cooling
           </h1>
-          <p className="text-blue-100 text-lg sm:text-xl max-w-3xl mx-auto leading-relaxed">
+          <p className="text-slate-300 text-lg sm:text-xl max-w-3xl mx-auto leading-relaxed">
             Locally owned and operated in Tampa, FL, we&apos;ve been keeping families
             and businesses comfortable throughout Tampa Bay for over a decade.
           </p>
@@ -243,7 +243,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {stats.map(({ value, label }) => (
               <div key={label} className="flex flex-col items-center">
-                <span className="text-4xl sm:text-5xl font-extrabold text-blue-700 leading-none">
+                <span className="text-4xl sm:text-5xl font-extrabold text-[#C8330A] leading-none">
                   {value}
                 </span>
                 <span className="text-gray-500 text-sm font-medium mt-1.5">
@@ -260,10 +260,10 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <p className="text-blue-600 font-semibold text-sm uppercase tracking-widest mb-2">
+              <p className="text-[0.72rem] font-bold tracking-[0.18em] uppercase mb-2 text-[#C8330A]">
                 Our Story
               </p>
-              <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-5 leading-tight">
+              <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-5 leading-[1.02]">
                 10+ Years Serving the Tampa Bay Community
               </h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
@@ -306,8 +306,8 @@ export default function AboutPage() {
                   sizes="(max-width: 1024px) 100vw, 50vw"
                 />
               </div>
-              <div className="bg-blue-50 rounded-2xl p-6 border border-blue-100">
-                <p className="text-blue-600 font-semibold text-xs uppercase tracking-widest mb-1">Owner &amp; Founder</p>
+              <div className="bg-[#fff6f1] rounded-2xl p-6 border border-[#C8330A]/15">
+                <p className="text-[0.72rem] font-bold tracking-[0.18em] uppercase mb-1 text-[#C8330A]">Owner &amp; Founder</p>
                 <p className="text-gray-900 font-bold text-lg mb-3">Chris Grullon</p>
                 <p className="text-gray-600 text-sm leading-relaxed italic">
                   &ldquo;I started this company to give Tampa Bay homeowners the kind of honest, dependable HVAC service I&apos;d want for my own family. That hasn&apos;t changed since day one — and it never will.&rdquo;
@@ -322,10 +322,10 @@ export default function AboutPage() {
       <section className="section-padding bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <p className="text-blue-600 font-semibold text-sm uppercase tracking-widest mb-2">
+            <p className="text-[0.72rem] font-bold tracking-[0.18em] uppercase mb-2 text-[#C8330A]">
               The North East Difference
             </p>
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 leading-tight">
+            <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 leading-[1.02]">
               Why Tampa Bay Chooses Us
             </h2>
             <p className="text-gray-500 mt-3 max-w-2xl mx-auto">
@@ -364,10 +364,10 @@ export default function AboutPage() {
       <section className="section-padding bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <p className="text-blue-600 font-semibold text-sm uppercase tracking-widest mb-2">
+            <p className="text-[0.72rem] font-bold tracking-[0.18em] uppercase mb-2 text-[#C8330A]">
               The People Behind the Work
             </p>
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 leading-tight">
+            <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 leading-[1.02]">
               Meet Our Team
             </h2>
           </div>
@@ -384,9 +384,9 @@ export default function AboutPage() {
               />
             </div>
             <div>
-              <p className="text-blue-300 font-semibold text-xs uppercase tracking-widest mb-1">Owner &amp; Founder</p>
+              <p className="text-slate-400 font-semibold text-xs uppercase tracking-widest mb-1">Owner &amp; Founder</p>
               <h3 className="text-white text-2xl font-extrabold mb-2">Chris Grullon</h3>
-              <p className="text-blue-100 text-sm leading-relaxed max-w-xl">
+              <p className="text-slate-300 text-sm leading-relaxed max-w-xl">
                 With over 10 years in the HVAC industry, Chris built North East Heating And Cooling from the ground up on a simple principle — treat every customer like a neighbor. EPA 608 licensed and Florida-licensed, he leads a team that brings the same dedication to every job across the Tampa Bay area.
               </p>
             </div>
@@ -398,7 +398,7 @@ export default function AboutPage() {
                 key={title}
                 className="text-center p-6 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow"
               >
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-50 rounded-2xl mb-4">
+                <div className="inline-flex items-center justify-center w-16 h-16 bg-[#fff6f1] rounded-2xl mb-4">
                   <Icon />
                 </div>
                 <h3 className="font-bold text-gray-900 text-base mb-2">{title}</h3>
@@ -407,7 +407,7 @@ export default function AboutPage() {
             ))}
           </div>
 
-          <div className="mt-10 bg-blue-50 rounded-2xl p-8 border border-blue-100 max-w-3xl mx-auto text-center">
+          <div className="mt-10 bg-[#fff6f1] rounded-2xl p-8 border border-[#C8330A]/15 max-w-3xl mx-auto text-center">
             <p className="text-gray-700 leading-relaxed">
               Every North East Heating And Cooling technician undergoes rigorous
               background checks, drug screening, and ongoing technical training.
@@ -424,10 +424,10 @@ export default function AboutPage() {
       <section className="section-padding bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <p className="text-blue-600 font-semibold text-sm uppercase tracking-widest mb-2">
+            <p className="text-[0.72rem] font-bold tracking-[0.18em] uppercase mb-2 text-[#C8330A]">
               Credentials &amp; Certifications
             </p>
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 leading-tight">
+            <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 leading-[1.02]">
               Qualified, Certified &amp; Insured
             </h2>
             <p className="text-gray-500 mt-3 max-w-xl mx-auto">
@@ -440,9 +440,9 @@ export default function AboutPage() {
             {credentials.map(({ title, description }) => (
               <div
                 key={title}
-                className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 hover:border-blue-200 transition-colors"
+                className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 hover:border-slate-300 transition-colors"
               >
-                <div className="inline-flex items-center justify-center w-12 h-12 bg-red-600 rounded-xl mb-4">
+                <div className="inline-flex items-center justify-center w-12 h-12 bg-[#C8330A] rounded-xl mb-4">
                   <AwardIcon />
                 </div>
                 <h3 className="font-bold text-gray-900 text-base mb-2">{title}</h3>
@@ -457,11 +457,11 @@ export default function AboutPage() {
       <section className="section-padding bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="bg-red-700 rounded-2xl p-8 text-white">
-              <h2 className="text-2xl sm:text-3xl font-extrabold mb-4 leading-tight">
+            <div className="bg-[#b02c08] rounded-2xl p-8 text-white">
+              <h2 className="font-display tracking-[-0.02em] text-2xl sm:text-3xl font-extrabold mb-4 leading-tight">
                 Our Service Commitment to You
               </h2>
-              <div className="space-y-4 text-blue-100 text-sm leading-relaxed">
+              <div className="space-y-4 text-slate-300 text-sm leading-relaxed">
                 <p>
                   <strong className="text-white">24/7 Emergency Response:</strong>{' '}
                   HVAC emergencies don&apos;t wait for convenient times. We&apos;re
@@ -488,10 +488,10 @@ export default function AboutPage() {
             </div>
 
             <div>
-              <p className="text-blue-600 font-semibold text-sm uppercase tracking-widest mb-2">
+              <p className="text-[0.72rem] font-bold tracking-[0.18em] uppercase mb-2 text-[#C8330A]">
                 Ready to Experience the Difference?
               </p>
-              <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-5 leading-tight">
+              <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-5 leading-[1.02]">
                 Let&apos;s Take Care of Your HVAC System
               </h2>
               <p className="text-gray-600 leading-relaxed mb-6">
@@ -503,14 +503,14 @@ export default function AboutPage() {
               <div className="flex flex-col sm:flex-row gap-3">
                 <a
                   href="tel:8132916146"
-                  className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-red-600 hover:bg-red-700 text-white font-bold rounded-xl transition-colors shadow-sm text-base"
+                  className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-[#C8330A] hover:bg-[#b02c08] text-white font-bold rounded-xl transition-colors shadow-sm text-base"
                 >
                   <PhoneIcon />
                   (813) 291-6146
                 </a>
                 <Link
                   href="/contact"
-                  className="inline-flex items-center justify-center px-6 py-3.5 border-2 border-blue-600 text-blue-700 hover:bg-blue-50 font-bold rounded-xl transition-colors text-base"
+                  className="inline-flex items-center justify-center px-6 py-3.5 border-2 border-[#C8330A] text-[#C8330A] hover:bg-[#C8330A]/5 font-bold rounded-xl transition-colors text-base"
                 >
                   Get a Free Quote
                 </Link>

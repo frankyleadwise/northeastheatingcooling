@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Residential HVAC Services in Tampa Bay, FL | North East Heating And Cooling',
+  title: 'Residential HVAC Services in Tampa Bay, FL',
   description:
     'Complete residential HVAC in Tampa Bay, FL. AC repair, replacement, installation, 24/7 emergency service, indoor air quality, smart thermostats, and dryer vent cleaning. Call (813) 291-6146.',
   keywords: [
@@ -177,13 +177,13 @@ export default function ResidentialPage() {
           <div className="absolute inset-0 bg-gradient-to-r from-[#0f1620]/80 via-[#0f1620]/60 to-[#0f1620]/40" />
         </div>
         <div className="relative z-10 max-w-5xl mx-auto text-center">
-          <p className="text-blue-200 font-semibold text-sm uppercase tracking-widest mb-3">
+          <p className="text-[0.72rem] font-bold tracking-[0.18em] uppercase mb-4 text-[#F0A06A]">
             Tampa Bay, FL — Residential Services
           </p>
-          <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-5">
+          <h1 className="font-display text-4xl md:text-5xl font-extrabold leading-[1.05] mb-5 tracking-[-0.03em]">
             Residential HVAC Services in Tampa Bay, FL
           </h1>
-          <p className="text-blue-100 text-lg md:text-xl max-w-3xl mx-auto mb-8">
+          <p className="text-slate-300 text-lg md:text-xl max-w-3xl mx-auto mb-8">
             North East Heating And Cooling delivers expert residential HVAC solutions across Tampa Bay. From emergency
             AC repair to complete system installations, our certified technicians keep your home comfortable 365 days a
             year — even during Florida&#39;s most brutal summers.
@@ -191,13 +191,13 @@ export default function ResidentialPage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="tel:8132916146"
-              className="inline-flex items-center justify-center px-8 py-3.5 bg-white text-blue-800 font-bold text-lg rounded-lg hover:bg-blue-50 transition-colors shadow-lg"
+              className="inline-flex items-center justify-center px-8 py-3.5 bg-white text-[#0f1620] font-bold text-lg rounded-lg hover:bg-[#C8330A]/5 transition-colors shadow-lg"
             >
               Call (813) 291-6146
             </a>
             <Link
               href="/contact"
-              className="inline-flex items-center justify-center px-8 py-3.5 bg-red-600 text-white font-bold text-lg rounded-lg border-2 border-red-400 hover:bg-red-700 transition-colors"
+              className="inline-flex items-center justify-center px-8 py-3.5 bg-[#C8330A] text-white font-bold text-lg rounded-lg border-2 border-[#C8330A]/40 hover:bg-[#b02c08] transition-colors"
             >
               Get a Free Estimate
             </Link>
@@ -209,7 +209,7 @@ export default function ResidentialPage() {
       <section className="bg-white py-16 px-4">
         <div className="max-w-5xl mx-auto">
           <div className="max-w-3xl">
-            <h2 className="text-3xl font-bold text-gray-900 mb-5">
+            <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-5 leading-[1.02]">
               Complete Home Comfort Solutions for Tampa Bay Homeowners
             </h2>
             <p className="text-gray-600 text-lg leading-relaxed mb-4">
@@ -235,7 +235,7 @@ export default function ResidentialPage() {
       <section className="bg-gray-50 py-16 px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-3">Our Residential HVAC Services</h2>
+            <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-3 leading-[1.02]">Our Residential HVAC Services</h2>
             <p className="text-gray-600 text-lg max-w-2xl mx-auto">
               From quick repairs to complete system overhauls, we offer everything Tampa Bay homeowners need to stay
               comfortable all year long.
@@ -246,22 +246,22 @@ export default function ResidentialPage() {
               <Link
                 key={service.href}
                 href={service.href}
-                className="group bg-white rounded-2xl p-7 shadow-sm border border-gray-100 hover:shadow-lg hover:border-blue-200 transition-all duration-200"
+                className="group bg-white rounded-2xl p-7 shadow-sm border border-gray-100 hover:shadow-lg hover:border-slate-300 transition-all duration-200"
               >
                 <div className="text-4xl mb-4">{service.icon}</div>
-                <h3 className="text-xl font-bold text-gray-900 group-hover:text-blue-700 mb-3 transition-colors">
+                <h3 className="text-xl font-bold text-gray-900 group-hover:text-[#C8330A] mb-3 transition-colors">
                   {service.title}
                 </h3>
                 <p className="text-gray-600 text-sm leading-relaxed mb-5">{service.description}</p>
                 <ul className="space-y-1.5">
                   {service.highlights.map((item) => (
                     <li key={item} className="flex items-center gap-2 text-sm text-gray-700">
-                      <span className="w-1.5 h-1.5 rounded-full bg-red-600 shrink-0" />
+                      <span className="w-1.5 h-1.5 rounded-full bg-[#C8330A] shrink-0" />
                       {item}
                     </li>
                   ))}
                 </ul>
-                <span className="inline-block mt-5 text-blue-600 font-semibold text-sm group-hover:text-blue-800 transition-colors">
+                <span className="inline-block mt-5 text-[#C8330A] font-semibold text-sm group-hover:text-[#b02c08] transition-colors">
                   Learn more →
                 </span>
               </Link>
@@ -274,7 +274,7 @@ export default function ResidentialPage() {
       <section className="bg-white py-16 px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-3">
+            <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-3 leading-[1.02]">
               Why Tampa Bay Homeowners Choose North East Heating And Cooling
             </h2>
             <p className="text-gray-600 text-lg max-w-2xl mx-auto">
@@ -285,8 +285,8 @@ export default function ResidentialPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {reasons.map((reason) => (
               <div key={reason.title} className="flex gap-4">
-                <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center shrink-0 mt-0.5">
-                  <span className="w-3 h-3 rounded-full bg-red-600 block" />
+                <div className="w-10 h-10 rounded-full bg-[#C8330A]/10 flex items-center justify-center shrink-0 mt-0.5">
+                  <span className="w-3 h-3 rounded-full bg-[#C8330A] block" />
                 </div>
                 <div>
                   <h3 className="font-bold text-gray-900 mb-1">{reason.title}</h3>
@@ -299,21 +299,21 @@ export default function ResidentialPage() {
       </section>
 
       {/* Service Area Banner */}
-      <section className="bg-blue-50 border-y border-blue-100 py-12 px-4">
+      <section className="bg-[#fff6f1] border-y border-[#C8330A]/15 py-12 px-4">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
-            <h2 className="text-2xl font-bold text-gray-900 mb-2">Serving the Entire Tampa Bay Area</h2>
+            <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mb-2">Serving the Entire Tampa Bay Area</h2>
             <p className="text-gray-600">
               We provide residential HVAC services throughout Tampa, Brandon, Riverview, Wesley Chapel, Clearwater, St.
               Petersburg, and the surrounding communities.{' '}
-              <Link href="/service-areas" className="text-blue-600 font-semibold hover:underline">
+              <Link href="/service-areas" className="text-[#C8330A] font-semibold hover:underline">
                 View all service areas →
               </Link>
             </p>
           </div>
           <a
             href="tel:8132916146"
-            className="shrink-0 inline-flex items-center justify-center px-7 py-3 bg-red-700 text-white font-bold rounded-lg hover:bg-[#0f1620] transition-colors text-lg whitespace-nowrap"
+            className="shrink-0 inline-flex items-center justify-center px-7 py-3 bg-[#b02c08] text-white font-bold rounded-lg hover:bg-[#0f1620] transition-colors text-lg whitespace-nowrap"
           >
             Call Now: (813) 291-6146
           </a>
@@ -325,18 +325,18 @@ export default function ResidentialPage() {
         <div className="max-w-5xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             <div>
-              <h2 className="text-3xl font-bold mb-4">Ready to Schedule Service?</h2>
-              <p className="text-blue-100 text-lg mb-6">
+              <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold mb-4 leading-[1.02]">Ready to Schedule Service?</h2>
+              <p className="text-slate-300 text-lg mb-6">
                 Our Tampa Bay HVAC team is standing by. Call for same-day service or fill out the form and we&#39;ll get back
                 to you within the hour during business hours.
               </p>
               <div className="space-y-3">
-                <a href="tel:8132916146" className="flex items-center gap-3 text-white text-xl font-bold hover:text-blue-200 transition-colors">
-                  <span className="bg-red-600 rounded-full w-10 h-10 flex items-center justify-center text-sm">📞</span>
+                <a href="tel:8132916146" className="flex items-center gap-3 text-white text-xl font-bold hover:text-[#F0A06A] transition-colors">
+                  <span className="bg-[#C8330A] rounded-full w-10 h-10 flex items-center justify-center text-sm">📞</span>
                   (813) 291-6146
                 </a>
-                <a href="mailto:office@northeastheatingcooling.com" className="flex items-center gap-3 text-blue-200 hover:text-white transition-colors">
-                  <span className="bg-red-600 rounded-full w-10 h-10 flex items-center justify-center text-sm">✉️</span>
+                <a href="mailto:office@northeastheatingcooling.com" className="flex items-center gap-3 text-slate-300 hover:text-white transition-colors">
+                  <span className="bg-[#C8330A] rounded-full w-10 h-10 flex items-center justify-center text-sm">✉️</span>
                   office@northeastheatingcooling.com
                 </a>
               </div>
@@ -348,29 +348,29 @@ export default function ResidentialPage() {
                   type="text"
                   name="name"
                   placeholder="Your Name"
-                  className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100"
+                  className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-[#C8330A] focus:ring-2 focus:ring-[#C8330A]/15"
                 />
                 <input
                   type="tel"
                   name="phone"
                   placeholder="Phone Number"
-                  className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100"
+                  className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-[#C8330A] focus:ring-2 focus:ring-[#C8330A]/15"
                 />
                 <input
                   type="email"
                   name="email"
                   placeholder="Email Address"
-                  className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100"
+                  className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-[#C8330A] focus:ring-2 focus:ring-[#C8330A]/15"
                 />
                 <textarea
                   name="message"
                   placeholder="Describe your HVAC issue or service needed..."
                   rows={4}
-                  className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100 resize-none"
+                  className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-[#C8330A] focus:ring-2 focus:ring-[#C8330A]/15 resize-none"
                 />
                 <button
                   type="submit"
-                  className="w-full bg-red-700 hover:bg-[#0f1620] text-white font-bold py-3 rounded-lg transition-colors text-base"
+                  className="w-full bg-[#b02c08] hover:bg-[#0f1620] text-white font-bold py-3 rounded-lg transition-colors text-base"
                 >
                   Submit Request
                 </button>

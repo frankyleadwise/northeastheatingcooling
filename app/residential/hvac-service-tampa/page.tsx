@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 import ServicePageQuoteForm from '@/app/components/ServicePageQuoteForm'
 export const metadata: Metadata = {
-  title: 'Residential HVAC Repair Services in Tampa, FL | North East Heating And Cooling',
+  title: 'Residential HVAC Repair Services in Tampa, FL',
   description:
     'Expert residential HVAC repair in Tampa, FL. Fast AC repair, heating repair & emergency HVAC service. Call (813) 291-6146 for same-day service.',
   keywords: [

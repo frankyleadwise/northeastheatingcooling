@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: "Benefits of Regular HVAC Maintenance in Florida's Climate | North East Heating And Cooling",
+  title: "Benefits of Regular HVAC Maintenance in Florida's Climate",
   description:
     'Discover how regular HVAC maintenance in Florida saves money, extends system life, and prevents summer breakdowns. Expert advice from North East Heating And Cooling. Call (813) 291-6146.',
   openGraph: {
@@ -32,16 +32,16 @@ export default function HVACMaintenanceFloridaPage() {
         </div>
         <div className="relative z-10 max-w-4xl mx-auto">
           <div className="flex items-center gap-3 mb-4">
-            <span className="bg-blue-500 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">
+            <span className="bg-[#C8330A] text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">
               Maintenance
             </span>
-            <time className="text-blue-200 text-sm">February 5, 2025</time>
+            <time className="text-slate-300 text-sm">February 5, 2025</time>
           </div>
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight mb-5">
+          <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-extrabold leading-[1.05] mb-5 tracking-[-0.03em]">
             Benefits of Regular HVAC Maintenance in Florida&apos;s Climate
           </h1>
-          <p className="text-blue-200 text-sm">
-            By <span className="font-semibold text-white">Chris Grullon</span>, <span className="text-blue-200">Owner &amp; EPA 608 Certified HVAC Technician</span> &mdash; North East Heating And Cooling, Tampa Bay, FL
+          <p className="text-slate-300 text-sm">
+            By <span className="font-semibold text-white">Chris Grullon</span>, <span className="text-slate-300">Owner &amp; EPA 608 Certified HVAC Technician</span> &mdash; North East Heating And Cooling, Tampa Bay, FL
           </p>
         </div>
       </header>
@@ -60,7 +60,7 @@ export default function HVACMaintenanceFloridaPage() {
                 inconvenient; it&apos;s one of the most expensive decisions a Florida homeowner can make.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Florida&apos;s Unique HVAC Demands</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">Florida&apos;s Unique HVAC Demands</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Most U.S. homeowners use their air conditioning for four to six months per year. In Tampa Bay, that
                 number is closer to ten to eleven months. This extended operating season means components wear out
@@ -73,7 +73,7 @@ export default function HVACMaintenanceFloridaPage() {
                 clear why professional maintenance in Florida isn&apos;t optional. It&apos;s a necessity.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">1. Significant Energy Savings</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">1. Significant Energy Savings</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 A well-maintained HVAC system operates at or near its rated efficiency. Over time, without maintenance,
                 efficiency degrades. Dirty coils reduce heat transfer, low refrigerant levels force the compressor to
@@ -88,7 +88,7 @@ export default function HVACMaintenanceFloridaPage() {
                 on investment through energy savings alone.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">2. Extended System Lifespan</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">2. Extended System Lifespan</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 A central air conditioning system represents a significant investment — typically $5,000–$12,000
                 installed for a residential system. Protecting that investment through regular maintenance is simply
@@ -102,7 +102,7 @@ export default function HVACMaintenanceFloridaPage() {
                 failure and early system replacement.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">3. Better Indoor Air Quality</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">3. Better Indoor Air Quality</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Your HVAC system circulates air throughout your entire home multiple times per day. When components
                 like evaporator coils, drain pans, and air handlers are dirty or contaminated, they become sources
@@ -116,7 +116,7 @@ export default function HVACMaintenanceFloridaPage() {
                 keeps these risks in check and ensures the air circulating through your home is as clean as possible.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">4. Preventing Summer Breakdowns</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">4. Preventing Summer Breakdowns</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 There is no worse time for your air conditioner to fail than on a 95°F Tampa Bay afternoon in July.
                 Beyond the discomfort, extreme heat poses real health risks — particularly for children, elderly family
@@ -130,7 +130,7 @@ export default function HVACMaintenanceFloridaPage() {
                 to address proactively, but costly to fix as emergency repairs in the middle of summer.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">5. What a Professional Tune-Up Includes</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">5. What a Professional Tune-Up Includes</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 A comprehensive HVAC maintenance visit from a licensed technician should include:
               </p>
@@ -146,7 +146,7 @@ export default function HVACMaintenanceFloridaPage() {
                 <li>Testing system startup, shutdown, and safety controls</li>
               </ul>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">6. Warranty Compliance</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">6. Warranty Compliance</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Many HVAC manufacturers require documented proof of annual or semi-annual maintenance to keep equipment
                 warranties valid. If your system fails and you can&apos;t show a service history, the manufacturer
@@ -159,7 +159,7 @@ export default function HVACMaintenanceFloridaPage() {
                 during a warranty claim.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">How Often Should You Schedule Maintenance in Florida?</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">How Often Should You Schedule Maintenance in Florida?</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 The standard recommendation for Florida homeowners is twice per year: once in spring (March–April)
                 before the intense summer cooling season, and once in fall (September–October) before the brief
@@ -179,7 +179,7 @@ export default function HVACMaintenanceFloridaPage() {
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Link
                     href="/residential/hvac-service-tampa"
-                    className="inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-800 transition-colors"
+                    className="inline-flex items-center gap-2 text-[#C8330A] font-semibold hover:text-[#b02c08] transition-colors"
                   >
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -188,7 +188,7 @@ export default function HVACMaintenanceFloridaPage() {
                   </Link>
                   <Link
                     href="/residential/hvac-installation-tampa-fl"
-                    className="inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-800 transition-colors"
+                    className="inline-flex items-center gap-2 text-[#C8330A] font-semibold hover:text-[#b02c08] transition-colors"
                   >
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -205,17 +205,17 @@ export default function HVACMaintenanceFloridaPage() {
             {/* CTA Card */}
             <div className="bg-[#0f1620] text-white rounded-2xl p-7 shadow-lg">
               <h3 className="text-xl font-bold mb-3">Need HVAC Help?</h3>
-              <p className="text-blue-100 text-sm leading-relaxed mb-5">
+              <p className="text-slate-300 text-sm leading-relaxed mb-5">
                 Ready to schedule your HVAC tune-up? Our Tampa Bay technicians are ready to keep your system
                 running at peak efficiency all year long.
               </p>
               <a
                 href="tel:8132916146"
-                className="block w-full text-center bg-white text-blue-800 font-bold py-3 rounded-lg hover:bg-blue-50 transition-colors text-lg mb-3"
+                className="block w-full text-center bg-white text-[#0f1620] font-bold py-3 rounded-lg hover:bg-[#C8330A]/5 transition-colors text-lg mb-3"
               >
                 Call (813) 291-6146
               </a>
-              <p className="text-blue-200 text-xs text-center">Same-day service available</p>
+              <p className="text-slate-300 text-xs text-center">Same-day service available</p>
             </div>
 
             {/* Related Posts */}
@@ -223,17 +223,17 @@ export default function HVACMaintenanceFloridaPage() {
               <h3 className="text-lg font-bold text-gray-900 mb-4">More HVAC Tips</h3>
               <ul className="space-y-3">
                 <li>
-                  <Link href="/blog/top-signs-hvac-system-needs-repair" className="text-blue-600 hover:text-blue-800 text-sm font-medium leading-snug transition-colors">
+                  <Link href="/blog/top-signs-hvac-system-needs-repair" className="text-[#C8330A] hover:text-[#b02c08] text-sm font-medium leading-snug transition-colors">
                     Top Signs Your HVAC System Needs Repair
                   </Link>
                 </li>
                 <li>
-                  <Link href="/blog/when-to-replace-your-ac-unit-florida" className="text-blue-600 hover:text-blue-800 text-sm font-medium leading-snug transition-colors">
+                  <Link href="/blog/when-to-replace-your-ac-unit-florida" className="text-[#C8330A] hover:text-[#b02c08] text-sm font-medium leading-snug transition-colors">
                     How to Know When to Replace Your AC Unit in Florida
                   </Link>
                 </li>
                 <li>
-                  <Link href="/blog/best-energy-efficient-ac-systems-florida" className="text-blue-600 hover:text-blue-800 text-sm font-medium leading-snug transition-colors">
+                  <Link href="/blog/best-energy-efficient-ac-systems-florida" className="text-[#C8330A] hover:text-[#b02c08] text-sm font-medium leading-snug transition-colors">
                     Best Energy-Efficient AC Systems for Florida
                   </Link>
                 </li>
@@ -245,17 +245,17 @@ export default function HVACMaintenanceFloridaPage() {
               <h3 className="text-lg font-bold text-gray-900 mb-4">Our Services</h3>
               <ul className="space-y-2">
                 <li>
-                  <Link href="/residential/hvac-service-tampa" className="text-gray-700 hover:text-blue-700 text-sm transition-colors">
+                  <Link href="/residential/hvac-service-tampa" className="text-gray-700 hover:text-[#C8330A] text-sm transition-colors">
                     → HVAC Repair &amp; Service
                   </Link>
                 </li>
                 <li>
-                  <Link href="/residential/hvac-installation-tampa-fl" className="text-gray-700 hover:text-blue-700 text-sm transition-colors">
+                  <Link href="/residential/hvac-installation-tampa-fl" className="text-gray-700 hover:text-[#C8330A] text-sm transition-colors">
                     → HVAC Installation &amp; Replacement
                   </Link>
                 </li>
                 <li>
-                  <Link href="/residential" className="text-gray-700 hover:text-blue-700 text-sm transition-colors">
+                  <Link href="/residential" className="text-gray-700 hover:text-[#C8330A] text-sm transition-colors">
                     → All Residential Services
                   </Link>
                 </li>
@@ -266,20 +266,20 @@ export default function HVACMaintenanceFloridaPage() {
       </div>
 
       {/* Bottom CTA Banner */}
-      <section className="bg-blue-50 border-y border-blue-100 py-12 px-4">
+      <section className="bg-[#fff6f1] border-y border-[#C8330A]/15 py-12 px-4">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
-            <h2 className="text-2xl font-bold text-gray-900 mb-1">Schedule Your HVAC Tune-Up Today</h2>
+            <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mb-1">Schedule Your HVAC Tune-Up Today</h2>
             <p className="text-gray-600">
               North East Heating And Cooling provides comprehensive HVAC maintenance across Tampa Bay.{' '}
-              <Link href="/residential/hvac-service-tampa" className="text-blue-600 font-semibold hover:underline">
+              <Link href="/residential/hvac-service-tampa" className="text-[#C8330A] font-semibold hover:underline">
                 View maintenance services →
               </Link>
             </p>
           </div>
           <a
             href="tel:8132916146"
-            className="shrink-0 inline-flex items-center justify-center px-7 py-3 bg-red-700 text-white font-bold rounded-lg hover:bg-[#0f1620] transition-colors text-lg whitespace-nowrap"
+            className="shrink-0 inline-flex items-center justify-center px-7 py-3 bg-[#b02c08] text-white font-bold rounded-lg hover:bg-[#0f1620] transition-colors text-lg whitespace-nowrap"
           >
             Call Now: (813) 291-6146
           </a>

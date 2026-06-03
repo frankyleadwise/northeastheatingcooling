@@ -147,8 +147,8 @@ function ServiceColumn({
   return (
     <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden flex flex-col">
       {/* Column header */}
-      <div className="bg-blue-700 px-6 py-5 flex items-center gap-3">
-        <span className="text-blue-200">{icon}</span>
+      <div className="bg-[#0f1620] px-6 py-5 flex items-center gap-3">
+        <span className="text-slate-300">{icon}</span>
         <h3 className="text-white font-bold text-xl">{title}</h3>
       </div>
 
@@ -158,10 +158,10 @@ function ServiceColumn({
           <li key={service.href + service.label}>
             <Link
               href={service.href}
-              className="flex items-center justify-between gap-3 px-6 py-4 text-gray-700 font-medium text-sm hover:bg-blue-50 hover:text-blue-700 transition-colors duration-150 group"
+              className="flex items-center justify-between gap-3 px-6 py-4 text-gray-700 font-medium text-sm hover:bg-[#C8330A]/5 hover:text-[#C8330A] transition-colors duration-150 group"
             >
               <span>{service.label}</span>
-              <span className="text-blue-400 group-hover:text-blue-600 group-hover:translate-x-0.5 transition-all duration-150">
+              <span className="text-slate-400 group-hover:text-[#C8330A] group-hover:translate-x-0.5 transition-all duration-150">
                 <ArrowRightIcon />
               </span>
             </Link>
@@ -173,7 +173,7 @@ function ServiceColumn({
       <div className="px-6 py-5 bg-gray-50 border-t border-gray-100">
         <Link
           href={ctaHref}
-          className="flex items-center justify-center gap-2 w-full py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm rounded-xl transition-colors duration-150 shadow-sm hover:shadow-md"
+          className="flex items-center justify-center gap-2 w-full py-3 bg-[#C8330A] hover:bg-[#b02c08] text-white font-semibold text-sm rounded-xl transition-colors duration-150 shadow-sm hover:shadow-md"
         >
           {ctaLabel}
           <ArrowRightIcon />
@@ -189,10 +189,10 @@ export default function ServicesOverview() {
       <div className="max-w-6xl mx-auto">
         {/* Section heading */}
         <div className="text-center mb-12">
-          <span className="inline-block text-blue-600 text-sm font-semibold uppercase tracking-widest mb-3">
+          <span className="inline-block text-[#C8330A] text-sm font-semibold uppercase tracking-widest mb-3">
             Our Services
           </span>
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4">
+          <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-4 leading-[1.02]">
             Residential &amp; Commercial HVAC Solutions
           </h2>
           <p className="text-gray-500 text-lg max-w-2xl mx-auto">
@@ -225,7 +225,7 @@ export default function ServicesOverview() {
           Not sure which service you need?{" "}
           <Link
             href="/contact"
-            className="text-blue-600 font-medium hover:text-blue-800 underline underline-offset-2"
+            className="text-[#C8330A] font-medium hover:text-[#b02c08] underline underline-offset-2"
           >
             Contact us for a free diagnosis
           </Link>{" "}

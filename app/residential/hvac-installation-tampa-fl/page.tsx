@@ -4,7 +4,7 @@ import Link from 'next/link'
 import ServicePageQuoteForm from '@/app/components/ServicePageQuoteForm'
 import FinancingCTA from '@/components/FinancingCTA'
 export const metadata: Metadata = {
-  title: 'AC Installation & HVAC Installation Tampa, FL | North East Heating And Cooling',
+  title: 'AC Installation & HVAC Installation Tampa, FL',
   description:
     'Professional AC installation and HVAC system replacement in Tampa, FL. Energy-efficient systems, quality installation. Free estimates. Call (813) 291-6146.',
   keywords: [

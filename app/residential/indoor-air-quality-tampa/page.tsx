@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Indoor Air Quality Services Tampa, FL | Air Purification & UV Lights | North East Heating And Cooling',
+  title: 'Indoor Air Quality Services Tampa, FL | Air Purification & UV Lights',
   description:
     'Indoor air quality services in Tampa, FL. Air purification systems, UV light air sanitizers, HEPA filtration, whole-home dehumidifiers. Florida humidity solutions. Call (813) 291-6146.',
   keywords: [
@@ -251,13 +251,13 @@ export default function IndoorAirQualityTampaPage() {
           <div className="absolute inset-0 bg-gradient-to-r from-[#0f1620]/80 via-[#0f1620]/60 to-[#0f1620]/40" />
         </div>
         <div className="relative z-10 max-w-5xl mx-auto">
-          <p className="text-orange-300 font-semibold text-sm uppercase tracking-widest mb-3">
+          <p className="text-[0.72rem] font-bold tracking-[0.18em] uppercase mb-4 text-[#F0A06A]">
             Tampa Bay, FL — Indoor Air Quality Specialists
           </p>
-          <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-5">
+          <h1 className="font-display text-4xl md:text-5xl font-extrabold leading-[1.05] mb-5 tracking-[-0.03em]">
             Indoor Air Quality Services in Tampa, FL
           </h1>
-          <p className="text-blue-100 text-lg md:text-xl max-w-3xl mb-8 leading-relaxed">
+          <p className="text-slate-300 text-lg md:text-xl max-w-3xl mb-8 leading-relaxed">
             Tampa Bay&apos;s humidity, pollen, and salt air make indoor air quality a real problem.
             Whole-home air purification, UV sanitizers, HEPA filtration, and humidity control built
             for Florida homes.
@@ -265,13 +265,13 @@ export default function IndoorAirQualityTampaPage() {
           <div className="flex flex-col sm:flex-row gap-4">
             <a
               href="tel:8132916146"
-              className="inline-flex items-center justify-center px-8 py-3.5 bg-white text-blue-800 font-bold text-lg rounded-lg hover:bg-blue-50 transition-colors shadow-lg"
+              className="inline-flex items-center justify-center px-8 py-3.5 bg-white text-[#0f1620] font-bold text-lg rounded-lg hover:bg-[#C8330A]/5 transition-colors shadow-lg"
             >
               Call (813) 291-6146
             </a>
             <Link
               href="/contact"
-              className="inline-flex items-center justify-center px-8 py-3.5 bg-red-600 text-white font-bold text-lg rounded-lg border-2 border-red-400 hover:bg-red-700 transition-colors"
+              className="inline-flex items-center justify-center px-8 py-3.5 bg-[#C8330A] text-white font-bold text-lg rounded-lg border-2 border-[#C8330A]/40 hover:bg-[#b02c08] transition-colors"
             >
               Get a Free Quote
             </Link>
@@ -281,7 +281,7 @@ export default function IndoorAirQualityTampaPage() {
 
       {/* Trust bar */}
       <section className="bg-[#0f1620] text-white py-4 px-4">
-        <div className="max-w-5xl mx-auto flex flex-wrap justify-center md:justify-between gap-x-8 gap-y-2 text-sm font-semibold text-blue-200">
+        <div className="max-w-5xl mx-auto flex flex-wrap justify-center md:justify-between gap-x-8 gap-y-2 text-sm font-semibold text-slate-300">
           <span>✓ Whole-Home Solutions</span>
           <span>✓ Florida Climate Specialists</span>
           <span>✓ Aprilaire / REME / Honeywell</span>
@@ -293,7 +293,7 @@ export default function IndoorAirQualityTampaPage() {
       {/* Why IAQ matters here */}
       <section className="bg-white py-16 px-4">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 mb-5">
+          <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-5 leading-[1.02]">
             Why Indoor Air Quality Matters More in Tampa Bay
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
@@ -346,7 +346,7 @@ export default function IndoorAirQualityTampaPage() {
       <section className="bg-gray-50 py-16 px-4">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-3">Indoor Air Issues We Solve</h2>
+            <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-3 leading-[1.02]">Indoor Air Issues We Solve</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             {issues.map((s) => (
@@ -364,7 +364,7 @@ export default function IndoorAirQualityTampaPage() {
       <section className="bg-white py-16 px-4">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-3">Our Indoor Air Quality Services</h2>
+            <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-3 leading-[1.02]">Our Indoor Air Quality Services</h2>
           </div>
           <div className="space-y-8">
             {services.map((service) => (
@@ -391,7 +391,7 @@ export default function IndoorAirQualityTampaPage() {
       {/* FAQs */}
       <section className="bg-gray-50 py-16 px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 mb-10 text-center">Frequently Asked Questions</h2>
+          <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-10 text-center leading-[1.02]">Frequently Asked Questions</h2>
           <div className="space-y-4">
             {faqs.map((faq) => (
               <details
@@ -415,7 +415,7 @@ export default function IndoorAirQualityTampaPage() {
       <section className="bg-orange-50 border-y border-orange-100 py-12 px-4">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
-            <h2 className="text-2xl font-bold text-gray-900 mb-1">Ready to Improve Your Home&apos;s Air Quality?</h2>
+            <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mb-1">Ready to Improve Your Home&apos;s Air Quality?</h2>
             <p className="text-gray-600">
               Free in-home air quality assessment, written quote with options at multiple price points.{' '}
               <Link href="/blog/how-to-improve-indoor-air-quality-tampa" className="text-orange-700 font-semibold hover:underline">
@@ -425,7 +425,7 @@ export default function IndoorAirQualityTampaPage() {
           </div>
           <a
             href="tel:8132916146"
-            className="shrink-0 inline-flex items-center justify-center px-7 py-3 bg-red-700 text-white font-bold rounded-lg hover:bg-[#0f1620] transition-colors text-lg whitespace-nowrap"
+            className="shrink-0 inline-flex items-center justify-center px-7 py-3 bg-[#b02c08] text-white font-bold rounded-lg hover:bg-[#0f1620] transition-colors text-lg whitespace-nowrap"
           >
             Call Now: (813) 291-6146
           </a>

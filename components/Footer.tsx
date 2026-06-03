@@ -14,7 +14,7 @@ const SnowflakeIcon = () => (
     strokeWidth="2"
     strokeLinecap="round"
     strokeLinejoin="round"
-    className="w-6 h-6 text-blue-300"
+    className="w-6 h-6 text-slate-400"
     aria-hidden="true"
   >
     <line x1="12" y1="2"  x2="12" y2="22" />

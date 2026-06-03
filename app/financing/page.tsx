@@ -173,11 +173,16 @@ export default function FinancingPage() {
             {/* Copy */}
             <RevealWrapper>
               <p className="inline-block text-[0.72rem] font-bold tracking-[0.18em] uppercase px-4 py-1.5 rounded-full mb-6 text-[#C8330A] bg-[#C8330A]/10 border border-[#C8330A]/15">
-                HVAC &amp; AC Financing in Tampa Bay
+                Flexible Payment Options
               </p>
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-[-0.03em] leading-[1.04] mb-6 text-slate-900">
-                Get comfortable now.<br />
-                <span className="text-[#C8330A]">Pay for it over time.</span>
+              <h1 className="mb-6">
+                <span className="block font-display text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-[-0.03em] leading-[1.04] text-slate-900">
+                  Get comfortable now.<br />
+                  <span className="text-[#C8330A]">Pay for it over time.</span>
+                </span>
+                <span className="mt-5 block text-lg sm:text-xl font-bold tracking-tight text-slate-800">
+                  HVAC &amp; AC Financing in Tampa Bay, FL
+                </span>
               </h1>
               <p className="text-lg leading-relaxed max-w-xl mb-8 text-slate-600">
                 See your personalized monthly payment options within minutes — without
@@ -265,7 +270,7 @@ export default function FinancingPage() {
             {/* Copy + benefit list */}
             <RevealWrapper delay={100} className="order-1 lg:order-2">
               <p className="text-xs font-bold tracking-[0.15em] uppercase mb-3 text-[#C8330A]">Why finance with us</p>
-              <h2 className="text-3xl sm:text-4xl font-extrabold tracking-[-0.02em] leading-tight text-slate-900 mb-4">
+              <h2 className="font-display text-4xl sm:text-5xl font-extrabold tracking-[-0.02em] leading-[1.02] text-slate-900 mb-4">
                 HVAC financing made simple
               </h2>
               <p className="text-base leading-relaxed text-slate-600 mb-8">
@@ -296,7 +301,7 @@ export default function FinancingPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <RevealWrapper className="text-center max-w-2xl mx-auto mb-14">
             <p className="text-xs font-bold tracking-[0.15em] uppercase mb-3 text-[#C8330A]">Four simple steps</p>
-            <h2 className="text-3xl sm:text-4xl font-extrabold tracking-[-0.02em] leading-tight text-slate-900">
+            <h2 className="font-display text-4xl sm:text-5xl font-extrabold tracking-[-0.02em] leading-[1.02] text-slate-900">
               How HVAC financing works
             </h2>
           </RevealWrapper>
@@ -326,7 +331,7 @@ export default function FinancingPage() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <RevealWrapper className="text-center max-w-2xl mx-auto mb-10">
             <p className="text-xs font-bold tracking-[0.15em] uppercase mb-3 text-[#C8330A]">Try it yourself</p>
-            <h2 className="text-3xl sm:text-4xl font-extrabold tracking-[-0.02em] leading-tight text-slate-900">
+            <h2 className="font-display text-4xl sm:text-5xl font-extrabold tracking-[-0.02em] leading-[1.02] text-slate-900">
               Estimate your monthly payment
             </h2>
             <p className="mt-4 text-base leading-relaxed text-slate-600">
@@ -348,7 +353,7 @@ export default function FinancingPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <RevealWrapper className="text-center max-w-2xl mx-auto mb-14">
             <p className="text-xs font-bold tracking-[0.15em] uppercase mb-3 text-[#C8330A]">From a quick fix to a full system</p>
-            <h2 className="text-3xl sm:text-4xl font-extrabold tracking-[-0.02em] leading-tight text-slate-900">
+            <h2 className="font-display text-4xl sm:text-5xl font-extrabold tracking-[-0.02em] leading-[1.02] text-slate-900">
               What you can finance
             </h2>
             <p className="mt-4 text-base leading-relaxed text-slate-600">
@@ -393,7 +398,7 @@ export default function FinancingPage() {
               </div>
               <div>
                 <p className="text-xs font-bold tracking-[0.15em] uppercase mb-3 text-[#C8330A]">A local owner you can reach</p>
-                <h2 className="text-3xl sm:text-4xl font-extrabold tracking-[-0.02em] leading-tight text-slate-900 mb-4">
+                <h2 className="font-display text-4xl sm:text-5xl font-extrabold tracking-[-0.02em] leading-[1.02] text-slate-900 mb-4">
                   Not sure where to start? Talk to Chris.
                 </h2>
                 <p className="text-base leading-relaxed text-slate-600 mb-7">
@@ -427,7 +432,7 @@ export default function FinancingPage() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <RevealWrapper className="text-center mb-12">
             <p className="text-xs font-bold tracking-[0.15em] uppercase mb-3 text-[#C8330A]">Common questions</p>
-            <h2 className="text-3xl sm:text-4xl font-extrabold tracking-[-0.02em] leading-tight text-slate-900">
+            <h2 className="font-display text-4xl sm:text-5xl font-extrabold tracking-[-0.02em] leading-[1.02] text-slate-900">
               HVAC financing FAQ
             </h2>
           </RevealWrapper>
@@ -460,7 +465,7 @@ export default function FinancingPage() {
             >
               <div className="absolute -bottom-24 -left-20 w-72 h-72 rounded-full blur-3xl pointer-events-none" style={{ background: "#C8330A", opacity: 0.1 }} aria-hidden="true" />
               <div className="relative z-10 flex flex-col items-center">
-                <h2 className="text-3xl sm:text-4xl font-extrabold tracking-[-0.02em] leading-tight mb-4 text-slate-900">
+                <h2 className="font-display text-4xl sm:text-5xl font-extrabold tracking-[-0.02em] leading-[1.02] mb-4 text-slate-900">
                   Ready to see your options?
                 </h2>
                 <p className="text-base sm:text-lg leading-relaxed max-w-2xl mx-auto mb-8 text-slate-600">

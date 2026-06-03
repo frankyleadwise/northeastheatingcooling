@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'How to Know When to Replace Your AC Unit in Florida | North East Heating And Cooling',
+  title: 'How to Know When to Replace Your AC Unit in Florida',
   description:
     "Learn the top signs it's time to replace your AC unit in Florida. Expert advice from North East Heating And Cooling in Tampa Bay. Call (813) 291-6146.",
   openGraph: {
@@ -32,16 +32,16 @@ export default function WhenToReplaceACPage() {
         </div>
         <div className="relative z-10 max-w-4xl mx-auto">
           <div className="flex items-center gap-3 mb-4">
-            <span className="bg-red-500 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">
+            <span className="bg-[#C8330A] text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">
               AC Replacement
             </span>
-            <time className="text-blue-200 text-sm">December 15, 2024</time>
+            <time className="text-slate-300 text-sm">December 15, 2024</time>
           </div>
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight mb-5">
+          <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-extrabold leading-[1.05] mb-5 tracking-[-0.03em]">
             How to Know When to Replace Your AC Unit in Florida
           </h1>
-          <p className="text-blue-200 text-sm">
-            By <span className="font-semibold text-white">Chris Grullon</span>, <span className="text-blue-200">Owner &amp; EPA 608 Certified HVAC Technician</span> &mdash; North East Heating And Cooling, Tampa Bay, FL
+          <p className="text-slate-300 text-sm">
+            By <span className="font-semibold text-white">Chris Grullon</span>, <span className="text-slate-300">Owner &amp; EPA 608 Certified HVAC Technician</span> &mdash; North East Heating And Cooling, Tampa Bay, FL
           </p>
         </div>
       </header>
@@ -59,7 +59,7 @@ export default function WhenToReplaceACPage() {
                 to stop repairing and start replacing can save you thousands of dollars and countless headaches.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">1. Your Unit Is 10–15 Years Old</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">1. Your Unit Is 10–15 Years Old</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 The average lifespan of a central air conditioning system in the United States is 15–20 years. In Florida,
                 however, that number drops significantly. Because units here run nearly year-round, the wear and tear accumulates
@@ -72,7 +72,7 @@ export default function WhenToReplaceACPage() {
                 repair or replacement makes more financial sense.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">2. Your Energy Bills Keep Climbing</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">2. Your Energy Bills Keep Climbing</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 One of the most telling signs that your AC is failing is a steady increase in your monthly electricity bills —
                 even when your usage habits haven't changed. As AC systems age, their efficiency degrades. Components wear down,
@@ -84,7 +84,7 @@ export default function WhenToReplaceACPage() {
                 reduce cooling costs by 30–50% compared to an older, degraded system.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">3. Repairs Are Becoming Frequent and Costly</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">3. Repairs Are Becoming Frequent and Costly</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Every AC unit needs occasional repairs — that's normal. But when you're calling a technician multiple times per
                 year, or facing repair bills that approach the cost of a new system, it's time to do the math. A common rule of
@@ -96,7 +96,7 @@ export default function WhenToReplaceACPage() {
                 threshold. That's a strong signal to replace rather than repair.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">4. Your System Uses R-22 Refrigerant</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">4. Your System Uses R-22 Refrigerant</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 If your AC system was manufactured before 2010, there's a good chance it uses R-22 refrigerant (also known as
                 Freon). The U.S. Environmental Protection Agency phased out R-22 production and import in 2020 due to its
@@ -108,7 +108,7 @@ export default function WhenToReplaceACPage() {
                 system running. Modern systems use R-410A or R-32 refrigerants, which are more efficient and readily available.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">5. Uneven Cooling Throughout Your Home</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">5. Uneven Cooling Throughout Your Home</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Does one room feel like a freezer while another stays stuffy and warm? Uneven cooling is often a symptom of an
                 aging or undersized AC system that can no longer distribute conditioned air effectively. It can also indicate
@@ -119,7 +119,7 @@ export default function WhenToReplaceACPage() {
                 consistent, even comfort throughout every room in your Tampa Bay home.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">6. You're Struggling With Humidity Problems</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">6. You're Struggling With Humidity Problems</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 In Tampa Bay, humidity control isn't optional — it's essential. A properly functioning AC system does more than
                 cool the air; it dehumidifies it. When an AC system is failing or improperly sized, it often loses its ability
@@ -132,7 +132,7 @@ export default function WhenToReplaceACPage() {
                 dehumidifier — may be the right solution.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Making the Decision: Repair or Replace?</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">Making the Decision: Repair or Replace?</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 No single factor should drive the decision to replace your AC system — it's the combination of signs that tells
                 the full story. If your unit is older than 10 years, your bills are rising, repairs are piling up, and your
@@ -150,7 +150,7 @@ export default function WhenToReplaceACPage() {
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Link
                     href="/residential/hvac-installation-tampa-fl"
-                    className="inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-800 transition-colors"
+                    className="inline-flex items-center gap-2 text-[#C8330A] font-semibold hover:text-[#b02c08] transition-colors"
                   >
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -159,7 +159,7 @@ export default function WhenToReplaceACPage() {
                   </Link>
                   <Link
                     href="/residential/hvac-service-tampa"
-                    className="inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-800 transition-colors"
+                    className="inline-flex items-center gap-2 text-[#C8330A] font-semibold hover:text-[#b02c08] transition-colors"
                   >
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -176,17 +176,17 @@ export default function WhenToReplaceACPage() {
             {/* CTA Card */}
             <div className="bg-[#0f1620] text-white rounded-2xl p-7 shadow-lg">
               <h3 className="text-xl font-bold mb-3">Need HVAC Help?</h3>
-              <p className="text-blue-100 text-sm leading-relaxed mb-5">
+              <p className="text-slate-300 text-sm leading-relaxed mb-5">
                 Not sure whether to repair or replace? Our Tampa Bay HVAC experts will give you an honest assessment.
                 No pressure, no upsells.
               </p>
               <a
                 href="tel:8132916146"
-                className="block w-full text-center bg-white text-blue-800 font-bold py-3 rounded-lg hover:bg-blue-50 transition-colors text-lg mb-3"
+                className="block w-full text-center bg-white text-[#0f1620] font-bold py-3 rounded-lg hover:bg-[#C8330A]/5 transition-colors text-lg mb-3"
               >
                 Call (813) 291-6146
               </a>
-              <p className="text-blue-200 text-xs text-center">Same-day service available</p>
+              <p className="text-slate-300 text-xs text-center">Same-day service available</p>
             </div>
 
             {/* Related Posts */}
@@ -194,17 +194,17 @@ export default function WhenToReplaceACPage() {
               <h3 className="text-lg font-bold text-gray-900 mb-4">More HVAC Tips</h3>
               <ul className="space-y-3">
                 <li>
-                  <Link href="/blog/top-signs-hvac-system-needs-repair" className="text-blue-600 hover:text-blue-800 text-sm font-medium leading-snug transition-colors">
+                  <Link href="/blog/top-signs-hvac-system-needs-repair" className="text-[#C8330A] hover:text-[#b02c08] text-sm font-medium leading-snug transition-colors">
                     Top Signs Your HVAC System Needs Repair
                   </Link>
                 </li>
                 <li>
-                  <Link href="/blog/benefits-of-regular-hvac-maintenance-florida" className="text-blue-600 hover:text-blue-800 text-sm font-medium leading-snug transition-colors">
+                  <Link href="/blog/benefits-of-regular-hvac-maintenance-florida" className="text-[#C8330A] hover:text-[#b02c08] text-sm font-medium leading-snug transition-colors">
                     Benefits of Regular HVAC Maintenance in Florida
                   </Link>
                 </li>
                 <li>
-                  <Link href="/blog/best-energy-efficient-ac-systems-florida" className="text-blue-600 hover:text-blue-800 text-sm font-medium leading-snug transition-colors">
+                  <Link href="/blog/best-energy-efficient-ac-systems-florida" className="text-[#C8330A] hover:text-[#b02c08] text-sm font-medium leading-snug transition-colors">
                     Best Energy-Efficient AC Systems for Florida
                   </Link>
                 </li>
@@ -216,17 +216,17 @@ export default function WhenToReplaceACPage() {
               <h3 className="text-lg font-bold text-gray-900 mb-4">Our Services</h3>
               <ul className="space-y-2">
                 <li>
-                  <Link href="/residential/hvac-service-tampa" className="text-gray-700 hover:text-blue-700 text-sm transition-colors">
+                  <Link href="/residential/hvac-service-tampa" className="text-gray-700 hover:text-[#C8330A] text-sm transition-colors">
                     → HVAC Repair &amp; Service
                   </Link>
                 </li>
                 <li>
-                  <Link href="/residential/hvac-installation-tampa-fl" className="text-gray-700 hover:text-blue-700 text-sm transition-colors">
+                  <Link href="/residential/hvac-installation-tampa-fl" className="text-gray-700 hover:text-[#C8330A] text-sm transition-colors">
                     → HVAC Installation &amp; Replacement
                   </Link>
                 </li>
                 <li>
-                  <Link href="/residential" className="text-gray-700 hover:text-blue-700 text-sm transition-colors">
+                  <Link href="/residential" className="text-gray-700 hover:text-[#C8330A] text-sm transition-colors">
                     → All Residential Services
                   </Link>
                 </li>
@@ -237,20 +237,20 @@ export default function WhenToReplaceACPage() {
       </div>
 
       {/* Bottom CTA Banner */}
-      <section className="bg-blue-50 border-y border-blue-100 py-12 px-4">
+      <section className="bg-[#fff6f1] border-y border-[#C8330A]/15 py-12 px-4">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
-            <h2 className="text-2xl font-bold text-gray-900 mb-1">Ready to Replace Your AC?</h2>
+            <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mb-1">Ready to Replace Your AC?</h2>
             <p className="text-gray-600">
               North East Heating And Cooling installs energy-efficient systems across Tampa Bay.{' '}
-              <Link href="/residential/hvac-installation-tampa-fl" className="text-blue-600 font-semibold hover:underline">
+              <Link href="/residential/hvac-installation-tampa-fl" className="text-[#C8330A] font-semibold hover:underline">
                 View installation services →
               </Link>
             </p>
           </div>
           <a
             href="tel:8132916146"
-            className="shrink-0 inline-flex items-center justify-center px-7 py-3 bg-red-700 text-white font-bold rounded-lg hover:bg-[#0f1620] transition-colors text-lg whitespace-nowrap"
+            className="shrink-0 inline-flex items-center justify-center px-7 py-3 bg-[#b02c08] text-white font-bold rounded-lg hover:bg-[#0f1620] transition-colors text-lg whitespace-nowrap"
           >
             Call Now: (813) 291-6146
           </a>

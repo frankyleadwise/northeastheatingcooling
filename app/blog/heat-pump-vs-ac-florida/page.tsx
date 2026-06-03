@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Heat Pump vs. AC in Florida: Which Is Better for Tampa Homes? | North East Heating And Cooling',
+  title: 'Heat Pump vs. AC in Florida: Which Is Better for Tampa Homes?',
   description:
     "Comparing heat pump vs. AC for Tampa Bay homes. Florida's mild winters change the math — here's what actually saves you money long-term, from a Tampa HVAC owner.",
   openGraph: {
@@ -34,13 +34,13 @@ export default function HeatPumpVsAcFloridaPage() {
             <span className="bg-orange-500 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">
               Buying Guide
             </span>
-            <time className="text-blue-200 text-sm">April 29, 2026</time>
+            <time className="text-slate-300 text-sm">April 29, 2026</time>
           </div>
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight mb-5">
+          <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-extrabold leading-[1.05] mb-5 tracking-[-0.03em]">
             Heat Pump vs. AC in Florida: Which Is Better for Tampa Homes?
           </h1>
-          <p className="text-blue-200 text-sm">
-            By <span className="font-semibold text-white">Chris Grullon</span>, <span className="text-blue-200">Owner &amp; EPA 608 Certified HVAC Technician</span> &mdash; North East Heating And Cooling, Tampa Bay, FL
+          <p className="text-slate-300 text-sm">
+            By <span className="font-semibold text-white">Chris Grullon</span>, <span className="text-slate-300">Owner &amp; EPA 608 Certified HVAC Technician</span> &mdash; North East Heating And Cooling, Tampa Bay, FL
           </p>
         </div>
       </header>
@@ -59,7 +59,7 @@ export default function HeatPumpVsAcFloridaPage() {
                 outdoor unit.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">The Key Difference (In Plain English)</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">The Key Difference (In Plain English)</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 A traditional <strong>air conditioner</strong> only does one thing: it removes heat from your
                 home. To heat your home in winter, you need a separate heat source — usually a gas furnace or
@@ -78,7 +78,7 @@ export default function HeatPumpVsAcFloridaPage() {
                 — which is why a heat pump only costs a few hundred dollars more than the equivalent AC.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Why Florida Tilts Toward Heat Pumps</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">Why Florida Tilts Toward Heat Pumps</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Heat pumps shine in mild climates. They struggle in extreme cold (below ~30°F) because there&apos;s
                 less heat in the outdoor air to extract, and the system has to fall back on supplemental
@@ -98,7 +98,7 @@ export default function HeatPumpVsAcFloridaPage() {
                 much lower my electric bill is, and I haven&apos;t missed the gas furnace once.&rdquo;</em>
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">When AC + Furnace Still Makes Sense</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">When AC + Furnace Still Makes Sense</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Heat pumps aren&apos;t always the right call. Here are the situations where I steer Tampa
                 homeowners toward a traditional AC + furnace setup:
@@ -122,7 +122,7 @@ export default function HeatPumpVsAcFloridaPage() {
                 </li>
               </ul>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">The Cost Comparison</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">The Cost Comparison</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 For most Tampa Bay homes (~2,000 sq ft, 3-ton system), here&apos;s roughly what to expect on
                 a full equipment replacement, installed:
@@ -170,7 +170,7 @@ export default function HeatPumpVsAcFloridaPage() {
                 premium variable-speed unit.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Don&apos;t Forget the Tax Credit</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">Don&apos;t Forget the Tax Credit</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
                 The federal Inflation Reduction Act offers a tax credit of up to $2,000 for qualifying
                 high-efficiency heat pumps (typically those with SEER2 16+ and HSPF2 9+ for our region).
@@ -180,7 +180,7 @@ export default function HeatPumpVsAcFloridaPage() {
                 provide the documentation you need at tax time.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">My Honest Recommendation</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">My Honest Recommendation</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 If you&apos;re in Tampa Bay and replacing an aging system, get a heat pump. The math is
                 clear, the technology has matured, and the federal incentives make the upgrade more
@@ -209,7 +209,7 @@ export default function HeatPumpVsAcFloridaPage() {
                 </p>
               </div>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Related Reading</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">Related Reading</h2>
               <div className="space-y-3 mb-4">
                 <Link
                   href="/residential/heat-pump-tampa"
@@ -248,17 +248,17 @@ export default function HeatPumpVsAcFloridaPage() {
           <aside className="lg:w-80 shrink-0 space-y-6">
             <div className="bg-[#0f1620] text-white rounded-2xl p-7 shadow-lg">
               <h3 className="text-xl font-bold mb-3">Considering a Heat Pump?</h3>
-              <p className="text-blue-100 text-sm leading-relaxed mb-5">
+              <p className="text-slate-300 text-sm leading-relaxed mb-5">
                 We&apos;ll do a free in-home assessment, run the load calculation, and quote both heat pump and
                 AC options side-by-side. No pressure.
               </p>
               <a
                 href="tel:8132916146"
-                className="block w-full text-center bg-white text-blue-800 font-bold py-3 rounded-lg hover:bg-blue-50 transition-colors text-lg mb-3"
+                className="block w-full text-center bg-white text-[#0f1620] font-bold py-3 rounded-lg hover:bg-[#C8330A]/5 transition-colors text-lg mb-3"
               >
                 Call (813) 291-6146
               </a>
-              <p className="text-blue-200 text-xs text-center">Free quotes &middot; Same-day appointments</p>
+              <p className="text-slate-300 text-xs text-center">Free quotes &middot; Same-day appointments</p>
             </div>
 
             <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-6">
@@ -314,7 +314,7 @@ export default function HeatPumpVsAcFloridaPage() {
       <section className="bg-orange-50 border-y border-orange-100 py-12 px-4">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
-            <h2 className="text-2xl font-bold text-gray-900 mb-1">Ready for a Heat Pump Quote?</h2>
+            <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mb-1">Ready for a Heat Pump Quote?</h2>
             <p className="text-gray-600">
               Free in-home assessment with side-by-side heat pump and AC pricing.{' '}
               <Link href="/residential/heat-pump-tampa" className="text-orange-700 font-semibold hover:underline">
@@ -324,7 +324,7 @@ export default function HeatPumpVsAcFloridaPage() {
           </div>
           <a
             href="tel:8132916146"
-            className="shrink-0 inline-flex items-center justify-center px-7 py-3 bg-red-700 text-white font-bold rounded-lg hover:bg-[#0f1620] transition-colors text-lg whitespace-nowrap"
+            className="shrink-0 inline-flex items-center justify-center px-7 py-3 bg-[#b02c08] text-white font-bold rounded-lg hover:bg-[#0f1620] transition-colors text-lg whitespace-nowrap"
           >
             Call Now: (813) 291-6146
           </a>

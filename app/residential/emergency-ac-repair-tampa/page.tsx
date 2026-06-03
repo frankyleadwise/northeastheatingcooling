@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: '24/7 Emergency AC Repair Tampa, FL | Same-Day Service | North East Heating And Cooling',
+  title: '24/7 Emergency AC Repair Tampa, FL | Same-Day Service',
   description:
     'Emergency AC repair in Tampa, FL. 24-hour service, same-day repairs, no extra weekend or after-hours fees. Get your AC running tonight. Call (813) 291-6146.',
   keywords: [
@@ -240,26 +240,26 @@ export default function EmergencyACRepairTampaPage() {
           <div className="absolute inset-0 bg-gradient-to-r from-[#0f1620]/80 via-[#0f1620]/60 to-[#0f1620]/40" />
         </div>
         <div className="relative z-10 max-w-5xl mx-auto">
-          <p className="text-orange-300 font-semibold text-sm uppercase tracking-widest mb-3">
+          <p className="text-[0.72rem] font-bold tracking-[0.18em] uppercase mb-4 text-[#F0A06A]">
             Tampa Bay, FL — 24/7 Emergency Service
           </p>
-          <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-5">
+          <h1 className="font-display text-4xl md:text-5xl font-extrabold leading-[1.05] mb-5 tracking-[-0.03em]">
             24/7 Emergency AC Repair in Tampa, FL
           </h1>
-          <p className="text-blue-100 text-lg md:text-xl max-w-3xl mb-8 leading-relaxed">
+          <p className="text-slate-300 text-lg md:text-xl max-w-3xl mb-8 leading-relaxed">
             AC out at midnight in August? Call us. Real humans answer 24/7, dispatch in 60-90 minutes,
             and we don&apos;t charge premium pricing for after-hours or weekends.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
               href="tel:8132916146"
-              className="inline-flex items-center justify-center px-8 py-3.5 bg-white text-blue-800 font-bold text-lg rounded-lg hover:bg-blue-50 transition-colors shadow-lg"
+              className="inline-flex items-center justify-center px-8 py-3.5 bg-white text-[#0f1620] font-bold text-lg rounded-lg hover:bg-[#C8330A]/5 transition-colors shadow-lg"
             >
               Call (813) 291-6146 — 24/7
             </a>
             <Link
               href="/contact"
-              className="inline-flex items-center justify-center px-8 py-3.5 bg-red-600 text-white font-bold text-lg rounded-lg border-2 border-red-400 hover:bg-red-700 transition-colors"
+              className="inline-flex items-center justify-center px-8 py-3.5 bg-[#C8330A] text-white font-bold text-lg rounded-lg border-2 border-[#C8330A]/40 hover:bg-[#b02c08] transition-colors"
             >
               Request Emergency Service
             </Link>
@@ -269,7 +269,7 @@ export default function EmergencyACRepairTampaPage() {
 
       {/* Trust bar */}
       <section className="bg-[#0f1620] text-white py-4 px-4">
-        <div className="max-w-5xl mx-auto flex flex-wrap justify-center md:justify-between gap-x-8 gap-y-2 text-sm font-semibold text-blue-200">
+        <div className="max-w-5xl mx-auto flex flex-wrap justify-center md:justify-between gap-x-8 gap-y-2 text-sm font-semibold text-slate-300">
           <span>✓ 24/7 Live-Answered Calls</span>
           <span>✓ 60-90 Min Dispatch</span>
           <span>✓ No After-Hours Fees</span>
@@ -281,7 +281,7 @@ export default function EmergencyACRepairTampaPage() {
       {/* Why us / urgency framing */}
       <section className="bg-white py-16 px-4">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 mb-5">
+          <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-5 leading-[1.02]">
             When Your AC Goes Down in Tampa, Time Matters
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
@@ -311,7 +311,7 @@ export default function EmergencyACRepairTampaPage() {
                 {responseTimes.map((r) => (
                   <div key={r.area} className="bg-white rounded-lg p-3 border border-gray-100 flex justify-between items-center">
                     <span className="font-bold text-gray-900">{r.area}</span>
-                    <span className="text-red-700 font-semibold">{r.time}</span>
+                    <span className="text-[#b02c08] font-semibold">{r.time}</span>
                   </div>
                 ))}
               </div>
@@ -327,7 +327,7 @@ export default function EmergencyACRepairTampaPage() {
       <section className="bg-gray-50 py-16 px-4">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-3">When to Call for Emergency AC Repair</h2>
+            <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-3 leading-[1.02]">When to Call for Emergency AC Repair</h2>
             <p className="text-gray-600 text-lg max-w-2xl mx-auto">
               Some AC problems can wait until morning. These can&apos;t.
             </p>
@@ -348,7 +348,7 @@ export default function EmergencyACRepairTampaPage() {
       <section className="bg-white py-16 px-4">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-3">Our Emergency AC Repair Services</h2>
+            <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-3 leading-[1.02]">Our Emergency AC Repair Services</h2>
           </div>
           <div className="space-y-8">
             {services.map((service) => (
@@ -375,7 +375,7 @@ export default function EmergencyACRepairTampaPage() {
       {/* FAQs */}
       <section className="bg-gray-50 py-16 px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 mb-10 text-center">Frequently Asked Questions</h2>
+          <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-10 text-center leading-[1.02]">Frequently Asked Questions</h2>
           <div className="space-y-4">
             {faqs.map((faq) => (
               <details
@@ -396,17 +396,17 @@ export default function EmergencyACRepairTampaPage() {
       </section>
 
       {/* Big CTA */}
-      <section className="bg-red-700 text-white py-12 px-4">
+      <section className="bg-[#b02c08] text-white py-12 px-4">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
-            <h2 className="text-2xl md:text-3xl font-bold mb-1">AC Out Right Now? Call Us 24/7.</h2>
-            <p className="text-red-100">
+            <h2 className="font-display tracking-[-0.02em] text-2xl md:text-3xl font-extrabold mb-1">AC Out Right Now? Call Us 24/7.</h2>
+            <p className="text-white/80">
               Real humans answer. No surcharges. Dispatch in 60-90 minutes for most of Tampa Bay.
             </p>
           </div>
           <a
             href="tel:8132916146"
-            className="shrink-0 inline-flex items-center justify-center px-7 py-4 bg-white text-red-700 font-bold rounded-lg hover:bg-red-50 transition-colors text-lg whitespace-nowrap shadow-lg"
+            className="shrink-0 inline-flex items-center justify-center px-7 py-4 bg-white text-[#b02c08] font-bold rounded-lg hover:bg-red-50 transition-colors text-lg whitespace-nowrap shadow-lg"
           >
             Call (813) 291-6146
           </a>

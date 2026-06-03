@@ -100,7 +100,7 @@ function FAQAccordionItem({
         onClick={onToggle}
         className={`w-full flex items-center justify-between gap-4 px-6 py-5 text-left transition-colors duration-150 ${
           isOpen
-            ? "bg-blue-50 text-blue-900"
+            ? "bg-[#fff6f1] text-[#0f1620]"
             : "bg-white text-gray-900 hover:bg-gray-50"
         }`}
         aria-expanded={isOpen}
@@ -109,7 +109,7 @@ function FAQAccordionItem({
       >
         <span className="font-semibold text-base pr-2">{faq.question}</span>
         <span
-          className={`text-blue-600 transition-transform duration-200 ${
+          className={`text-[#C8330A] transition-transform duration-200 ${
             isOpen ? "rotate-180" : "rotate-0"
           }`}
         >
@@ -145,10 +145,10 @@ export default function FAQSection() {
       <div className="max-w-3xl mx-auto">
         {/* Section heading */}
         <div className="text-center mb-12">
-          <span className="inline-block text-blue-600 text-sm font-semibold uppercase tracking-widest mb-3">
+          <span className="inline-block text-[#C8330A] text-sm font-semibold uppercase tracking-widest mb-3">
             FAQ
           </span>
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4">
+          <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-4 leading-[1.02]">
             Frequently Asked Questions
           </h2>
           <p className="text-gray-500 text-lg">
@@ -170,7 +170,7 @@ export default function FAQSection() {
         </div>
 
         {/* Still have questions? */}
-        <div className="mt-12 text-center bg-blue-50 border border-blue-100 rounded-2xl px-6 py-8">
+        <div className="mt-12 text-center bg-[#fff6f1] border border-[#C8330A]/15 rounded-2xl px-6 py-8">
           <h3 className="text-gray-900 font-bold text-lg mb-2">
             Still have questions?
           </h3>
@@ -181,7 +181,7 @@ export default function FAQSection() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
             <a
               href="tel:+18132916146"
-              className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm px-6 py-3 rounded-xl transition-colors shadow-sm"
+              className="inline-flex items-center gap-2 bg-[#C8330A] hover:bg-[#b02c08] text-white font-semibold text-sm px-6 py-3 rounded-xl transition-colors shadow-sm"
             >
               <svg
                 className="w-4 h-4"
@@ -201,7 +201,7 @@ export default function FAQSection() {
             </a>
             <a
               href="mailto:office@northeastheatingcooling.com"
-              className="inline-flex items-center gap-2 bg-white border border-gray-200 hover:border-blue-300 text-gray-700 hover:text-blue-700 font-semibold text-sm px-6 py-3 rounded-xl transition-colors"
+              className="inline-flex items-center gap-2 bg-white border border-gray-200 hover:border-[#C8330A]/30 text-gray-700 hover:text-[#C8330A] font-semibold text-sm px-6 py-3 rounded-xl transition-colors"
             >
               <svg
                 className="w-4 h-4"

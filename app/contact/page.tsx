@@ -33,7 +33,7 @@ const AlertIcon = () => (
 )
 
 const MapPinIcon = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5 text-blue-500 shrink-0 mt-0.5" aria-hidden="true">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5 text-[#C8330A] shrink-0 mt-0.5" aria-hidden="true">
     <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
     <circle cx="12" cy="10" r="3" />
   </svg>
@@ -159,29 +159,29 @@ export default function ContactPage() {
           <div className="absolute inset-0 bg-gradient-to-r from-[#0f1620]/80 via-[#0f1620]/60 to-[#0f1620]/40" />
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-blue-200 font-semibold text-sm uppercase tracking-widest mb-3">
+          <p className="text-[0.72rem] font-bold tracking-[0.18em] uppercase mb-4 text-[#F0A06A]">
             We&apos;re Here to Help
           </p>
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight mb-5">
+          <h1 className="font-display text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-[1.05] mb-5 tracking-[-0.03em]">
             Contact North East Heating And Cooling
           </h1>
-          <p className="text-blue-100 text-lg sm:text-xl max-w-3xl mx-auto leading-relaxed">
+          <p className="text-slate-300 text-lg sm:text-xl max-w-3xl mx-auto leading-relaxed">
             Reach out for fast, friendly service. Whether it&apos;s a repair, installation, or just a question — we&apos;re ready to help.
           </p>
         </div>
       </section>
 
       {/* ── Emergency Callout ─────────────────────────────────────────────── */}
-      <section className="bg-red-600 text-white py-5 px-4">
+      <section className="bg-[#C8330A] text-white py-5 px-4">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-3 text-center sm:text-left">
             <AlertIcon />
             <div>
               <p className="font-extrabold text-lg leading-tight">HVAC Emergency? We&apos;re Available 24/7</p>
-              <p className="text-red-100 text-sm">AC down in the Tampa heat? Don&apos;t wait — call us now for immediate response.</p>
+              <p className="text-white/80 text-sm">AC down in the Tampa heat? Don&apos;t wait — call us now for immediate response.</p>
             </div>
           </div>
-          <a href="tel:8132916146" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-red-600 font-extrabold rounded-xl text-base hover:bg-red-50 transition-colors whitespace-nowrap shadow-md">
+          <a href="tel:8132916146" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-[#C8330A] font-extrabold rounded-xl text-base hover:bg-red-50 transition-colors whitespace-nowrap shadow-md">
             <PhoneIcon />
             (813) 291-6146
           </a>
@@ -192,36 +192,36 @@ export default function ContactPage() {
       <section className="section-padding bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <p className="text-blue-600 font-semibold text-sm uppercase tracking-widest mb-2">Get in Touch</p>
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900">Contact Information</h2>
+            <p className="text-[0.72rem] font-bold tracking-[0.18em] uppercase mb-2 text-[#C8330A]">Get in Touch</p>
+            <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 leading-[1.02]">Contact Information</h2>
           </div>
 
           {/* Info cards row */}
           <div className="grid sm:grid-cols-3 gap-6 mb-16">
             {/* Phone */}
-            <a href="tel:8132916146" className="group flex flex-col items-center text-center p-8 rounded-2xl border-2 border-blue-100 bg-blue-50 hover:border-blue-500 hover:bg-red-600 hover:text-white transition-all shadow-sm">
-              <div className="w-16 h-16 flex items-center justify-center rounded-2xl bg-red-600 group-hover:bg-white text-white group-hover:text-blue-600 mb-4 transition-colors"><PhoneIcon /></div>
-              <p className="text-xs font-bold uppercase tracking-widest text-blue-500 group-hover:text-blue-100 mb-1 transition-colors">Call Us</p>
+            <a href="tel:8132916146" className="group flex flex-col items-center text-center p-8 rounded-2xl border-2 border-[#C8330A]/15 bg-[#fff6f1] hover:border-[#C8330A] hover:bg-[#b02c08] hover:text-white transition-all shadow-sm">
+              <div className="w-16 h-16 flex items-center justify-center rounded-2xl bg-[#C8330A] group-hover:bg-white text-white group-hover:text-[#C8330A] mb-4 transition-colors"><PhoneIcon /></div>
+              <p className="text-xs font-bold uppercase tracking-widest text-[#C8330A] group-hover:text-white mb-1 transition-colors">Call Us</p>
               <p className="text-xl font-extrabold text-gray-900 group-hover:text-white transition-colors">(813) 291-6146</p>
-              <p className="text-sm text-gray-500 group-hover:text-blue-100 mt-1 transition-colors">24/7 Emergency Line</p>
+              <p className="text-sm text-gray-500 group-hover:text-white mt-1 transition-colors">24/7 Emergency Line</p>
             </a>
 
             {/* Email */}
-            <a href="mailto:office@northeastheatingcooling.com" className="group flex flex-col items-center text-center p-8 rounded-2xl border-2 border-blue-100 bg-blue-50 hover:border-blue-500 hover:bg-red-600 hover:text-white transition-all shadow-sm">
-              <div className="w-16 h-16 flex items-center justify-center rounded-2xl bg-red-600 group-hover:bg-white text-white group-hover:text-blue-600 mb-4 transition-colors"><MailIcon /></div>
-              <p className="text-xs font-bold uppercase tracking-widest text-blue-500 group-hover:text-blue-100 mb-1 transition-colors">Email Us</p>
+            <a href="mailto:office@northeastheatingcooling.com" className="group flex flex-col items-center text-center p-8 rounded-2xl border-2 border-[#C8330A]/15 bg-[#fff6f1] hover:border-[#C8330A] hover:bg-[#b02c08] hover:text-white transition-all shadow-sm">
+              <div className="w-16 h-16 flex items-center justify-center rounded-2xl bg-[#C8330A] group-hover:bg-white text-white group-hover:text-[#C8330A] mb-4 transition-colors"><MailIcon /></div>
+              <p className="text-xs font-bold uppercase tracking-widest text-[#C8330A] group-hover:text-white mb-1 transition-colors">Email Us</p>
               <p className="text-base font-extrabold text-gray-900 group-hover:text-white transition-colors break-all">office@northeastheatingcooling.com</p>
-              <p className="text-sm text-gray-500 group-hover:text-blue-100 mt-1 transition-colors">We reply within 1 business day</p>
+              <p className="text-sm text-gray-500 group-hover:text-white mt-1 transition-colors">We reply within 1 business day</p>
             </a>
 
             {/* Hours */}
-            <div className="flex flex-col items-center text-center p-8 rounded-2xl border-2 border-blue-100 bg-blue-50 shadow-sm">
-              <div className="w-16 h-16 flex items-center justify-center rounded-2xl bg-red-600 text-white mb-4"><ClockIcon /></div>
-              <p className="text-xs font-bold uppercase tracking-widest text-blue-500 mb-1">Business Hours</p>
+            <div className="flex flex-col items-center text-center p-8 rounded-2xl border-2 border-[#C8330A]/15 bg-[#fff6f1] shadow-sm">
+              <div className="w-16 h-16 flex items-center justify-center rounded-2xl bg-[#C8330A] text-white mb-4"><ClockIcon /></div>
+              <p className="text-xs font-bold uppercase tracking-widest text-[#C8330A] mb-1">Business Hours</p>
               <div className="space-y-1 text-sm text-gray-700">
                 <p className="font-semibold text-gray-900">Mon – Fri: 7:00 AM – 7:00 PM</p>
                 <p className="font-semibold text-gray-900">Saturday: 8:00 AM – 5:00 PM</p>
-                <p className="font-bold text-red-600">Emergency: 24 / 7 Available</p>
+                <p className="font-bold text-[#C8330A]">Emergency: 24 / 7 Available</p>
               </div>
             </div>
           </div>
@@ -230,7 +230,7 @@ export default function ContactPage() {
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Form */}
             <div className="bg-gray-50 rounded-2xl p-8 border border-gray-200">
-              <h2 className="text-2xl font-extrabold text-gray-900 mb-2">Send Us a Message</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mb-2">Send Us a Message</h2>
               <p className="text-gray-500 text-sm mb-6">Fill out the form and we&apos;ll get back to you shortly.</p>
 
               {submitted ? (
@@ -244,7 +244,7 @@ export default function ContactPage() {
                   <p className="text-gray-500 max-w-xs">Thank you for reaching out. A member of our team will contact you within 1 business day.</p>
                   <p className="text-sm text-gray-400">
                     For immediate help, call{' '}
-                    <a href="tel:8132916146" className="text-blue-600 font-semibold">(813) 291-6146</a>
+                    <a href="tel:8132916146" className="text-[#C8330A] font-semibold">(813) 291-6146</a>
                   </p>
                 </div>
               ) : (
@@ -253,7 +253,7 @@ export default function ContactPage() {
                   <div className="grid sm:grid-cols-2 gap-4">
                     <div>
                       <label htmlFor="firstName" className="block text-sm font-semibold text-gray-700 mb-1.5">
-                        First Name <span className="text-red-500">*</span>
+                        First Name <span className="text-[#C8330A]">*</span>
                       </label>
                       <input
                         id="firstName"
@@ -263,12 +263,12 @@ export default function ContactPage() {
                         value={formData.firstName}
                         onChange={handleChange}
                         placeholder="John"
-                        className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-900 placeholder-gray-400 text-sm bg-white"
+                        className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#C8330A] focus:border-[#C8330A] text-gray-900 placeholder-gray-400 text-sm bg-white"
                       />
                     </div>
                     <div>
                       <label htmlFor="lastName" className="block text-sm font-semibold text-gray-700 mb-1.5">
-                        Last Name <span className="text-red-500">*</span>
+                        Last Name <span className="text-[#C8330A]">*</span>
                       </label>
                       <input
                         id="lastName"
@@ -278,7 +278,7 @@ export default function ContactPage() {
                         value={formData.lastName}
                         onChange={handleChange}
                         placeholder="Smith"
-                        className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-900 placeholder-gray-400 text-sm bg-white"
+                        className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#C8330A] focus:border-[#C8330A] text-gray-900 placeholder-gray-400 text-sm bg-white"
                       />
                     </div>
                   </div>
@@ -287,7 +287,7 @@ export default function ContactPage() {
                   <div className="grid sm:grid-cols-2 gap-4">
                     <div>
                       <label htmlFor="phone" className="block text-sm font-semibold text-gray-700 mb-1.5">
-                        Phone <span className="text-red-500">*</span>
+                        Phone <span className="text-[#C8330A]">*</span>
                       </label>
                       <input
                         id="phone"
@@ -297,12 +297,12 @@ export default function ContactPage() {
                         value={formData.phone}
                         onChange={handleChange}
                         placeholder="(813) 555-0100"
-                        className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-900 placeholder-gray-400 text-sm bg-white"
+                        className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#C8330A] focus:border-[#C8330A] text-gray-900 placeholder-gray-400 text-sm bg-white"
                       />
                     </div>
                     <div>
                       <label htmlFor="email" className="block text-sm font-semibold text-gray-700 mb-1.5">
-                        Email <span className="text-red-500">*</span>
+                        Email <span className="text-[#C8330A]">*</span>
                       </label>
                       <input
                         id="email"
@@ -312,7 +312,7 @@ export default function ContactPage() {
                         value={formData.email}
                         onChange={handleChange}
                         placeholder="john@email.com"
-                        className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-900 placeholder-gray-400 text-sm bg-white"
+                        className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#C8330A] focus:border-[#C8330A] text-gray-900 placeholder-gray-400 text-sm bg-white"
                       />
                     </div>
                   </div>
@@ -320,7 +320,7 @@ export default function ContactPage() {
                   {/* Service Type */}
                   <div>
                     <label htmlFor="serviceType" className="block text-sm font-semibold text-gray-700 mb-1.5">
-                      Service Type <span className="text-red-500">*</span>
+                      Service Type <span className="text-[#C8330A]">*</span>
                     </label>
                     <select
                       id="serviceType"
@@ -328,7 +328,7 @@ export default function ContactPage() {
                       required
                       value={formData.serviceType}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-900 text-sm bg-white"
+                      className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#C8330A] focus:border-[#C8330A] text-gray-900 text-sm bg-white"
                     >
                       <option value="">Select a service…</option>
                       {serviceTypes.map((s) => (
@@ -349,7 +349,7 @@ export default function ContactPage() {
                             value={method}
                             checked={formData.contactMethod === method}
                             onChange={handleChange}
-                            className="w-4 h-4 text-blue-600 border-gray-300 focus:ring-blue-500"
+                            className="w-4 h-4 text-[#C8330A] border-gray-300 focus:ring-[#C8330A]"
                           />
                           <span className="text-sm text-gray-700">{method}</span>
                         </label>
@@ -369,7 +369,7 @@ export default function ContactPage() {
                       value={formData.message}
                       onChange={handleChange}
                       placeholder="Describe your HVAC issue or what you need…"
-                      className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-900 placeholder-gray-400 text-sm bg-white resize-none"
+                      className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#C8330A] focus:border-[#C8330A] text-gray-900 placeholder-gray-400 text-sm bg-white resize-none"
                     />
                   </div>
 
@@ -390,7 +390,7 @@ export default function ContactPage() {
                   <button
                     type="submit"
                     disabled={submitting}
-                    className="w-full py-3.5 px-6 bg-red-600 hover:bg-red-700 disabled:bg-blue-400 text-white font-extrabold rounded-xl transition-colors shadow-sm text-base"
+                    className="w-full py-3.5 px-6 bg-[#C8330A] hover:bg-[#b02c08] disabled:bg-slate-400 text-white font-extrabold rounded-xl transition-colors shadow-sm text-base"
                   >
                     {submitting ? 'Sending…' : 'Send Message'}
                   </button>
@@ -405,7 +405,7 @@ export default function ContactPage() {
             <div className="flex flex-col gap-8">
               {/* Google Maps embed */}
               <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm">
-                <div className="bg-blue-50 px-5 py-3 border-b border-gray-200 flex items-center justify-between">
+                <div className="bg-[#fff6f1] px-5 py-3 border-b border-gray-200 flex items-center justify-between">
                   <div>
                     <p className="font-bold text-gray-800 text-sm">North East Heating And Cooling</p>
                     <p className="text-gray-500 text-xs">12831 Buffalo Run Dr, Gibsonton, FL 33534</p>
@@ -414,7 +414,7 @@ export default function ContactPage() {
                     href="https://www.google.com/maps/place/North+East+Heating+And+Cooling/@27.8027777,-82.3512035,17z/data=!4m6!3m5!1s0x2003b66f381708c5:0xb21d6d85ffd57b3c!8m2!3d27.8027777!4d-82.3512035!16s%2Fg%2F11ldsk9rrj"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-xs font-semibold text-blue-700 hover:text-blue-900 underline whitespace-nowrap"
+                    className="text-xs font-semibold text-[#C8330A] hover:text-[#0f1620] underline whitespace-nowrap"
                   >
                     Open in Maps ↗
                   </a>
@@ -444,7 +444,7 @@ export default function ContactPage() {
                 </ul>
                 <p className="text-xs text-gray-400 mt-4">
                   Don&apos;t see your city?{' '}
-                  <a href="tel:8132916146" className="text-blue-600 font-semibold hover:underline">Call us</a>{' '}
+                  <a href="tel:8132916146" className="text-[#C8330A] font-semibold hover:underline">Call us</a>{' '}
                   — we may still be able to help.
                 </p>
               </div>

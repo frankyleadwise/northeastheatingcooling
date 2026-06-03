@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Ductless Mini-Split vs. Central AC: Which Is Right for Your Tampa Home? | North East Heating And Cooling',
+  title: 'Ductless Mini-Split vs. Central AC: Which Is Right for Your Tampa Home?',
   description:
     "Comparing ductless mini-splits and central AC for Tampa Bay homes. Cost, efficiency, comfort, and the situations where each one is the smarter choice.",
   openGraph: {
@@ -33,13 +33,13 @@ export default function DuctlessVsCentralAcPage() {
             <span className="bg-orange-500 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">
               Buying Guide
             </span>
-            <time className="text-blue-200 text-sm">April 29, 2026</time>
+            <time className="text-slate-300 text-sm">April 29, 2026</time>
           </div>
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight mb-5">
+          <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-extrabold leading-[1.05] mb-5 tracking-[-0.03em]">
             Ductless Mini-Split vs. Central AC: Which Is Right for Your Tampa Home?
           </h1>
-          <p className="text-blue-200 text-sm">
-            By <span className="font-semibold text-white">Chris Grullon</span>, <span className="text-blue-200">Owner &amp; EPA 608 Certified HVAC Technician</span> &mdash; North East Heating And Cooling, Tampa Bay, FL
+          <p className="text-slate-300 text-sm">
+            By <span className="font-semibold text-white">Chris Grullon</span>, <span className="text-slate-300">Owner &amp; EPA 608 Certified HVAC Technician</span> &mdash; North East Heating And Cooling, Tampa Bay, FL
           </p>
         </div>
       </header>
@@ -57,7 +57,7 @@ export default function DuctlessVsCentralAcPage() {
                 figure out which is right for <em>your</em> home.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Quick Decision Guide</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">Quick Decision Guide</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Before we dive into the details, here&apos;s the short answer for the situations I see most
                 often in Tampa Bay:
@@ -70,7 +70,7 @@ export default function DuctlessVsCentralAcPage() {
                 <li><strong>Older home with leaky attic ducts you don&apos;t want to replace:</strong> Mini-split system gets you out of the duct loss problem entirely.</li>
               </ul>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">How They Actually Differ</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">How They Actually Differ</h2>
 
               <h3 className="text-xl font-bold text-gray-900 mt-6 mb-3">Central AC</h3>
               <p className="text-gray-700 leading-relaxed mb-4">
@@ -88,7 +88,7 @@ export default function DuctlessVsCentralAcPage() {
                 thermostat and remote. You can run only the rooms you&apos;re using, at the temperature you want.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Cost Comparison</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">Cost Comparison</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 For a typical 2,000 sq ft Tampa home, here&apos;s roughly what each option costs fully installed:
               </p>
@@ -130,7 +130,7 @@ export default function DuctlessVsCentralAcPage() {
                 paying for every month.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Comfort and Humidity Differences</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">Comfort and Humidity Differences</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 In Tampa, humidity matters as much as temperature. A house at 75°F with 60% humidity feels
                 worse than the same house at 78°F with 45% humidity. Both systems can manage humidity well
@@ -151,7 +151,7 @@ export default function DuctlessVsCentralAcPage() {
                 ducted system where the air handler is in the attic.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Aesthetics and Practical Considerations</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">Aesthetics and Practical Considerations</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Central AC is hidden — vents in the ceiling and a thermostat on the wall, that&apos;s it.
                 Most homeowners barely notice the system exists.
@@ -171,7 +171,7 @@ export default function DuctlessVsCentralAcPage() {
                 mini-splits in multiple rooms mean multiple outdoor units, which gets crowded fast.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">When Mini-Split Wins</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">When Mini-Split Wins</h2>
               <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-6">
                 <li><strong>No existing ducts.</strong> If you have to install ductwork from scratch, the cost difference closes fast — and you avoid permanent duct losses.</li>
                 <li><strong>Adding a room.</strong> Extending existing ducts to an addition is messy and inefficient. Mini-splits are purpose-built for this.</li>
@@ -180,7 +180,7 @@ export default function DuctlessVsCentralAcPage() {
                 <li><strong>Maximum efficiency.</strong> The highest-efficiency cooling systems on the market today are mini-splits, often hitting 25+ SEER2.</li>
               </ul>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">When Central AC Wins</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">When Central AC Wins</h2>
               <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-6">
                 <li><strong>Existing ductwork in good condition.</strong> Don&apos;t throw away working infrastructure. Just replace the equipment.</li>
                 <li><strong>Lowest installed cost.</strong> Central AC is usually cheaper per ton of capacity if ducts are already there.</li>
@@ -189,7 +189,7 @@ export default function DuctlessVsCentralAcPage() {
                 <li><strong>Resale familiarity.</strong> Buyers in Tampa are universally familiar with central AC. Mini-splits are catching on but are still occasionally seen as &ldquo;different&rdquo; in the resale market.</li>
               </ul>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">A Hybrid Approach</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">A Hybrid Approach</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
                 One option homeowners often miss: keep your central AC and add a mini-split for one specific
                 problem area. Maybe your master bedroom is always 5°F warmer than the rest of the house
@@ -210,7 +210,7 @@ export default function DuctlessVsCentralAcPage() {
                 </p>
               </div>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Related Reading</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">Related Reading</h2>
               <div className="space-y-3">
                 <Link
                   href="/residential/ductless-mini-split-tampa"
@@ -248,16 +248,16 @@ export default function DuctlessVsCentralAcPage() {
           <aside className="lg:w-80 shrink-0 space-y-6">
             <div className="bg-[#0f1620] text-white rounded-2xl p-7 shadow-lg">
               <h3 className="text-xl font-bold mb-3">Considering a Mini-Split?</h3>
-              <p className="text-blue-100 text-sm leading-relaxed mb-5">
+              <p className="text-slate-300 text-sm leading-relaxed mb-5">
                 Free in-home assessment with a side-by-side comparison of central AC and mini-split options for your specific home.
               </p>
               <a
                 href="tel:8132916146"
-                className="block w-full text-center bg-white text-blue-800 font-bold py-3 rounded-lg hover:bg-blue-50 transition-colors text-lg mb-3"
+                className="block w-full text-center bg-white text-[#0f1620] font-bold py-3 rounded-lg hover:bg-[#C8330A]/5 transition-colors text-lg mb-3"
               >
                 Call (813) 291-6146
               </a>
-              <p className="text-blue-200 text-xs text-center">Free quotes &middot; Same-day appointments</p>
+              <p className="text-slate-300 text-xs text-center">Free quotes &middot; Same-day appointments</p>
             </div>
 
             <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-6">
@@ -313,7 +313,7 @@ export default function DuctlessVsCentralAcPage() {
       <section className="bg-orange-50 border-y border-orange-100 py-12 px-4">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
-            <h2 className="text-2xl font-bold text-gray-900 mb-1">Ready to Compare Quotes?</h2>
+            <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mb-1">Ready to Compare Quotes?</h2>
             <p className="text-gray-600">
               Free in-home assessment with side-by-side pricing on both options.{' '}
               <Link href="/contact" className="text-orange-700 font-semibold hover:underline">
@@ -323,7 +323,7 @@ export default function DuctlessVsCentralAcPage() {
           </div>
           <a
             href="tel:8132916146"
-            className="shrink-0 inline-flex items-center justify-center px-7 py-3 bg-red-700 text-white font-bold rounded-lg hover:bg-[#0f1620] transition-colors text-lg whitespace-nowrap"
+            className="shrink-0 inline-flex items-center justify-center px-7 py-3 bg-[#b02c08] text-white font-bold rounded-lg hover:bg-[#0f1620] transition-colors text-lg whitespace-nowrap"
           >
             Call Now: (813) 291-6146
           </a>

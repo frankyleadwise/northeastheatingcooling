@@ -146,8 +146,13 @@ export default function ReviewsPage() {
               Verified Google Reviews
             </div>
 
-            <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 tracking-tight" style={{ color: 'var(--text)' }}>
-              What Tampa Bay Homeowners Are Saying
+            <h1 className="mb-4">
+              <span className="block font-display text-4xl sm:text-5xl font-extrabold tracking-[-0.03em]" style={{ color: 'var(--text)' }}>
+                What Tampa Bay Homeowners Are Saying
+              </span>
+              <span className="mt-4 block text-lg sm:text-xl font-bold tracking-tight" style={{ color: 'var(--text)' }}>
+                5.0-Star Customer Reviews Across Tampa Bay
+              </span>
             </h1>
             <p className="text-lg mb-8" style={{ color: 'var(--muted)' }}>
               Don&apos;t take our word for it — read real reviews from real customers across Tampa Bay.
@@ -230,7 +235,7 @@ export default function ReviewsPage() {
             {/* CTA */}
             <div className="mt-16 text-center rounded-2xl px-8 py-12"
               style={{ background: 'var(--surface)', border: '1px solid var(--border)' }}>
-              <h2 className="text-2xl sm:text-3xl font-bold mb-3" style={{ color: 'var(--text)' }}>
+              <h2 className="font-display tracking-[-0.02em] text-2xl sm:text-3xl font-extrabold mb-3" style={{ color: 'var(--text)' }}>
                 Ready to Experience 5-Star HVAC Service?
               </h2>
               <p className="mb-8 max-w-xl mx-auto" style={{ color: 'var(--muted)' }}>

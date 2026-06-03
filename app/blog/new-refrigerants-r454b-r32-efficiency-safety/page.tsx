@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'R454B and R32 Refrigerants: Efficiency & Leak Safety Guide | North East Heating And Cooling',
+  title: 'R454B and R32 Refrigerants: Efficiency & Leak Safety Guide',
   description:
     'Everything Tampa Bay homeowners need to know about new R454B and R32 refrigerants — energy efficiency gains, leak safety risks, and what the phase-out of R-410A means for your AC system.',
   openGraph: {
@@ -35,13 +35,13 @@ export default function NewRefrigerantsR454BR32Page() {
             <span className="bg-teal-500 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">
               Refrigerants
             </span>
-            <time className="text-blue-200 text-sm">March 23, 2026</time>
+            <time className="text-slate-300 text-sm">March 23, 2026</time>
           </div>
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight mb-5">
+          <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-extrabold leading-[1.05] mb-5 tracking-[-0.03em]">
             R454B and R32: What Tampa Bay Homeowners Need to Know About the New Refrigerants
           </h1>
-          <p className="text-blue-200 text-sm">
-            By <span className="font-semibold text-white">Chris Grullon</span>, <span className="text-blue-200">Owner &amp; EPA 608 Certified HVAC Technician</span> &mdash; North East Heating And Cooling, Tampa Bay, FL
+          <p className="text-slate-300 text-sm">
+            By <span className="font-semibold text-white">Chris Grullon</span>, <span className="text-slate-300">Owner &amp; EPA 608 Certified HVAC Technician</span> &mdash; North East Heating And Cooling, Tampa Bay, FL
           </p>
         </div>
       </header>
@@ -63,7 +63,7 @@ export default function NewRefrigerantsR454BR32Page() {
               </p>
 
               {/* Why the switch */}
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Why Are We Switching Refrigerants?</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">Why Are We Switching Refrigerants?</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 The driving force behind the change is environmental regulation. R-410A, while it replaced the
                 ozone-depleting R-22, has a very high <strong>Global Warming Potential (GWP)</strong> — roughly 2,088
@@ -79,7 +79,7 @@ export default function NewRefrigerantsR454BR32Page() {
               </p>
 
               {/* Efficiency section */}
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Efficiency: Are R454B and R32 Better?</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">Efficiency: Are R454B and R32 Better?</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 The good news for homeowners is that both new refrigerants offer genuine efficiency improvements
                 over R-410A, which translates to lower electricity bills.
@@ -106,19 +106,19 @@ export default function NewRefrigerantsR454BR32Page() {
                 which lowers both material costs and environmental risk if a leak occurs.
               </p>
 
-              <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 my-8">
-                <h4 className="text-lg font-bold text-blue-900 mb-3">Quick Comparison: Refrigerant at a Glance</h4>
+              <div className="bg-[#fff6f1] border border-slate-200 rounded-xl p-6 my-8">
+                <h4 className="text-lg font-bold text-[#0f1620] mb-3">Quick Comparison: Refrigerant at a Glance</h4>
                 <div className="overflow-x-auto">
                   <table className="w-full text-sm text-gray-700">
                     <thead>
-                      <tr className="border-b border-blue-200">
-                        <th className="text-left py-2 pr-4 font-semibold text-blue-900">Refrigerant</th>
-                        <th className="text-left py-2 pr-4 font-semibold text-blue-900">GWP</th>
-                        <th className="text-left py-2 pr-4 font-semibold text-blue-900">Flammability</th>
-                        <th className="text-left py-2 font-semibold text-blue-900">Efficiency vs. R-410A</th>
+                      <tr className="border-b border-slate-200">
+                        <th className="text-left py-2 pr-4 font-semibold text-[#0f1620]">Refrigerant</th>
+                        <th className="text-left py-2 pr-4 font-semibold text-[#0f1620]">GWP</th>
+                        <th className="text-left py-2 pr-4 font-semibold text-[#0f1620]">Flammability</th>
+                        <th className="text-left py-2 font-semibold text-[#0f1620]">Efficiency vs. R-410A</th>
                       </tr>
                     </thead>
-                    <tbody className="divide-y divide-blue-100">
+                    <tbody className="divide-y divide-slate-200">
                       <tr>
                         <td className="py-2 pr-4 font-medium">R-410A</td>
                         <td className="py-2 pr-4">2,088</td>
@@ -143,7 +143,7 @@ export default function NewRefrigerantsR454BR32Page() {
               </div>
 
               {/* Leak Safety */}
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Leak Safety: What You Need to Know</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">Leak Safety: What You Need to Know</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 This is the topic that generates the most questions — and sometimes alarm — among homeowners. Both
                 R454B and R32 are classified as <strong>A2L (mildly flammable)</strong>. Before you panic, it&apos;s
@@ -229,7 +229,7 @@ export default function NewRefrigerantsR454BR32Page() {
               </div>
 
               {/* Impact on existing systems */}
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">What This Means for Your Existing R-410A System</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">What This Means for Your Existing R-410A System</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 If your current AC system uses R-410A, you don&apos;t need to do anything right now. R-410A is not
                 banned for use in existing equipment — only the manufacture of new R-410A equipment is being phased
@@ -254,7 +254,7 @@ export default function NewRefrigerantsR454BR32Page() {
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Link
                     href="/residential/hvac-installation-tampa-fl"
-                    className="inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-800 transition-colors"
+                    className="inline-flex items-center gap-2 text-[#C8330A] font-semibold hover:text-[#b02c08] transition-colors"
                   >
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -263,7 +263,7 @@ export default function NewRefrigerantsR454BR32Page() {
                   </Link>
                   <Link
                     href="/residential/hvac-service-tampa"
-                    className="inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-800 transition-colors"
+                    className="inline-flex items-center gap-2 text-[#C8330A] font-semibold hover:text-[#b02c08] transition-colors"
                   >
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -280,17 +280,17 @@ export default function NewRefrigerantsR454BR32Page() {
             {/* CTA Card */}
             <div className="bg-[#0f1620] text-white rounded-2xl p-7 shadow-lg">
               <h3 className="text-xl font-bold mb-3">Questions About New Refrigerants?</h3>
-              <p className="text-blue-100 text-sm leading-relaxed mb-5">
+              <p className="text-slate-300 text-sm leading-relaxed mb-5">
                 Our certified technicians can assess your current system, advise on replacement options,
                 and safely handle R454B and R32 refrigerants. Call us today.
               </p>
               <a
                 href="tel:8132916146"
-                className="block w-full text-center bg-white text-blue-800 font-bold py-3 rounded-lg hover:bg-blue-50 transition-colors text-lg mb-3"
+                className="block w-full text-center bg-white text-[#0f1620] font-bold py-3 rounded-lg hover:bg-[#C8330A]/5 transition-colors text-lg mb-3"
               >
                 Call (813) 291-6146
               </a>
-              <p className="text-blue-200 text-xs text-center">Free in-home consultations available</p>
+              <p className="text-slate-300 text-xs text-center">Free in-home consultations available</p>
             </div>
 
             {/* Key Facts */}
@@ -321,17 +321,17 @@ export default function NewRefrigerantsR454BR32Page() {
               <h3 className="text-lg font-bold text-gray-900 mb-4">More HVAC Tips</h3>
               <ul className="space-y-3">
                 <li>
-                  <Link href="/blog/best-energy-efficient-ac-systems-florida" className="text-blue-600 hover:text-blue-800 text-sm font-medium leading-snug transition-colors">
+                  <Link href="/blog/best-energy-efficient-ac-systems-florida" className="text-[#C8330A] hover:text-[#b02c08] text-sm font-medium leading-snug transition-colors">
                     Best Energy-Efficient AC Systems for Florida Homeowners
                   </Link>
                 </li>
                 <li>
-                  <Link href="/blog/when-to-replace-your-ac-unit-florida" className="text-blue-600 hover:text-blue-800 text-sm font-medium leading-snug transition-colors">
+                  <Link href="/blog/when-to-replace-your-ac-unit-florida" className="text-[#C8330A] hover:text-[#b02c08] text-sm font-medium leading-snug transition-colors">
                     How to Know When to Replace Your AC Unit in Florida
                   </Link>
                 </li>
                 <li>
-                  <Link href="/blog/benefits-of-regular-hvac-maintenance-florida" className="text-blue-600 hover:text-blue-800 text-sm font-medium leading-snug transition-colors">
+                  <Link href="/blog/benefits-of-regular-hvac-maintenance-florida" className="text-[#C8330A] hover:text-[#b02c08] text-sm font-medium leading-snug transition-colors">
                     Benefits of Regular HVAC Maintenance in Florida
                   </Link>
                 </li>
@@ -343,17 +343,17 @@ export default function NewRefrigerantsR454BR32Page() {
               <h3 className="text-lg font-bold text-gray-900 mb-4">Our Services</h3>
               <ul className="space-y-2">
                 <li>
-                  <Link href="/residential/hvac-installation-tampa-fl" className="text-gray-700 hover:text-blue-700 text-sm transition-colors">
+                  <Link href="/residential/hvac-installation-tampa-fl" className="text-gray-700 hover:text-[#C8330A] text-sm transition-colors">
                     → HVAC Installation &amp; Replacement
                   </Link>
                 </li>
                 <li>
-                  <Link href="/residential/hvac-service-tampa" className="text-gray-700 hover:text-blue-700 text-sm transition-colors">
+                  <Link href="/residential/hvac-service-tampa" className="text-gray-700 hover:text-[#C8330A] text-sm transition-colors">
                     → HVAC Repair &amp; Service
                   </Link>
                 </li>
                 <li>
-                  <Link href="/residential" className="text-gray-700 hover:text-blue-700 text-sm transition-colors">
+                  <Link href="/residential" className="text-gray-700 hover:text-[#C8330A] text-sm transition-colors">
                     → All Residential Services
                   </Link>
                 </li>
@@ -364,20 +364,20 @@ export default function NewRefrigerantsR454BR32Page() {
       </div>
 
       {/* Bottom CTA Banner */}
-      <section className="bg-blue-50 border-y border-blue-100 py-12 px-4">
+      <section className="bg-[#fff6f1] border-y border-[#C8330A]/15 py-12 px-4">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
-            <h2 className="text-2xl font-bold text-gray-900 mb-1">Ready to Upgrade to a New Refrigerant System?</h2>
+            <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mb-1">Ready to Upgrade to a New Refrigerant System?</h2>
             <p className="text-gray-600">
               North East Heating And Cooling installs R454B and R32 systems across Tampa Bay.{' '}
-              <Link href="/residential/hvac-installation-tampa-fl" className="text-blue-600 font-semibold hover:underline">
+              <Link href="/residential/hvac-installation-tampa-fl" className="text-[#C8330A] font-semibold hover:underline">
                 View installation services →
               </Link>
             </p>
           </div>
           <a
             href="tel:8132916146"
-            className="shrink-0 inline-flex items-center justify-center px-7 py-3 bg-red-700 text-white font-bold rounded-lg hover:bg-[#0f1620] transition-colors text-lg whitespace-nowrap"
+            className="shrink-0 inline-flex items-center justify-center px-7 py-3 bg-[#b02c08] text-white font-bold rounded-lg hover:bg-[#0f1620] transition-colors text-lg whitespace-nowrap"
           >
             Call Now: (813) 291-6146
           </a>

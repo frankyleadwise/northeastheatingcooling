@@ -38,7 +38,7 @@ const StarIcon = ({ filled }: { filled: boolean }) => (
 
 const QuoteIcon = () => (
   <svg
-    className="w-8 h-8 text-blue-200"
+    className="w-8 h-8 text-slate-300"
     fill="currentColor"
     viewBox="0 0 24 24"
     aria-hidden="true"
@@ -79,14 +79,14 @@ export default function TestimonialsSection() {
       <div className="max-w-6xl mx-auto">
         {/* Section heading */}
         <div className="text-center mb-12">
-          <span className="inline-block text-blue-600 text-sm font-semibold uppercase tracking-widest mb-3">
+          <span className="inline-block text-[#C8330A] text-sm font-semibold uppercase tracking-widest mb-3">
             Customer Reviews
           </span>
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4">
+          <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-4 leading-[1.02]">
             What Our Customers Are Saying
           </h2>
           {/* Aggregate rating */}
-          <div className="inline-flex items-center gap-3 bg-blue-50 border border-blue-100 rounded-full px-5 py-2.5">
+          <div className="inline-flex items-center gap-3 bg-[#fff6f1] border border-[#C8330A]/15 rounded-full px-5 py-2.5">
             <div className="flex items-center gap-0.5">
               {[1, 2, 3, 4, 5].map((i) => (
                 <StarIcon key={i} filled={true} />
@@ -109,7 +109,7 @@ export default function TestimonialsSection() {
               className="relative bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow duration-200 flex flex-col overflow-hidden"
             >
               {/* Blue accent bar at top */}
-              <div className="h-1.5 bg-gradient-to-r from-blue-600 to-blue-400 w-full" />
+              <div className="h-1.5 bg-gradient-to-r from-[#C8330A] to-[#F47438] w-full" />
 
               <div className="flex flex-col flex-1 p-6">
                 {/* Quote icon */}
@@ -144,7 +144,7 @@ export default function TestimonialsSection() {
                       {testimonial.location}
                     </p>
                   </div>
-                  <span className="inline-block bg-blue-50 text-blue-700 text-xs font-medium px-2.5 py-1 rounded-full border border-blue-100">
+                  <span className="inline-block bg-[#fff6f1] text-[#C8330A] text-xs font-medium px-2.5 py-1 rounded-full border border-[#C8330A]/15">
                     {testimonial.service}
                   </span>
                 </div>
@@ -159,7 +159,7 @@ export default function TestimonialsSection() {
             href="https://www.google.com/maps/place/North+East+Heating+And+Cooling/@27.8027777,-82.3512035,17z/data=!4m6!3m5!1s0x2003b66f381708c5:0xb21d6d85ffd57b3c!8m2!3d27.8027777!4d-82.3512035!16s%2Fg%2F11ldsk9rrj"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 text-blue-600 font-semibold text-sm hover:text-blue-800 transition-colors"
+            className="inline-flex items-center gap-2 text-[#C8330A] font-semibold text-sm hover:text-[#b02c08] transition-colors"
           >
             <GoogleIcon />
             Read all 30 of our Google reviews

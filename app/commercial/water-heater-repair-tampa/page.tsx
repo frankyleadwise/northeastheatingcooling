@@ -169,13 +169,13 @@ export default function CommercialWaterHeaterRepairPage() {
           <div className="absolute inset-0 bg-gradient-to-r from-[#0f1620]/80 via-[#0f1620]/60 to-[#0f1620]/40" />
         </div>
         <div className="relative z-10 max-w-5xl mx-auto">
-          <p className="text-blue-300 text-sm font-semibold uppercase tracking-widest mb-3">
+          <p className="text-[0.72rem] font-bold tracking-[0.18em] uppercase mb-4 text-[#F0A06A]">
             Commercial Water Heating — Tampa Bay, FL
           </p>
-          <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-5 max-w-3xl">
+          <h1 className="font-display text-4xl md:text-5xl font-extrabold leading-[1.05] mb-5 max-w-3xl tracking-[-0.03em]">
             Commercial Water Heater Repair &amp; Replacement in Tampa, FL
           </h1>
-          <p className="text-blue-100 text-lg md:text-xl max-w-3xl mb-8 leading-relaxed">
+          <p className="text-slate-300 text-lg md:text-xl max-w-3xl mb-8 leading-relaxed">
             North East Heating And Cooling provides expert commercial water heater repair and replacement
             throughout Tampa Bay — from tank and tankless systems for small businesses to central
             hot water plants for hotels, restaurants, and large commercial properties.
@@ -189,7 +189,7 @@ export default function CommercialWaterHeaterRepairPage() {
             </a>
             <a
               href="#contact"
-              className="inline-block bg-white hover:bg-blue-50 text-blue-900 font-bold py-4 px-8 rounded-lg text-lg transition-colors"
+              className="inline-block bg-white hover:bg-[#C8330A]/5 text-[#0f1620] font-bold py-4 px-8 rounded-lg text-lg transition-colors"
             >
               Request Service
             </a>
@@ -212,7 +212,7 @@ export default function CommercialWaterHeaterRepairPage() {
       <section className="bg-white py-16 px-4">
         <div className="max-w-5xl mx-auto">
           <div className="max-w-3xl">
-            <h2 className="text-3xl font-bold text-gray-900 mb-5">
+            <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-5 leading-[1.02]">
               Commercial Hot Water You Can Count On
             </h2>
             <p className="text-gray-600 text-lg leading-relaxed mb-4">
@@ -242,7 +242,7 @@ export default function CommercialWaterHeaterRepairPage() {
       <section className="bg-gray-50 py-16 px-4">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-3">
+            <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-3 leading-[1.02]">
               Commercial Water Heater Systems We Service
             </h2>
             <p className="text-gray-600 text-lg max-w-2xl mx-auto">
@@ -253,7 +253,7 @@ export default function CommercialWaterHeaterRepairPage() {
           <div className="space-y-5">
             {systemTypes.map((system) => (
               <div key={system.title} className="bg-white rounded-xl p-6 border border-gray-200 shadow-sm">
-                <h3 className="text-lg font-bold text-blue-900 mb-3">{system.title}</h3>
+                <h3 className="text-lg font-bold text-[#0f1620] mb-3">{system.title}</h3>
                 <p className="text-gray-600 text-sm leading-relaxed">{system.detail}</p>
               </div>
             ))}
@@ -265,8 +265,8 @@ export default function CommercialWaterHeaterRepairPage() {
       <section className="bg-[#0f1620] text-white py-16 px-4">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-10">
-            <h2 className="text-3xl font-bold mb-3">Commercial Water Heater Repairs We Perform</h2>
-            <p className="text-blue-200 max-w-2xl mx-auto">
+            <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold mb-3 leading-[1.02]">Commercial Water Heater Repairs We Perform</h2>
+            <p className="text-slate-300 max-w-2xl mx-auto">
               From quick component swaps to complex heat exchanger service, our technicians are
               equipped to handle commercial water heater repairs of all types.
             </p>
@@ -286,7 +286,7 @@ export default function CommercialWaterHeaterRepairPage() {
       <section className="bg-white py-16 px-4">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-3">
+            <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-3 leading-[1.02]">
               Industries We Serve Across Tampa Bay
             </h2>
             <p className="text-gray-600 text-lg max-w-2xl mx-auto">
@@ -309,7 +309,7 @@ export default function CommercialWaterHeaterRepairPage() {
       <section className="bg-gray-50 py-16 px-4">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-3">
+            <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-3 leading-[1.02]">
               Commercial Water Heating in Tampa Bay: What You Need to Know
             </h2>
             <p className="text-gray-600 text-lg max-w-2xl mx-auto">
@@ -320,7 +320,7 @@ export default function CommercialWaterHeaterRepairPage() {
           <div className="grid md:grid-cols-2 gap-6">
             {floridaFactors.map((factor) => (
               <div key={factor.title} className="bg-white rounded-xl p-6 border border-gray-200">
-                <h3 className="text-lg font-bold text-blue-900 mb-3">{factor.title}</h3>
+                <h3 className="text-lg font-bold text-[#0f1620] mb-3">{factor.title}</h3>
                 <p className="text-gray-600 text-sm leading-relaxed">{factor.detail}</p>
               </div>
             ))}
@@ -331,7 +331,7 @@ export default function CommercialWaterHeaterRepairPage() {
       {/* FAQ */}
       <section className="bg-white py-16 px-4">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 mb-10 text-center">
+          <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-10 text-center leading-[1.02]">
             Frequently Asked Questions
           </h2>
           <div className="space-y-6">
@@ -346,16 +346,16 @@ export default function CommercialWaterHeaterRepairPage() {
       </section>
 
       {/* Service Area */}
-      <section className="bg-blue-50 border-y border-blue-100 py-12 px-4">
+      <section className="bg-[#fff6f1] border-y border-[#C8330A]/15 py-12 px-4">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
-            <h2 className="text-2xl font-bold text-gray-900 mb-2">
+            <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mb-2">
               Commercial Water Heater Service Throughout Tampa Bay
             </h2>
             <p className="text-gray-600 max-w-2xl">
               We repair and replace commercial water heaters in Tampa, St. Petersburg, Clearwater,
               Brandon, Riverview, Wesley Chapel, Lutz, and all surrounding communities.{' '}
-              <Link href="/service-areas" className="text-blue-700 font-semibold hover:underline">
+              <Link href="/service-areas" className="text-[#C8330A] font-semibold hover:underline">
                 View all service areas →
               </Link>
             </p>
@@ -374,10 +374,10 @@ export default function CommercialWaterHeaterRepairPage() {
         <div className="max-w-5xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-start">
             <div>
-              <h2 className="text-3xl font-bold mb-4">
+              <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold mb-4 leading-[1.02]">
                 Request Commercial Water Heater Service
               </h2>
-              <p className="text-blue-100 text-lg mb-6 leading-relaxed">
+              <p className="text-slate-300 text-lg mb-6 leading-relaxed">
                 Call for emergency service 24/7, or fill out the form for a diagnostic appointment
                 or free replacement estimate at your Tampa Bay facility.
               </p>
@@ -391,17 +391,17 @@ export default function CommercialWaterHeaterRepairPage() {
                 </a>
                 <a
                   href="mailto:office@northeastheatingcooling.com"
-                  className="flex items-center gap-3 text-blue-200 hover:text-white transition-colors"
+                  className="flex items-center gap-3 text-slate-300 hover:text-white transition-colors"
                 >
-                  <span className="bg-red-700 rounded-full w-11 h-11 flex items-center justify-center text-base shrink-0">✉️</span>
+                  <span className="bg-[#b02c08] rounded-full w-11 h-11 flex items-center justify-center text-base shrink-0">✉️</span>
                   office@northeastheatingcooling.com
                 </a>
               </div>
-              <div className="text-sm text-blue-200 space-y-1">
+              <div className="text-sm text-slate-300 space-y-1">
                 <p className="font-semibold text-white">Also helpful:</p>
-                <Link href="/commercial" className="block text-blue-300 hover:text-white hover:underline">← All Commercial Services</Link>
-                <Link href="/commercial/hvac-service-tampa" className="block text-blue-300 hover:text-white hover:underline">Commercial HVAC Maintenance →</Link>
-                <Link href="/residential/water-heater-repair-tampa" className="block text-blue-300 hover:text-white hover:underline">Residential Water Heater Service →</Link>
+                <Link href="/commercial" className="block text-slate-400 hover:text-white hover:underline">← All Commercial Services</Link>
+                <Link href="/commercial/hvac-service-tampa" className="block text-slate-400 hover:text-white hover:underline">Commercial HVAC Maintenance →</Link>
+                <Link href="/residential/water-heater-repair-tampa" className="block text-slate-400 hover:text-white hover:underline">Residential Water Heater Service →</Link>
               </div>
             </div>
             <form className="bg-white rounded-2xl p-7 text-gray-900 shadow-xl">
@@ -413,7 +413,7 @@ export default function CommercialWaterHeaterRepairPage() {
                     type="text"
                     name="business"
                     placeholder="Your Business"
-                    className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100"
+                    className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:border-[#C8330A] focus:ring-2 focus:ring-[#C8330A]/15"
                   />
                 </div>
                 <div>
@@ -422,7 +422,7 @@ export default function CommercialWaterHeaterRepairPage() {
                     type="text"
                     name="name"
                     placeholder="Your Name"
-                    className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100"
+                    className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:border-[#C8330A] focus:ring-2 focus:ring-[#C8330A]/15"
                   />
                 </div>
                 <div>
@@ -431,7 +431,7 @@ export default function CommercialWaterHeaterRepairPage() {
                     type="tel"
                     name="phone"
                     placeholder="(813) 555-0100"
-                    className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100"
+                    className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:border-[#C8330A] focus:ring-2 focus:ring-[#C8330A]/15"
                   />
                 </div>
                 <div>
@@ -440,14 +440,14 @@ export default function CommercialWaterHeaterRepairPage() {
                     type="email"
                     name="email"
                     placeholder="you@example.com"
-                    className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100"
+                    className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:border-[#C8330A] focus:ring-2 focus:ring-[#C8330A]/15"
                   />
                 </div>
                 <div>
                   <label className="block text-xs font-semibold text-gray-600 mb-1 uppercase tracking-wide">System Type</label>
                   <select
                     name="system_type"
-                    className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100"
+                    className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:border-[#C8330A] focus:ring-2 focus:ring-[#C8330A]/15"
                   >
                     <option value="">Select system type...</option>
                     <option>Commercial Storage Tank Water Heater</option>
@@ -462,7 +462,7 @@ export default function CommercialWaterHeaterRepairPage() {
                   <label className="block text-xs font-semibold text-gray-600 mb-1 uppercase tracking-wide">Service Needed</label>
                   <select
                     name="service"
-                    className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100"
+                    className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:border-[#C8330A] focus:ring-2 focus:ring-[#C8330A]/15"
                   >
                     <option value="">Select service...</option>
                     <option>Emergency Repair — No Hot Water</option>
@@ -479,7 +479,7 @@ export default function CommercialWaterHeaterRepairPage() {
                     name="message"
                     rows={3}
                     placeholder="Describe the issue, system age, or any other relevant details..."
-                    className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100 resize-none"
+                    className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:border-[#C8330A] focus:ring-2 focus:ring-[#C8330A]/15 resize-none"
                   />
                 </div>
                 <button

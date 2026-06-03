@@ -73,10 +73,10 @@ export default function ProcessSection() {
       <div className="max-w-5xl mx-auto">
         {/* Section heading */}
         <div className="text-center mb-16">
-          <span className="inline-block text-blue-600 text-sm font-semibold uppercase tracking-widest mb-3">
+          <span className="inline-block text-[#C8330A] text-sm font-semibold uppercase tracking-widest mb-3">
             How It Works
           </span>
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4">
+          <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-4 leading-[1.02]">
             Our Simple Process
           </h2>
           <p className="text-gray-500 text-lg max-w-xl mx-auto">
@@ -89,7 +89,7 @@ export default function ProcessSection() {
         <div className="relative">
           {/* Connecting line — desktop only */}
           <div
-            className="hidden lg:block absolute top-10 left-0 right-0 h-0.5 bg-blue-100"
+            className="hidden lg:block absolute top-10 left-0 right-0 h-0.5 bg-[#C8330A]/10"
             style={{ left: "calc(16.666% + 2rem)", right: "calc(16.666% + 2rem)" }}
             aria-hidden="true"
           />
@@ -103,7 +103,7 @@ export default function ProcessSection() {
                 {/* Mobile connector line (vertical) */}
                 {index < steps.length - 1 && (
                   <div
-                    className="lg:hidden absolute top-20 left-1/2 -translate-x-px w-0.5 h-10 bg-blue-100"
+                    className="lg:hidden absolute top-20 left-1/2 -translate-x-px w-0.5 h-10 bg-[#C8330A]/10"
                     aria-hidden="true"
                   />
                 )}
@@ -111,14 +111,14 @@ export default function ProcessSection() {
                 {/* Number circle with icon */}
                 <div className="relative mb-6 z-10">
                   {/* Outer ring */}
-                  <div className="w-20 h-20 rounded-full bg-blue-50 border-2 border-blue-100 flex items-center justify-center">
+                  <div className="w-20 h-20 rounded-full bg-[#fff6f1] border-2 border-[#C8330A]/15 flex items-center justify-center">
                     {/* Inner filled circle */}
-                    <div className="w-14 h-14 rounded-full bg-blue-600 flex items-center justify-center text-white shadow-md">
+                    <div className="w-14 h-14 rounded-full bg-[#C8330A] flex items-center justify-center text-white shadow-md">
                       {step.icon}
                     </div>
                   </div>
                   {/* Step number badge */}
-                  <span className="absolute -top-1 -right-1 w-6 h-6 rounded-full bg-blue-800 text-white text-xs font-bold flex items-center justify-center shadow">
+                  <span className="absolute -top-1 -right-1 w-6 h-6 rounded-full bg-[#0f1620] text-white text-xs font-bold flex items-center justify-center shadow">
                     {step.number}
                   </span>
                 </div>
@@ -141,7 +141,7 @@ export default function ProcessSection() {
         <div className="text-center mt-14">
           <a
             href="tel:+18132916146"
-            className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold text-base px-8 py-4 rounded-xl shadow-md hover:shadow-lg transition-all duration-200"
+            className="inline-flex items-center gap-2 bg-[#C8330A] hover:bg-[#b02c08] text-white font-bold text-base px-8 py-4 rounded-xl shadow-md hover:shadow-lg transition-all duration-200"
           >
             <svg
               className="w-5 h-5 shrink-0"

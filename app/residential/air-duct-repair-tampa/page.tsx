@@ -120,13 +120,13 @@ export default function AirDuctRepairTampaPage() {
           <div className="absolute inset-0 bg-gradient-to-r from-[#0f1620]/80 via-[#0f1620]/60 to-[#0f1620]/40" />
         </div>
         <div className="relative z-10 max-w-5xl mx-auto">
-          <p className="text-blue-200 font-semibold text-sm uppercase tracking-widest mb-3">
+          <p className="text-[0.72rem] font-bold tracking-[0.18em] uppercase mb-4 text-[#F0A06A]">
             Tampa Bay, FL — Air Duct Services
           </p>
-          <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-5">
+          <h1 className="font-display text-4xl md:text-5xl font-extrabold leading-[1.05] mb-5 tracking-[-0.03em]">
             Air Duct Repair &amp; Replacement in Tampa, FL
           </h1>
-          <p className="text-blue-100 text-lg md:text-xl max-w-3xl mb-8 leading-relaxed">
+          <p className="text-slate-300 text-lg md:text-xl max-w-3xl mb-8 leading-relaxed">
             Leaky ducts waste energy, reduce comfort, and degrade your home&rsquo;s air quality. Our Tampa Bay
             duct repair specialists find and fix duct leaks, seal connections, and replace deteriorated
             ductwork — so your HVAC system delivers the comfort you&rsquo;re paying for.
@@ -134,13 +134,13 @@ export default function AirDuctRepairTampaPage() {
           <div className="flex flex-col sm:flex-row gap-4">
             <a
               href="tel:8132916146"
-              className="inline-flex items-center justify-center px-8 py-3.5 bg-white text-blue-800 font-bold text-lg rounded-lg hover:bg-blue-50 transition-colors shadow-lg"
+              className="inline-flex items-center justify-center px-8 py-3.5 bg-white text-[#0f1620] font-bold text-lg rounded-lg hover:bg-[#C8330A]/5 transition-colors shadow-lg"
             >
               Call (813) 291-6146
             </a>
             <a
               href="#contact-form"
-              className="inline-flex items-center justify-center px-8 py-3.5 bg-red-600 text-white font-bold text-lg rounded-lg border-2 border-red-400 hover:bg-red-700 transition-colors"
+              className="inline-flex items-center justify-center px-8 py-3.5 bg-[#C8330A] text-white font-bold text-lg rounded-lg border-2 border-[#C8330A]/40 hover:bg-[#b02c08] transition-colors"
             >
               Request Duct Inspection
             </a>
@@ -150,7 +150,7 @@ export default function AirDuctRepairTampaPage() {
 
       {/* Trust bar */}
       <section className="bg-[#0f1620] text-white py-4 px-4">
-        <div className="max-w-5xl mx-auto flex flex-wrap justify-center md:justify-between gap-x-8 gap-y-2 text-sm font-semibold text-blue-200">
+        <div className="max-w-5xl mx-auto flex flex-wrap justify-center md:justify-between gap-x-8 gap-y-2 text-sm font-semibold text-slate-300">
           <span>✓ Duct Leakage Testing &amp; Measurement</span>
           <span>✓ Aeroseal Certified Contractor</span>
           <span>✓ Before &amp; After Testing Provided</span>
@@ -162,7 +162,7 @@ export default function AirDuctRepairTampaPage() {
       {/* Overview */}
       <section className="bg-white py-16 px-4">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 mb-5">
+          <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-5 leading-[1.02]">
             Why Your Tampa Bay Home&rsquo;s Ductwork Matters
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
@@ -204,7 +204,7 @@ export default function AirDuctRepairTampaPage() {
                     'Hot spots in rooms adjacent to attic',
                   ].map((item) => (
                     <li key={item} className="flex items-start gap-2.5 text-gray-700 text-sm">
-                      <span className="w-2 h-2 rounded-full bg-red-500 shrink-0 mt-1.5" />
+                      <span className="w-2 h-2 rounded-full bg-[#C8330A] shrink-0 mt-1.5" />
                       {item}
                     </li>
                   ))}
@@ -212,7 +212,7 @@ export default function AirDuctRepairTampaPage() {
               </div>
               <div className="bg-[#0f1620] text-white rounded-xl p-6">
                 <h3 className="font-bold mb-2">The Cost of Leaky Ducts</h3>
-                <p className="text-blue-200 text-sm leading-relaxed">
+                <p className="text-slate-300 text-sm leading-relaxed">
                   The U.S. Department of Energy estimates that duct leakage costs the average homeowner
                   with leaky ducts <span className="text-white font-bold">$300–$700 per year</span> in
                   wasted energy — energy that heats your attic instead of cooling your home.
@@ -227,7 +227,7 @@ export default function AirDuctRepairTampaPage() {
       <section className="bg-gray-50 py-16 px-4">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-3">Our Air Duct Services</h2>
+            <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-3 leading-[1.02]">Our Air Duct Services</h2>
             <p className="text-gray-600 text-lg max-w-2xl mx-auto">
               From precise leak detection to full system replacement, we handle every aspect of
               residential ductwork in Tampa Bay.
@@ -241,7 +241,7 @@ export default function AirDuctRepairTampaPage() {
                 <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                   {service.bullets.map((b) => (
                     <li key={b} className="flex items-center gap-2 text-sm text-gray-700">
-                      <span className="w-1.5 h-1.5 rounded-full bg-red-600 shrink-0" />
+                      <span className="w-1.5 h-1.5 rounded-full bg-[#C8330A] shrink-0" />
                       {b}
                     </li>
                   ))}
@@ -257,7 +257,7 @@ export default function AirDuctRepairTampaPage() {
         <div className="max-w-5xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-5">
+              <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-5 leading-[1.02]">
                 Duct Repair &amp; Indoor Air Quality
               </h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
@@ -300,7 +300,7 @@ export default function AirDuctRepairTampaPage() {
                   desc: 'When your HVAC system doesn\'t have to work as hard to compensate for duct losses, it experiences less wear and lasts longer.',
                 },
               ].map((item) => (
-                <div key={item.title} className="bg-blue-50 border border-blue-100 rounded-xl p-5">
+                <div key={item.title} className="bg-[#fff6f1] border border-[#C8330A]/15 rounded-xl p-5">
                   <h3 className="font-bold text-gray-900 mb-1.5">{item.title}</h3>
                   <p className="text-gray-600 text-sm leading-relaxed">{item.desc}</p>
                 </div>
@@ -311,17 +311,17 @@ export default function AirDuctRepairTampaPage() {
       </section>
 
       {/* Internal Links */}
-      <section className="bg-blue-50 border-y border-blue-100 py-10 px-4">
+      <section className="bg-[#fff6f1] border-y border-[#C8330A]/15 py-10 px-4">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-xl font-bold text-gray-900 mb-5">Related Services</h2>
+          <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mb-5">Related Services</h2>
           <div className="flex flex-wrap gap-3">
-            <Link href="/residential/hvac-service-tampa" className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-white border border-blue-200 text-blue-700 font-semibold text-sm rounded-lg hover:bg-red-700 hover:text-white hover:border-blue-700 transition-colors shadow-sm">
+            <Link href="/residential/hvac-service-tampa" className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-white border border-slate-200 text-[#C8330A] font-semibold text-sm rounded-lg hover:bg-[#b02c08] hover:text-white hover:border-[#C8330A] transition-colors shadow-sm">
               HVAC Repair Services →
             </Link>
-            <Link href="/residential/hvac-installation-tampa-fl" className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-white border border-blue-200 text-blue-700 font-semibold text-sm rounded-lg hover:bg-red-700 hover:text-white hover:border-blue-700 transition-colors shadow-sm">
+            <Link href="/residential/hvac-installation-tampa-fl" className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-white border border-slate-200 text-[#C8330A] font-semibold text-sm rounded-lg hover:bg-[#b02c08] hover:text-white hover:border-[#C8330A] transition-colors shadow-sm">
               HVAC Installation →
             </Link>
-            <Link href="/service-areas" className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-white border border-blue-200 text-blue-700 font-semibold text-sm rounded-lg hover:bg-red-700 hover:text-white hover:border-blue-700 transition-colors shadow-sm">
+            <Link href="/service-areas" className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-white border border-slate-200 text-[#C8330A] font-semibold text-sm rounded-lg hover:bg-[#b02c08] hover:text-white hover:border-[#C8330A] transition-colors shadow-sm">
               View All Service Areas →
             </Link>
           </div>
@@ -331,7 +331,7 @@ export default function AirDuctRepairTampaPage() {
       {/* FAQ */}
       <section className="bg-white py-16 px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 mb-3 text-center">
+          <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-3 text-center leading-[1.02]">
             Frequently Asked Questions — Air Duct Repair in Tampa
           </h2>
           <p className="text-gray-600 text-center mb-10">
@@ -353,23 +353,23 @@ export default function AirDuctRepairTampaPage() {
         <div className="max-w-5xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             <div>
-              <h2 className="text-3xl font-bold mb-4">Schedule a Duct Inspection Today</h2>
-              <p className="text-blue-100 text-lg mb-6 leading-relaxed">
+              <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold mb-4 leading-[1.02]">Schedule a Duct Inspection Today</h2>
+              <p className="text-slate-300 text-lg mb-6 leading-relaxed">
                 Stop paying to cool your attic. Call North East Heating And Cooling to schedule a
                 professional duct inspection and leakage test for your Tampa Bay home. We&rsquo;ll identify
                 exactly what&rsquo;s happening and give you a clear plan to fix it.
               </p>
               <div className="space-y-4">
-                <a href="tel:8132916146" className="flex items-center gap-3 text-white text-xl font-bold hover:text-blue-200 transition-colors">
-                  <span className="bg-red-600 rounded-full w-11 h-11 flex items-center justify-center shrink-0">
+                <a href="tel:8132916146" className="flex items-center gap-3 text-white text-xl font-bold hover:text-[#F0A06A] transition-colors">
+                  <span className="bg-[#C8330A] rounded-full w-11 h-11 flex items-center justify-center shrink-0">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5" aria-hidden="true">
                       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.8a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
                     </svg>
                   </span>
                   (813) 291-6146
                 </a>
-                <a href="mailto:office@northeastheatingcooling.com" className="flex items-center gap-3 text-blue-200 hover:text-white transition-colors">
-                  <span className="bg-red-600 rounded-full w-11 h-11 flex items-center justify-center shrink-0">
+                <a href="mailto:office@northeastheatingcooling.com" className="flex items-center gap-3 text-slate-300 hover:text-white transition-colors">
+                  <span className="bg-[#C8330A] rounded-full w-11 h-11 flex items-center justify-center shrink-0">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5" aria-hidden="true">
                       <rect x="2" y="4" width="20" height="16" rx="2" />
                       <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />

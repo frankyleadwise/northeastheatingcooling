@@ -152,10 +152,10 @@ export default function WhyChooseUs() {
       <div className="max-w-6xl mx-auto">
         {/* Heading */}
         <div className="text-center mb-14">
-          <span className="inline-block text-blue-600 text-sm font-semibold uppercase tracking-widest mb-3">
+          <span className="inline-block text-[#C8330A] text-sm font-semibold uppercase tracking-widest mb-3">
             Why Us
           </span>
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4">
+          <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-4 leading-[1.02]">
             Why Choose North East Heating And Cooling?
           </h2>
           <p className="text-gray-500 text-lg max-w-2xl mx-auto">
@@ -169,9 +169,9 @@ export default function WhyChooseUs() {
           {features.map((feature) => (
             <div
               key={feature.title}
-              className="bg-blue-50 rounded-2xl p-6 flex flex-col gap-4 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 border border-blue-100"
+              className="bg-[#fff6f1] rounded-2xl p-6 flex flex-col gap-4 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 border border-[#C8330A]/15"
             >
-              <div className="inline-flex items-center justify-center w-14 h-14 rounded-xl bg-blue-100 text-blue-700 shrink-0">
+              <div className="inline-flex items-center justify-center w-14 h-14 rounded-xl bg-[#C8330A]/10 text-[#C8330A] shrink-0">
                 {feature.icon}
               </div>
               <div>

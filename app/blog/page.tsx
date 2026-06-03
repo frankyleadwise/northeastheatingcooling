@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'HVAC Tips & Resources for Tampa Bay Homeowners | North East Heating And Cooling',
+  title: 'HVAC Tips & Resources for Tampa Bay Homeowners',
   description:
     'Expert HVAC tips, guides, and resources for Tampa Bay homeowners. Learn about AC replacement, energy efficiency, indoor air quality, and more from North East Heating And Cooling.',
   openGraph: {
@@ -120,10 +120,10 @@ const posts = [
 ]
 
 const categoryColors: Record<string, string> = {
-  'AC Replacement': 'bg-red-100 text-red-700',
+  'AC Replacement': 'bg-red-100 text-[#b02c08]',
   'HVAC Repair': 'bg-orange-100 text-orange-700',
   'Indoor Air Quality': 'bg-green-100 text-green-700',
-  'Maintenance': 'bg-blue-100 text-blue-700',
+  'Maintenance': 'bg-[#C8330A]/10 text-[#C8330A]',
   'Energy Efficiency': 'bg-purple-100 text-purple-700',
   'Refrigerants': 'bg-teal-100 text-teal-700',
   'Buying Guide': 'bg-indigo-100 text-indigo-700',
@@ -137,13 +137,13 @@ export default function BlogPage() {
       {/* Hero */}
       <section className="bg-[#0f1620] text-white py-20 px-4">
         <div className="max-w-5xl mx-auto text-center">
-          <p className="text-blue-200 font-semibold text-sm uppercase tracking-widest mb-3">
+          <p className="text-[0.72rem] font-bold tracking-[0.18em] uppercase mb-4 text-[#F0A06A]">
             North East Heating And Cooling — Tampa Bay, FL
           </p>
-          <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-5">
+          <h1 className="font-display text-4xl md:text-5xl font-extrabold leading-[1.05] mb-5 tracking-[-0.03em]">
             HVAC Tips &amp; Resources for Tampa Bay Homeowners
           </h1>
-          <p className="text-blue-100 text-lg md:text-xl max-w-3xl mx-auto">
+          <p className="text-slate-300 text-lg md:text-xl max-w-3xl mx-auto">
             Expert advice on AC maintenance, energy savings, indoor air quality, and more — written specifically
             for Florida homeowners by the team at North East Heating And Cooling.
           </p>
@@ -157,7 +157,7 @@ export default function BlogPage() {
             {posts.map((post) => (
               <article
                 key={post.slug}
-                className="bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-lg hover:border-blue-200 transition-all duration-200 flex flex-col overflow-hidden"
+                className="bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-lg hover:border-slate-300 transition-all duration-200 flex flex-col overflow-hidden"
               >
                 {/* Post Image */}
                 <div className="w-full h-48 overflow-hidden relative">
@@ -180,8 +180,8 @@ export default function BlogPage() {
                   </div>
 
                   {/* Title */}
-                  <h2 className="text-lg font-bold text-gray-900 mb-3 leading-snug">
-                    <Link href={`/blog/${post.slug}`} className="hover:text-blue-700 transition-colors">
+                  <h2 className="font-display tracking-[-0.02em] text-lg font-extrabold text-slate-900 mb-3 leading-snug">
+                    <Link href={`/blog/${post.slug}`} className="hover:text-[#C8330A] transition-colors">
                       {post.title}
                     </Link>
                   </h2>
@@ -192,7 +192,7 @@ export default function BlogPage() {
                   {/* Read More */}
                   <Link
                     href={`/blog/${post.slug}`}
-                    className="inline-flex items-center gap-1.5 text-blue-600 font-semibold text-sm hover:text-blue-800 transition-colors"
+                    className="inline-flex items-center gap-1.5 text-[#C8330A] font-semibold text-sm hover:text-[#b02c08] transition-colors"
                   >
                     Read More
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -209,14 +209,14 @@ export default function BlogPage() {
       {/* Bottom CTA */}
       <section className="bg-[#0f1620] py-14 px-4 text-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-4">Need HVAC Help in Tampa Bay?</h2>
-          <p className="text-blue-100 text-lg mb-8 max-w-2xl mx-auto">
+          <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold mb-4 leading-[1.02]">Need HVAC Help in Tampa Bay?</h2>
+          <p className="text-slate-300 text-lg mb-8 max-w-2xl mx-auto">
             Our certified technicians are ready to help with repairs, installations, and maintenance. Call us today
             for same-day service.
           </p>
           <a
             href="tel:8132916146"
-            className="inline-flex items-center justify-center px-10 py-4 bg-white text-blue-800 font-bold text-xl rounded-lg hover:bg-blue-50 transition-colors shadow-lg"
+            className="inline-flex items-center justify-center px-10 py-4 bg-white text-[#0f1620] font-bold text-xl rounded-lg hover:bg-[#C8330A]/5 transition-colors shadow-lg"
           >
             Call (813) 291-6146
           </a>

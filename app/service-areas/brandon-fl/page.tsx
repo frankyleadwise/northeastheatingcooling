@@ -5,7 +5,7 @@ import { CITIES } from '@/lib/cityData'
 const city = CITIES['brandon-fl']
 
 export const metadata: Metadata = {
-  title: `HVAC Services in ${city.display}, FL | North East Heating And Cooling`,
+  title: `HVAC Services in ${city.display}, FL`,
   description: city.metaDescription,
   alternates: { canonical: `/service-areas/${city.slug}` },
   openGraph: {

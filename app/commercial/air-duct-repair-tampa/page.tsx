@@ -128,13 +128,13 @@ export default function CommercialAirDuctRepairPage() {
           <div className="absolute inset-0 bg-gradient-to-r from-[#0f1620]/80 via-[#0f1620]/60 to-[#0f1620]/40" />
         </div>
         <div className="relative z-10 max-w-5xl mx-auto">
-          <p className="text-blue-300 text-sm font-semibold uppercase tracking-widest mb-3">
+          <p className="text-[0.72rem] font-bold tracking-[0.18em] uppercase mb-4 text-[#F0A06A]">
             Commercial Ductwork — Tampa Bay, FL
           </p>
-          <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-5 max-w-3xl">
+          <h1 className="font-display text-4xl md:text-5xl font-extrabold leading-[1.05] mb-5 max-w-3xl tracking-[-0.03em]">
             Commercial Air Duct Repair &amp; Replacement in Tampa, FL
           </h1>
-          <p className="text-blue-100 text-lg md:text-xl max-w-3xl mb-8 leading-relaxed">
+          <p className="text-slate-300 text-lg md:text-xl max-w-3xl mb-8 leading-relaxed">
             Leaking, damaged, or aging commercial ductwork wastes energy, undermines indoor air quality,
             and prevents your HVAC system from doing its job. North East Heating And Cooling provides
             expert duct leak detection, sealing, and full replacement throughout Tampa Bay.
@@ -148,7 +148,7 @@ export default function CommercialAirDuctRepairPage() {
             </a>
             <a
               href="#contact"
-              className="inline-block bg-white hover:bg-blue-50 text-blue-900 font-bold py-4 px-8 rounded-lg text-lg transition-colors"
+              className="inline-block bg-white hover:bg-[#C8330A]/5 text-[#0f1620] font-bold py-4 px-8 rounded-lg text-lg transition-colors"
             >
               Get a Free Assessment
             </a>
@@ -171,7 +171,7 @@ export default function CommercialAirDuctRepairPage() {
       <section className="bg-white py-16 px-4">
         <div className="max-w-5xl mx-auto">
           <div className="max-w-3xl">
-            <h2 className="text-3xl font-bold text-gray-900 mb-5">
+            <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-5 leading-[1.02]">
               The Hidden Cost of Duct Leaks in Tampa Bay Commercial Buildings
             </h2>
             <p className="text-gray-600 text-lg leading-relaxed mb-4">
@@ -216,7 +216,7 @@ export default function CommercialAirDuctRepairPage() {
       <section className="bg-white py-16 px-4">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-3">
+            <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-3 leading-[1.02]">
               Our Commercial Duct Repair &amp; Replacement Services
             </h2>
             <p className="text-gray-600 text-lg max-w-2xl mx-auto">
@@ -227,7 +227,7 @@ export default function CommercialAirDuctRepairPage() {
           <div className="space-y-6">
             {ductServices.map((service) => (
               <div key={service.title} className="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                <h3 className="text-lg font-bold text-blue-900 mb-3">{service.title}</h3>
+                <h3 className="text-lg font-bold text-[#0f1620] mb-3">{service.title}</h3>
                 <p className="text-gray-600 text-sm leading-relaxed">{service.detail}</p>
               </div>
             ))}
@@ -239,10 +239,10 @@ export default function CommercialAirDuctRepairPage() {
       <section className="bg-[#0f1620] text-white py-16 px-4">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-10">
-            <h2 className="text-3xl font-bold mb-3">
+            <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold mb-3 leading-[1.02]">
               Indoor Air Quality Benefits for Tampa Bay Commercial Buildings
             </h2>
-            <p className="text-blue-200 max-w-2xl mx-auto">
+            <p className="text-slate-300 max-w-2xl mx-auto">
               In Florida&apos;s humid climate, duct integrity is directly tied to the air quality your
               employees and customers breathe every day.
             </p>
@@ -251,7 +251,7 @@ export default function CommercialAirDuctRepairPage() {
             {iaqBenefits.map((benefit) => (
               <div key={benefit.title} className="bg-[#0f1620] rounded-xl p-6">
                 <h3 className="font-bold text-white mb-3">{benefit.title}</h3>
-                <p className="text-blue-200 text-sm leading-relaxed">{benefit.detail}</p>
+                <p className="text-slate-300 text-sm leading-relaxed">{benefit.detail}</p>
               </div>
             ))}
           </div>
@@ -263,7 +263,7 @@ export default function CommercialAirDuctRepairPage() {
         <div className="max-w-5xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-5">
+              <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-5 leading-[1.02]">
                 Florida Energy Code &amp; Compliance
               </h2>
               <p className="text-gray-600 leading-relaxed mb-4">
@@ -305,7 +305,7 @@ export default function CommercialAirDuctRepairPage() {
       {/* FAQ */}
       <section className="bg-white py-16 px-4">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 mb-10 text-center">
+          <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-10 text-center leading-[1.02]">
             Frequently Asked Questions
           </h2>
           <div className="space-y-6">
@@ -320,16 +320,16 @@ export default function CommercialAirDuctRepairPage() {
       </section>
 
       {/* Service Area */}
-      <section className="bg-blue-50 border-y border-blue-100 py-12 px-4">
+      <section className="bg-[#fff6f1] border-y border-[#C8330A]/15 py-12 px-4">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
-            <h2 className="text-2xl font-bold text-gray-900 mb-2">
+            <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mb-2">
               Commercial Duct Services Throughout Tampa Bay
             </h2>
             <p className="text-gray-600 max-w-2xl">
               We serve commercial buildings throughout Tampa, St. Petersburg, Clearwater, Brandon,
               Riverview, Wesley Chapel, Lutz, and all surrounding communities.{' '}
-              <Link href="/service-areas" className="text-blue-700 font-semibold hover:underline">
+              <Link href="/service-areas" className="text-[#C8330A] font-semibold hover:underline">
                 View all service areas →
               </Link>
             </p>
@@ -348,10 +348,10 @@ export default function CommercialAirDuctRepairPage() {
         <div className="max-w-5xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-start">
             <div>
-              <h2 className="text-3xl font-bold mb-4">
+              <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold mb-4 leading-[1.02]">
                 Request a Commercial Duct Assessment
               </h2>
-              <p className="text-blue-100 text-lg mb-6 leading-relaxed">
+              <p className="text-slate-300 text-lg mb-6 leading-relaxed">
                 Contact us to schedule a commercial duct leak diagnostic or get a free estimate for
                 duct sealing or replacement at your Tampa Bay facility.
               </p>
@@ -365,17 +365,17 @@ export default function CommercialAirDuctRepairPage() {
                 </a>
                 <a
                   href="mailto:office@northeastheatingcooling.com"
-                  className="flex items-center gap-3 text-blue-200 hover:text-white transition-colors"
+                  className="flex items-center gap-3 text-slate-300 hover:text-white transition-colors"
                 >
-                  <span className="bg-red-700 rounded-full w-11 h-11 flex items-center justify-center text-base shrink-0">✉️</span>
+                  <span className="bg-[#b02c08] rounded-full w-11 h-11 flex items-center justify-center text-base shrink-0">✉️</span>
                   office@northeastheatingcooling.com
                 </a>
               </div>
-              <div className="text-sm text-blue-200 space-y-1">
+              <div className="text-sm text-slate-300 space-y-1">
                 <p className="font-semibold text-white">Also helpful:</p>
-                <Link href="/commercial" className="block text-blue-300 hover:text-white hover:underline">← All Commercial Services</Link>
-                <Link href="/commercial/hvac-service-tampa" className="block text-blue-300 hover:text-white hover:underline">Commercial HVAC Maintenance →</Link>
-                <Link href="/residential/air-duct-repair-tampa" className="block text-blue-300 hover:text-white hover:underline">Residential Duct Repair →</Link>
+                <Link href="/commercial" className="block text-slate-400 hover:text-white hover:underline">← All Commercial Services</Link>
+                <Link href="/commercial/hvac-service-tampa" className="block text-slate-400 hover:text-white hover:underline">Commercial HVAC Maintenance →</Link>
+                <Link href="/residential/air-duct-repair-tampa" className="block text-slate-400 hover:text-white hover:underline">Residential Duct Repair →</Link>
               </div>
             </div>
             <form className="bg-white rounded-2xl p-7 text-gray-900 shadow-xl">
@@ -387,7 +387,7 @@ export default function CommercialAirDuctRepairPage() {
                     type="text"
                     name="business"
                     placeholder="Your Business or Property"
-                    className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100"
+                    className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:border-[#C8330A] focus:ring-2 focus:ring-[#C8330A]/15"
                   />
                 </div>
                 <div>
@@ -396,7 +396,7 @@ export default function CommercialAirDuctRepairPage() {
                     type="text"
                     name="name"
                     placeholder="Your Name"
-                    className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100"
+                    className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:border-[#C8330A] focus:ring-2 focus:ring-[#C8330A]/15"
                   />
                 </div>
                 <div>
@@ -405,7 +405,7 @@ export default function CommercialAirDuctRepairPage() {
                     type="tel"
                     name="phone"
                     placeholder="(813) 555-0100"
-                    className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100"
+                    className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:border-[#C8330A] focus:ring-2 focus:ring-[#C8330A]/15"
                   />
                 </div>
                 <div>
@@ -414,14 +414,14 @@ export default function CommercialAirDuctRepairPage() {
                     type="email"
                     name="email"
                     placeholder="you@example.com"
-                    className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100"
+                    className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:border-[#C8330A] focus:ring-2 focus:ring-[#C8330A]/15"
                   />
                 </div>
                 <div>
                   <label className="block text-xs font-semibold text-gray-600 mb-1 uppercase tracking-wide">Service Needed</label>
                   <select
                     name="service"
-                    className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100"
+                    className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:border-[#C8330A] focus:ring-2 focus:ring-[#C8330A]/15"
                   >
                     <option value="">Select service...</option>
                     <option>Duct Leak Diagnostic / Testing</option>
@@ -439,7 +439,7 @@ export default function CommercialAirDuctRepairPage() {
                     name="message"
                     rows={3}
                     placeholder="Building type, size, current issues, or any other details..."
-                    className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100 resize-none"
+                    className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:border-[#C8330A] focus:ring-2 focus:ring-[#C8330A]/15 resize-none"
                   />
                 </div>
                 <button

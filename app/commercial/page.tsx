@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Commercial HVAC Services Tampa Bay, FL | North East Heating And Cooling',
+  title: 'Commercial HVAC Services Tampa Bay, FL',
   description:
     'Full-service commercial HVAC in Tampa Bay, FL. Installation, repair, maintenance, duct work, exhaust fans, and water heaters for offices, restaurants, retail, and more. Call (813) 291-6146.',
   keywords: [
@@ -100,13 +100,13 @@ export default function CommercialPage() {
           <div className="absolute inset-0 bg-gradient-to-r from-[#0f1620]/80 via-[#0f1620]/60 to-[#0f1620]/40" />
         </div>
         <div className="relative z-10 max-w-5xl mx-auto text-center">
-          <p className="text-blue-300 text-sm font-semibold uppercase tracking-widest mb-3">
+          <p className="text-[0.72rem] font-bold tracking-[0.18em] uppercase mb-4 text-[#F0A06A]">
             Tampa Bay&apos;s Commercial HVAC Specialists
           </p>
-          <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
+          <h1 className="font-display text-4xl md:text-5xl font-extrabold leading-[1.05] mb-6 tracking-[-0.03em]">
             Commercial HVAC Services in Tampa Bay, FL
           </h1>
-          <p className="text-blue-100 text-lg md:text-xl max-w-3xl mx-auto mb-8">
+          <p className="text-slate-300 text-lg md:text-xl max-w-3xl mx-auto mb-8">
             North East Heating And Cooling delivers reliable, code-compliant commercial HVAC solutions for
             businesses of every size across Tampa Bay. From a single rooftop unit to a full multi-building
             mechanical system, our licensed technicians handle it all — on schedule and within budget.
@@ -120,7 +120,7 @@ export default function CommercialPage() {
             </a>
             <a
               href="#contact"
-              className="inline-block bg-white hover:bg-blue-50 text-blue-900 font-bold py-4 px-8 rounded-lg text-lg transition-colors"
+              className="inline-block bg-white hover:bg-[#C8330A]/5 text-[#0f1620] font-bold py-4 px-8 rounded-lg text-lg transition-colors"
             >
               Request a Free Estimate
             </a>
@@ -152,7 +152,7 @@ export default function CommercialPage() {
       {/* Why Commercial HVAC Is Different in Tampa Bay */}
       <section className="bg-white py-16 px-4">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4 text-center">
+          <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-4 text-center leading-[1.02]">
             Commercial HVAC in Tampa Bay Demands More
           </h2>
           <p className="text-gray-600 text-center max-w-3xl mx-auto mb-10 text-lg">
@@ -162,24 +162,24 @@ export default function CommercialPage() {
             Tampa Bay commercial businesses need HVAC systems and service providers they can count on.
           </p>
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-blue-50 rounded-xl p-6">
-              <h3 className="text-lg font-bold text-blue-900 mb-2">Extreme Heat &amp; Humidity</h3>
+            <div className="bg-[#fff6f1] rounded-xl p-6">
+              <h3 className="text-lg font-bold text-[#0f1620] mb-2">Extreme Heat &amp; Humidity</h3>
               <p className="text-gray-600 text-sm">
                 Tampa Bay averages over 250 sunny days per year. Commercial cooling systems run nearly
                 year-round, meaning components wear faster and demand higher-quality service to maintain
                 efficiency and reliability.
               </p>
             </div>
-            <div className="bg-blue-50 rounded-xl p-6">
-              <h3 className="text-lg font-bold text-blue-900 mb-2">Mold &amp; Indoor Air Quality</h3>
+            <div className="bg-[#fff6f1] rounded-xl p-6">
+              <h3 className="text-lg font-bold text-[#0f1620] mb-2">Mold &amp; Indoor Air Quality</h3>
               <p className="text-gray-600 text-sm">
                 High humidity creates ideal conditions for mold growth in ductwork and coils. Proper
                 commercial maintenance isn&apos;t just about comfort — it&apos;s a health and liability issue
                 for Florida businesses.
               </p>
             </div>
-            <div className="bg-blue-50 rounded-xl p-6">
-              <h3 className="text-lg font-bold text-blue-900 mb-2">Florida Code Compliance</h3>
+            <div className="bg-[#fff6f1] rounded-xl p-6">
+              <h3 className="text-lg font-bold text-[#0f1620] mb-2">Florida Code Compliance</h3>
               <p className="text-gray-600 text-sm">
                 Commercial HVAC work in Florida must meet strict building codes, energy efficiency
                 standards, and environmental regulations. Our technicians stay current with all state and
@@ -193,7 +193,7 @@ export default function CommercialPage() {
       {/* Services Grid */}
       <section className="bg-gray-50 py-16 px-4">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 mb-3 text-center">
+          <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-3 text-center leading-[1.02]">
             Our Commercial HVAC Services
           </h2>
           <p className="text-gray-600 text-center max-w-2xl mx-auto mb-10">
@@ -205,16 +205,16 @@ export default function CommercialPage() {
               <Link
                 key={service.href}
                 href={service.href}
-                className="bg-white rounded-xl p-6 border border-gray-200 hover:border-red-400 hover:shadow-md transition-all group"
+                className="bg-white rounded-xl p-6 border border-gray-200 hover:border-[#C8330A]/40 hover:shadow-md transition-all group"
               >
                 <div className="flex items-start gap-4">
                   <span className="text-3xl">{service.icon}</span>
                   <div>
-                    <h3 className="text-lg font-bold text-gray-900 group-hover:text-blue-700 mb-2">
+                    <h3 className="text-lg font-bold text-gray-900 group-hover:text-[#C8330A] mb-2">
                       {service.title}
                     </h3>
                     <p className="text-gray-600 text-sm leading-relaxed">{service.description}</p>
-                    <span className="inline-block mt-3 text-blue-600 font-semibold text-sm group-hover:underline">
+                    <span className="inline-block mt-3 text-[#C8330A] font-semibold text-sm group-hover:underline">
                       Learn More →
                     </span>
                   </div>
@@ -228,7 +228,7 @@ export default function CommercialPage() {
       {/* Industries Served */}
       <section className="bg-white py-16 px-4">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 mb-3 text-center">
+          <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-3 text-center leading-[1.02]">
             Industries We Serve Across Tampa Bay
           </h2>
           <p className="text-gray-600 text-center max-w-2xl mx-auto mb-10">
@@ -254,14 +254,14 @@ export default function CommercialPage() {
       {/* Why Choose Us */}
       <section className="bg-[#0f1620] text-white py-16 px-4">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold mb-10 text-center">
+          <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold mb-10 text-center leading-[1.02]">
             Why Tampa Bay Businesses Choose North East Heating And Cooling
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
               <div className="text-5xl font-black text-orange-400 mb-2">24/7</div>
               <h3 className="text-lg font-bold mb-2">Emergency Response</h3>
-              <p className="text-blue-200 text-sm">
+              <p className="text-slate-300 text-sm">
                 A failed AC in Tampa summer heat isn&apos;t just uncomfortable — it can drive away
                 customers and shut down operations. We respond fast, any time of day or night.
               </p>
@@ -269,7 +269,7 @@ export default function CommercialPage() {
             <div className="text-center">
               <div className="text-5xl font-black text-orange-400 mb-2">100%</div>
               <h3 className="text-lg font-bold mb-2">Licensed &amp; Insured</h3>
-              <p className="text-blue-200 text-sm">
+              <p className="text-slate-300 text-sm">
                 All work is performed by Florida-licensed technicians and backed by full liability
                 insurance and workmanship guarantees. No surprises, no shortcuts.
               </p>
@@ -277,7 +277,7 @@ export default function CommercialPage() {
             <div className="text-center">
               <div className="text-5xl font-black text-orange-400 mb-2">Free</div>
               <h3 className="text-lg font-bold mb-2">Commercial Estimates</h3>
-              <p className="text-blue-200 text-sm">
+              <p className="text-slate-300 text-sm">
                 We provide detailed written estimates for all commercial installation and replacement
                 projects — so you know exactly what you&apos;re getting before any work begins.
               </p>
@@ -289,7 +289,7 @@ export default function CommercialPage() {
       {/* Service Area */}
       <section className="bg-gray-50 py-12 px-4">
         <div className="max-w-5xl mx-auto text-center">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">
+          <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mb-4">
             Serving All of Tampa Bay
           </h2>
           <p className="text-gray-600 max-w-3xl mx-auto mb-6">
@@ -300,7 +300,7 @@ export default function CommercialPage() {
           </p>
           <Link
             href="/service-areas"
-            className="inline-block text-blue-700 font-semibold hover:underline"
+            className="inline-block text-[#C8330A] font-semibold hover:underline"
           >
             View All Service Areas →
           </Link>
@@ -310,7 +310,7 @@ export default function CommercialPage() {
       {/* CTA / Contact Section */}
       <section id="contact" className="bg-white py-16 px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 mb-3 text-center">
+          <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-3 text-center leading-[1.02]">
             Get a Free Commercial HVAC Estimate
           </h2>
           <p className="text-gray-600 text-center mb-10">
@@ -324,13 +324,13 @@ export default function CommercialPage() {
                 <h3 className="text-lg font-bold text-gray-900 mb-4">Contact Us Directly</h3>
                 <a
                   href="tel:8132916146"
-                  className="flex items-center gap-3 text-blue-700 hover:text-blue-900 font-semibold text-xl mb-3"
+                  className="flex items-center gap-3 text-[#C8330A] hover:text-[#0f1620] font-semibold text-xl mb-3"
                 >
                   <span className="text-2xl">📞</span> (813) 291-6146
                 </a>
                 <a
                   href="mailto:office@northeastheatingcooling.com"
-                  className="flex items-center gap-3 text-blue-700 hover:text-blue-900 font-medium"
+                  className="flex items-center gap-3 text-[#C8330A] hover:text-[#0f1620] font-medium"
                 >
                   <span className="text-xl">✉️</span> office@northeastheatingcooling.com
                 </a>
@@ -347,12 +347,12 @@ export default function CommercialPage() {
                 <h3 className="font-bold text-gray-900 mb-2">Also See</h3>
                 <ul className="text-sm space-y-1">
                   <li>
-                    <Link href="/residential" className="text-blue-600 hover:underline">
+                    <Link href="/residential" className="text-[#C8330A] hover:underline">
                       Residential HVAC Services →
                     </Link>
                   </li>
                   <li>
-                    <Link href="/service-areas" className="text-blue-600 hover:underline">
+                    <Link href="/service-areas" className="text-[#C8330A] hover:underline">
                       Our Service Area →
                     </Link>
                   </li>
@@ -369,7 +369,7 @@ export default function CommercialPage() {
                 <input
                   type="text"
                   name="business"
-                  className="w-full border border-gray-300 rounded-lg px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full border border-gray-300 rounded-lg px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#C8330A]"
                   placeholder="Acme Corporation"
                 />
               </div>
@@ -380,7 +380,7 @@ export default function CommercialPage() {
                 <input
                   type="text"
                   name="name"
-                  className="w-full border border-gray-300 rounded-lg px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full border border-gray-300 rounded-lg px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#C8330A]"
                   placeholder="John Smith"
                 />
               </div>
@@ -391,7 +391,7 @@ export default function CommercialPage() {
                 <input
                   type="tel"
                   name="phone"
-                  className="w-full border border-gray-300 rounded-lg px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full border border-gray-300 rounded-lg px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#C8330A]"
                   placeholder="(813) 555-0100"
                 />
               </div>
@@ -402,7 +402,7 @@ export default function CommercialPage() {
                 <input
                   type="email"
                   name="email"
-                  className="w-full border border-gray-300 rounded-lg px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full border border-gray-300 rounded-lg px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#C8330A]"
                   placeholder="you@example.com"
                 />
               </div>
@@ -412,7 +412,7 @@ export default function CommercialPage() {
                 </label>
                 <select
                   name="service"
-                  className="w-full border border-gray-300 rounded-lg px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full border border-gray-300 rounded-lg px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#C8330A]"
                 >
                   <option value="">Select a service...</option>
                   <option>Commercial HVAC Installation</option>
@@ -431,7 +431,7 @@ export default function CommercialPage() {
                 <textarea
                   name="message"
                   rows={3}
-                  className="w-full border border-gray-300 rounded-lg px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full border border-gray-300 rounded-lg px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#C8330A]"
                   placeholder="Tell us about your commercial HVAC needs..."
                 />
               </div>

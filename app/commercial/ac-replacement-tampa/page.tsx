@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Commercial AC Replacement Tampa, FL | Rooftop & Split System Replacement | North East Heating And Cooling',
+  title: 'Commercial AC Replacement Tampa, FL | Rooftop & Split System Replacement',
   description:
     'Commercial AC replacement in Tampa, FL. Rooftop units, split systems, and packaged HVAC replacement for restaurants, offices, retail, and warehouses. Call (813) 291-6146.',
   keywords: [
@@ -262,13 +262,13 @@ export default function CommercialACReplacementPage() {
           <div className="absolute inset-0 bg-gradient-to-r from-[#0f1620]/80 via-[#0f1620]/60 to-[#0f1620]/40" />
         </div>
         <div className="relative z-10 max-w-5xl mx-auto">
-          <p className="text-blue-300 text-sm font-semibold uppercase tracking-widest mb-3">
+          <p className="text-[0.72rem] font-bold tracking-[0.18em] uppercase mb-4 text-[#F0A06A]">
             Commercial HVAC — Tampa Bay, FL
           </p>
-          <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-5 max-w-3xl">
+          <h1 className="font-display text-4xl md:text-5xl font-extrabold leading-[1.05] mb-5 max-w-3xl tracking-[-0.03em]">
             Commercial AC Replacement in Tampa, FL
           </h1>
-          <p className="text-blue-100 text-lg md:text-xl max-w-3xl mb-8 leading-relaxed">
+          <p className="text-slate-300 text-lg md:text-xl max-w-3xl mb-8 leading-relaxed">
             Rooftop unit replacement, commercial split system replacement, and packaged HVAC replacement
             for restaurants, retail, offices, and light industrial buildings throughout Tampa Bay.
           </p>
@@ -281,7 +281,7 @@ export default function CommercialACReplacementPage() {
             </a>
             <Link
               href="/contact"
-              className="inline-block bg-white hover:bg-blue-50 text-blue-900 font-bold py-4 px-8 rounded-lg text-lg transition-colors"
+              className="inline-block bg-white hover:bg-[#C8330A]/5 text-[#0f1620] font-bold py-4 px-8 rounded-lg text-lg transition-colors"
             >
               Request Quote
             </Link>
@@ -304,7 +304,7 @@ export default function CommercialACReplacementPage() {
       <section className="bg-white py-16 px-4">
         <div className="max-w-5xl mx-auto">
           <div className="max-w-3xl">
-            <h2 className="text-3xl font-bold text-gray-900 mb-5">
+            <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-5 leading-[1.02]">
               When Commercial AC Replacement Makes More Sense Than Repair
             </h2>
             <p className="text-gray-600 text-lg leading-relaxed mb-4">
@@ -331,7 +331,7 @@ export default function CommercialACReplacementPage() {
       {/* Triggers */}
       <section className="bg-gray-50 py-16 px-4">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 mb-3 text-center">
+          <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-3 text-center leading-[1.02]">
             Common Triggers for Commercial AC Replacement
           </h2>
           <p className="text-gray-600 text-lg text-center max-w-3xl mx-auto mb-12">
@@ -351,7 +351,7 @@ export default function CommercialACReplacementPage() {
       {/* Services */}
       <section className="bg-white py-16 px-4">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 mb-3 text-center">
+          <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-3 text-center leading-[1.02]">
             Our Commercial Replacement Services
           </h2>
           <p className="text-gray-600 text-lg text-center max-w-3xl mx-auto mb-12">
@@ -382,7 +382,7 @@ export default function CommercialACReplacementPage() {
       {/* Project Planning */}
       <section className="bg-gray-50 py-16 px-4">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 mb-3 text-center">How We Approach Commercial Replacement</h2>
+          <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-3 text-center leading-[1.02]">How We Approach Commercial Replacement</h2>
           <p className="text-gray-600 text-lg text-center max-w-3xl mx-auto mb-12">
             Commercial replacement is project work — engineering, code, logistics, and execution.
           </p>
@@ -400,7 +400,7 @@ export default function CommercialACReplacementPage() {
       {/* FAQs */}
       <section className="bg-white py-16 px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 mb-10 text-center">Frequently Asked Questions</h2>
+          <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-10 text-center leading-[1.02]">Frequently Asked Questions</h2>
           <div className="space-y-4">
             {faqs.map((faq) => (
               <details
@@ -423,8 +423,8 @@ export default function CommercialACReplacementPage() {
       {/* CTA */}
       <section id="contact" className="bg-[#0f1620] text-white py-16 px-4">
         <div className="max-w-5xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Plan Your Commercial Replacement?</h2>
-          <p className="text-blue-100 text-lg mb-8 max-w-3xl mx-auto">
+          <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold mb-4 leading-[1.02]">Ready to Plan Your Commercial Replacement?</h2>
+          <p className="text-slate-300 text-lg mb-8 max-w-3xl mx-auto">
             Detailed written quotes with line-item pricing. Project planning included. No commercial
             replacement happens without you understanding exactly what you&apos;re paying for.
           </p>
@@ -437,7 +437,7 @@ export default function CommercialACReplacementPage() {
             </a>
             <Link
               href="/contact"
-              className="inline-block bg-white hover:bg-blue-50 text-blue-900 font-bold py-4 px-8 rounded-lg text-lg transition-colors"
+              className="inline-block bg-white hover:bg-[#C8330A]/5 text-[#0f1620] font-bold py-4 px-8 rounded-lg text-lg transition-colors"
             >
               Request Quote
             </Link>

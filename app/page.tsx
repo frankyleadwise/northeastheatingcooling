@@ -6,7 +6,7 @@ import FinancingCTA from '@/components/FinancingCTA'
 import { FanGrille, AirflowLines, PressureGauge } from '@/app/components/HvacMotifs'
 
 export const metadata: Metadata = {
-  title: 'AC Repair Near Me Tampa | North East Heating And Cooling',
+  title: 'AC Repair Near Me Tampa',
   description: 'Looking for AC repair near me in Tampa? North East Heating And Cooling delivers same-day air conditioner repair, AC installation & HVAC maintenance across Tampa Bay. Licensed, insured, 5.0★ rated. Call (813) 291-6146.',
   keywords: [
     'ac repair near me',
@@ -241,7 +241,7 @@ export default function HomePage() {
                 Tampa Bay&apos;s 5-Star HVAC Company
               </p>
 
-              <h1 className="mb-6">
+              <h1 className="font-display mb-6 tracking-[-0.03em]">
                 <span className="block font-display text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-[-0.03em] leading-[0.95] text-slate-900">
                   Cool air,
                   <br />
@@ -376,7 +376,7 @@ export default function HomePage() {
               />
             </div>
             <div className="max-w-3xl text-center md:text-left">
-              <p className="text-red-600 font-semibold text-xs uppercase tracking-widest mb-2">Your HVAC expert &amp; neighbor</p>
+              <p className="text-[#C8330A] font-semibold text-xs uppercase tracking-widest mb-2">Your HVAC expert &amp; neighbor</p>
               <blockquote className="text-gray-800 text-xl md:text-2xl font-medium leading-relaxed mb-4">
                 &ldquo;I started this company because I was tired of seeing Tampa homeowners get overcharged and under-served by big HVAC companies. When you call me, I&apos;m the one who shows up, does the work, and stands behind it — personally. No dispatch centers, no rotating crews. Just honest service from someone who actually cares.&rdquo;
               </blockquote>
@@ -765,7 +765,7 @@ export default function HomePage() {
           <div className="mt-10 text-center">
             <Link
               href="/contact"
-              className="inline-flex items-center justify-center gap-2 bg-red-600 hover:bg-red-500 text-white font-bold px-8 py-4 rounded-xl transition-all shadow-lg shadow-red-600/30 hover:-translate-y-0.5 text-base"
+              className="inline-flex items-center justify-center gap-2 bg-[#C8330A] hover:bg-[#b02c08] text-white font-bold px-8 py-4 rounded-xl transition-all shadow-lg shadow-red-600/30 hover:-translate-y-0.5 text-base"
             >
               Get Your Free Consultation
             </Link>

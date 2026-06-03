@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | North East Heating And Cooling',
+  title: 'Privacy Policy',
   description:
     'Privacy Policy for North East Heating And Cooling. Learn how we collect, use, and protect your personal information.',
   robots: { index: false, follow: true },
@@ -14,15 +14,15 @@ export default function PrivacyPolicyPage() {
       {/* Header */}
       <section className="bg-[#0f1620] text-white py-14 px-4">
         <div className="max-w-3xl mx-auto">
-          <p className="text-blue-300 text-sm font-semibold uppercase tracking-widest mb-3">Legal</p>
-          <h1 className="text-4xl font-extrabold">Privacy Policy</h1>
-          <p className="mt-3 text-blue-200 text-sm">Last updated: March 2025</p>
+          <p className="text-[0.72rem] font-bold tracking-[0.18em] uppercase mb-4 text-[#F0A06A]">Legal</p>
+          <h1 className="font-display text-4xl font-extrabold tracking-[-0.03em]">Privacy Policy</h1>
+          <p className="mt-3 text-slate-300 text-sm">Last updated: March 2025</p>
         </div>
       </section>
 
       {/* Content */}
       <section className="py-14 px-4">
-        <div className="max-w-3xl mx-auto prose prose-gray prose-headings:font-bold prose-headings:text-gray-900 prose-a:text-blue-600 prose-a:no-underline hover:prose-a:underline leading-relaxed text-gray-700">
+        <div className="max-w-3xl mx-auto prose prose-gray prose-headings:font-bold prose-headings:text-gray-900 prose-a:text-[#C8330A] prose-a:no-underline hover:prose-a:underline leading-relaxed text-gray-700">
 
           <p>
             North East Heating And Cooling (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;) operates the website{' '}

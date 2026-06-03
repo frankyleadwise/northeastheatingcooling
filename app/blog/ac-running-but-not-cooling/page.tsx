@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: "Why Is My AC Running But Not Cooling? 8 Causes (And What to Do) | North East Heating And Cooling",
+  title: "Why Is My AC Running But Not Cooling? 8 Causes (And What to Do)",
   description:
     "Your AC is running but not cooling — here are the 8 most common causes a Tampa HVAC technician sees, ordered from cheapest to fix to most expensive. What you can check yourself before calling.",
   alternates: { canonical: '/blog/ac-running-but-not-cooling' },
@@ -34,13 +34,13 @@ export default function AcRunningButNotCoolingPage() {
             <span className="bg-orange-500 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">
               Troubleshooting
             </span>
-            <time className="text-blue-200 text-sm">April 29, 2026</time>
+            <time className="text-slate-300 text-sm">April 29, 2026</time>
           </div>
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight mb-5">
+          <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-extrabold leading-[1.05] mb-5 tracking-[-0.03em]">
             Why Is My AC Running But Not Cooling? 8 Causes (And What to Do)
           </h1>
-          <p className="text-blue-200 text-sm">
-            By <span className="font-semibold text-white">Chris Grullon</span>, <span className="text-blue-200">Owner &amp; EPA 608 Certified HVAC Technician</span> &mdash; North East Heating And Cooling, Tampa Bay, FL
+          <p className="text-slate-300 text-sm">
+            By <span className="font-semibold text-white">Chris Grullon</span>, <span className="text-slate-300">Owner &amp; EPA 608 Certified HVAC Technician</span> &mdash; North East Heating And Cooling, Tampa Bay, FL
           </p>
         </div>
       </header>
@@ -67,7 +67,7 @@ export default function AcRunningButNotCoolingPage() {
                 </p>
               </div>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">1. Dirty Air Filter (Cost: $15)</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">1. Dirty Air Filter (Cost: $15)</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 <strong>Always check this first.</strong> A clogged filter restricts airflow over the
                 evaporator coil, which causes two problems: the air your system can deliver gets reduced
@@ -81,7 +81,7 @@ export default function AcRunningButNotCoolingPage() {
                 fine, move to step 2.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">2. Thermostat Issue (Cost: $0–$200)</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">2. Thermostat Issue (Cost: $0–$200)</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Sometimes the thermostat is the problem, not the AC. Check three things: (a) is it actually
                 set to <strong>cool</strong> mode and not <strong>fan</strong> or <strong>heat</strong>?
@@ -95,7 +95,7 @@ export default function AcRunningButNotCoolingPage() {
                 installed runs $200&ndash;$400.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">3. Frozen Evaporator Coil (Cost: $0–$200 if caught early)</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">3. Frozen Evaporator Coil (Cost: $0–$200 if caught early)</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 If you go look at the indoor air handler (usually in your attic, garage, or a closet) and
                 see <strong>ice on the copper refrigerant lines</strong> or on the coil itself, that&apos;s
@@ -109,7 +109,7 @@ export default function AcRunningButNotCoolingPage() {
                 or a blower motor problem and you need a tech.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">4. Dirty Outdoor Condenser Coil (Cost: $150–$300)</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">4. Dirty Outdoor Condenser Coil (Cost: $150–$300)</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 The outdoor unit (the loud box in your yard) is responsible for dumping the heat your AC
                 pulls out of your home into the outside air. If the fins on the outdoor coil are caked with
@@ -123,7 +123,7 @@ export default function AcRunningButNotCoolingPage() {
                 in Tampa, this should be part of a twice-yearly tune-up anyway.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">5. Failed Capacitor (Cost: $150–$350)</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">5. Failed Capacitor (Cost: $150–$350)</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 The capacitor is essentially a battery that helps start the compressor and fan motors. When
                 it fails, the system might run partially — sometimes the outdoor fan spins but the compressor
@@ -138,7 +138,7 @@ export default function AcRunningButNotCoolingPage() {
                 more and tend to last 2x as long in Florida heat.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">6. Low Refrigerant / Refrigerant Leak (Cost: $300–$1,500)</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">6. Low Refrigerant / Refrigerant Leak (Cost: $300–$1,500)</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 AC systems are sealed — they shouldn&apos;t lose refrigerant under normal operation. If
                 yours is low, you have a leak somewhere. Symptoms include: ice on the refrigerant lines,
@@ -153,7 +153,7 @@ export default function AcRunningButNotCoolingPage() {
                 you have a leak, replacement is often cheaper than refilling.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">7. Failing Compressor (Cost: $1,500–$3,500)</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">7. Failing Compressor (Cost: $1,500–$3,500)</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 The compressor is the heart of your AC — it pressurizes refrigerant so heat can be transferred.
                 When it starts to fail, you typically hear changes (louder operation, clicking, humming) and
@@ -168,7 +168,7 @@ export default function AcRunningButNotCoolingPage() {
                 replacement option side-by-side so you can choose with full information.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">8. Undersized System (Cost: Replacement)</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">8. Undersized System (Cost: Replacement)</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Less common but worth mentioning: sometimes a system that&apos;s technically working
                 can&apos;t actually cool the home because it&apos;s undersized. This happens when someone
@@ -184,7 +184,7 @@ export default function AcRunningButNotCoolingPage() {
                 practical.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">When to Call Right Away</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">When to Call Right Away</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Don&apos;t wait if you notice any of the following — these can cascade into much bigger
                 problems within hours:
@@ -208,7 +208,7 @@ export default function AcRunningButNotCoolingPage() {
                 </p>
               </div>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Related Reading</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">Related Reading</h2>
               <div className="space-y-3">
                 <Link href="/residential/hvac-service-tampa" className="inline-flex items-center gap-2 text-orange-700 font-semibold hover:text-orange-800 transition-colors">
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -237,13 +237,13 @@ export default function AcRunningButNotCoolingPage() {
           <aside className="lg:w-80 shrink-0 space-y-6">
             <div className="bg-[#0f1620] text-white rounded-2xl p-7 shadow-lg">
               <h3 className="text-xl font-bold mb-3">AC Not Cooling?</h3>
-              <p className="text-blue-100 text-sm leading-relaxed mb-5">
+              <p className="text-slate-300 text-sm leading-relaxed mb-5">
                 Same-day AC repair across Tampa Bay. Diagnostic fee waived with repair. Most fixes done in one visit.
               </p>
-              <a href="tel:8132916146" className="block w-full text-center bg-white text-blue-800 font-bold py-3 rounded-lg hover:bg-blue-50 transition-colors text-lg mb-3">
+              <a href="tel:8132916146" className="block w-full text-center bg-white text-[#0f1620] font-bold py-3 rounded-lg hover:bg-[#C8330A]/5 transition-colors text-lg mb-3">
                 Call (813) 291-6146
               </a>
-              <p className="text-blue-200 text-xs text-center">Same-day appointments available</p>
+              <p className="text-slate-300 text-xs text-center">Same-day appointments available</p>
             </div>
 
             <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-6">
@@ -271,7 +271,7 @@ export default function AcRunningButNotCoolingPage() {
       <section className="bg-orange-50 border-y border-orange-100 py-12 px-4">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
-            <h2 className="text-2xl font-bold text-gray-900 mb-1">Still Not Cooling After Checking?</h2>
+            <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mb-1">Still Not Cooling After Checking?</h2>
             <p className="text-gray-600">
               Our techs can usually diagnose in 30 minutes and most repairs are done same-day.{' '}
               <Link href="/residential/hvac-service-tampa" className="text-orange-700 font-semibold hover:underline">
@@ -279,7 +279,7 @@ export default function AcRunningButNotCoolingPage() {
               </Link>
             </p>
           </div>
-          <a href="tel:8132916146" className="shrink-0 inline-flex items-center justify-center px-7 py-3 bg-red-700 text-white font-bold rounded-lg hover:bg-[#0f1620] transition-colors text-lg whitespace-nowrap">
+          <a href="tel:8132916146" className="shrink-0 inline-flex items-center justify-center px-7 py-3 bg-[#b02c08] text-white font-bold rounded-lg hover:bg-[#0f1620] transition-colors text-lg whitespace-nowrap">
             Call Now: (813) 291-6146
           </a>
         </div>

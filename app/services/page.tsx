@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'HVAC Services Tampa Bay, FL | North East Heating And Cooling',
+  title: 'HVAC Services Tampa Bay, FL',
   description:
     'Complete HVAC services for Tampa Bay homes and businesses. AC repair, installation, heating, air ducts, water heaters & commercial HVAC. Licensed & certified. Call (813) 291-6146.',
 }
@@ -51,7 +51,7 @@ const CheckIcon = () => (
     strokeWidth="2.5"
     strokeLinecap="round"
     strokeLinejoin="round"
-    className="w-5 h-5 text-blue-600 shrink-0"
+    className="w-5 h-5 text-[#C8330A] shrink-0"
     aria-hidden="true"
   >
     <path d="M20 6 9 17l-5-5" />
@@ -192,7 +192,7 @@ const ShieldIcon = () => (
     strokeWidth="2"
     strokeLinecap="round"
     strokeLinejoin="round"
-    className="w-6 h-6 text-blue-600 shrink-0"
+    className="w-6 h-6 text-[#C8330A] shrink-0"
     aria-hidden="true"
   >
     <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
@@ -387,15 +387,15 @@ function ServiceCard({
   description: string
 }) {
   return (
-    <div className="group bg-white rounded-2xl p-6 border border-gray-100 shadow-sm hover:shadow-md hover:border-blue-200 transition-all flex flex-col">
-      <div className="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-blue-50 text-blue-600 group-hover:bg-red-600 group-hover:text-white transition-colors mb-4 shrink-0">
+    <div className="group bg-white rounded-2xl p-6 border border-gray-100 shadow-sm hover:shadow-md hover:border-slate-300 transition-all flex flex-col">
+      <div className="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-[#fff6f1] text-[#C8330A] group-hover:bg-[#b02c08] group-hover:text-white transition-colors mb-4 shrink-0">
         <Icon />
       </div>
       <h3 className="font-extrabold text-gray-900 text-lg mb-2">{title}</h3>
       <p className="text-gray-500 text-sm leading-relaxed flex-1">{description}</p>
       <Link
         href={slug}
-        className="mt-5 inline-flex items-center gap-1.5 text-blue-600 hover:text-blue-800 font-semibold text-sm transition-colors"
+        className="mt-5 inline-flex items-center gap-1.5 text-[#C8330A] hover:text-[#b02c08] font-semibold text-sm transition-colors"
       >
         Learn More <ArrowRightIcon />
       </Link>
@@ -420,13 +420,13 @@ export default function ServicesPage() {
           <div className="absolute inset-0 bg-gradient-to-r from-[#0f1620]/80 via-[#0f1620]/60 to-[#0f1620]/40" />
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-blue-200 font-semibold text-sm uppercase tracking-widest mb-3">
+          <p className="text-[0.72rem] font-bold tracking-[0.18em] uppercase mb-4 text-[#F0A06A]">
             Tampa Bay&apos;s Full-Service HVAC Company
           </p>
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight mb-5 max-w-4xl mx-auto">
+          <h1 className="font-display text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-[1.05] mb-5 max-w-4xl mx-auto tracking-[-0.03em]">
             Complete HVAC Services for Tampa Bay Homes &amp; Businesses
           </h1>
-          <p className="text-blue-100 text-lg sm:text-xl max-w-3xl mx-auto leading-relaxed mb-8">
+          <p className="text-slate-300 text-lg sm:text-xl max-w-3xl mx-auto leading-relaxed mb-8">
             From emergency AC repairs to full system replacements — residential
             and commercial — North East Heating And Cooling handles it all.
             Licensed, certified, and trusted by 5,000+ Tampa Bay customers.
@@ -434,7 +434,7 @@ export default function ServicesPage() {
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a
               href="tel:8132916146"
-              className="inline-flex items-center justify-center gap-2 px-7 py-3.5 bg-white text-blue-700 font-extrabold rounded-xl hover:bg-blue-50 transition-colors shadow-sm text-base"
+              className="inline-flex items-center justify-center gap-2 px-7 py-3.5 bg-white text-[#C8330A] font-extrabold rounded-xl hover:bg-[#C8330A]/5 transition-colors shadow-sm text-base"
             >
               <PhoneIcon />
               (813) 291-6146
@@ -453,10 +453,10 @@ export default function ServicesPage() {
       <section className="section-padding bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <p className="text-blue-600 font-semibold text-sm uppercase tracking-widest mb-2">
+            <p className="text-[0.72rem] font-bold tracking-[0.18em] uppercase mb-2 text-[#C8330A]">
               Residential HVAC
             </p>
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 leading-tight">
+            <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 leading-[1.02]">
               Home HVAC Services
             </h2>
             <p className="text-gray-500 mt-3 max-w-2xl mx-auto">
@@ -474,7 +474,7 @@ export default function ServicesPage() {
           <div className="mt-10 text-center">
             <Link
               href="/residential"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-red-600 hover:bg-red-700 text-white font-bold rounded-xl transition-colors text-sm"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-[#C8330A] hover:bg-[#b02c08] text-white font-bold rounded-xl transition-colors text-sm"
             >
               View All Residential Services <ArrowRightIcon />
             </Link>
@@ -486,10 +486,10 @@ export default function ServicesPage() {
       <section className="section-padding bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <p className="text-blue-600 font-semibold text-sm uppercase tracking-widest mb-2">
+            <p className="text-[0.72rem] font-bold tracking-[0.18em] uppercase mb-2 text-[#C8330A]">
               Commercial HVAC
             </p>
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 leading-tight">
+            <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 leading-[1.02]">
               Business &amp; Commercial Services
             </h2>
             <p className="text-gray-500 mt-3 max-w-2xl mx-auto">
@@ -508,7 +508,7 @@ export default function ServicesPage() {
           <div className="mt-10 text-center">
             <Link
               href="/commercial"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-red-600 hover:bg-red-700 text-white font-bold rounded-xl transition-colors text-sm"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-[#C8330A] hover:bg-[#b02c08] text-white font-bold rounded-xl transition-colors text-sm"
             >
               View All Commercial Services <ArrowRightIcon />
             </Link>
@@ -520,10 +520,10 @@ export default function ServicesPage() {
       <section className="section-padding bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <p className="text-blue-600 font-semibold text-sm uppercase tracking-widest mb-2">
+            <p className="text-[0.72rem] font-bold tracking-[0.18em] uppercase mb-2 text-[#C8330A]">
               The North East Advantage
             </p>
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 leading-tight">
+            <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 leading-[1.02]">
               Why Choose North East Heating And Cooling?
             </h2>
             <p className="text-gray-500 mt-3 max-w-2xl mx-auto">
@@ -536,7 +536,7 @@ export default function ServicesPage() {
             {benefits.map(({ title, description }) => (
               <div
                 key={title}
-                className="flex gap-4 p-5 rounded-2xl border border-gray-100 shadow-sm bg-white hover:border-blue-100 transition-colors"
+                className="flex gap-4 p-5 rounded-2xl border border-gray-100 shadow-sm bg-white hover:border-slate-200 transition-colors"
               >
                 <ShieldIcon />
                 <div>
@@ -554,19 +554,19 @@ export default function ServicesPage() {
       </section>
 
       {/* ── CTA ───────────────────────────────────────────────────────────── */}
-      <section className="section-padding bg-red-700 text-white">
+      <section className="section-padding bg-[#b02c08] text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl sm:text-4xl font-extrabold mb-4 leading-tight">
+          <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold mb-4 leading-[1.02]">
             Ready to Schedule Your HVAC Service?
           </h2>
-          <p className="text-blue-100 text-lg mb-8 max-w-2xl mx-auto">
+          <p className="text-slate-300 text-lg mb-8 max-w-2xl mx-auto">
             Call now or request a free quote online. Our team is ready to help
             Tampa Bay homes and businesses stay comfortable.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="tel:8132916146"
-              className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-blue-700 font-extrabold rounded-xl hover:bg-blue-50 transition-colors shadow-md text-lg"
+              className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-[#C8330A] font-extrabold rounded-xl hover:bg-[#C8330A]/5 transition-colors shadow-md text-lg"
             >
               <PhoneIcon />
               (813) 291-6146
@@ -578,7 +578,7 @@ export default function ServicesPage() {
               Request a Free Quote
             </Link>
           </div>
-          <p className="text-blue-200 text-sm mt-5">
+          <p className="text-slate-300 text-sm mt-5">
             Mon–Fri 7am–7pm &bull; Sat 8am–5pm &bull; 24/7 Emergency Available
           </p>
         </div>

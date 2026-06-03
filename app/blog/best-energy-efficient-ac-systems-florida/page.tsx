@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Best Energy-Efficient AC Systems for Florida Homeowners | North East Heating And Cooling',
+  title: 'Best Energy-Efficient AC Systems for Florida Homeowners',
   description:
     'Explore the best energy-efficient AC systems for Florida homeowners. SEER ratings, variable speed systems, heat pumps, top brands, and FL rebates. Call (813) 291-6146.',
   openGraph: {
@@ -35,13 +35,13 @@ export default function EnergyEfficientACFloridaPage() {
             <span className="bg-purple-500 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">
               Energy Efficiency
             </span>
-            <time className="text-blue-200 text-sm">February 20, 2025</time>
+            <time className="text-slate-300 text-sm">February 20, 2025</time>
           </div>
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight mb-5">
+          <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-extrabold leading-[1.05] mb-5 tracking-[-0.03em]">
             Best Energy-Efficient AC Systems for Florida Homeowners
           </h1>
-          <p className="text-blue-200 text-sm">
-            By <span className="font-semibold text-white">Chris Grullon</span>, <span className="text-blue-200">Owner &amp; EPA 608 Certified HVAC Technician</span> &mdash; North East Heating And Cooling, Tampa Bay, FL
+          <p className="text-slate-300 text-sm">
+            By <span className="font-semibold text-white">Chris Grullon</span>, <span className="text-slate-300">Owner &amp; EPA 608 Certified HVAC Technician</span> &mdash; North East Heating And Cooling, Tampa Bay, FL
           </p>
         </div>
       </header>
@@ -61,7 +61,7 @@ export default function EnergyEfficientACFloridaPage() {
                 pay for itself within a few years through reduced energy costs.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Understanding SEER Ratings in Florida</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">Understanding SEER Ratings in Florida</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 SEER stands for Seasonal Energy Efficiency Ratio — it measures how much cooling an AC system delivers
                 per unit of electricity consumed over a typical cooling season. The higher the SEER rating, the more
@@ -83,7 +83,7 @@ export default function EnergyEfficientACFloridaPage() {
                 <li><strong>SEER 21–25+:</strong> Premium efficiency; ideal for larger homes, high usage, or long-term ownership</li>
               </ul>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Variable Speed Systems: A Game Changer for Florida</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">Variable Speed Systems: A Game Changer for Florida</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Traditional single-stage AC systems operate at 100% capacity whenever they run — they&apos;re either
                 fully on or fully off. This approach works in cooler climates where the system only needs to run
@@ -102,7 +102,7 @@ export default function EnergyEfficientACFloridaPage() {
                 <li><strong>More consistent comfort:</strong> Temperature and humidity stay stable rather than fluctuating with each cycle</li>
               </ul>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Smart Thermostats: Small Upgrade, Big Impact</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">Smart Thermostats: Small Upgrade, Big Impact</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 A smart thermostat won&apos;t change the efficiency of your AC unit itself, but it dramatically
                 improves how intelligently your system is used. Smart thermostats like the Ecobee, Nest, and
@@ -116,7 +116,7 @@ export default function EnergyEfficientACFloridaPage() {
                 ($100–$250 installed) and represent one of the highest ROI upgrades available to homeowners.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Heat Pump Technology in Florida</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">Heat Pump Technology in Florida</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Heat pumps have long been standard in Florida due to the mild winters — they provide both heating
                 and cooling from a single system. Modern heat pumps are dramatically more advanced than older models,
@@ -130,7 +130,7 @@ export default function EnergyEfficientACFloridaPage() {
                 reduce the total cost of ownership.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Top Brands for Florida Homeowners</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">Top Brands for Florida Homeowners</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Several manufacturers consistently receive high marks for reliability, efficiency, and performance
                 in hot, humid climates like Florida&apos;s:
@@ -168,7 +168,7 @@ export default function EnergyEfficientACFloridaPage() {
                 DX series achieves SEER ratings of 18–23+ and is known for quiet operation and long-term reliability.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Florida Rebates and Incentives</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">Florida Rebates and Incentives</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Installing a high-efficiency HVAC system in Florida can qualify you for meaningful financial incentives
                 that reduce the net cost of your upgrade:
@@ -194,7 +194,7 @@ export default function EnergyEfficientACFloridaPage() {
                 </li>
               </ul>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Choosing the Right System for Your Home</h2>
+              <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mt-10 mb-4">Choosing the Right System for Your Home</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 The best AC system for your home depends on your square footage, insulation quality, ceiling height,
                 sun exposure, and budget. Bigger isn&apos;t always better — an oversized system will short cycle,
@@ -214,7 +214,7 @@ export default function EnergyEfficientACFloridaPage() {
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Link
                     href="/residential/hvac-installation-tampa-fl"
-                    className="inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-800 transition-colors"
+                    className="inline-flex items-center gap-2 text-[#C8330A] font-semibold hover:text-[#b02c08] transition-colors"
                   >
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -223,7 +223,7 @@ export default function EnergyEfficientACFloridaPage() {
                   </Link>
                   <Link
                     href="/residential/hvac-service-tampa"
-                    className="inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-800 transition-colors"
+                    className="inline-flex items-center gap-2 text-[#C8330A] font-semibold hover:text-[#b02c08] transition-colors"
                   >
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -240,17 +240,17 @@ export default function EnergyEfficientACFloridaPage() {
             {/* CTA Card */}
             <div className="bg-[#0f1620] text-white rounded-2xl p-7 shadow-lg">
               <h3 className="text-xl font-bold mb-3">Need HVAC Help?</h3>
-              <p className="text-blue-100 text-sm leading-relaxed mb-5">
+              <p className="text-slate-300 text-sm leading-relaxed mb-5">
                 Ready to upgrade to a high-efficiency system? Our Tampa Bay team will help you choose the right
                 unit, maximize your rebates, and install it right.
               </p>
               <a
                 href="tel:8132916146"
-                className="block w-full text-center bg-white text-blue-800 font-bold py-3 rounded-lg hover:bg-blue-50 transition-colors text-lg mb-3"
+                className="block w-full text-center bg-white text-[#0f1620] font-bold py-3 rounded-lg hover:bg-[#C8330A]/5 transition-colors text-lg mb-3"
               >
                 Call (813) 291-6146
               </a>
-              <p className="text-blue-200 text-xs text-center">Free in-home consultations available</p>
+              <p className="text-slate-300 text-xs text-center">Free in-home consultations available</p>
             </div>
 
             {/* Related Posts */}
@@ -258,17 +258,17 @@ export default function EnergyEfficientACFloridaPage() {
               <h3 className="text-lg font-bold text-gray-900 mb-4">More HVAC Tips</h3>
               <ul className="space-y-3">
                 <li>
-                  <Link href="/blog/when-to-replace-your-ac-unit-florida" className="text-blue-600 hover:text-blue-800 text-sm font-medium leading-snug transition-colors">
+                  <Link href="/blog/when-to-replace-your-ac-unit-florida" className="text-[#C8330A] hover:text-[#b02c08] text-sm font-medium leading-snug transition-colors">
                     How to Know When to Replace Your AC Unit in Florida
                   </Link>
                 </li>
                 <li>
-                  <Link href="/blog/benefits-of-regular-hvac-maintenance-florida" className="text-blue-600 hover:text-blue-800 text-sm font-medium leading-snug transition-colors">
+                  <Link href="/blog/benefits-of-regular-hvac-maintenance-florida" className="text-[#C8330A] hover:text-[#b02c08] text-sm font-medium leading-snug transition-colors">
                     Benefits of Regular HVAC Maintenance in Florida
                   </Link>
                 </li>
                 <li>
-                  <Link href="/blog/top-signs-hvac-system-needs-repair" className="text-blue-600 hover:text-blue-800 text-sm font-medium leading-snug transition-colors">
+                  <Link href="/blog/top-signs-hvac-system-needs-repair" className="text-[#C8330A] hover:text-[#b02c08] text-sm font-medium leading-snug transition-colors">
                     Top Signs Your HVAC System Needs Repair
                   </Link>
                 </li>
@@ -280,17 +280,17 @@ export default function EnergyEfficientACFloridaPage() {
               <h3 className="text-lg font-bold text-gray-900 mb-4">Our Services</h3>
               <ul className="space-y-2">
                 <li>
-                  <Link href="/residential/hvac-installation-tampa-fl" className="text-gray-700 hover:text-blue-700 text-sm transition-colors">
+                  <Link href="/residential/hvac-installation-tampa-fl" className="text-gray-700 hover:text-[#C8330A] text-sm transition-colors">
                     → HVAC Installation &amp; Replacement
                   </Link>
                 </li>
                 <li>
-                  <Link href="/residential/hvac-service-tampa" className="text-gray-700 hover:text-blue-700 text-sm transition-colors">
+                  <Link href="/residential/hvac-service-tampa" className="text-gray-700 hover:text-[#C8330A] text-sm transition-colors">
                     → HVAC Repair &amp; Service
                   </Link>
                 </li>
                 <li>
-                  <Link href="/residential" className="text-gray-700 hover:text-blue-700 text-sm transition-colors">
+                  <Link href="/residential" className="text-gray-700 hover:text-[#C8330A] text-sm transition-colors">
                     → All Residential Services
                   </Link>
                 </li>
@@ -301,20 +301,20 @@ export default function EnergyEfficientACFloridaPage() {
       </div>
 
       {/* Bottom CTA Banner */}
-      <section className="bg-blue-50 border-y border-blue-100 py-12 px-4">
+      <section className="bg-[#fff6f1] border-y border-[#C8330A]/15 py-12 px-4">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
-            <h2 className="text-2xl font-bold text-gray-900 mb-1">Ready to Upgrade to a High-Efficiency System?</h2>
+            <h2 className="font-display tracking-[-0.02em] text-2xl font-extrabold text-slate-900 mb-1">Ready to Upgrade to a High-Efficiency System?</h2>
             <p className="text-gray-600">
               North East Heating And Cooling installs top-rated energy-efficient systems across Tampa Bay.{' '}
-              <Link href="/residential/hvac-installation-tampa-fl" className="text-blue-600 font-semibold hover:underline">
+              <Link href="/residential/hvac-installation-tampa-fl" className="text-[#C8330A] font-semibold hover:underline">
                 View installation services →
               </Link>
             </p>
           </div>
           <a
             href="tel:8132916146"
-            className="shrink-0 inline-flex items-center justify-center px-7 py-3 bg-red-700 text-white font-bold rounded-lg hover:bg-[#0f1620] transition-colors text-lg whitespace-nowrap"
+            className="shrink-0 inline-flex items-center justify-center px-7 py-3 bg-[#b02c08] text-white font-bold rounded-lg hover:bg-[#0f1620] transition-colors text-lg whitespace-nowrap"
           >
             Call Now: (813) 291-6146
           </a>

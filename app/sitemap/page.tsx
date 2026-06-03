@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Sitemap | North East Heating And Cooling',
+  title: 'Sitemap',
   description: 'Full sitemap for North East Heating And Cooling — HVAC services, service areas, and resources for Tampa Bay homeowners.',
 }
 
@@ -95,9 +95,9 @@ export default function SitemapPage() {
       {/* Header */}
       <section className="bg-[#0f1620] text-white py-14 px-4">
         <div className="max-w-5xl mx-auto">
-          <p className="text-blue-300 text-sm font-semibold uppercase tracking-widest mb-3">Navigation</p>
-          <h1 className="text-4xl font-extrabold">Sitemap</h1>
-          <p className="mt-3 text-blue-200 text-base max-w-xl">
+          <p className="text-[0.72rem] font-bold tracking-[0.18em] uppercase mb-4 text-[#F0A06A]">Navigation</p>
+          <h1 className="font-display text-4xl font-extrabold tracking-[-0.03em]">Sitemap</h1>
+          <p className="mt-3 text-slate-300 text-base max-w-xl">
             Every page on northeastheatingcooling.com, organized by category.
           </p>
         </div>
@@ -108,7 +108,7 @@ export default function SitemapPage() {
         <div className="max-w-5xl mx-auto grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
           {sections.map((section) => (
             <div key={section.title}>
-              <h2 className="text-xs font-bold uppercase tracking-widest text-blue-700 mb-4 border-b border-blue-100 pb-2">
+              <h2 className="font-display text-xs font-extrabold uppercase tracking-widest text-[#C8330A] mb-4 border-b border-[#C8330A]/15 pb-2">
                 {section.title}
               </h2>
               <ul className="space-y-2">
@@ -116,7 +116,7 @@ export default function SitemapPage() {
                   <li key={link.href}>
                     <Link
                       href={link.href}
-                      className="text-gray-700 hover:text-blue-700 text-sm transition-colors"
+                      className="text-gray-700 hover:text-[#C8330A] text-sm transition-colors"
                     >
                       {link.label}
                     </Link>
@@ -129,13 +129,13 @@ export default function SitemapPage() {
       </section>
 
       {/* CTA */}
-      <section className="bg-blue-50 border-y border-blue-100 py-10 px-4">
+      <section className="bg-[#fff6f1] border-y border-[#C8330A]/15 py-10 px-4">
         <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6">
           <div>
             <p className="font-bold text-gray-900 text-lg mb-1">Need HVAC service in Tampa Bay?</p>
             <p className="text-gray-600 text-sm">
               Call us or{' '}
-              <Link href="/contact" className="text-blue-600 font-semibold hover:underline">
+              <Link href="/contact" className="text-[#C8330A] font-semibold hover:underline">
                 request service online
               </Link>{' '}
               — same-day appointments available.
@@ -143,7 +143,7 @@ export default function SitemapPage() {
           </div>
           <a
             href="tel:8132916146"
-            className="shrink-0 inline-flex items-center justify-center px-7 py-3 bg-red-700 text-white font-bold rounded-lg hover:bg-[#0f1620] transition-colors text-lg whitespace-nowrap"
+            className="shrink-0 inline-flex items-center justify-center px-7 py-3 bg-[#b02c08] text-white font-bold rounded-lg hover:bg-[#0f1620] transition-colors text-lg whitespace-nowrap"
           >
             (813) 291-6146
           </a>

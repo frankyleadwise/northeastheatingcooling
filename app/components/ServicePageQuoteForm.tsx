@@ -86,7 +86,7 @@ export default function ServicePageQuoteForm({
           <h3 className="text-xl font-extrabold text-gray-900">We Got Your Request!</h3>
           <p className="text-gray-600 max-w-xs text-sm">
             A member of our team will reach out shortly. For immediate help, call{' '}
-            <a href="tel:8132916146" className="text-blue-700 font-bold underline">
+            <a href="tel:8132916146" className="text-[#C8330A] font-bold underline">
               (813) 291-6146
             </a>
           </p>
@@ -139,7 +139,7 @@ export default function ServicePageQuoteForm({
             placeholder="John Smith"
             required
             autoComplete="name"
-            className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100"
+            className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-[#C8330A] focus:ring-2 focus:ring-[#C8330A]/15"
           />
         </div>
         <div>
@@ -153,7 +153,7 @@ export default function ServicePageQuoteForm({
             placeholder="(813) 555-1234"
             required
             autoComplete="tel"
-            className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100"
+            className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-[#C8330A] focus:ring-2 focus:ring-[#C8330A]/15"
           />
         </div>
         <div>
@@ -167,7 +167,7 @@ export default function ServicePageQuoteForm({
             placeholder="john@example.com"
             required
             autoComplete="email"
-            className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100"
+            className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-[#C8330A] focus:ring-2 focus:ring-[#C8330A]/15"
           />
         </div>
         <div>
@@ -179,11 +179,11 @@ export default function ServicePageQuoteForm({
             name="message"
             placeholder={messagePlaceholder}
             rows={4}
-            className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100 resize-none"
+            className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-[#C8330A] focus:ring-2 focus:ring-[#C8330A]/15 resize-none"
           />
         </div>
         {error && (
-          <p className="text-red-600 text-sm text-center">
+          <p className="text-[#C8330A] text-sm text-center">
             Something went wrong. Please try again or{' '}
             <a href="tel:8132916146" className="underline font-semibold">call us directly</a>.
           </p>
@@ -191,13 +191,13 @@ export default function ServicePageQuoteForm({
         <button
           type="submit"
           disabled={submitting}
-          className="w-full bg-red-700 hover:bg-[#0f1620] active:bg-[#0f1620] text-white font-bold py-3.5 rounded-lg transition-colors text-base disabled:opacity-60"
+          className="w-full bg-[#b02c08] hover:bg-[#0f1620] active:bg-[#0f1620] text-white font-bold py-3.5 rounded-lg transition-colors text-base disabled:opacity-60"
         >
           {submitting ? 'Sending...' : 'Submit Request'}
         </button>
         <p className="text-xs text-gray-500 text-center">
           For urgent situations, call{' '}
-          <a href="tel:8132916146" className="text-blue-600 font-semibold">(813) 291-6146</a>{' '}
+          <a href="tel:8132916146" className="text-[#C8330A] font-semibold">(813) 291-6146</a>{' '}
           directly for fastest response.
         </p>
       </div>
