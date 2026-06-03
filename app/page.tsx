@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import QuoteForm from '@/app/components/QuoteForm'
 import FinancingCTA from '@/components/FinancingCTA'
-import { FanGrille, LouverDivider, ThermostatChip, AirflowLines, PressureGauge } from '@/app/components/HvacMotifs'
+import { FanGrille, AirflowLines, PressureGauge } from '@/app/components/HvacMotifs'
 
 export const metadata: Metadata = {
   title: 'AC Repair Near Me Tampa | North East Heating And Cooling',
@@ -312,14 +312,11 @@ export default function HomePage() {
                 </span>
                 <span className="text-sm font-semibold text-slate-800">5.0 &middot; 39 Google reviews</span>
               </div>
-              <ThermostatChip />
             </div>
 
           </div>
         </div>
       </section>
-
-      <LouverDivider />
 
       {/* ── PROBLEM AGITATION ── */}
       <section className="py-20 bg-white" aria-label="The problem we solve">
@@ -656,8 +653,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      <LouverDivider />
-
       {/* ── TESTIMONIALS ── */}
       <section className="relative py-20 bg-[#0f1620] overflow-hidden" aria-label="Customer Testimonials">
         <div className="absolute inset-0 pointer-events-none text-[#F0A06A] opacity-[0.08]" aria-hidden="true">
@@ -847,8 +842,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
-      <LouverDivider />
 
       {/* ── SERVICE AREAS ── */}
       <section className="py-20 bg-white" aria-label="Service Areas">
