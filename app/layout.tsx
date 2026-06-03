@@ -1,6 +1,21 @@
 import type { Metadata } from 'next'
+import { Archivo, Plus_Jakarta_Sans } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/Header'
+
+const display = Archivo({
+  subsets: ['latin'],
+  weight: ['600', '700', '800', '900'],
+  variable: '--font-display',
+  display: 'swap',
+})
+
+const body = Plus_Jakarta_Sans({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700', '800'],
+  variable: '--font-body',
+  display: 'swap',
+})
 import Footer from '@/components/Footer'
 import MobileCallButton from '@/components/MobileCallButton'
 
@@ -11,7 +26,7 @@ export const metadata: Metadata = {
     template: '%s | North East Heating And Cooling',
   },
   description:
-    'Same-day AC repair, HVAC installation & maintenance across Tampa Bay, FL. Licensed, certified & insured. 5.0★ on Google with 35 reviews. Call (813) 291-6146.',
+    'Same-day AC repair, HVAC installation & maintenance across Tampa Bay, FL. Licensed, certified & insured. 5.0★ on Google with 39 reviews. Call (813) 291-6146.',
   keywords: [
     'ac repair near me',
     'air conditioner repair near me',
@@ -181,7 +196,7 @@ const jsonLd = {
   aggregateRating: {
     '@type': 'AggregateRating',
     ratingValue: '5.0',
-    reviewCount: '35',
+    reviewCount: '39',
     bestRating: '5',
   },
   contactPoint: [
@@ -213,7 +228,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className="h-full antialiased">
+    <html lang="en" className={`h-full antialiased ${display.variable} ${body.variable}`}>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <script
