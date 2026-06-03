@@ -202,7 +202,7 @@ export default function AcRunningButNotCoolingPage() {
                 <h3 className="font-bold text-gray-900 mb-2">Need a Tampa Bay HVAC Tech Now?</h3>
                 <p className="text-gray-700 leading-relaxed">
                   We offer same-day AC repair across Tampa Bay with most service calls scheduled within
-                  hours of your call. Diagnostic fees are waived if you proceed with the repair, and every
+                  hours of your call, and every
                   quote is in writing before any work starts. Call <a href="tel:8132916146" className="text-orange-700 font-semibold hover:underline">(813) 291-6146</a> or{' '}
                   <Link href="/contact" className="text-orange-700 font-semibold hover:underline">request service online</Link>.
                 </p>
@@ -238,7 +238,7 @@ export default function AcRunningButNotCoolingPage() {
             <div className="bg-[#0f1620] text-white rounded-2xl p-7 shadow-lg">
               <h3 className="text-xl font-bold mb-3">AC Not Cooling?</h3>
               <p className="text-slate-300 text-sm leading-relaxed mb-5">
-                Same-day AC repair across Tampa Bay. Diagnostic fee waived with repair. Most fixes done in one visit.
+                Same-day AC repair across Tampa Bay. Written flat-rate quote before any work begins. Most fixes done in one visit.
               </p>
               <a href="tel:8132916146" className="block w-full text-center bg-white text-[#0f1620] font-bold py-3 rounded-lg hover:bg-[#C8330A]/5 transition-colors text-lg mb-3">
                 Call (813) 291-6146

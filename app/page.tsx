@@ -113,7 +113,7 @@ const faqs = [
   },
   {
     q: 'How much does AC repair cost in Tampa?',
-    a: 'Most AC repairs in the Tampa Bay area fall between $150 and $650, with capacitor and contactor replacements on the lower end and refrigerant leaks, blower motors, or compressor work on the higher end. A standard diagnostic service call runs $75–$150, which we apply toward the repair if you proceed. We give you a flat, written quote before any work begins — no surprise charges, ever. Call (813) 291-6146 for a free estimate.',
+    a: "Repair cost depends on the part and the problem — capacitor and contactor replacements are on the simpler end, while refrigerant leaks, blower motors, or compressor work are more involved. We diagnose first, then quote a flat rate upfront that you approve before any work begins.",
   },
   {
     q: 'How fast can you get to me for emergency AC repair?',
@@ -149,7 +149,7 @@ const faqs = [
   },
   {
     q: 'How much should an HVAC service call cost?',
-    a: 'In the Tampa Bay area, a standard HVAC service call typically runs between $75 and $150, covering the diagnostic visit. Repair costs are separate and depend on what\'s found. At North East Heating And Cooling, we charge straightforward, upfront pricing with no surprises. Call us at (813) 291-6146 to get a clear estimate before any work begins.',
+    a: "Service-call and diagnostic pricing varies by company across the Tampa Bay area. At North East Heating And Cooling we keep it simple: we diagnose the problem and give you a flat-rate quote upfront — you approve the exact price before any work begins.",
   },
   {
     q: 'What is the most common HVAC problem?',
@@ -161,7 +161,7 @@ const faqs = [
   },
   {
     q: 'What is the most expensive part of an HVAC system?',
-    a: 'The compressor is the most expensive component — essentially the heart of your AC system — and replacement can run $1,500 to $2,500 or more. If your compressor fails and your system is more than 10 years old, replacing the full unit is often more cost-effective. We\'ll always walk you through both options honestly so you can make the best decision for your budget.',
+    a: "The compressor is the most expensive component — essentially the heart of your AC system. If your compressor fails and your system is more than 10 years old, replacement is often the smarter investment than repair, and we will help you run the math honestly before you decide.",
   },
   {
     q: 'Heat pump vs. AC in Florida — which is better?',

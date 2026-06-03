@@ -145,7 +145,7 @@ const faqs = [
   },
   {
     q: 'How much does HVAC repair in Tampa typically cost?',
-    a: "HVAC repair costs vary widely depending on the issue. Minor repairs like capacitor replacements may run $150–$300, while larger repairs such as compressor replacement can cost $800–$1,500 or more. We always provide a written, upfront estimate before beginning any repair work, so there are never surprise charges. We also offer financing options for larger repairs.",
+    a: "HVAC repair costs vary widely depending on the issue — minor electrical components are on the simpler end, while compressor or refrigerant work is more involved. We diagnose first, then give you a flat-rate quote upfront that you approve before any work begins.",
   },
   {
     q: 'My AC is blowing warm air — what could be wrong?',
@@ -657,7 +657,7 @@ export default function HvacServiceTampaPage() {
               {
                 '@type': 'Question',
                 name: 'How much does HVAC repair in Tampa typically cost?',
-                acceptedAnswer: { '@type': 'Answer', text: 'HVAC repair costs vary widely depending on the issue. Minor repairs like capacitor replacements may run $150–$300, while larger repairs such as compressor replacement can cost $800–$1,500 or more. We always provide a written, upfront estimate before beginning any repair work, so there are never surprise charges.' },
+                acceptedAnswer: { '@type': 'Answer', text: 'HVAC repair costs vary widely depending on the issue — minor electrical components are on the simpler end, while compressor or refrigerant work is more involved. We diagnose first, then give you a flat-rate quote upfront that you approve before any work begins.' },
               },
               {
                 '@type': 'Question',

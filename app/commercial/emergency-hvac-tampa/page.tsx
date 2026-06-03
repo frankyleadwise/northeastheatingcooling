@@ -165,8 +165,6 @@ const services = [
       '4-hour guaranteed business-hour response',
       '6-hour guaranteed after-hours response',
       'Priority dispatch over non-plan customers',
-      'No after-hours surcharges for plan members',
-      '15% discount on emergency repairs',
       'Multi-location coordination available',
     ],
   },
@@ -183,11 +181,11 @@ const faqs = [
   },
   {
     q: 'How much does emergency commercial HVAC repair cost?',
-    a: "Standard commercial diagnostic service typically runs $189-$249 (waived if repair proceeds for plan customers). Common repair work — capacitor, contactor, fan motor, refrigerant — typically lands $400-$1,800 fully repaired. Major repairs (compressor, control boards, multi-component failures) range $2,000-$8,000+. We provide written estimates before any work proceeds. Maintenance plan customers receive 15% discount on emergency repairs.",
+    a: "Commercial diagnostic and repair pricing depends on the equipment — rooftop package units, split systems, and chillers all scope differently. We diagnose first, then give you a flat-rate quote to approve before any work begins. Call for current commercial service rates.",
   },
   {
     q: 'Do you charge premium pricing for after-hours commercial calls?',
-    a: "We charge a modest after-hours dispatch fee for non-plan customers ($89-$129 depending on time and day) — significantly less than competitor surcharges that can run 50-100% of the repair cost. Maintenance plan customers pay no after-hours surcharge. Our goal is to make emergency response affordable so business owners don't delay calling when they should.",
+    a: "Call us for current after-hours dispatch rates. We keep emergency pricing straightforward — you'll know the full cost before a technician rolls, so there are no surprises on the invoice.",
   },
   {
     q: 'Can you coordinate with our property management company?',

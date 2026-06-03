@@ -182,7 +182,7 @@ const services = [
 const faqs = [
   {
     q: 'How much does smart thermostat installation cost in Tampa?',
-    a: "Installation alone runs $150-$250 depending on whether C-wire work is needed. The thermostat itself ranges from $130 (Nest Thermostat) to $280 (Ecobee Premium, Nest Learning 4th gen). Total fully-installed cost: $280-$530 depending on model. C-wire installation when needed adds $75-$150. We provide written quotes before any work begins — no surprises.",
+    a: "The thermostat itself is retail hardware — roughly $130 for a standard Nest up to about $280 for an Ecobee Premium or Nest Learning (4th gen). Installation labor depends on whether C-wire work is needed; we'll quote the exact install price upfront before any work begins.",
   },
   {
     q: 'Will a smart thermostat actually save me money in Florida?',
@@ -206,7 +206,7 @@ const faqs = [
   },
   {
     q: 'Do I need professional installation for a smart thermostat?',
-    a: "For a basic Nest install on a system with an existing C-wire, no — most homeowners can DIY with the included instructions. But Tampa Bay homes often have complications: missing C-wire, old wiring, heat pump O/B configuration that's easy to set wrong, dehumidification controls that need proper setup. Professional install runs $150-$250, includes a one-year workmanship warranty, and ensures the system is configured correctly for Florida's specific cooling/dehumidification needs. For most homeowners, the peace of mind is worth it.",
+    a: "The thermostat itself is retail hardware — roughly $130 for a standard Nest up to about $280 for an Ecobee Premium or Nest Learning (4th gen). Installation labor depends on whether C-wire work is needed; we'll quote the exact install price upfront before any work begins.",
   },
 ]
 

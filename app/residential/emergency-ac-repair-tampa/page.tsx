@@ -142,7 +142,7 @@ const services = [
       'Stocked vans = first-visit repair on most jobs',
       'Diagnostic call complete within 30 minutes',
       'Written estimate before any repair work begins',
-      'No diagnostic fee waived with repair',
+      'Flat-rate quote approved by you first',
     ],
   },
   {
@@ -189,7 +189,7 @@ const faqs = [
   },
   {
     q: 'How much does emergency AC repair cost in Tampa?',
-    a: "We don't charge after-hours or weekend surcharges, so emergency repair pricing matches our standard rates. Diagnostic calls are typically $89, waived if you proceed with repair. Common repairs (capacitor, contactor, refrigerant recharge with leak repair) range $250-$650. Bigger jobs (compressor, blower motor, control board) can run $700-$2,000+. We give written estimates before any work begins — no surprises on the bill.",
+    a: "You'll know the exact price before any work begins — we diagnose the problem, quote a flat rate upfront, and you approve it before we touch your system. Call (813) 291-6146 for current emergency diagnostic and repair pricing.",
   },
   {
     q: 'How fast can you get to my house?',

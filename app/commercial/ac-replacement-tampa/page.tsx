@@ -207,7 +207,7 @@ const planning = [
 const faqs = [
   {
     q: 'How much does commercial AC replacement cost in Tampa Bay?',
-    a: "Wide range based on size and type. Light commercial 5-ton rooftop units typically run $12,000-$18,000 fully installed. 7.5-ton RTUs land $16,000-$24,000. 10-ton units $20,000-$30,000. 15-25 ton units run $35,000-$75,000+. Multi-zone systems and chiller-based replacements scale into six figures depending on tonnage, controls, and ductwork modifications. We provide detailed written quotes with line-item pricing — no commercial replacement happens without full transparency on what you're paying for.",
+    a: "It depends on tonnage and equipment type — light commercial rooftop units, larger RTUs, and split systems all scope differently, and crane or curb work affects the total. We'll do a site visit and deliver a written proposal with the exact price before any work begins.",
   },
   {
     q: 'Can you replace commercial HVAC without shutting down our business?',

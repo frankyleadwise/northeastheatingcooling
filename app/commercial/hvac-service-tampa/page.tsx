@@ -95,7 +95,6 @@ const maintenancePlans = [
       'Full electrical and refrigerant check each visit',
       'Priority emergency service (4-hour response)',
       'Written system report each visit',
-      '15% discount on repairs',
     ],
   },
   {
@@ -108,7 +107,6 @@ const maintenancePlans = [
       'Electrical, refrigerant, and controls check',
       'Priority emergency service (8-hour response)',
       'Written system report each visit',
-      '10% discount on repairs',
     ],
   },
   {
@@ -121,7 +119,6 @@ const maintenancePlans = [
       'Coil cleaning and drain service',
       'Electrical and refrigerant check',
       'Written system report',
-      '5% discount on repairs',
     ],
   },
 ]

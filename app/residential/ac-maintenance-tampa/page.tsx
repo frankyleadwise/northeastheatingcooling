@@ -102,50 +102,6 @@ const tuneUpItems = [
   'Written inspection report with photos',
 ]
 
-const planTiers = [
-  {
-    name: 'Single Tune-Up',
-    price: 'From $129',
-    badge: null,
-    summary: 'One comprehensive 20-point AC tune-up. No commitment — book it once a year or as needed.',
-    bullets: [
-      'Full 20-point inspection',
-      'Coil cleaning included',
-      'Filter replacement (standard size)',
-      'Written inspection report',
-      'Same-day service often available',
-    ],
-  },
-  {
-    name: 'Twice-Yearly Plan',
-    price: 'From $19/mo',
-    badge: 'Most Popular',
-    summary: "Spring AC tune-up + fall heat pump tune-up. The way Florida systems should be serviced.",
-    bullets: [
-      'Two 20-point tune-ups per year',
-      'Priority scheduling — front of the line',
-      '15% discount on any repairs',
-      'No diagnostic fee on service calls',
-      'Filter replacements at every visit',
-      'Cancel any time, no contract trap',
-    ],
-  },
-  {
-    name: 'Premium Care',
-    price: 'From $29/mo',
-    badge: null,
-    summary: 'For homeowners who want every detail handled — including parts and labor protection.',
-    bullets: [
-      'Everything in Twice-Yearly Plan',
-      '20% discount on any repairs',
-      'Free standard service calls (no trip charge)',
-      'Parts coverage on common failures',
-      'Annual duct inspection included',
-      '5-year transferable on home sale',
-    ],
-  },
-]
-
 const faqs = [
   {
     q: 'How often should I have AC maintenance done in Florida?',
@@ -153,7 +109,7 @@ const faqs = [
   },
   {
     q: 'How much does AC maintenance cost in Tampa?',
-    a: "A single comprehensive 20-point AC tune-up runs $129–$179 in the Tampa Bay area, depending on the size and complexity of your system. Our twice-yearly maintenance plan starts at $19/month, which covers two tune-ups per year, priority scheduling, a 15% discount on any repairs, and no diagnostic fees on service calls — so for most homeowners the plan more than pays for itself the first time something goes wrong.",
+    a: "Pricing depends on your system's size and condition, and on whether you book a one-time tune-up or a seasonal maintenance plan. You'll always get the exact price upfront before any work begins — call (813) 291-6146 for current tune-up and plan options.",
   },
   {
     q: "What's included in an AC tune-up?",
@@ -318,47 +274,36 @@ export default function AcMaintenanceTampaPage() {
       <section className="bg-white py-16 px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-3 leading-[1.02]">Maintenance Plans &amp; Pricing</h2>
+            <h2 className="font-display tracking-[-0.03em] text-4xl sm:text-5xl font-extrabold text-slate-900 mb-3 leading-[1.02]">Maintenance Plans &amp; Tune-Ups</h2>
             <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-              One-time tune-up or ongoing plan — both options. No long contracts, no surprise rate hikes.
+              Book a one-time tune-up or set up seasonal maintenance &mdash; every visit includes the full 20-point inspection and a written report.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {planTiers.map((tier) => (
-              <div
-                key={tier.name}
-                className={`relative bg-white rounded-2xl p-7 border-2 ${
-                  tier.badge ? 'border-orange-500 shadow-xl' : 'border-gray-200 shadow-sm'
-                }`}
+          <div className="max-w-3xl mx-auto bg-white rounded-2xl border-2 border-[#C8330A]/15 shadow-sm p-8 sm:p-10 text-center">
+            <h3 className="font-display text-2xl font-extrabold tracking-[-0.02em] text-slate-900 mb-3">
+              Honest maintenance, priced for your system
+            </h3>
+            <p className="text-gray-600 leading-relaxed max-w-xl mx-auto mb-7">
+              Every home and system is different, so we price maintenance the same way we price
+              repairs: exact quote upfront, before any work begins. Call us for current tune-up
+              and seasonal plan options &mdash; we&apos;ll recommend the right fit for your system,
+              no pressure.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-3 justify-center">
+              <a
+                href="tel:8132916146"
+                className="inline-flex items-center justify-center bg-[#C8330A] hover:bg-[#b02c08] text-white font-bold px-8 py-3.5 rounded-lg transition-colors"
               >
-                {tier.badge && (
-                  <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-orange-500 text-white text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full">
-                    {tier.badge}
-                  </span>
-                )}
-                <h3 className="text-xl font-bold text-gray-900 mb-1">{tier.name}</h3>
-                <p className="text-3xl font-extrabold text-orange-600 mb-3">{tier.price}</p>
-                <p className="text-gray-600 text-sm leading-relaxed mb-5">{tier.summary}</p>
-                <ul className="space-y-2.5 mb-6">
-                  {tier.bullets.map((b) => (
-                    <li key={b} className="flex items-start gap-2 text-sm text-gray-700">
-                      <span className="text-orange-500 font-bold shrink-0">✓</span>
-                      <span>{b}</span>
-                    </li>
-                  ))}
-                </ul>
-                <a
-                  href="tel:8132916146"
-                  className="block w-full text-center bg-[#0f1620] text-white font-bold py-3 rounded-lg hover:bg-gray-800 transition-colors"
-                >
-                  Get Started
-                </a>
-              </div>
-            ))}
+                Call (813) 291-6146
+              </a>
+              <a
+                href="/contact"
+                className="inline-flex items-center justify-center bg-[#0f1620] hover:bg-[#1a2638] text-white font-bold px-8 py-3.5 rounded-lg transition-colors"
+              >
+                Request a Quote
+              </a>
+            </div>
           </div>
-          <p className="text-center text-gray-500 text-sm mt-8">
-            Plans renew month-to-month. Cancel any time. Pricing varies based on system size and number of units.
-          </p>
         </div>
       </section>
 

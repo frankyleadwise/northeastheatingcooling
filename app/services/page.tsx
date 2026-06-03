@@ -235,7 +235,7 @@ const residentialServices = [
     title: 'AC Maintenance & Tune-Ups',
     slug: '/residential/ac-maintenance-tampa',
     description:
-      'Twice-yearly maintenance plans and 20-point tune-ups that extend system life, lower energy bills, and prevent costly breakdowns. Plans start at $19/mo.',
+      'Twice-yearly maintenance plans and 20-point tune-ups that extend system life, lower energy bills, and prevent costly breakdowns.',
   },
   {
     Icon: FlameIcon,

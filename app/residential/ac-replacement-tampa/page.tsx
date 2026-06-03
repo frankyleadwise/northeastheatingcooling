@@ -171,7 +171,7 @@ const services = [
 const faqs = [
   {
     q: 'How much does AC replacement cost in Tampa?',
-    a: "Full AC replacement in Tampa Bay typically runs $5,500-$12,000 installed, depending on system size (tonnage), efficiency rating (SEER2), brand, and whether ductwork or other upgrades are needed. A 3-ton 16 SEER2 system for an average Tampa home usually lands around $6,500-$8,500. Higher-efficiency variable-speed systems run $9,000-$12,000+ but pay back through energy savings. We provide free written quotes with line-item pricing — no high-pressure tactics.",
+    a: "Installed cost depends on system size (tonnage), efficiency rating (SEER2), brand, and whether ductwork or electrical upgrades are needed. We'll inspect your home, walk you through the options, and quote the exact installed price upfront before any work begins.",
   },
   {
     q: 'When should I replace my AC instead of repairing it?',

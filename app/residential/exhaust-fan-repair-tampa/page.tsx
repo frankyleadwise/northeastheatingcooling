@@ -120,7 +120,7 @@ const faqs = [
   },
   {
     q: 'How much does exhaust fan repair cost in Tampa?',
-    a: "Simple exhaust fan repairs like cleaning, blade replacement, or basic motor service typically run $75–$150. Motor replacement, which is the most common substantial repair, generally costs $100–$200 including parts and labor for standard residential fans. If replacement is more economical than repair, new basic exhaust fan installation (supply and install) typically ranges from $150–$350 depending on the fan type and existing ductwork access.",
+    a: "Repair cost depends on the fix — cleaning and blade work are on the simpler end, while motor replacement is the most common substantial repair. We diagnose first and quote a flat rate upfront before any work begins.",
   },
 ]
 
@@ -419,7 +419,7 @@ export default function ExhaustFanRepairTampaPage() {
               {
                 '@type': 'Question',
                 name: 'How much does exhaust fan repair cost in Tampa?',
-                acceptedAnswer: { '@type': 'Answer', text: 'Simple exhaust fan repairs like cleaning or blade replacement typically run $75–$150. Motor replacement generally costs $100–$200 including parts and labor. New basic exhaust fan installation (supply and install) typically ranges from $150–$350 depending on the fan type and existing ductwork access.' },
+                acceptedAnswer: { '@type': 'Answer', text: 'Repair cost depends on the fix — cleaning and blade work are on the simpler end, while motor replacement is the most common substantial repair. We diagnose first and quote a flat rate upfront before any work begins.' },
               },
             ],
           }),

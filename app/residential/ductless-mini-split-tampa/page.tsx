@@ -198,7 +198,7 @@ const services = [
 const faqs = [
   {
     q: 'How much does a ductless mini-split cost in Tampa?',
-    a: "Single-zone mini-split installations in Tampa Bay typically run $4,500–$7,500 fully installed, depending on system size, brand, and installation complexity. Multi-zone systems start around $7,500 for two zones and scale up to $14,000–$20,000+ for whole-home four or five zone systems. Premium brands like Mitsubishi and Daikin sit at the higher end but offer 18–25 year lifespans. We provide free written estimates with no high-pressure tactics.",
+    a: "Installed cost depends on system size, brand, and installation complexity — and multi-zone systems scale with the number of indoor units. We'll size it to your space and quote the exact installed price upfront, including any electrical work.",
   },
   {
     q: "Will a ductless mini-split work for my whole house?",

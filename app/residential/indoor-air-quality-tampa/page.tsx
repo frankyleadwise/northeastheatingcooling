@@ -204,7 +204,7 @@ const faqs = [
   },
   {
     q: 'How much does indoor air quality equipment cost?',
-    a: "Wide range depending on what you install. UV light systems: $400-$900 installed. Media filter cabinets (MERV 13-16): $500-$1,200 installed. REME-HALO or similar advanced UV: $700-$1,400 installed. Whole-home dehumidifiers: $1,800-$3,500 installed. True HEPA bypass systems: $2,500-$4,500 installed. We give written quotes with options at different price points so you can prioritize based on your specific needs and budget.",
+    a: "It depends on what you install — UV light systems, media filter cabinets, advanced purifiers, and whole-home dehumidifiers are all priced differently. We'll assess your system, recommend the right fit, and quote the exact installed price upfront before any work begins.",
   },
   {
     q: 'Can indoor air quality really help allergies and asthma?',

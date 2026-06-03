@@ -170,7 +170,7 @@ const services = [
 const faqs = [
   {
     q: 'How much does dryer vent cleaning cost in Tampa?',
-    a: "Standard residential dryer vent cleaning runs $129-$229 depending on vent length, accessibility, and roof access. Most ground-level vents land at $129-$169. Roof vents and long runs (over 25 feet) run $179-$229. Add-ons like vent cap replacement or repair work are quoted separately and only with your approval. Free written quote before any work begins.",
+    a: "Pricing depends on vent length, accessibility, and whether roof access is needed — ground-level runs are simpler than long runs through walls, attics, or roofs. We'll quote the exact price upfront before any work begins.",
   },
   {
     q: 'How often should dryer vents be cleaned?',
@@ -182,7 +182,7 @@ const faqs = [
   },
   {
     q: 'Can I clean my own dryer vent?',
-    a: "You can clean the easy parts — the lint trap and the first few feet behind the dryer. But the full vent run (especially through walls, attics, or roofs) requires professional equipment to clean thoroughly: rotary brushes, high-powered vacuums, and often roof access. DIY kits from hardware stores typically miss 30-50% of the lint and don't reach the most dangerous accumulation points. Annual professional cleaning runs $129-$229 — well worth it given fire risk and energy savings.",
+    a: "You can clean the easy parts — the lint trap and the first few feet behind the dryer. But the full vent run (especially through walls, attics, or roofs) requires professional equipment to clean thoroughly: rotary brushes, high-powered vacuums, and often roof access. DIY kits from hardware stores typically miss 30-50% of the lint and don't reach the most dangerous accumulation points. Annual professional cleaning is well worth it given fire risk and energy savings.",
   },
   {
     q: 'How do I know if my dryer vent needs cleaning right now?',
@@ -283,8 +283,7 @@ export default function DryerVentCleaningTampaPage() {
               <p>
                 Beyond fire prevention, clean dryer vents save real money. A clogged vent can add
                 $20-$40/month to your electric bill (the dryer runs longer and hotter to compensate
-                for poor airflow), and it cuts dryer lifespan by 30-50%. A $129 cleaning pays for
-                itself in 4-6 months on energy savings alone.
+                for poor airflow), and it cuts dryer lifespan by 30-50%. A professional cleaning typically pays for itself within months on energy savings alone.
               </p>
             </div>
             <div className="bg-red-50 rounded-2xl p-7 border border-red-100">

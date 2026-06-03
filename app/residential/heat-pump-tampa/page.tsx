@@ -168,7 +168,7 @@ const faqs = [
   },
   {
     q: 'How much does heat pump installation cost in Tampa?',
-    a: "Heat pump installation in Tampa Bay typically runs $5,500–$12,000 fully installed, depending on system size (2.5–5 ton), efficiency rating (14–20 SEER2), and whether ductwork modifications are needed. Variable-speed inverter systems sit at the higher end but pay back through lower energy bills and longer equipment life. We provide free, written estimates with no pressure tactics — and we always quote a repair option side-by-side if you're replacing an existing unit.",
+    a: "Installed cost depends on system size (2.5–5 ton), efficiency rating (SEER2), and whether ductwork modifications are needed. We'll size the system to your home and quote the exact installed price upfront — and qualifying high-efficiency systems may be eligible for federal tax credits.",
   },
   {
     q: 'How long do heat pumps last in Florida?',

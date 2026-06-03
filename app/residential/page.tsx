@@ -67,8 +67,8 @@ const services = [
     href: '/residential/ac-maintenance-tampa',
     icon: '🛠️',
     description:
-      'Twice-yearly maintenance plans and 20-point tune-ups that extend your system\'s life, lower energy bills, and prevent costly summer breakdowns. Plans start at $19/mo.',
-    highlights: ['20-point inspection', 'Coil cleaning included', 'Priority scheduling', 'Plans from $19/mo'],
+      'Twice-yearly maintenance plans and 20-point tune-ups that extend your system\'s life, lower energy bills, and prevent costly summer breakdowns.',
+    highlights: ['20-point inspection', 'Coil cleaning included', 'Priority scheduling', 'Seasonal plan options'],
   },
   {
     title: 'Heat Pump Installation & Repair',
