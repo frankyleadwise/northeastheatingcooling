@@ -291,8 +291,8 @@ export default function HomePage() {
               <div className="rounded-[2rem] bg-white/70 ring-1 ring-black/5 p-2 shadow-[0_40px_80px_-30px_rgba(200,51,10,0.3)]">
                 <div className="relative rounded-[calc(2rem-0.5rem)] overflow-hidden aspect-[4/3]">
                   <Image
-                    src="/home-hero-comfort.jpg"
-                    alt="A comfortable Tampa Bay family relaxing in their cool, well-maintained home"
+                    src="/home-hero-family.jpg"
+                    alt="A happy Tampa Bay family relaxing comfortably at home"
                     fill
                     priority
                     className="object-cover"
