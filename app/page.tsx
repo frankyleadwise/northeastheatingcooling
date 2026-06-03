@@ -317,16 +317,23 @@ export default function HomePage() {
       {/* ── PROBLEM AGITATION ── */}
       <section className="py-20 bg-white" aria-label="The problem we solve">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <p className="text-sm font-bold uppercase tracking-widest mb-3 text-red-600">Sound familiar?</p>
-              <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-6 leading-tight">
-                Most Tampa homeowners have been burned by their HVAC company
-              </h2>
-              <p className="text-gray-600 text-lg leading-relaxed mb-8">
-                You call, you wait three days, a stranger shows up, quotes you $4,000, and disappears. Meanwhile it&apos;s 94° in your living room and your family is miserable. That&apos;s not how it should work — and it&apos;s not how we work.
+          {/* Split head */}
+          <div className="grid lg:grid-cols-12 gap-6 lg:gap-10 items-end mb-12">
+            <div className="lg:col-span-7">
+              <p className="inline-flex items-center gap-2.5 text-[0.72rem] font-bold tracking-[0.18em] uppercase mb-4 text-[#C8330A]">
+                <span className="w-7 h-px bg-[#C8330A]/40" aria-hidden="true" />Sound familiar?
               </p>
-              <div className="space-y-3">
+              <h2 className="font-display text-4xl sm:text-5xl font-extrabold tracking-[-0.03em] leading-[1.02] text-slate-900">
+                Most Tampa homeowners have been <span className="text-[#C8330A]">burned</span> by their HVAC company
+              </h2>
+            </div>
+            <p className="lg:col-span-5 text-slate-600 text-lg leading-relaxed lg:pb-1">
+              You call, you wait three days, a stranger shows up, quotes you $4,000, and disappears. Meanwhile it&apos;s 94° in your living room and your family is miserable. That&apos;s not how it should work — and it&apos;s not how we work.
+            </p>
+          </div>
+
+          {/* Pain points — full-width row */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
                 {[
                   { icon: <path strokeLinecap="round" strokeLinejoin="round" d="M12 7v5l3 2M12 21a9 9 0 100-18 9 9 0 000 18z" />, text: 'Waiting days for a tech while your home turns into a sauna' },
                   { icon: <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v18m4-13.5c0-1.66-1.79-3-4-3s-4 1.34-4 3 1.79 3 4 3 4 1.34 4 3-1.79 3-4 3-4-1.34-4-3" />, text: 'Getting hit with a $300 diagnostic fee before a single bolt is turned' },
@@ -334,40 +341,16 @@ export default function HomePage() {
                   { icon: <path strokeLinecap="round" strokeLinejoin="round" d="M3 5.5C3 4.67 3.67 4 4.5 4H8l2 5-2.5 1.5a11 11 0 005 5L14 13l5 2v3.5c0 .83-.67 1.5-1.5 1.5A14.5 14.5 0 013 5.5z" />, text: 'Calling a "24/7" line and waiting until Monday anyway' },
                   { icon: <path strokeLinecap="round" strokeLinejoin="round" d="M11.5 6.5a3.5 3.5 0 00-4.95 4.95L3 15v3h3l3.55-3.55a3.5 3.5 0 004.95-4.95l-2.12 2.12-1.83-1.83 2.12-2.12z" />, text: 'A different technician every visit who doesn\'t know your system' },
                 ].map((item, i) => (
-                  <div key={i} className="flex items-start gap-4 p-4 rounded-xl bg-red-50 border border-red-100">
-                    <span className="w-9 h-9 rounded-lg bg-red-100 flex items-center justify-center shrink-0">
-                      <svg className="w-5 h-5 text-red-600" fill="none" stroke="currentColor" strokeWidth={1.75} viewBox="0 0 24 24">{item.icon}</svg>
+                  <div key={i} className="flex flex-col gap-3.5 p-5 rounded-xl bg-red-50 border border-red-100">
+                    <span className="w-10 h-10 rounded-lg bg-red-100 flex items-center justify-center shrink-0">
+                      <svg className="w-5 h-5 text-[#C8330A]" fill="none" stroke="currentColor" strokeWidth={1.75} viewBox="0 0 24 24">{item.icon}</svg>
                     </span>
-                    <p className="text-gray-700 font-medium text-sm leading-relaxed self-center">{item.text}</p>
+                    <p className="text-gray-700 font-medium text-sm leading-relaxed">{item.text}</p>
                   </div>
                 ))}
-              </div>
-              <p className="text-gray-400 text-sm italic mt-6">We&apos;ve heard these stories from hundreds of Tampa Bay families. It&apos;s why Chris started North East Heating And Cooling.</p>
-            </div>
-            {/* Chris headshot */}
-            <div className="relative rounded-2xl overflow-hidden shadow-xl" style={{ aspectRatio: '4/5' }}>
-              <Image
-                src="/chris-owner-portrait.jpg"
-                alt="Chris Grullon, Owner of North East Heating And Cooling, Tampa Bay FL"
-                fill
-                className="object-cover object-top"
-                sizes="(max-width: 1024px) 100vw, 50vw"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
-              <div className="absolute bottom-0 left-0 right-0 p-6">
-                <div className="flex items-center gap-0.5 mb-2">
-                  {Array.from({ length: 5 }).map((_, i) => (
-                    <svg key={i} className="w-4 h-4 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-                    </svg>
-                  ))}
-                  <span className="text-white text-sm font-semibold ml-2">5.0 · 39 Google Reviews</span>
-                </div>
-                <p className="text-white font-bold text-lg">Chris Grullon</p>
-                <p className="text-white/75 text-sm">Owner, technician &amp; your neighbor</p>
-              </div>
-            </div>
           </div>
+
+          <p className="text-slate-400 text-sm italic mt-8 max-w-3xl">We&apos;ve heard these stories from hundreds of Tampa Bay families. It&apos;s why Chris started North East Heating And Cooling.</p>
         </div>
       </section>
 
@@ -414,11 +397,11 @@ export default function HomePage() {
 
           {/* Section label + heading */}
           <div className="text-center mb-16">
-            <p className="text-sm font-bold uppercase tracking-widest mb-3 text-orange-400">
-              Why Choose Us
+            <p className="inline-flex items-center gap-2.5 text-[0.72rem] font-bold tracking-[0.18em] uppercase mb-4 text-[#F0A06A]">
+              <span className="w-7 h-px bg-[#F0A06A]/40" aria-hidden="true" />Why Choose Us<span className="w-7 h-px bg-[#F0A06A]/40" aria-hidden="true" />
             </p>
-            <h2 className="text-3xl sm:text-4xl font-extrabold mb-4 text-white">
-              Tampa Bay&apos;s Most Trusted HVAC Team
+            <h2 className="font-display text-4xl sm:text-5xl font-extrabold tracking-[-0.03em] leading-[1.02] mb-4 text-white">
+              Tampa Bay&apos;s Most <span className="text-[#F47438]">Trusted</span> HVAC Team
             </h2>
             <p className="text-lg max-w-2xl mx-auto text-slate-300">
               From quick repairs to full system replacements — 5-star service, every time.
@@ -526,14 +509,16 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
           {/* Header */}
-          <div className="text-center mb-16">
-            <p className="text-sm font-bold uppercase tracking-widest mb-3" style={{ color: 'var(--accent-light)' }}>
-              What We Do
-            </p>
-            <h2 className="text-3xl sm:text-4xl font-extrabold mb-4" style={{ color: 'var(--text)' }}>
-              Complete HVAC Services for Tampa Bay
-            </h2>
-            <p className="text-lg max-w-2xl mx-auto" style={{ color: 'var(--muted)' }}>
+          <div className="grid lg:grid-cols-12 gap-6 lg:gap-10 items-end mb-16">
+            <div className="lg:col-span-7">
+              <p className="inline-flex items-center gap-2.5 text-[0.72rem] font-bold tracking-[0.18em] uppercase mb-4" style={{ color: 'var(--accent-light)' }}>
+                <span className="w-7 h-px" style={{ background: 'var(--accent-light)', opacity: 0.4 }} aria-hidden="true" />What We Do
+              </p>
+              <h2 className="font-display text-4xl sm:text-5xl font-extrabold tracking-[-0.03em] leading-[1.02]" style={{ color: 'var(--text)' }}>
+                Complete HVAC Services for <span style={{ color: 'var(--accent-light)' }}>Tampa Bay</span>
+              </h2>
+            </div>
+            <p className="lg:col-span-5 text-lg leading-relaxed lg:pb-1" style={{ color: 'var(--muted)' }}>
               From emergency repairs to full system replacements, we handle all your heating, cooling, and air quality needs.
             </p>
           </div>
@@ -620,12 +605,15 @@ export default function HomePage() {
       <section className="py-20 bg-white" aria-label="Our Process">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Our Simple 3-Step Process</h2>
-            <p className="text-lg text-gray-600">Getting your HVAC system back to peak performance is easy.</p>
+            <p className="inline-flex items-center gap-2.5 text-[0.72rem] font-bold tracking-[0.18em] uppercase mb-4 text-[#C8330A]">
+              <span className="w-7 h-px bg-[#C8330A]/40" aria-hidden="true" />How It Works<span className="w-7 h-px bg-[#C8330A]/40" aria-hidden="true" />
+            </p>
+            <h2 className="font-display text-4xl sm:text-5xl font-extrabold tracking-[-0.03em] leading-[1.02] text-slate-900 mb-4">Our Simple <span className="text-[#C8330A]">3-Step</span> Process</h2>
+            <p className="text-lg text-slate-600">Getting your HVAC system back to peak performance is easy.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 relative">
             {/* Connecting line on desktop */}
-            <div className="hidden md:block absolute top-12 left-1/3 right-1/3 h-0.5 bg-blue-200 z-0" />
+            <div className="hidden md:block absolute top-12 left-1/3 right-1/3 h-0.5 bg-[#C8330A]/20 z-0" />
             {[
               {
                 step: '1',
@@ -644,7 +632,7 @@ export default function HomePage() {
               },
             ].map((step) => (
               <div key={step.step} className="relative z-10 text-center">
-                <div className="w-24 h-24 bg-blue-800 text-white rounded-full flex items-center justify-center text-3xl font-extrabold mx-auto mb-6 shadow-lg">
+                <div className="w-24 h-24 bg-[#0f1620] text-white rounded-full flex items-center justify-center font-display text-4xl font-extrabold mx-auto mb-6 shadow-lg ring-4 ring-[#C8330A]/10">
                   {step.step}
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">{step.title}</h3>
@@ -659,9 +647,12 @@ export default function HomePage() {
       <section className="py-20 bg-[#0f1620]" aria-label="Customer Testimonials">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
-            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">What Our Customers Are Saying</h2>
-            <p className="text-blue-200 text-lg">
-              <span className="text-yellow-400 font-bold">★★★★★</span> 5.0 Average Rating · 39 Google Reviews
+            <p className="inline-flex items-center gap-2.5 text-[0.72rem] font-bold tracking-[0.18em] uppercase mb-4 text-[#F0A06A]">
+              <span className="w-7 h-px bg-[#F0A06A]/40" aria-hidden="true" />Real Google Reviews<span className="w-7 h-px bg-[#F0A06A]/40" aria-hidden="true" />
+            </p>
+            <h2 className="font-display text-4xl sm:text-5xl font-extrabold tracking-[-0.03em] leading-[1.02] text-white mb-4">What Our Customers Are <span className="text-[#F47438]">Saying</span></h2>
+            <p className="text-slate-300 text-lg">
+              <span className="text-amber-400 font-bold">★★★★★</span> 5.0 Average Rating · 39 Google Reviews
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -720,12 +711,16 @@ export default function HomePage() {
       {/* ── FLEX: WHY US VS THE BIG GUYS ── */}
       <section className="py-20 bg-white" aria-label="Why North East vs big HVAC companies">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <p className="text-sm font-bold uppercase tracking-widest mb-3 text-red-600">The honest difference</p>
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4">
-              Why Tampa families choose us over the big names
-            </h2>
-            <p className="text-gray-500 text-lg max-w-2xl mx-auto">
+          <div className="grid lg:grid-cols-12 gap-6 lg:gap-10 items-end mb-12">
+            <div className="lg:col-span-7">
+              <p className="inline-flex items-center gap-2.5 text-[0.72rem] font-bold tracking-[0.18em] uppercase mb-4 text-[#C8330A]">
+                <span className="w-7 h-px bg-[#C8330A]/40" aria-hidden="true" />The honest difference
+              </p>
+              <h2 className="font-display text-4xl sm:text-5xl font-extrabold tracking-[-0.03em] leading-[1.02] text-slate-900">
+                Why Tampa families choose us over the <span className="text-[#C8330A]">big names</span>
+              </h2>
+            </div>
+            <p className="lg:col-span-5 text-slate-500 text-lg leading-relaxed lg:pb-1">
               The big companies have the billboards. We have the 5-star reviews.
             </p>
           </div>
@@ -764,12 +759,16 @@ export default function HomePage() {
       {/* ── FEATURES / SPECS ── */}
       <section className="py-20 bg-slate-50" aria-label="What's included">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <p className="text-sm font-bold uppercase tracking-widest mb-3 text-red-600">Everything included</p>
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4">
-              What you get with every North East service call
-            </h2>
-            <p className="text-gray-500 text-lg max-w-2xl mx-auto">
+          <div className="grid lg:grid-cols-12 gap-6 lg:gap-10 items-end mb-12">
+            <div className="lg:col-span-7">
+              <p className="inline-flex items-center gap-2.5 text-[0.72rem] font-bold tracking-[0.18em] uppercase mb-4 text-[#C8330A]">
+                <span className="w-7 h-px bg-[#C8330A]/40" aria-hidden="true" />Everything included
+              </p>
+              <h2 className="font-display text-4xl sm:text-5xl font-extrabold tracking-[-0.03em] leading-[1.02] text-slate-900">
+                What you get with <span className="text-[#C8330A]">every</span> North East service call
+              </h2>
+            </div>
+            <p className="lg:col-span-5 text-slate-500 text-lg leading-relaxed lg:pb-1">
               No add-ons, no upsells, no fine print. Here&apos;s exactly what&apos;s standard.
             </p>
           </div>
@@ -809,15 +808,18 @@ export default function HomePage() {
       <section className="py-20 bg-gray-50" aria-label="FAQ">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
-            <p className="text-gray-600 text-lg">Common questions about HVAC service in Tampa Bay, FL.</p>
+            <p className="inline-flex items-center gap-2.5 text-[0.72rem] font-bold tracking-[0.18em] uppercase mb-4 text-[#C8330A]">
+              <span className="w-7 h-px bg-[#C8330A]/40" aria-hidden="true" />Questions<span className="w-7 h-px bg-[#C8330A]/40" aria-hidden="true" />
+            </p>
+            <h2 className="font-display text-4xl sm:text-5xl font-extrabold tracking-[-0.03em] leading-[1.02] text-slate-900 mb-4">Frequently Asked <span className="text-[#C8330A]">Questions</span></h2>
+            <p className="text-slate-600 text-lg">Common questions about HVAC service in Tampa Bay, FL.</p>
           </div>
           <div className="columns-1 lg:columns-2 gap-4 [column-fill:_balance]">
             {faqs.map((faq, i) => (
               <div key={i} className="break-inside-avoid mb-4 bg-white rounded-xl border border-gray-200 overflow-hidden shadow-sm">
                 <div className="px-6 py-5">
                   <h3 className="font-bold text-gray-900 flex items-start gap-3">
-                    <span className="text-blue-600 font-extrabold text-lg flex-shrink-0">Q.</span>
+                    <span className="text-[#C8330A] font-extrabold text-lg flex-shrink-0">Q.</span>
                     {faq.q}
                   </h3>
                   <p className="mt-3 text-gray-600 leading-relaxed pl-7">{faq.a}</p>
@@ -832,10 +834,13 @@ export default function HomePage() {
       <section className="py-20 bg-white" aria-label="Service Areas">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-              Serving the Entire Tampa Bay Area
+            <p className="inline-flex items-center gap-2.5 text-[0.72rem] font-bold tracking-[0.18em] uppercase mb-4 text-[#C8330A]">
+              <span className="w-7 h-px bg-[#C8330A]/40" aria-hidden="true" />Where We Work<span className="w-7 h-px bg-[#C8330A]/40" aria-hidden="true" />
+            </p>
+            <h2 className="font-display text-4xl sm:text-5xl font-extrabold tracking-[-0.03em] leading-[1.02] text-slate-900 mb-4">
+              Serving the Entire <span className="text-[#C8330A]">Tampa Bay</span> Area
             </h2>
-            <p className="text-gray-600 text-lg max-w-2xl mx-auto">
+            <p className="text-slate-600 text-lg max-w-2xl mx-auto">
               From Tampa to Clearwater and everywhere in between, North East Heating And Cooling provides fast, reliable HVAC service across the region.
             </p>
           </div>
@@ -857,9 +862,9 @@ export default function HomePage() {
               <Link
                 key={area}
                 href={areaLinks[area] || '/service-areas'}
-                className="flex items-center gap-2 bg-gray-50 border border-gray-200 rounded-lg px-3 py-2.5 text-sm font-medium text-gray-700 hover:bg-blue-50 hover:border-blue-300 hover:text-blue-700 transition-colors"
+                className="flex items-center gap-2 bg-gray-50 border border-gray-200 rounded-lg px-3 py-2.5 text-sm font-medium text-gray-700 hover:bg-[#C8330A]/5 hover:border-[#C8330A]/30 hover:text-[#C8330A] transition-colors"
               >
-                <svg className="w-3.5 h-3.5 text-blue-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <svg className="w-3.5 h-3.5 text-[#C8330A] flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd"/>
                 </svg>
                 {area}
@@ -867,7 +872,7 @@ export default function HomePage() {
             ))}
           </div>
           <div className="text-center mt-8">
-            <Link href="/service-areas" className="inline-flex items-center gap-2 text-blue-700 font-semibold hover:text-blue-800">
+            <Link href="/service-areas" className="inline-flex items-center gap-2 text-[#C8330A] font-semibold hover:text-[#b02c08]">
               View all service areas
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7"/></svg>
             </Link>
@@ -879,28 +884,29 @@ export default function HomePage() {
       <FinancingCTA />
 
       {/* ── CTA SECTION ── */}
-      <section className="py-20 bg-gradient-to-r from-blue-900 to-blue-700" aria-label="Call to Action">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative py-24 overflow-hidden bg-[#0f1620]" aria-label="Call to Action">
+        <div className="absolute -top-24 -right-16 w-[30rem] h-[30rem] rounded-full blur-3xl pointer-events-none" style={{ background: '#C8330A', opacity: 0.12 }} aria-hidden="true" />
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl sm:text-4xl font-extrabold text-white mb-4">
-                HVAC Acting Up? Get Your Free Consultation Today
+              <h2 className="font-display text-4xl sm:text-5xl font-extrabold tracking-[-0.03em] leading-[1.02] text-white mb-4">
+                HVAC Acting Up? Get Your <span className="text-[#F47438]">Free Consultation</span> Today
               </h2>
-              <p className="text-blue-100 text-lg mb-8">
+              <p className="text-slate-300 text-lg mb-8">
                 Don&apos;t suffer in the Florida heat. Our expert technicians are ready to diagnose, repair, or replace your HVAC system — fast.
               </p>
               <a
                 href="tel:8132916146"
-                className="inline-flex items-center gap-3 bg-white text-blue-900 font-bold text-2xl px-8 py-5 rounded-xl hover:bg-blue-50 transition-colors shadow-xl"
+                className="inline-flex items-center gap-3 bg-[#C8330A] text-white font-bold text-2xl px-8 py-5 rounded-xl hover:bg-[#b02c08] transition-colors shadow-xl shadow-[#C8330A]/30"
               >
                 <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
                 </svg>
                 (813) 291-6146
               </a>
-              <p className="text-blue-200 text-sm mt-4">Available 24/7 for emergencies · Free estimates on new systems</p>
+              <p className="text-slate-400 text-sm mt-4">Available 24/7 for emergencies · Free estimates on new systems</p>
             </div>
-            <div className="bg-white/10 backdrop-blur border border-white/20 rounded-2xl p-8">
+            <div className="relative bg-white/10 backdrop-blur border border-white/20 rounded-2xl p-8">
               <h3 className="text-xl font-bold text-white mb-6">Request a Free Quote</h3>
               <QuoteForm />
             </div>
