@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import type { CityData } from '@/lib/cityData'
+import { REVIEW_COUNT_STR } from '@/lib/business'
 
 const RESIDENTIAL_SERVICES = [
   { href: '/residential/hvac-service-tampa', title: 'AC & HVAC Repair', desc: 'Same-day repair on all brands' },
@@ -42,7 +43,7 @@ export default function ServiceAreaTemplate({ city }: { city: CityData }) {
     aggregateRating: {
       '@type': 'AggregateRating',
       ratingValue: '5.0',
-      reviewCount: '35',
+      reviewCount: REVIEW_COUNT_STR,
     },
   }
 

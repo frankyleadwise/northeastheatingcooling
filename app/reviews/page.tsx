@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { REVIEW_COUNT, REVIEW_COUNT_STR } from '@/lib/business'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
@@ -73,7 +74,7 @@ const jsonLd = {
   aggregateRating: {
     '@type': 'AggregateRating',
     ratingValue: '5.0',
-    reviewCount: '35',
+    reviewCount: REVIEW_COUNT_STR,
     bestRating: '5',
   },
   review: reviews.map((r) => ({
@@ -170,7 +171,7 @@ export default function ReviewsPage() {
               </div>
               <div className="hidden sm:block w-px h-16 self-center" style={{ background: 'var(--border)' }} />
               <div className="text-center">
-                <p className="text-6xl font-extrabold leading-none" style={{ color: 'var(--text)' }}>35</p>
+                <p className="text-6xl font-extrabold leading-none" style={{ color: 'var(--text)' }}>{REVIEW_COUNT}</p>
                 <p className="text-sm mt-3" style={{ color: 'var(--muted)' }}>Google Reviews</p>
               </div>
               <div className="hidden sm:block w-px h-16 self-center" style={{ background: 'var(--border)' }} />

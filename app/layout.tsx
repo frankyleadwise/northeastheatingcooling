@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Archivo, Plus_Jakarta_Sans } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/Header'
+import { REVIEW_COUNT_STR } from '@/lib/business'
 
 const display = Archivo({
   subsets: ['latin'],
@@ -26,7 +27,7 @@ export const metadata: Metadata = {
     template: '%s | North East Heating And Cooling',
   },
   description:
-    'Same-day AC repair, HVAC installation & maintenance across Tampa Bay, FL. Licensed, certified & insured. 5.0★ on Google with 39 reviews. Call (813) 291-6146.',
+    `Same-day AC repair, HVAC installation & maintenance across Tampa Bay, FL. Licensed, certified & insured. 5.0★ on Google with ${REVIEW_COUNT_STR} reviews. Call (813) 291-6146.`,
   keywords: [
     'ac repair near me',
     'air conditioner repair near me',
@@ -196,7 +197,7 @@ const jsonLd = {
   aggregateRating: {
     '@type': 'AggregateRating',
     ratingValue: '5.0',
-    reviewCount: '39',
+    reviewCount: REVIEW_COUNT_STR,
     bestRating: '5',
   },
   contactPoint: [
