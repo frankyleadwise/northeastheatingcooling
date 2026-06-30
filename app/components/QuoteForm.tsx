@@ -17,6 +17,7 @@ export default function QuoteForm() {
   const [submitted, setSubmitted] = useState(false)
   const [submitting, setSubmitting] = useState(false)
   const [error, setError] = useState(false)
+  const [smsConsent, setSmsConsent] = useState(false)
 
   // Timing token: stamps when the form first renders. Server rejects
   // submissions that come back in <3s (bot) or >2h (stale).
@@ -47,6 +48,9 @@ export default function QuoteForm() {
           company_url: data.get('company_url') as string,
           // Timing token — server rejects submissions that arrive too fast.
           form_started_at: formStartedAtRef.current,
+          // SMS opt-in consent (express written consent for A2P 10DLC)
+          sms_consent: smsConsent,
+          sms_consent_timestamp: smsConsent ? new Date().toISOString() : '',
         }),
       })
       if (!res.ok) throw new Error('Failed')
@@ -156,6 +160,24 @@ export default function QuoteForm() {
           </option>
         ))}
       </select>
+
+      {/* SMS consent — unchecked by default, optional (consent is NOT a condition of service per A2P rules) */}
+      <label className="flex items-start gap-3 text-left cursor-pointer">
+        <input
+          type="checkbox"
+          name="sms_consent"
+          checked={smsConsent}
+          onChange={(e) => setSmsConsent(e.target.checked)}
+          className="mt-0.5 h-4 w-4 shrink-0 rounded border-white/40 bg-white/20 accent-[#C8330A]"
+        />
+        <span className="text-[0.72rem] leading-snug text-slate-300">
+          I agree to receive text messages from North East Heating &amp; Cooling about my request,
+          appointment updates, and service follow-ups. Msg &amp; data rates may apply, frequency
+          varies. Reply STOP to opt out or HELP for help. Consent is not a condition of purchase. See our{' '}
+          <a href="/privacy-policy" className="underline text-white hover:text-[#F0A06A]">Privacy Policy</a>.
+        </span>
+      </label>
+
       {error && (
         <p className="text-red-300 text-sm text-center">
           Something went wrong. Please try again or{' '}

@@ -30,6 +30,7 @@ export default function ServicePageQuoteForm({
   const [submitted, setSubmitted] = useState(false)
   const [submitting, setSubmitting] = useState(false)
   const [error, setError] = useState(false)
+  const [smsConsent, setSmsConsent] = useState(false)
 
   const formStartedAtRef = useRef<number>(Date.now())
   useEffect(() => {
@@ -63,6 +64,8 @@ export default function ServicePageQuoteForm({
           message: (data.get('message') as string) || '',
           company_url: data.get('company_url') as string,
           form_started_at: formStartedAtRef.current,
+          sms_consent: smsConsent,
+          sms_consent_timestamp: smsConsent ? new Date().toISOString() : '',
         }),
       })
       if (!res.ok) throw new Error('Failed')
@@ -182,6 +185,24 @@ export default function ServicePageQuoteForm({
             className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-[#C8330A] focus:ring-2 focus:ring-[#C8330A]/15 resize-none"
           />
         </div>
+
+        {/* SMS consent — unchecked by default, optional (consent is NOT a condition of service) */}
+        <label className="flex items-start gap-3 text-left cursor-pointer">
+          <input
+            type="checkbox"
+            name="sms_consent"
+            checked={smsConsent}
+            onChange={(e) => setSmsConsent(e.target.checked)}
+            className="mt-0.5 h-4 w-4 shrink-0 rounded border-gray-300 accent-[#C8330A]"
+          />
+          <span className="text-[0.72rem] leading-snug text-gray-500">
+            I agree to receive text messages from North East Heating &amp; Cooling about my request,
+            appointment updates, and service follow-ups. Msg &amp; data rates may apply, frequency
+            varies. Reply STOP to opt out or HELP for help. Consent is not a condition of purchase. See our{' '}
+            <a href="/privacy-policy" className="underline text-[#C8330A]">Privacy Policy</a>.
+          </span>
+        </label>
+
         {error && (
           <p className="text-[#C8330A] text-sm text-center">
             Something went wrong. Please try again or{' '}

@@ -100,6 +100,9 @@ export async function POST(request: Request) {
       service_type: body.service_type || '',
       contact_method: body.contact_method || '',
       message: body.message || '',
+      // SMS opt-in consent record (retained for A2P 10DLC compliance)
+      sms_consent: body.sms_consent === true || body.sms_consent === 'true',
+      sms_consent_timestamp: body.sms_consent_timestamp || '',
     }
 
     const ghlResponse = await fetch(GHL_WEBHOOK_URL, {
