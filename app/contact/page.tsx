@@ -91,6 +91,7 @@ export default function ContactPage() {
     contactMethod: 'Phone',
     message: '',
     company_url: '',
+    smsConsent: false,
   })
   const [submitted, setSubmitted] = useState(false)
   const [submitting, setSubmitting] = useState(false)
@@ -134,6 +135,8 @@ export default function ContactPage() {
           message: formData.message,
           company_url: formData.company_url,
           form_started_at: formStartedAtRef.current,
+          sms_consent: formData.smsConsent,
+          sms_consent_timestamp: formData.smsConsent ? new Date().toISOString() : '',
         }),
       })
       if (!res.ok) throw new Error('Failed')
@@ -386,6 +389,23 @@ export default function ContactPage() {
                       tabIndex={-1}
                     />
                   </div>
+
+                  {/* SMS consent — unchecked by default, optional (not a condition of service) */}
+                  <label className="flex items-start gap-3 text-left cursor-pointer mb-1">
+                    <input
+                      type="checkbox"
+                      name="smsConsent"
+                      checked={formData.smsConsent}
+                      onChange={(e) => setFormData((prev) => ({ ...prev, smsConsent: e.target.checked }))}
+                      className="mt-0.5 h-4 w-4 shrink-0 rounded border-gray-300 accent-[#C8330A]"
+                    />
+                    <span className="text-[0.72rem] leading-snug text-gray-500">
+                      I agree to receive text messages from North East Heating &amp; Cooling about my request,
+                      appointment updates, and service follow-ups. Msg &amp; data rates may apply, frequency
+                      varies. Reply STOP to opt out or HELP for help. Consent is not a condition of purchase. See our{' '}
+                      <a href="/privacy-policy" className="underline text-[#C8330A]">Privacy Policy</a>.
+                    </span>
+                  </label>
 
                   <button
                     type="submit"
