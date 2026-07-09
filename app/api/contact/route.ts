@@ -8,8 +8,11 @@ import {
   checkRateLimit,
 } from '@/lib/spam-protection'
 
-const GHL_WEBHOOK_URL =
-  'https://services.leadconnectorhq.com/hooks/nvoJtQFq4ilLfNgVboFy/webhook-trigger/41ecc1fa-2251-404c-b691-3d15ee21d774'
+// Leads flow into the LeadWise Connect CRM (creates the lead, notifies the owner, fires recall).
+// The token identifies the North East Heating And Cooling workspace.
+const LEADWISE_WEBHOOK_URL =
+  process.env.LEADWISE_WEBHOOK_URL ||
+  'https://engine.leadwiseconnect.com/api/leads/u75LmgKZpuRkCZRytMr2hfvf'
 
 /**
  * Silently rejects a request as if it succeeded.
@@ -91,29 +94,37 @@ export async function POST(request: Request) {
       return silentReject(`email: ${emailError}`, { email, ip })
     }
 
-    // ── All checks passed — forward to GHL
+    // ── All checks passed — forward to LeadWise Connect
+    // LeadWise expects a single `name` field and camelCase smsConsent; the service type and any
+    // preferred contact method are folded into the message so nothing is lost.
+    const fullName = `${first_name} ${last_name}`.trim()
+    const details = [
+      body.service_type ? `Service: ${body.service_type}` : '',
+      body.contact_method ? `Preferred contact: ${body.contact_method}` : '',
+      body.message ? String(body.message) : '',
+    ]
+      .filter(Boolean)
+      .join('\n')
+
     const payload = {
-      first_name,
-      last_name,
-      phone: phone.replace(/\D/g, ''),
+      name: fullName,
       email,
-      service_type: body.service_type || '',
-      contact_method: body.contact_method || '',
-      message: body.message || '',
-      // SMS opt-in consent record (retained for A2P 10DLC compliance)
-      sms_consent: body.sms_consent === true || body.sms_consent === 'true',
+      phone: phone.replace(/\D/g, ''),
+      message: details,
+      source: 'website',
+      smsConsent: body.sms_consent === true || body.sms_consent === 'true',
       sms_consent_timestamp: body.sms_consent_timestamp || '',
     }
 
-    const ghlResponse = await fetch(GHL_WEBHOOK_URL, {
+    const leadwiseResponse = await fetch(LEADWISE_WEBHOOK_URL, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(payload),
     })
 
-    if (!ghlResponse.ok) {
-      const errorText = await ghlResponse.text()
-      console.error('GHL webhook error:', ghlResponse.status, errorText)
+    if (!leadwiseResponse.ok) {
+      const errorText = await leadwiseResponse.text()
+      console.error('LeadWise webhook error:', leadwiseResponse.status, errorText)
       return NextResponse.json(
         { error: 'Failed to submit to CRM' },
         { status: 502 }
