@@ -7,7 +7,7 @@
  *
  * Last verified against the live Google listing: 52 reviews, 5.0 average.
  */
-export const REVIEW_COUNT = 52
+export const REVIEW_COUNT = 55
 export const REVIEW_RATING = '5.0'
 
 /** "52" as a string, for JSON-LD schema reviewCount fields. */
