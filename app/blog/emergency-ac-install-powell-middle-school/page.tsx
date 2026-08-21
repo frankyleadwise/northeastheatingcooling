@@ -61,7 +61,7 @@ export default function PowellMiddleSchoolPage() {
                 <img
                   src="/powell-crew.jpg"
                   alt="Chris Grullon of North East Heating And Cooling with the Daikin representative and the electrician from Atom, standing between two new Daikin mini-split condensers"
-                  className="w-full max-w-lg mx-auto rounded-xl shadow-md"
+                  className="w-full max-w-2xl mx-auto rounded-xl shadow-md"
                   loading="lazy"
                 />
                 <figcaption className="text-center text-sm text-gray-500 mt-3">
