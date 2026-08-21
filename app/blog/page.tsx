@@ -18,6 +18,16 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: 'emergency-ac-install-powell-middle-school',
+    title: "Getting Powell Middle School's Band Room Cool Again",
+    excerpt:
+      "A Friday 3 PM emergency call, three companies on site, and two new Daikin mini-splits. The story of how we got a middle school's band room cooling again — and the crews who made it happen.",
+    date: 'August 21, 2026',
+    category: 'On the Job',
+    photo: '/powell-crew-card.jpg',
+    photoAlt: 'North East Heating And Cooling crew with two new Daikin condensers at Powell Middle School',
+  },
+  {
     slug: 'ac-running-but-not-cooling',
     title: 'Why Is My AC Running But Not Cooling? 8 Causes (And What to Do)',
     excerpt:
@@ -129,6 +139,7 @@ const categoryColors: Record<string, string> = {
   'Buying Guide': 'bg-indigo-100 text-indigo-700',
   'HVAC Lifespan': 'bg-amber-100 text-amber-700',
   'Troubleshooting': 'bg-rose-100 text-rose-700',
+  'On the Job': 'bg-[#0f1620]/10 text-[#0f1620]',
 }
 
 export default function BlogPage() {
@@ -162,7 +173,9 @@ export default function BlogPage() {
                 {/* Post Image */}
                 <div className="w-full h-48 overflow-hidden relative">
                   <img
-                    src={`https://images.pexels.com/photos/${post.photo}/pexels-photo-${post.photo}.jpeg?auto=compress&cs=tinysrgb&w=600`}
+                    src={post.photo.startsWith('/')
+                      ? post.photo
+                      : `https://images.pexels.com/photos/${post.photo}/pexels-photo-${post.photo}.jpeg?auto=compress&cs=tinysrgb&w=600`}
                     alt={post.photoAlt}
                     className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-500"
                     loading="lazy"

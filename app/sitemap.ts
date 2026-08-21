@@ -138,6 +138,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // ── Blog pages ────────────────────────────────────────────────────────────
   const blogSlugs = [
+    'emergency-ac-install-powell-middle-school',
     'benefits-of-regular-hvac-maintenance-florida',
     'best-energy-efficient-ac-systems-florida',
     'how-to-improve-indoor-air-quality-tampa',
