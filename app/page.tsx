@@ -664,10 +664,10 @@ export default function HomePage() {
           <span className="inline-block text-[#C8330A] text-sm font-bold uppercase tracking-[0.2em] mb-4">
             Project Spotlight
           </span>
-          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-[-0.03em] leading-[1.05] mb-5">
+          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-extrabold text-white tracking-[-0.03em] leading-[1.05] mb-5">
             When Powell Middle&apos;s band room couldn&apos;t wait
           </h2>
-          <p className="text-gray-600 text-lg leading-relaxed max-w-2xl mx-auto mb-10">
+          <p className="text-slate-300 text-lg leading-relaxed max-w-2xl mx-auto mb-10">
             The call came in at 3 PM on a Friday. By the time we wrapped, the hottest room in the school
             had two brand-new Daikin mini-splits and cooling again &mdash; an emergency job three companies
             pulled off together.
