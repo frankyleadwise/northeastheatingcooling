@@ -658,6 +658,45 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ── PROJECT SPOTLIGHT ── */}
+      <section className="py-20 md:py-24" style={{ background: 'var(--bg)' }} aria-label="Project spotlight">
+        <div className="max-w-5xl mx-auto px-4 text-center">
+          <span className="inline-block text-[#C8330A] text-sm font-bold uppercase tracking-[0.2em] mb-4">
+            Project Spotlight
+          </span>
+          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-[-0.03em] leading-[1.05] mb-5">
+            When Powell Middle&apos;s band room couldn&apos;t wait
+          </h2>
+          <p className="text-gray-600 text-lg leading-relaxed max-w-2xl mx-auto mb-10">
+            The call came in at 3 PM on a Friday. By the time we wrapped, the hottest room in the school
+            had two brand-new Daikin mini-splits and cooling again &mdash; an emergency job three companies
+            pulled off together.
+          </p>
+          <Link
+            href="/blog/emergency-ac-install-powell-middle-school"
+            className="group block max-w-4xl mx-auto rounded-2xl overflow-hidden shadow-xl ring-1 ring-black/5 transition-transform hover:-translate-y-1"
+          >
+            <img
+              src="/powell-before-after.jpg"
+              alt="Before and after: the old 2008 band room unit replaced with two new Daikin mini-splits at Powell Middle School"
+              className="w-full"
+              loading="lazy"
+            />
+          </Link>
+          <div className="mt-8">
+            <Link
+              href="/blog/emergency-ac-install-powell-middle-school"
+              className="inline-flex items-center gap-2 px-7 py-3 bg-[#b02c08] text-white font-bold rounded-lg hover:bg-[#0f1620] transition-colors text-lg"
+            >
+              Read the full story
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* ── TESTIMONIALS ── */}
       <section className="relative py-20 bg-[#0f1620] overflow-hidden" aria-label="Customer Testimonials">
         <div className="absolute inset-0 pointer-events-none text-[#F0A06A] opacity-[0.08]" aria-hidden="true">
