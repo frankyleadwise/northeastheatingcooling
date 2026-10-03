@@ -5,12 +5,10 @@ import ServicePageQuoteForm from '@/app/components/ServicePageQuoteForm'
 export const metadata: Metadata = {
   title: 'Exhaust Fan Repair Tampa, FL | Kitchen & Bathroom Fans | North East H&C',
   description:
-    'Expert exhaust fan repair in Tampa, FL. Kitchen range hoods, bathroom exhaust fans, motor replacement & new fan installation. Call (813) 291-6146 for fast service.',
+    'Expert bathroom exhaust fan repair in Tampa, FL. Motor replacement, ductwork repair & new fan installation. Call (813) 291-6146 for fast service.',
   keywords: [
     'exhaust fan repair Tampa FL',
     'bathroom fan repair Tampa',
-    'kitchen exhaust fan repair Tampa',
-    'range hood repair Tampa',
     'ventilation fan replacement Tampa Bay',
     'exhaust fan motor repair Tampa',
     'bathroom ventilation Tampa FL',
@@ -19,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Exhaust Fan Repair Tampa, FL | Kitchen & Bathroom Fans | North East H&C',
     description:
-      'Expert exhaust fan repair in Tampa, FL. Kitchen range hoods, bathroom exhaust fans, motor replacement & new fan installation. Call (813) 291-6146 for fast service.',
+      'Expert bathroom exhaust fan repair in Tampa, FL. Motor replacement, ductwork repair & new fan installation. Call (813) 291-6146 for fast service.',
     url: '/residential/exhaust-fan-repair-tampa',
     siteName: 'North East Heating And Cooling',
     locale: 'en_US',
@@ -41,19 +39,7 @@ const fanServices = [
       'Timer-equipped fan upgrades',
     ],
   },
-  {
-    title: 'Kitchen Exhaust Fan & Range Hood Repair',
-    description:
-      "Your kitchen range hood serves a dual purpose: it removes cooking odors and grease-laden steam, and it exhausts combustion byproducts if you cook with gas. A malfunctioning range hood not only makes cooking less pleasant — it allows grease to accumulate on your cabinets and walls, and can affect indoor air quality. We repair kitchen exhaust fans and range hoods of all styles: under-cabinet, wall-mount, island, and insert hoods.",
-    bullets: [
-      'Range hood motor and fan blade service',
-      'Grease filter cleaning and replacement',
-      'Blower assembly repair and replacement',
-      'Ductwork connection and damper repair',
-      'Lighting and electrical component repair',
-      'Recirculating charcoal filter replacement',
-    ],
-  },
+
   {
     title: 'Exhaust Fan Motor Replacement',
     description:
@@ -115,10 +101,6 @@ const faqs = [
     a: "Continuous bathroom exhaust fan operation is safe for most fans, but it&apos;s usually not necessary and does waste energy over time. The general recommendation is to run your bathroom fan during shower/bath use and for 20–30 minutes afterward to fully clear moisture. Humidity-sensing fans are an excellent solution for Tampa Bay homes — they automatically activate when humidity rises and shut off once it returns to normal, ensuring proper ventilation without manual operation.",
   },
   {
-    q: 'Is my kitchen exhaust fan actually vented outside?',
-    a: "Not necessarily. Many kitchen fans, particularly in apartments, condos, and some older homes, are recirculating units that filter air through charcoal filters and return it to the kitchen rather than exhausting it outside. While better than nothing, recirculating fans are less effective than ducted fans for removing heat and moisture. If your kitchen fan doesn&apos;t have exterior ductwork, we can evaluate whether adding ductwork is feasible and cost-effective for your home.",
-  },
-  {
     q: 'How much does exhaust fan repair cost in Tampa?',
     a: "Repair cost depends on the fix — cleaning and blade work are on the simpler end, while motor replacement is the most common substantial repair. We diagnose first and quote a flat rate upfront before any work begins.",
   },
@@ -146,9 +128,7 @@ export default function ExhaustFanRepairTampaPage() {
             Exhaust Fan Repair Services in Tampa, FL
           </h1>
           <p className="text-slate-300 text-lg md:text-xl max-w-3xl mb-8 leading-relaxed">
-            Kitchen range hood and bathroom exhaust fan repair, motor replacement, and new fan
-            installation for Tampa Bay homeowners. Proper ventilation is essential in Florida&rsquo;s
-            humid climate — don&rsquo;t let a failing fan lead to bigger problems.
+            Bathroom exhaust fan repair, motor replacement, and new fan installation for Tampa Bay homeowners. Proper ventilation is essential in Florida&rsquo;s humid climate — don&rsquo;t let a failing fan lead to bigger problems.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
@@ -410,11 +390,6 @@ export default function ExhaustFanRepairTampaPage() {
                 '@type': 'Question',
                 name: 'Can I leave my bathroom exhaust fan running all the time?',
                 acceptedAnswer: { '@type': 'Answer', text: 'Continuous operation is safe but usually unnecessary. The general recommendation is to run your bathroom fan during shower use and for 20–30 minutes afterward. Humidity-sensing fans are an excellent solution for Tampa Bay homes — they automatically activate when humidity rises and shut off once it returns to normal.' },
-              },
-              {
-                '@type': 'Question',
-                name: 'Is my kitchen exhaust fan actually vented outside?',
-                acceptedAnswer: { '@type': 'Answer', text: 'Not necessarily. Many kitchen fans in apartments, condos, and older homes are recirculating units that filter air through charcoal filters and return it to the kitchen rather than exhausting it outside. Recirculating fans are less effective than ducted fans for removing heat and moisture. We can evaluate whether adding ductwork is feasible for your home.' },
               },
               {
                 '@type': 'Question',
